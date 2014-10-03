@@ -15,7 +15,7 @@
         
     </head>
 
-    <body ng-controller="JsonLoaderCtrl as json">
+    <body ng-controller="JsonLoaderCtrl">
 
     	<header>
     		<h1>Steffen Kühne – Datenvisualisierung</h1>
@@ -28,8 +28,9 @@
     		</ul>
     	</nav>
 
-    	<section>
 
+    	<section>
+            <project ng-repeat="project in projects"></project>
     	</section>
 
     	<footer>(c) 2014 Steffen Kühne</footer>

@@ -1,43 +1,41 @@
-{
-	"projects": [ 
-		{
-			"title": "Projekt",
-			"description": "A demo project for testing purposes",
-			"date": "January 2014",
-			"role": "Developer",
-			"contributors": "",
-			"source" : "Company",
-			"url": "http://example.com",
-			"size": "1", 
-			"images": [
-				"project.jpg"
-			]
-		},
-		{
-			"title": "Projekt",
-			"description": "A demo project for testing purposes",
-			"date": "January 2014",
-			"role": "Developer",
-			"contributors": "",
-			"source" : "Company",
-			"url": "http://example.com",
-			"size": "1", 
-			"images": [
-				"project.jpg"
-			]
-		},
-		{
-			"title": "Projekt",
-			"description": "A demo project for testing purposes",
-			"date": "January 2014",
-			"role": "Developer",
-			"contributors": "",
-			"source" : "Company",
-			"url": "http://example.com",
-			"size": "1", 
-			"images": [
-				"project.jpg"
-			]
-		}
-	]
-}
+[ 
+	{
+		"title": "Projekt",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"role": "Developer",
+		"contributors": "",
+		"source" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"project.jpg"
+		]
+	},
+	{
+		"title": "Projekt",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"role": "Developer",
+		"contributors": "",
+		"source" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"project.jpg"
+		]
+	},
+	{
+		"title": "Projekt",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"role": "Developer",
+		"contributors": "",
+		"source" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"project.jpg"
+		]
+	}
+]

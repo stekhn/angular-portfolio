@@ -2,16 +2,22 @@
 
 	var app = angular.module('portfolio', []);
 
-	app.controller('JsonLoaderCtrl', ['$http', function($http) {
+	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
-		var portfolio = this;
-		portfolio.projects = [];
+		$http.get('data/portfolio.json').success(function (data) {
 
-		$http.get('../data/portfolio.json').success(function(data) {
-
-			portfolio.projects = data;
+			$scope.projects = data;
+			console.log(data);
 		});
 
 	}]);
-}());
 
+	app.directive('project', function () {
+
+		return {
+			restrict: 'E',
+			templateUrl: 'templates/project.html'
+		};
+	});
+
+}());
