@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="portfolio">
 
     <head>
 
@@ -7,14 +7,15 @@
 
         <title>Steffen Kühne – Datenvisualisierung</title>
 
-        <style type="text/css" src="css/reset.css"></style>
-        <style type="text/css" src="css/style.css"></style>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
         
     </head>
 
-    <body>
+    <body ng-controller="JsonLoaderCtrl as json">
 
     	<header>
     		<h1>Steffen Kühne – Datenvisualisierung</h1>
@@ -28,9 +29,7 @@
     	</nav>
 
     	<section>
-    		<article>
-                <img src="img/project.jpg">      
-            </article>
+
     	</section>
 
     	<footer>(c) 2014 Steffen Kühne</footer>
