@@ -7,7 +7,6 @@
 		$http.get('data/portfolio.json').success(function (data) {
 
 			$scope.projects = data;
-			console.log(data);
 		});
 
 	}]);
