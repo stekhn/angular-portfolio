@@ -1,35 +1,20 @@
 <section ng-controller="RssFeedCtrl">
 
-  <div>
-      <div>
-          <form>
-              <div>
-                  <input id='rssFeed' ng-model='rssFeed' ng-focus="rssFeedFocused=true" ng-blur="rssFeedFocused=false" type="text" placeholder="RSS Feed">
-                  <button id='update' type="submit" ng-click="updateModel()">Load feed</button>
-              </div>
-          </form>
-      </div>
-  </div>
-
   <div ng-show='existingArticles()'>
       <div>
-          <button ng-click="markAll()">Mark all as <span ng-show='allAreRead()'>un</span>read</button>
-          <button ng-click="clearCompleted()">Clear Read</button>
-          <button ng-click="showOrHideAll()"><span>Toggle Headlines/Content</span></button>
-          <button ng-click="darkTheme = !darkTheme"><span>Toggle Dark/Light Theme</span></button>
+          <button ng-click="showOrHideAll()"><span>Show content</span></button>
       </div>
 
       <div ng-hide='article.cleared' class='read-{{article.read}}' ng-repeat="article in articles">
           <span ng-click='article.show = !article.show' >{{article.title}}</span>
-          <span><a href='{{article.link}}' target='_blank'>{{article.shortLink}}</a></span>
-          <span ng-click="article.read = !article.read">(Mark as <span ng-show='article.read'>un</span>read)</span>
+          <span><a href='{{article.link}}' target='_blank'>(Link)</a></span>
           <div ng-show='article.show'>{{article.content}}</div>
       </div>
   </div>
 
   <div ng-hide='existingArticles()'>
       <div >
-          You may have read all of the articles... :/ I'll try to load some more...
+          Unable to load RSS feed.
       </div>
   </div>
 </section>
