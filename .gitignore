@@ -19,3 +19,5 @@ Icon
 atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 *.sublime-workspace
+.sass-cache/
+node_modules/
