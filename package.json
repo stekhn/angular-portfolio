@@ -1,0 +1,13 @@
+{
+  "name": "JRB",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-requirejs": "~0.4.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-text-replace": "~0.3.9",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-shell-spawn": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
