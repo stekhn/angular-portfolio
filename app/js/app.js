@@ -32,37 +32,29 @@
 		};
 	});
 
-	app.directive('project', function () {
+	app.directive('projects', function () {
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/project.html',
+			templateUrl: 'templates/projects.html',
 			controller: function () {
 
-				this.detailMode = false;
-				this.currentProject = -1;
+				var self = this;
+				self.detailMode = false;
+				self.currentProject = -1;
 				this.getStatus = function() {
-					return detailMode;
-				},
+					return self.detailMode;
+				};
 				this.getCurrentProject = function () {
-					return currentProject;
-				},
+					return self.currentProject;
+				};
 				this.switchMode = function (clickedProject) {
 
-					currentProject = clickedProject; 
-					detailMode = true;
-					console.log(detailMode, currentProject);
+					self.currentProject = clickedProject; 
+					self.detailMode = true;
 				};
 			},
-			controllerAs: 'projectCtrl'
-		};
-	});
-
-	app.directive('projectList', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'templates/project-list.html',
+			controllerAs: 'ProjectsCtrl'
 		};
 	});
 

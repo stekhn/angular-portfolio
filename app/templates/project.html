@@ -1,9 +1,0 @@
-<article ng-show="!projectCtrl.getStatus()">
-	<h3>{{project.title}} {{$index}} {{projectCtrl.detailMode}}</h3>
-    <a href ng-click="projectCtrl.switchMode($index)"><img alt="{{project.title}}" src="img/project.jpg"></a>      
-</article>
-
-<article ng-show="$index === projectCtrl.getCurrentProject() && projectCtrl.getStatus()">
-	<h3>{{project.title}} {{$index}} {{projectCtrl.detailMode}}</h3>
-	<p>{{project.description}}</p>
-</article>
