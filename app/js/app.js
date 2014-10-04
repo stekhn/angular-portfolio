@@ -11,14 +11,14 @@
 
 	}]);
 
-	app.directive("content", function () {
+	app.directive('content', function () {
 		return {
 
-			restrict: "E",
-			templateUrl: "templates/content.html",
+			restrict: 'E',
+			templateUrl: 'templates/content.html',
 			controller: function () {
 
-				this.page = 1;
+				this.page = 0;
 				this.isSet = function (checkPage) {
 
 					return this.page === checkPage;
@@ -28,7 +28,7 @@
 					this.page = activePage;
 				};
 			},
-			controllerAs: "contentCtrl"
+			controllerAs: 'contentCtrl'
 		};
 	});
 
@@ -37,19 +37,24 @@
 		return {
 			restrict: 'E',
 			templateUrl: 'templates/project.html',
-			controller: function (){
+			controller: function () {
 
-				this.project = 1;
-				this.isSet = function (checkProject) {
+				this.detailMode = false;
+				this.currentProject = -1;
+				this.getStatus = function() {
+					return detailMode;
+				},
+				this.getCurrentProject = function () {
+					return currentProject;
+				},
+				this.switchMode = function (clickedProject) {
 
-					return this.project === checkProject;
-				};
-				this.setProject = function (activeProject) {
-
-					this.project = activeProject;
+					currentProject = clickedProject; 
+					detailMode = true;
+					console.log(detailMode, currentProject);
 				};
 			},
-			controllerAs: "projectCtrl"
+			controllerAs: 'projectCtrl'
 		};
 	});
 
