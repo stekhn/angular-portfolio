@@ -24,7 +24,7 @@
 					this.tab = activeTab;
 				};
 			},
-			controllerAs: "tab"
+			controllerAs: "content"
 		};
 	});
 
