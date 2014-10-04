@@ -12,6 +12,7 @@
 	<section ng-show="$index === ProjectsCtrl.currentProject && ProjectsCtrl.detailMode">
 		<h3>{{project.title}} {{$index}} {{ProjectsCtrl.detailMode}}</h3>
 		<p>{{project.description}}</p>
+		<button ng-click="ProjectsCtrl.switchMode(-1)">Back</button>
 	</section>
 
 </article>

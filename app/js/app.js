@@ -42,16 +42,10 @@
 				var self = this;
 				self.detailMode = false;
 				self.currentProject = -1;
-				this.getStatus = function() {
-					return self.detailMode;
-				};
-				this.getCurrentProject = function () {
-					return self.currentProject;
-				};
 				this.switchMode = function (clickedProject) {
 
-					self.currentProject = clickedProject; 
-					self.detailMode = true;
+					self.detailMode = clickedProject != -1;
+					self.currentProject = clickedProject;
 				};
 			},
 			controllerAs: 'ProjectsCtrl'
