@@ -1,4 +1,4 @@
 <article>
-	<h3>{{project.title}}</h3>
-    <img alt="{{project.title}}" src="img/project.jpg">      
+	<h3>{{project.title}} {{$index}}</h3>
+    <a href ng-click="projectCtrl.setProject($index)"><img alt="{{project.title}}" src="img/project.jpg"></a>      
 </article>

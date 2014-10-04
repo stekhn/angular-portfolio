@@ -11,20 +11,24 @@
 
 	}]);
 
-	app.directive("content", function() {
+	app.directive("content", function () {
 		return {
+
 			restrict: "E",
 			templateUrl: "templates/content.html",
-			controller: function() {
-				this.tab = 1;
-				this.isSet = function(checkTab) {
-					return this.tab === checkTab;
+			controller: function () {
+
+				this.page = 1;
+				this.isSet = function (checkPage) {
+
+					return this.page === checkPage;
 				};
-				this.setTab = function(activeTab) {
-					this.tab = activeTab;
+				this.setPage = function (activePage) {
+					
+					this.page = activePage;
 				};
 			},
-			controllerAs: "content"
+			controllerAs: "contentCtrl"
 		};
 	});
 
@@ -32,7 +36,20 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/project.html'
+			templateUrl: 'templates/project.html',
+			controller: function (){
+
+				this.project = 1;
+				this.isSet = function (checkProject) {
+
+					return this.project === checkProject;
+				};
+				this.setProject = function (activeProject) {
+
+					this.project = activeProject;
+				};
+			},
+			controllerAs: "projectCtrl"
 		};
 	});
 
@@ -40,7 +57,15 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/project-list.html'
+			templateUrl: 'templates/project-list.html',
+		};
+	});
+
+	app.directive('navigation', function () {
+
+		return {
+			restrict: 'E',
+			templateUrl: 'templates/navigation.html'
 		};
 	});
 
