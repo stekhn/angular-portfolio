@@ -105,11 +105,11 @@
 	});
 
 
-	angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', function ($http, $interval, $scope) {
+	angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {
 
 		$scope.articles = [ ];
 		$scope.rssFeed = 'http://datenkritik.de/feed/';
- 
+	
 
 		$scope.existingArticles = function () {
 
@@ -117,7 +117,7 @@
 				return !a.cleared;
 			}) !== null;
 		};
- 
+	
 
 		$scope.showOrHideAll = function () {
 
@@ -129,7 +129,7 @@
 				el.show = !markAsHide;
 			});
 		};
- 
+	
 
 		var hostname = (function () {
 
@@ -140,26 +140,29 @@
 				return a.hostname;
 			};
 		})();
- 
+	
 
 		var parseEntry = function (el) {
 
+			$scope.html = el.content;
+			$scope.trustedHtml = $sce.trustAsHtml($scope.html);
+
 			return {
-				title	 : el.title,
-				content	 : el.content || el.description,
-				read		: false,
-				date		: el.publishedDate || el.pubDate,
-				link		: el.link,
+				title: el.title,
+				content: $scope.trustedHtml,
+				read: false,
+				date: el.publishedDate || el.pubDate,
+				link: el.link,
 				shortLink : hostname(el.link)
 			};
 		};
- 
+	
 
 		var parseRSS = function (url) {
 
 			return $http.jsonp('https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url));
 		};
- 
+	
 
 		$scope.updateModel = function () {
 
@@ -168,20 +171,20 @@
 				if (data === null) {
 					return;
 				}
- 
+	
 				var mostRecentDate = null;
 
 				var entries = _.map(data.data.responseData.feed.entries, function (el) {
 					return parseEntry(el);
 				});
- 
+	
 				if (mostRecentDate !== null) {
 
 					entries = _.filter(entries, function (el) {
 						return el.date < mostRecentDate;
 					});
 				}
- 
+	
 				$scope.articles = _.union($scope.articles, entries);
 
 				$scope.articles = _.sortBy($scope.articles, function (el) {
@@ -189,19 +192,9 @@
 				});
 			});
 		};
- 
 
 		// update initially
 		$scope.updateModel();
- 
-		//then update every 30 secs
-		$interval(function () {
-
-			if ($scope.rssFeedFocused) {
-
-				$scope.updateModel();
-			}
-		}, 30000);
 
 	}]);
 
