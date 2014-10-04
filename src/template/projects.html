@@ -4,7 +4,7 @@
 	<section ng-show="!ProjectsCtrl.detailMode">
 		<h3>{{project.title}} {{$index}} {{ProjectsCtrl.detailMode}}</h3>
 	    <a href ng-click="ProjectsCtrl.setMode($index)">
-	    	<img alt="{{project.title}}" ng-src="{{'img/' + project.images[0]}}">
+	    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
 	    </a>      
 	</section>
 

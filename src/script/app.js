@@ -16,7 +16,7 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/navigation.html'
+			templateUrl: 'template/navigation.html'
 		};
 	});
 
@@ -25,7 +25,7 @@
 		return {
 
 			restrict: 'E',
-			templateUrl: 'templates/content.html',
+			templateUrl: 'template/content.html',
 			controller: function () {
 
 				this.page = 1;
@@ -38,7 +38,6 @@
 				this.setPage = function (activePage) {
 					
 					this.page = activePage;
-					console.log(activePage);
 				};
 			},
 			controllerAs: 'ContentCtrl'
@@ -50,7 +49,7 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/projects.html',
+			templateUrl: 'template/projects.html',
 			controller: function () {
 
 				var self = this;
@@ -72,7 +71,7 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/curriculum.html'
+			templateUrl: 'template/curriculum.html'
 		};
 	});
 
@@ -82,7 +81,7 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/contact.html'
+			templateUrl: 'template/contact.html'
 		};
 	});
 
@@ -91,7 +90,7 @@
 
 		return {
 			restrict: 'E',
-			templateUrl: 'templates/blog.html'
+			templateUrl: 'template/blog.html'
 		};
 	});
 
@@ -101,7 +100,7 @@
 		return {
 
 			restrict: 'E',
-			templateUrl: 'templates/imprint.html'
+			templateUrl: 'template/imprint.html'
 		};
 	});
 
