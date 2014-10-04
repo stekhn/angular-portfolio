@@ -3,7 +3,7 @@
 	<!-- project thumbnail -->
 	<section ng-show="!ProjectsCtrl.detailMode">
 		<h3>{{project.title}} {{$index}} {{ProjectsCtrl.detailMode}}</h3>
-	    <a href ng-click="ProjectsCtrl.switchMode($index)">
+	    <a href ng-click="ProjectsCtrl.setMode($index)">
 	    	<img alt="{{project.title}}" ng-src="{{'img/' + project.images[0]}}">
 	    </a>      
 	</section>
@@ -12,7 +12,7 @@
 	<section ng-show="$index === ProjectsCtrl.currentProject && ProjectsCtrl.detailMode">
 		<h3>{{project.title}} {{$index}} {{ProjectsCtrl.detailMode}}</h3>
 		<p>{{project.description}}</p>
-		<button ng-click="ProjectsCtrl.switchMode(-1)">Back</button>
+		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
 	</section>
 
 </article>

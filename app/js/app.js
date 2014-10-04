@@ -11,6 +11,7 @@
 
 	}]);
 
+
 	app.directive('content', function () {
 		return {
 
@@ -19,18 +20,21 @@
 			controller: function () {
 
 				this.page = 0;
+
 				this.isSet = function (checkPage) {
 
 					return this.page === checkPage;
 				};
+
 				this.setPage = function (activePage) {
 					
 					this.page = activePage;
 				};
 			},
-			controllerAs: 'contentCtrl'
+			controllerAs: 'ContentCtrl'
 		};
 	});
+
 
 	app.directive('projects', function () {
 
@@ -42,7 +46,8 @@
 				var self = this;
 				self.detailMode = false;
 				self.currentProject = -1;
-				this.switchMode = function (clickedProject) {
+
+				this.setMode = function (clickedProject) {
 
 					self.detailMode = clickedProject != -1;
 					self.currentProject = clickedProject;
@@ -52,6 +57,7 @@
 		};
 	});
 
+
 	app.directive('navigation', function () {
 
 		return {
@@ -59,5 +65,6 @@
 			templateUrl: 'templates/navigation.html'
 		};
 	});
+	
 
 }());
