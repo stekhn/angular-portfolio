@@ -1,8 +1,14 @@
 main {
 	clear: both;
+	text-align: center;
 
 	h3 {
 		font-size: 2em;
 		font-weight: bold;
+	}
+
+	p {
+		margin-bottom: 1em;
+		line-height: 1.2em;
 	}
 }
