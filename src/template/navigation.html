@@ -1,9 +1,25 @@
 <nav>
 	<ul>
-		<li><a href ng-click="ContentCtrl.setPage(1)">Portfolio</a></li>
-		<li><a href ng-click="ContentCtrl.setPage(2)">Curriculum</a></li>
-		<li><a href ng-click="ContentCtrl.setPage(3)">Contact</a></li>
-		<li><a href ng-click="ContentCtrl.setPage(4)">Blog</a></li>
-		<li><a href ng-click="ContentCtrl.setPage(5)">Imprint</a></li>
+		<!-- @TODO Generate these with ng-repeat from JSON -->
+		<li>
+			<a href ng-click="ContentCtrl.setPage(0)" ng-class="{active:ContentCtrl.isSet(0)}">Portfolio</a>
+		</li>
+
+		<li>
+			<a href ng-click="ContentCtrl.setPage(1)" ng-class="{active:ContentCtrl.isSet(1)}">Curriculum</a>
+		</li>
+
+		<li>
+			<a href ng-click="ContentCtrl.setPage(2)" ng-class="{active:ContentCtrl.isSet(2)}">Contact</a>
+		</li>
+
+		<li>
+			<a href ng-click="ContentCtrl.setPage(3)" ng-class="{active:ContentCtrl.isSet(3)}">Blog</a>
+		</li>
+
+		<li>
+			<a href ng-click="ContentCtrl.setPage(4)" ng-class="{active:ContentCtrl.isSet(4)}">Imprint</a>
+		</li>
+		
 	</ul>
 </nav>

@@ -24,11 +24,11 @@
 	app.directive('content', function () {
 		return {
 
-			restrict: 'E',
+			restrict: 'A',
 			templateUrl: 'template/content.html',
 			controller: function () {
 
-				this.page = 1;
+				this.page = 0;
 
 				this.isSet = function (checkPage) {
 

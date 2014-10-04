@@ -1,8 +1,7 @@
-<article ng-repeat="project in projects">
+<article class="project" ng-repeat="project in projects">
 
 	<!-- project thumbnail -->
-	<section ng-show="!ProjectsCtrl.detailMode">
-		<h3>{{project.title}} {{$index}} {{ProjectsCtrl.detailMode}}</h3>
+	<section  ng-show="!ProjectsCtrl.detailMode">
 	    <a href ng-click="ProjectsCtrl.setMode($index)">
 	    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
 	    </a>      
