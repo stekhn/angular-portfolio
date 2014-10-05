@@ -1,0 +1,37 @@
+main {
+	clear: both;
+	text-align: center;
+	position: relative;
+
+	p {
+		margin-bottom: 1.4em;
+		line-height: 1.2em;
+		font-weight: 300;
+	}
+
+	a {
+		@include transition(.25s);
+		
+		position: relative;
+		text-decoration: none;
+		font-weight: 300;
+		color: #bf3600;
+		margin-right: .5em;
+
+		&:hover {
+			color: #222;
+		}
+	}
+
+	blockquote {
+		padding: .2em .7em;
+		margin: 0 0 1.4em;
+		border-left: 5px solid #eee;
+	}
+
+	blockquote p:last-child,
+	blockquote ul:last-child,
+	blockquote ol:last-child {
+		margin-bottom: 0;
+	}
+}

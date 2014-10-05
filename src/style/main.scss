@@ -1,3 +1,50 @@
+@import "compass/css3";
+
 @import "partials/reset.scss";
 @import "partials/font.scss";
+@import "partials/common.scss";
+@import "partials/page.scss";
+@import "partials/content.scss";
+@import "partials/header.scss";
+@import "partials/nav.scss";
+@import "partials/project.scss";
+@import "partials/curriculum.scss";
+@import "partials/contact.scss";
+@import "partials/blog.scss";
+@import "partials/imprint.scss";
+@import "partials/footer.scss";
 
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px/22px;
+	color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'League Gothic', 'Arial Narrow', Impact, sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 2em;
+	margin-bottom: .5em;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+@mixin transition($speed) {
+	transition: all $speed ease-in $speed;
+	-webkit-transition: all $speed ease-in $speed;
+	-moz-transition: all $speed ease-in $speed;
+	-o-transition: all $speed ease-in $speed;
+}
