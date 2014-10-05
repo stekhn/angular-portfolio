@@ -10,7 +10,7 @@
 <article ng-show="ProjectsCtrl.detailMode" class="project-page">
 
 	<div class="project-description">
-		<h3>{{projects[ProjectsCtrl.currentProject].title}}</h3>
+		<p><strong>{{projects[ProjectsCtrl.currentProject].title}}</strong><p>
 		<p>{{projects[ProjectsCtrl.currentProject].description}}</p>
 
 		<blockquote>
@@ -29,7 +29,7 @@
 	</div>
 
 	<div>
-		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
+		<div ng-click="ProjectsCtrl.setMode(-1)" class="back">back</div>
 	</div>
 
 </article>

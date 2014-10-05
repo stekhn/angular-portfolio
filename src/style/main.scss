@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 @import "partials/reset.scss";
 @import "partials/font.scss";
 @import "partials/common.scss";
@@ -34,4 +36,15 @@ h2 {
 h3 {
 	font-size: 2em;
 	margin-bottom: .5em;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+@mixin transition($speed) {
+	transition: all $speed ease-in $speed;
+	-webkit-transition: all $speed ease-in $speed;
+	-moz-transition: all $speed ease-in $speed;
+	-o-transition: all $speed ease-in $speed;
 }

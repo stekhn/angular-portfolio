@@ -18,15 +18,27 @@ projects {
 		width: 100%;
 
 		&:after {
-		    content: "";
-		    display: table;
-		    clear: both;
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		.back {
+			@include transition(.25s);
+
+			cursor: pointer;
+			font-size: 4em;
+			color: #bf3600;
+
+			&:hover {
+				color: #222;
+			}
 		}
 
 		.project-description {
 			display: inline-block;
 			width: 60%;
-
+			margin-bottom: 1em;
 		}
 
 		.project-images {
