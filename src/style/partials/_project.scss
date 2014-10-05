@@ -1,16 +1,43 @@
-article.project {
-	
-	display: inline-block;
-	margin: 0 1.1em 1.1em 0;
-	width: 23%;
+projects {
 
-	img {
-		width: 	100%;
+	.project-thumb {
+
+		display: inline-block;
+		margin: 0 1.1em 1.1em 0;
+		width: 23%;
+
+		img {
+			width: 	100%;
+		}
+
 	}
 
-	.project-detail {
+	.project-page {
+		// position: absolute;
+		// left: 0;
 		text-align: left;
 		margin: 0;
 		width: 100%;
+		
+	}
+
+	.project-description {
+		display: inline-block;
+		width: 60%;
+
+	}
+
+	.project-images {
+		width: 30%;
+		float: right;
+		margin-right: 3em;
+		img {
+			text-align: right;
+			margin-left: auto;
+			display: block;
+			width: 300px;
+			margin-bottom: 1.1em;
+		}
+
 	}
 }

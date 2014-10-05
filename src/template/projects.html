@@ -1,17 +1,37 @@
-<article class="project" ng-repeat="project in projects">
+<article ng-repeat="project in projects">
 
-	<!-- project thumbnail -->
-	<section  ng-show="!ProjectsCtrl.detailMode">
-	    <a href ng-click="ProjectsCtrl.setMode($index)">
-	    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
-	    </a>      
+	<section class="project-thumb">
+
+		<!-- project thumbnail -->
+		<div  ng-show="!ProjectsCtrl.detailMode">
+		    <a href ng-click="ProjectsCtrl.setMode($index)">
+		    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
+		    </a>      
+		</div>
+
 	</section>
 
 	<!-- project details -->
-	<section ng-show="$index === ProjectsCtrl.currentProject && ProjectsCtrl.detailMode" class="project-detail">
-		<h3>{{project.title}} {{$index}} {{ProjectsCtrl.detailMode}}</h3>
-		<p>{{project.description}}</p>
-		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
-	</section>
+	<article ng-show="$index === ProjectsCtrl.currentProject && ProjectsCtrl.detailMode" class="project-page">
+		<div>
+			<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
+		</div>
+
+		<div class="project-description">
+			<h3>{{project.title}}</h3>
+			<p>{{project.type}}</p>
+			<p>{{project.description}}</p>
+			<p>{{project.date}} for {{project.client}}<br>
+			Tasks: {{project.role}}
+			</p>
+			<p><a ng-href="'{{project.url}}'">See the project online</a></p>
+		</div>
+
+		<div class="project-images">
+			<img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
+		</div>
+			
+
+	</article>
 
 </article>

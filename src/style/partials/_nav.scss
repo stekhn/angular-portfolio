@@ -5,10 +5,6 @@ nav {
 	float: right;
 	margin-top: 2.2em;
 
-	ul {
-		margin-right: .5em
-	}
-
 	li {
 		display: inline;
 
@@ -22,7 +18,7 @@ nav {
 		}
 
 		a:hover {
-			color: #333;
+			color: #222;
 		}
 
 		a.active:after {
