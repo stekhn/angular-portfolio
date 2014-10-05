@@ -20,4 +20,16 @@ main {
 			color: #222;
 		}
 	}
+
+	blockquote {
+		padding: .2em .7em;
+		margin: 0 0 1em;
+		border-left: 5px solid #eee;
+	}
+
+	blockquote p:last-child,
+	blockquote ul:last-child,
+	blockquote ol:last-child {
+	  margin-bottom: 0;
+	}
 }

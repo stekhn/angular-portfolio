@@ -11,11 +11,16 @@
 
 	<div class="project-description">
 		<h3>{{projects[ProjectsCtrl.currentProject].title}}</h3>
-		<p>{{projects[ProjectsCtrl.currentProject].type}}</p>
 		<p>{{projects[ProjectsCtrl.currentProject].description}}</p>
-		<p>{{projects[ProjectsCtrl.currentProject].date}} for {{project.client}}<br>
-		Tasks: {{projects[ProjectsCtrl.currentProject].role}}
-		</p>
+
+		<blockquote>
+			<p>
+				{{projects[ProjectsCtrl.currentProject].type}}<br>
+				{{projects[ProjectsCtrl.currentProject].date}} for {{projects[ProjectsCtrl.currentProject].client}}<br>
+				Tasks: {{projects[ProjectsCtrl.currentProject].role}}
+			</p>
+		</blockquote>
+		
 		<p><a ng-href="'{{projects[ProjectsCtrl.currentProject].url}}'">See the project online</a></p>
 	</div>
 
@@ -26,5 +31,5 @@
 	<div>
 		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
 	</div>
-	
+
 </article>
