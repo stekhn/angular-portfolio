@@ -15,9 +15,9 @@ main {
 		font-weight: 300;
 		color: #bf3600;
 		margin-right: .5em
-	}
 
-	a:hover {
-		color: #222;
+		&:hover {
+			color: #222;
+		}
 	}
 }

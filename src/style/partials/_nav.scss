@@ -15,10 +15,10 @@ nav {
 			font-size: 1.2em;
 			color: #bf3600;
 			margin-right: .5em
-		}
 
-		a:hover {
-			color: #222;
+			&:hover {
+				color: #222;
+			}
 		}
 
 		a.active:after {

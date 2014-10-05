@@ -1,12 +1,9 @@
-<section>
-
-	<figure ng-repeat="project in projects" ng-show="!ProjectsCtrl.detailMode" class="project-thumb">
-	    <a href ng-click="ProjectsCtrl.setMode($index)">
-	    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
-	    </a>      
-	</figure>
-
-</section>
+<!-- project thumbnails -->
+<figure ng-repeat="project in projects" ng-show="!ProjectsCtrl.detailMode" class="project-thumb">
+    <a href ng-click="ProjectsCtrl.setMode($index)">
+    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
+    </a>      
+</figure>
 
 
 <!-- project details -->
@@ -28,6 +25,4 @@
 	<div class="project-images">
 		<img ng-repeat="image in projects[ProjectsCtrl.currentProject].images" alt="{{projects[ProjectsCtrl.currentProject].title}}" ng-src="{{'img/project/' + image}}">
 	</div>
-		
-
 </article>
