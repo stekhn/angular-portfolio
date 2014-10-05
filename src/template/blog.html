@@ -1,20 +1,19 @@
 <section ng-controller="RssFeedCtrl">
 
-  <div ng-show='existingArticles()'>
-      <div>
-          <button ng-click="showOrHideAll()"><span>Show content</span></button>
-      </div>
+	<div ng-show='existingArticles()'>
+		<div ng-hide='article.cleared' class='read-{{article.read}}' ng-repeat="article in articles">
+			<p ng-click='article.show = !article.show' >{{article.title}} <a href='{{article.link}}' target='_blank'>(Link)</a></p>
+			<div ng-show='article.show' ng-bind-html="article.content"></div>
+		</div>
+	</div>
 
-      <div ng-hide='article.cleared' class='read-{{article.read}}' ng-repeat="article in articles">
-          <span ng-click='article.show = !article.show' >{{article.title}}</span>
-          <span><a href='{{article.link}}' target='_blank'>(Link)</a></span>
-          <div ng-show='article.show' ng-bind-html="article.content"></div>
-      </div>
-  </div>
+	<div ng-hide='existingArticles()'>
+		<div >
+			Unable to load RSS feed.
+		</div>
+	</div>
 
-  <div ng-hide='existingArticles()'>
-      <div >
-          Unable to load RSS feed.
-      </div>
-  </div>
+	<div>
+		<button ng-click="showOrHideAll()"><span>Show content</span></button>
+	</div>
 </section>
