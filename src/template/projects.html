@@ -1,37 +1,33 @@
-<article ng-repeat="project in projects">
+<section>
 
-	<section class="project-thumb">
+	<figure ng-repeat="project in projects" ng-show="!ProjectsCtrl.detailMode" class="project-thumb">
+	    <a href ng-click="ProjectsCtrl.setMode($index)">
+	    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
+	    </a>      
+	</figure>
 
-		<!-- project thumbnail -->
-		<div  ng-show="!ProjectsCtrl.detailMode">
-		    <a href ng-click="ProjectsCtrl.setMode($index)">
-		    	<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
-		    </a>      
-		</div>
+</section>
 
-	</section>
 
-	<!-- project details -->
-	<article ng-show="$index === ProjectsCtrl.currentProject && ProjectsCtrl.detailMode" class="project-page">
-		<div>
-			<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
-		</div>
+<!-- project details -->
+<article ng-show="ProjectsCtrl.detailMode" class="project-page">
+	<div>
+		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
+	</div>
 
-		<div class="project-description">
-			<h3>{{project.title}}</h3>
-			<p>{{project.type}}</p>
-			<p>{{project.description}}</p>
-			<p>{{project.date}} for {{project.client}}<br>
-			Tasks: {{project.role}}
-			</p>
-			<p><a ng-href="'{{project.url}}'">See the project online</a></p>
-		</div>
+	<div class="project-description">
+		<h3>{{projects[ProjectsCtrl.currentProject].title}}</h3>
+		<p>{{projects[ProjectsCtrl.currentProject].type}}</p>
+		<p>{{projects[ProjectsCtrl.currentProject].description}}</p>
+		<p>{{projects[ProjectsCtrl.currentProject].date}} for {{project.client}}<br>
+		Tasks: {{projects[ProjectsCtrl.currentProject].role}}
+		</p>
+		<p><a ng-href="'{{projects[ProjectsCtrl.currentProject].url}}'">See the project online</a></p>
+	</div>
 
-		<div class="project-images">
-			<img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
-		</div>
-			
-
-	</article>
+	<div class="project-images">
+		<img ng-repeat="image in projects[ProjectsCtrl.currentProject].images" alt="{{projects[ProjectsCtrl.currentProject].title}}" ng-src="{{'img/project/' + image}}">
+	</div>
+		
 
 </article>
