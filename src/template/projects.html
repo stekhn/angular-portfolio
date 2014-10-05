@@ -8,9 +8,6 @@
 
 <!-- project details -->
 <article ng-show="ProjectsCtrl.detailMode" class="project-page">
-	<div>
-		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
-	</div>
 
 	<div class="project-description">
 		<h3>{{projects[ProjectsCtrl.currentProject].title}}</h3>
@@ -25,4 +22,9 @@
 	<div class="project-images">
 		<img ng-repeat="image in projects[ProjectsCtrl.currentProject].images" alt="{{projects[ProjectsCtrl.currentProject].title}}" ng-src="{{'img/project/' + image}}">
 	</div>
+
+	<div>
+		<button ng-click="ProjectsCtrl.setMode(-1)">Back</button>
+	</div>
+	
 </article>
