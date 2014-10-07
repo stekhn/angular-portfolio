@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="style/main.css">
 
         <script type="text/javascript" src="../vendor/angular/angular.min.js"></script>
+        <script type="text/javascript" src="../vendor/angular/angular-route.min.js"></script>
         <script type="text/javascript" src="../vendor/underscore/underscore.min.js"></script>
         <script type="text/javascript" src="script/app.js"></script>
         
@@ -17,15 +18,9 @@
 
     <body ng-controller="JsonLoaderCtrl">
 
-    	<header>
-    		<h1>Steffen Kühne</h1>
-            <!-- p>Data, Code & Design</p -->  
-            <p>Datenvisualisierung & mehr</p>  
-    	</header>
+        <div ng-include='"template/header.html"'></div>
 
-        <navigation></navigation>
-
-        <main content></main>
+        <div ng-view></div>
 
     	<footer>
             <p>made with AngularJS and ♡</p>

@@ -1,4 +1,4 @@
-<section ng-controller="RssFeedCtrl">
+<section>
 
 	<div ng-show='existingArticles()'>
 		<div ng-hide='article.cleared' class='read-{{article.read}}' ng-repeat="article in articles">
@@ -16,4 +16,5 @@
 	<div>
 		<button ng-click="showOrHideAll()"><span>Show content</span></button>
 	</div>
+	
 </section>

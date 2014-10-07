@@ -1,13 +1,4 @@
-<!-- project thumbnails -->
-<figure ng-repeat="project in projects" ng-show="!ProjectsCtrl.detailMode" class="project-thumb">
-	<a href ng-click="ProjectsCtrl.setMode($index)">
-		<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
-	</a>
-</figure>
-
-
-<!-- project details -->
-<article ng-show="ProjectsCtrl.detailMode" class="project-page">
+<article class="project-page">
 
 	<div class="project-description">
 		<p><strong>{{projects[ProjectsCtrl.currentProject].title}}</strong><p>
@@ -29,7 +20,7 @@
 	</div>
 
 	<div>
-		<div ng-click="ProjectsCtrl.setMode(-1)" class="back">back</div>
+		<a href="#/portfolio" class="back">back</div>
 	</div>
 
 </article>

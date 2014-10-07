@@ -1,6 +1,19 @@
 (function() {
 
-	var app = angular.module('portfolio', ['feedReader']);
+	var app = angular.module('portfolio', ['ngRoute', 'feedReader']);
+
+	app.config(['$routeProvider', function ($routeProvider) {
+		$routeProvider
+			.when("/", {templateUrl: "template/portfolio.html", controller: "ProjectsCtrl"})
+			.when("/portfolio", {templateUrl: "template/portfolio.html", controller: "ProjectsCtrl"})
+			.when("/project", {templateUrl: "template/project.html", controller: "ProjectsCtrl"})
+			.when("/curriculum", {templateUrl: "template/curriculum.html"})
+			.when("/contact", {templateUrl: "template/contact.html"})
+			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
+			.when("/imprint", {templateUrl: "template/imprint.html"})
+			.when("/project", {templateUrl: "template/project.html"})
+			.otherwise("/404", {templateUrl: "template/portfolio.html", controller: "ProjectsCtrl"});
+	}]);
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
@@ -11,99 +24,18 @@
 
 	}]);
 
+	app.controller('ProjectsCtrl', function () {
 
-	app.directive('navigation', function () {
+		var self = this;
+		self.detailMode = false;
+		self.currentProject = -1;
 
-		return {
-			restrict: 'E',
-			templateUrl: 'template/navigation.html'
+		this.setMode = function (clickedProject) {
+
+			self.detailMode = clickedProject != -1;
+			self.currentProject = clickedProject;
 		};
 	});
-
-
-	app.directive('content', function () {
-		return {
-
-			restrict: 'A',
-			templateUrl: 'template/content.html',
-			controller: function () {
-
-				this.page = 0;
-
-				this.isSet = function (checkPage) {
-
-					return this.page === checkPage;
-				};
-
-				this.setPage = function (activePage) {
-					
-					this.page = activePage;
-				};
-			},
-			controllerAs: 'ContentCtrl'
-		};
-	});
-
-
-	app.directive('projects', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/projects.html',
-			controller: function () {
-
-				var self = this;
-				self.detailMode = false;
-				self.currentProject = -1;
-
-				this.setMode = function (clickedProject) {
-
-					self.detailMode = clickedProject != -1;
-					self.currentProject = clickedProject;
-				};
-			},
-			controllerAs: 'ProjectsCtrl'
-		};
-	});
-
-
-	app.directive('curriculum', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/curriculum.html'
-		};
-	});
-
-
-
-	app.directive('contact', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/contact.html'
-		};
-	});
-
-
-	app.directive('blog', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/blog.html'
-		};
-	});
-
-
-	app.directive('imprint', function () {
-
-		return {
-
-			restrict: 'E',
-			templateUrl: 'template/imprint.html'
-		};
-	});
-
 
 	angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {
 
