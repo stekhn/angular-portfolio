@@ -1,12 +1,12 @@
 (function() {
 
-	var app = angular.module('portfolio', ['ngRoute', 'feedReader']);
+	var app = angular.module('portfolio', ['ngRoute', 'feedReader', 'toDashCase']);
 
 	app.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider
 			.when("/", {templateUrl: "template/portfolio.html"})
 			.when("/portfolio", {templateUrl: "template/portfolio.html"})
-			.when("/project/:id", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
+			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
 			.when("/curriculum", {templateUrl: "template/curriculum.html"})
 			.when("/contact", {templateUrl: "template/contact.html"})
 			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
@@ -24,9 +24,26 @@
 
 	}]);
 
-	app.controller('ProjectCtrl', function ($scope, $location, $routeParams) {
+	app.controller('ProjectCtrl', function ($scope, $routeParams) {
+
+		var current;
+
+		for (var key in $scope.projects) {
+
+			var dashcaseTitle = $scope.projects[key].title.replace(/\s+/g, '-').toLowerCase();
+
+			if ($routeParams.name === dashcaseTitle) {
+				current = key;
+			}
+		}
 		
-		$scope.project = $scope.projects[$routeParams.id];
+		$scope.project = $scope.projects[current];
+	});
+
+	angular.module('toDashCase', []).filter('dashcase', function() {
+		return function(input) {
+			return input.replace(/\s+/g, '-').toLowerCase();
+		};
 	});
 
 	angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {
