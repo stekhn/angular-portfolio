@@ -4,15 +4,15 @@
 
 	app.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider
-			.when("/", {templateUrl: "template/portfolio.html", controller: "ProjectsCtrl"})
-			.when("/portfolio", {templateUrl: "template/portfolio.html", controller: "ProjectsCtrl"})
-			.when("/project", {templateUrl: "template/project.html", controller: "ProjectsCtrl"})
+			.when("/", {templateUrl: "template/portfolio.html"})
+			.when("/portfolio", {templateUrl: "template/portfolio.html"})
+			.when("/project/:id", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
 			.when("/curriculum", {templateUrl: "template/curriculum.html"})
 			.when("/contact", {templateUrl: "template/contact.html"})
 			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
 			.when("/imprint", {templateUrl: "template/imprint.html"})
 			.when("/project", {templateUrl: "template/project.html"})
-			.otherwise("/404", {templateUrl: "template/portfolio.html", controller: "ProjectsCtrl"});
+			.otherwise("/404", {templateUrl: "template/portfolio.html"});
 	}]);
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
@@ -24,17 +24,9 @@
 
 	}]);
 
-	app.controller('ProjectsCtrl', function () {
-
-		var self = this;
-		self.detailMode = false;
-		self.currentProject = -1;
-
-		this.setMode = function (clickedProject) {
-
-			self.detailMode = clickedProject != -1;
-			self.currentProject = clickedProject;
-		};
+	app.controller('ProjectCtrl', function ($scope, $location, $routeParams) {
+		
+		$scope.project = $scope.projects[$routeParams.id];
 	});
 
 	angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {

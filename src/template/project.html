@@ -1,22 +1,22 @@
 <article class="project-page">
 
 	<div class="project-description">
-		<p><strong>{{projects[ProjectsCtrl.currentProject].title}}</strong><p>
-		<p>{{projects[ProjectsCtrl.currentProject].description}}</p>
+		<p><strong>{{project.title}}</strong><p>
+		<p>{{project.description}}</p>
 
 		<blockquote>
 			<p>
-				{{projects[ProjectsCtrl.currentProject].type}}<br>
-				{{projects[ProjectsCtrl.currentProject].date}} for {{projects[ProjectsCtrl.currentProject].client}}<br>
-				Tasks: {{projects[ProjectsCtrl.currentProject].role}}
+				{{project.type}}<br>
+				{{project.date}} for {{project.client}}<br>
+				Tasks: {{project.role}}
 			</p>
 		</blockquote>
 		
-		<p><a ng-href="'{{projects[ProjectsCtrl.currentProject].url}}'">See the project online</a></p>
+		<p><a ng-href="'{{project.url}}'">See the project online</a></p>
 	</div>
 
 	<div class="project-images">
-		<img ng-repeat="image in projects[ProjectsCtrl.currentProject].images" alt="{{projects[ProjectsCtrl.currentProject].title}}" ng-src="{{'img/project/' + image}}">
+		<img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
 	</div>
 
 	<div>
