@@ -2,7 +2,6 @@
 
 @import "partials/reset.scss";
 @import "partials/font.scss";
-@import "partials/page.scss";
 @import "partials/content.scss";
 @import "partials/header.scss";
 @import "partials/project.scss";
@@ -12,10 +11,23 @@
 @import "partials/imprint.scss";
 @import "partials/footer.scss";
 
+// html {
+// 	box-sizing: border-box;
+// }
+
+// *, *:before, *:after {
+// 	box-sizing: inherit;
+// }
+
 body {
 	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 15px/22px;
 	color: #222;
+
+	max-width: 1200px;
+	widows: 100%;
+	padding: 0 3em;
+	margin: 2em auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,9 +52,12 @@ strong, b {
 	font-weight: bold;
 }
 
+$red: #bf3600;
+$black: #222;
+
 @mixin transition($speed) {
-	transition: all $speed ease-in $speed;
-	-webkit-transition: all $speed ease-in $speed;
-	-moz-transition: all $speed ease-in $speed;
-	-o-transition: all $speed ease-in $speed;
+	transition: all $speed ease-in-out $speed;
+	-webkit-transition: all $speed ease-in-out $speed;
+	-moz-transition: all $speed ease-in-out $speed;
+	-o-transition: all $speed ease-in-out $speed;
 }

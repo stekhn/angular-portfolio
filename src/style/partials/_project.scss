@@ -1,5 +1,6 @@
 .project-thumb {
 
+	position: relative;
 	display: inline-block;
 	margin: 0 1.1em 1.1em 0;
 	width: 23%;
@@ -8,7 +9,26 @@
 		width: 	100%;
 	}
 
+	figcaption {
+		opacity: 0;
+		@include transition(.25s);
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: .4em .5em .5em;
+		background-color: rgba(34,34,34,.7);
+		color: #fff;
+		font-size: 0.9em;
+	}
+
+	.active {
+		opacity: 1;
+	}
 }
+
+
 
 .project-page {
 	text-align: left;

@@ -12,7 +12,6 @@ main {
 	a {
 		@include transition(.25s);
 		
-		position: relative;
 		text-decoration: none;
 		font-weight: 300;
 		color: #bf3600;
