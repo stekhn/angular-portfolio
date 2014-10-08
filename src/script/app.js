@@ -5,7 +5,6 @@
 	app.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider
 			.when("/", {templateUrl: "template/portfolio.html"})
-			.when("/portfolio", {templateUrl: "template/portfolio.html"})
 			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
 			.when("/curriculum", {templateUrl: "template/curriculum.html"})
 			.when("/contact", {templateUrl: "template/contact.html"})
@@ -23,6 +22,13 @@
 		});
 
 	}]);
+
+	app.controller('NavCtrl', function($scope, $location) {
+
+		$scope.isActive = function(route) {
+	        return route === $location.path();
+	    };
+	});
 
 	app.controller('ProjectCtrl', function ($scope, $routeParams) {
 
@@ -50,7 +56,6 @@
 
 		$scope.articles = [ ];
 		$scope.rssFeed = 'http://datenkritik.de/feed/';
-	
 
 		$scope.existingArticles = function () {
 
@@ -59,7 +64,6 @@
 			}) !== null;
 		};
 	
-
 		$scope.showOrHideAll = function () {
 
 			var markAsHide = _.every($scope.articles, function (a) {
@@ -71,7 +75,6 @@
 			});
 		};
 	
-
 		var hostname = (function () {
 
 			var a = document.createElement('a');
@@ -82,7 +85,6 @@
 			};
 		})();
 	
-
 		var parseEntry = function (el) {
 
 			$scope.html = el.content;
@@ -98,13 +100,11 @@
 			};
 		};
 	
-
 		var parseRSS = function (url) {
 
 			return $http.jsonp('https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url));
 		};
 	
-
 		$scope.updateModel = function () {
 
 			parseRSS($scope.rssFeed).then(function (data) {

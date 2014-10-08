@@ -4,27 +4,27 @@
     <p>Datenvisualisierung & mehr</p>  
 </header>
 
-<nav>
+<nav ng-controller="NavCtrl">
 	<ul>
 		<!-- @TODO Generate these with ng-repeat from JSON -->
 		<li>
-			<a href="#/portfolio" ng-class="{active: true}">Portfolio</a>
+			<a href="#/" ng-class="{active: isActive('/')}">Portfolio</a>
 		</li>
 
 		<li>
-			<a href="#/curriculum">Curriculum</a>
+			<a href="#/curriculum" ng-class="{active: isActive('/curriculum')}">Curriculum</a>
 		</li>
 
 		<li>
-			<a href="#/contact">Contact</a>
+			<a href="#/contact" ng-class="{active: isActive('/contact')}">Contact</a>
 		</li>
 
 		<li>
-			<a href="#/blog">Blog</a>
+			<a href="#/blog" ng-class="{active: isActive('/blog')}">Blog</a>
 		</li>
 
 		<li>
-			<a href="#/imprint">Imprint</a>
+			<a href="#/imprint" ng-class="{active: isActive('/imprint')}">Imprint</a>
 		</li>
 		
 	</ul>
