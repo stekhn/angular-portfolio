@@ -1,6 +1,18 @@
 (function() {
 
-	var app = angular.module('portfolio', ['feedReader']);
+	var app = angular.module('portfolio', ['ngRoute', 'feedReader', 'toDashCase']);
+
+	app.config(['$routeProvider', function ($routeProvider) {
+		$routeProvider
+			.when("/", {templateUrl: "template/portfolio.html"})
+			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
+			.when("/curriculum", {templateUrl: "template/curriculum.html"})
+			.when("/contact", {templateUrl: "template/contact.html"})
+			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
+			.when("/imprint", {templateUrl: "template/imprint.html"})
+			.when("/project", {templateUrl: "template/project.html"})
+			.otherwise("/404", {templateUrl: "template/portfolio.html"});
+	}]);
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
@@ -11,105 +23,39 @@
 
 	}]);
 
+	app.controller('NavCtrl', function($scope, $location) {
 
-	app.directive('navigation', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/navigation.html'
-		};
+		$scope.isActive = function(route) {
+	        return route === $location.path();
+	    };
 	});
 
+	app.controller('ProjectCtrl', function ($scope, $routeParams) {
 
-	app.directive('content', function () {
-		return {
+		var current;
 
-			restrict: 'A',
-			templateUrl: 'template/content.html',
-			controller: function () {
+		for (var key in $scope.projects) {
 
-				this.page = 0;
+			var dashcaseTitle = $scope.projects[key].title.replace(/\s+/g, '-').toLowerCase();
 
-				this.isSet = function (checkPage) {
-
-					return this.page === checkPage;
-				};
-
-				this.setPage = function (activePage) {
-					
-					this.page = activePage;
-				};
-			},
-			controllerAs: 'ContentCtrl'
-		};
+			if ($routeParams.name === dashcaseTitle) {
+				current = key;
+			}
+		}
+		
+		$scope.project = $scope.projects[current];
 	});
 
-
-	app.directive('projects', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/projects.html',
-			controller: function () {
-
-				var self = this;
-				self.detailMode = false;
-				self.currentProject = -1;
-
-				this.setMode = function (clickedProject) {
-
-					self.detailMode = clickedProject != -1;
-					self.currentProject = clickedProject;
-				};
-			},
-			controllerAs: 'ProjectsCtrl'
+	angular.module('toDashCase', []).filter('dashcase', function() {
+		return function(input) {
+			return input.replace(/\s+/g, '-').toLowerCase();
 		};
 	});
-
-
-	app.directive('curriculum', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/curriculum.html'
-		};
-	});
-
-
-
-	app.directive('contact', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/contact.html'
-		};
-	});
-
-
-	app.directive('blog', function () {
-
-		return {
-			restrict: 'E',
-			templateUrl: 'template/blog.html'
-		};
-	});
-
-
-	app.directive('imprint', function () {
-
-		return {
-
-			restrict: 'E',
-			templateUrl: 'template/imprint.html'
-		};
-	});
-
 
 	angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {
 
 		$scope.articles = [ ];
 		$scope.rssFeed = 'http://datenkritik.de/feed/';
-	
 
 		$scope.existingArticles = function () {
 
@@ -118,7 +64,6 @@
 			}) !== null;
 		};
 	
-
 		$scope.showOrHideAll = function () {
 
 			var markAsHide = _.every($scope.articles, function (a) {
@@ -130,7 +75,6 @@
 			});
 		};
 	
-
 		var hostname = (function () {
 
 			var a = document.createElement('a');
@@ -141,7 +85,6 @@
 			};
 		})();
 	
-
 		var parseEntry = function (el) {
 
 			$scope.html = el.content;
@@ -157,13 +100,11 @@
 			};
 		};
 	
-
 		var parseRSS = function (url) {
 
 			return $http.jsonp('https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url));
 		};
 	
-
 		$scope.updateModel = function () {
 
 			parseRSS($scope.rssFeed).then(function (data) {

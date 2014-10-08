@@ -1,0 +1,31 @@
+<header>
+	<h1><a href="#/">Steffen Kühne</a></h1>
+    <!-- p>Data, Code & Design</p -->  
+    <p>Datenvisualisierung & mehr</p>  
+</header>
+
+<nav ng-controller="NavCtrl">
+	<ul>
+		<!-- @TODO Generate these with ng-repeat from JSON -->
+		<li>
+			<a href="#/" ng-class="{active: isActive('/')}">Portfolio</a>
+		</li>
+
+		<li>
+			<a href="#/curriculum" ng-class="{active: isActive('/curriculum')}">Curriculum</a>
+		</li>
+
+		<li>
+			<a href="#/contact" ng-class="{active: isActive('/contact')}">Contact</a>
+		</li>
+
+		<li>
+			<a href="#/blog" ng-class="{active: isActive('/blog')}">Blog</a>
+		</li>
+
+		<li>
+			<a href="#/imprint" ng-class="{active: isActive('/imprint')}">Imprint</a>
+		</li>
+		
+	</ul>
+</nav>
