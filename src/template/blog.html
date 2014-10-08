@@ -1,9 +1,8 @@
 <section>
 
 	<div ng-show='existingArticles()'>
-		<div ng-hide='article.cleared' class='read-{{article.read}}' ng-repeat="article in articles">
-			<p ng-click='article.show = !article.show' >{{article.title}} <a href='{{article.link}}' target='_blank'>(Link)</a></p>
-			<div ng-show='article.show' ng-bind-html="article.content"></div>
+		<div ng-repeat="article in articles">
+			<p>{{article.title}} <a href='{{article.link}}' target='_blank'>(Link)</a></p>
 		</div>
 	</div>
 
@@ -11,10 +10,6 @@
 		<div >
 			Unable to load RSS feed.
 		</div>
-	</div>
-
-	<div>
-		<button ng-click="showOrHideAll()"><span>Show content</span></button>
 	</div>
 	
 </section>
