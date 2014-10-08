@@ -1,6 +1,9 @@
+
+<section class="project-wrapper">
 <figure ng-repeat="project in projects" class="project-thumb" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
 	<a href="#/project/{{project.title | dashcase}}">
 		<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
 		<figcaption ng-class="{active: hover}">{{project.title}}</figcaption>
 	</a>
 </figure>
+</section>
