@@ -1,1 +1,96 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after{content:"";content:none}q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:'League Gothic';src:url("../font/leaguegothic-italic-webfont.eot");src:url("../font/leaguegothic-italic-webfont.eot?#iefix") format("embedded-opentype"),url("../font/leaguegothic-italic-webfont.woff") format("woff"),url("../font/leaguegothic-italic-webfont.ttf") format("truetype"),url("../font/leaguegothic-italic-webfont.svg#league_gothic_italicregular") format("svg");font-weight:normal;font-style:italic}@font-face{font-family:'League Gothic';src:url("../font/leaguegothic-regular-webfont.eot");src:url("../font/leaguegothic-regular-webfont.eot?#iefix") format("embedded-opentype"),url("../font/leaguegothic-regular-webfont.woff") format("woff"),url("../font/leaguegothic-regular-webfont.ttf") format("truetype"),url("../font/leaguegothic-regular-webfont.svg#league_gothicregular") format("svg");font-weight:normal;font-style:normal}main{clear:both;text-align:center;position:relative}main p{margin-bottom:1.4em;line-height:1.2em;font-weight:300}main a{-moz-transition:0.25s;-o-transition:0.25s;-webkit-transition:0.25s;transition:0.25s;text-decoration:none;font-weight:300;color:#bf3600;margin-right:.5em}main a:hover{color:#222}main blockquote{padding:.2em .7em;margin:0 0 1.4em;border-left:5px solid #eee}main blockquote p:last-child,main blockquote ul:last-child,main blockquote ol:last-child{margin-bottom:0}header{display:inline-block;margin-bottom:3em}header p{font-weight:300}header h1 a{color:#222;text-decoration:none}nav{display:inline-block;text-align:right;float:right;margin-top:2.2em}nav li{display:inline}nav li a{-moz-transition:0.25s;-o-transition:0.25s;-webkit-transition:0.25s;transition:0.25s;position:relative;text-decoration:none;font-weight:300;font-size:1.2em;color:#bf3600;margin-right:.5em}nav li a:hover{color:#222}nav li a.active:after{content:'';width:100%;position:absolute;left:0;bottom:-3px;border-width:0 0 2px;border-style:solid}.project-thumb{position:relative;display:inline-block;margin:0 1.1em 1.1em 0;width:23%}.project-thumb img{width:100%}.project-thumb figcaption{opacity:0;-moz-transition:0.25s;-o-transition:0.25s;-webkit-transition:0.25s;transition:0.25s;position:absolute;bottom:0;left:0;right:0;padding:.4em .5em .5em;background-color:rgba(34,34,34,0.7);color:#fff;font-size:0.9em}.project-thumb .active{opacity:1}.project-page{text-align:left;margin:0;width:100%}.project-page:after{content:"";display:table;clear:both}.project-page .back{-moz-transition:0.25s;-o-transition:0.25s;-webkit-transition:0.25s;transition:0.25s;cursor:pointer;font-size:3em;color:#bf3600}.project-page .back:hover{color:#222}.project-page .project-description{display:inline-block;width:60%;margin-bottom:1em}.project-page .project-images{width:30%;float:right;margin-right:3em}.project-page .project-images img{text-align:right;margin-left:auto;display:block;width:300px;margin-bottom:1.1em}.curriculum{text-align:left}.contact{text-align:left}.blog{text-align:left}.imprint{text-align:left}footer{margin-top:4em}footer p{font-weight:300;text-align:center}body{font-family:'Helvetica Neue', sans-serif;font-size:15px/22px;color:#222;max-width:1200px;widows:100%;padding:0 3em;margin:2em auto}h1,h2,h3,h4,h5,h6{font-family:'League Gothic', 'Arial Narrow', Impact, sans-serif}h1{font-size:4em}h2{font-size:3em;margin-bottom:1em}h3{font-size:2em;margin-bottom:.5em}strong,b{font-weight:bold}
+/*
+Error: Undefined variable: "$red".
+        on line 16 of /Users/stekhn/Development/portfolio/src/style/partials/_content.scss
+        from line 5 of /Users/stekhn/Development/portfolio/src/style/main.scss
+
+11: @import "partials/imprint.scss";
+12: @import "partials/footer.scss";
+13: 
+14: // html {
+15: // 	box-sizing: border-box;
+16: // }
+17: 
+18: // *, *:before, *:after {
+19: // 	box-sizing: inherit;
+20: // }
+21: 
+
+Backtrace:
+/Users/stekhn/Development/portfolio/src/style/partials/_content.scss:16
+/Users/stekhn/Development/portfolio/src/style/main.scss:5
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:268:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$red\".\A         on line 16 of /Users/stekhn/Development/portfolio/src/style/partials/_content.scss\A         from line 5 of /Users/stekhn/Development/portfolio/src/style/main.scss\A \A 11: @import \"partials/imprint.scss\";\A 12: @import \"partials/footer.scss\";\A 13: \A 14: // html {\A 15: // 	box-sizing: border-box;\A 16: // }\A 17: \A 18: // *, *:before, *:after {\A 19: // 	box-sizing: inherit;\A 20: // }\A 21: "; }

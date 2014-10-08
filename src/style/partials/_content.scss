@@ -1,6 +1,5 @@
 main {
 	clear: both;
-	text-align: center;
 	position: relative;
 
 	p {
@@ -14,11 +13,11 @@ main {
 		
 		text-decoration: none;
 		font-weight: 300;
-		color: #bf3600;
+		color: $red;
 		margin-right: .5em;
 
 		&:hover {
-			color: #222;
+			color: $black;
 		}
 	}
 

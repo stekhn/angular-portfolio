@@ -31,7 +31,6 @@
 
 
 .project-page {
-	text-align: left;
 	margin: 0;
 	width: 100%;
 
@@ -46,10 +45,10 @@
 
 		cursor: pointer;
 		font-size: 3em;
-		color: #bf3600;
+		color: $red;
 
 		&:hover {
-			color: #222;
+			color: $black;
 		}
 	}
 
