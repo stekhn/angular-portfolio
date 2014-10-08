@@ -11,7 +11,7 @@
 			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
 			.when("/imprint", {templateUrl: "template/imprint.html"})
 			.when("/project", {templateUrl: "template/project.html"})
-			.otherwise("/404", {templateUrl: "template/portfolio.html"});
+			.otherwise("/", {templateUrl: "template/portfolio.html"});
 	}]);
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
