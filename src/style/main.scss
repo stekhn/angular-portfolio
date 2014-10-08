@@ -1,3 +1,6 @@
+$red: #bf3600;
+$black: #222;
+
 @import "compass/css3";
 
 @import "partials/reset.scss";
@@ -52,8 +55,7 @@ strong, b {
 	font-weight: bold;
 }
 
-$red: #bf3600;
-$black: #222;
+
 
 @mixin transition($speed) {
 	transition: all $speed ease-in-out $speed;
