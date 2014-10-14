@@ -2,11 +2,21 @@
 
 }
 
+.row {
+	position: relative;
+	padding-left: 2em;
+	margin-bottom: 2em;
+    clear: both;
+}
 
 .timeline {
-
+	display: inline-block;
 	position: relative;
-	margin-left: 1em;
+	margin: 0 3em 0 1em;
+
+	h3 {
+		margin-left: -.5em;
+	}
 
 	.line {
 		position: absolute;
@@ -20,7 +30,6 @@
 	}
 
 	.bubble {
-		z-index: 10;
 		position: absolute;
 		left: -1em;
 		width: 2em;
@@ -29,11 +38,10 @@
 		background-color: $lightgrey;
 	}
 
-	.row {
 
-		position: relative;
-		padding-left: 2em;
-		margin-bottom: 2em;
-        clear: both;
-	}
+}
+
+.skills {
+	display: inline-block;
+	vertical-align: top;
 }
