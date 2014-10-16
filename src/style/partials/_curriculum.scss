@@ -1,3 +1,63 @@
-.curriculum {
-	text-align: left;
+.bio {
+	h3 {
+		margin-top: 1em;
+	}
+}
+
+.row {
+	position: relative;
+	padding-left: 2em;
+	margin-bottom: 2em;
+    clear: both;
+}
+
+.timeline {
+	display: inline-block;
+	position: relative;
+	margin: 0 3em 0 1em;
+
+	h3 {
+		margin-left: -.5em;
+	}
+
+	.line {
+		position: absolute;
+		width: 1px;
+		height: 100%;
+		background-color: $lightgrey;
+	}
+
+	.timestamp {
+		margin-bottom: .5em;
+	}
+
+	.bubble {
+		position: absolute;
+		left: -1em;
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+		background-color: $lightgrey;
+	}
+
+
+}
+
+.skills {
+	display: inline-block;
+	vertical-align: top;
+
+	.line {
+		width:240px;
+		display:block;
+		float:left;
+	}
+
+	.circle {
+		color: $red;
+	}
+}
+
+.grey {
+	color: $lightgrey;
 }

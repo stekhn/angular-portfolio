@@ -9,7 +9,7 @@ header {
 
 	h1 {
 		a {
-			color: #222;
+			color: $black;
 			text-decoration: none;
 		}
 	}
@@ -18,7 +18,6 @@ header {
 nav {
 
 	display: inline-block;
-	text-align: right;
 	float: right;
 	margin-top: 2.2em;
 
@@ -32,11 +31,11 @@ nav {
 			text-decoration: none;
 			font-weight: 300;
 			font-size: 1.2em;
-			color: #bf3600;
+			color: $red;
 			margin-right: .5em;
 
 			&:hover {
-				color: #222;
+				color: $black;
 			}
 		}
 

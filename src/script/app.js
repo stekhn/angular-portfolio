@@ -4,14 +4,14 @@
 
 	app.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider
-			.when("/", {templateUrl: "template/portfolio.html"})
+			.when("/", {templateUrl: "template/project-list.html"})
 			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
 			.when("/curriculum", {templateUrl: "template/curriculum.html"})
 			.when("/contact", {templateUrl: "template/contact.html"})
 			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
 			.when("/imprint", {templateUrl: "template/imprint.html"})
 			.when("/project", {templateUrl: "template/project.html"})
-			.otherwise("/404", {templateUrl: "template/portfolio.html"});
+			.otherwise("/", {templateUrl: "template/project-list.html"});
 	}]);
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {

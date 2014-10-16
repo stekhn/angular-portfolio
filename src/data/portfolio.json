@@ -1,6 +1,6 @@
 [ 
 	{
-		"title": "Mapping the Google Location History",
+		"title": "Google Location History visualisieren",
 		"description": "A demo project for testing purposes. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -10,12 +10,12 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg",
-			"project2.jpg"
+			"locationhistory1.jpg",
+			"locationhistory2.jpg"
 		]
 	},
 	{
-		"title": "Projekt A",
+		"title": "EU-Kommission",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -25,11 +25,11 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"eukommission.jpg"
 		]
 	},
 	{
-		"title": "Projekt B",
+		"title": "Feature Rausch: Hoch fliegen, tief fallen",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -39,11 +39,27 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"rausch1.jpg",
+			"rausch2.jpg",
+			"rausch3.jpg"
+		]
+	},
+	{
+		"title": "Brazillion: World Cup Billions",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"brazillion.jpg"
 		]
 	},
 		{
-		"title": "Projekt C",
+		"title": "Das Verschwinden der FDP",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -53,11 +69,11 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"fdp.jpg"
 		]
 	},
 	{
-		"title": "Projekt D",
+		"title": "Nebeneinkünfte der Parlamentarier",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -67,11 +83,13 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"nebeneinkuenfte1.jpg",
+			"nebeneinkuenfte2.jpg",
+			"nebeneinkuenfte3.jpg"
 		]
 	},
 	{
-		"title": "Projekt E",
+		"title": "Newsgame World Cup Simulation",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -81,11 +99,13 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"newsgame1.jpg",
+			"newsgame2.jpg",
+			"newsgame3.jpg"
 		]
 	},
 		{
-		"title": "Projekt F",
+		"title": "Bundestagswahl",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -95,11 +115,13 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"bundestagswahl1.jpg",
+			"bundestagswahl2.jpg",
+			"bundestagswahl3.jpg"
 		]
 	},
 	{
-		"title": "Projekt G",
+		"title": "Rechte Gewalt in Bayern",
 		"description": "A demo project for testing purposes",
 		"date": "January 2014",
 		"type": "Map visualization",
@@ -109,7 +131,152 @@
 		"url": "http://example.com",
 		"size": "1", 
 		"images": [
-			"project.jpg"
+			"rechtegewalt.jpg"
+		]
+	},
+	{
+		"title": "Kartendesign Blossom",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"blossom1.jpg",
+			"blossom2.jpg"
+		]
+	},
+	{
+		"title": "Geheimer Krieg",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"geheimerkrieg.jpg"
+		]
+	},
+	{
+		"title": "Zugmonitor Auswertung",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"zugmonitor.jpg"
+		]
+	},
+	{
+		"title": "Regionen in Bayern",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Develop",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"bayern.jpg"
+		]
+	},
+	{
+		"title": "Verschätzung der Welt",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"verschaetzung.jpg"
+		]
+	},
+	{
+		"title": "Feature Begleiter",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"begleiter1.jpg",
+			"begleiter2.jpg",
+			"begleiter3.jpg"
+		]
+	},
+	{
+		"title": "Zensus 2011",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"zensus.jpg",
+			"zensus2.jpg"
+		]
+	},
+	{
+		"title": "Interaktives Bahnhofsinformationssystem",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"ibis.jpg"
+		]
+	},
+	{
+		"title": "Vampyre unter uns",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"vampyre1.jpg",
+			"vampyre2.jpg"
+		]
+	},
+	{
+		"title": "Nippon Nuklear",
+		"description": "A demo project for testing purposes",
+		"date": "January 2014",
+		"type": "Map visualization",
+		"role": "Developer",
+		"contributors": "",
+		"client" : "Company",
+		"url": "http://example.com",
+		"size": "1", 
+		"images": [
+			"nipponnuklear.jpg"
 		]
 	}
 ]

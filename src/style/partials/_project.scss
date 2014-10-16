@@ -1,17 +1,41 @@
-.project-thumb {
+.project-wrapper {
+	margin-right: -1.1em;
+}
 
+.project-thumb {
+	@include image-box;
+	
+	position: relative;
 	display: inline-block;
 	margin: 0 1.1em 1.1em 0;
-	width: 23%;
+	width: 23.5%;
 
 	img {
 		width: 	100%;
 	}
 
+	figcaption {
+		opacity: 0;
+		@include transition(.25s);
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: .4em .5em .5em;
+		background-color: rgba(34,34,34,.7);
+		color: #fff;
+		font-size: 0.9em;
+	}
+
+	.active {
+		opacity: 1;
+	}
 }
 
+
+
 .project-page {
-	text-align: left;
 	margin: 0;
 	width: 100%;
 
@@ -26,10 +50,10 @@
 
 		cursor: pointer;
 		font-size: 3em;
-		color: #bf3600;
+		color: $red;
 
 		&:hover {
-			color: #222;
+			color: $black;
 		}
 	}
 
@@ -42,9 +66,10 @@
 	.project-images {
 		width: 30%;
 		float: right;
-		margin-right: 3em;
-		
+
 		img {
+			@include image-box;
+			
 			text-align: right;
 			margin-left: auto;
 			display: block;
