@@ -1,6 +1,7 @@
 $red: #bf3600;
 $black: #222;
 $lightgrey: #eee;
+$darkgrey: #aaa;
 
 @mixin image-box {
 	padding: 10px;
@@ -65,7 +66,7 @@ h2 {
 
 h3 {
 	font-size: 2em;
-	margin: .5em 0;
+	margin-bottom: .5em;
 }
 
 strong, b {

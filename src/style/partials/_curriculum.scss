@@ -1,5 +1,7 @@
 .bio {
-	margin-top: 3em;
+	h3 {
+		margin-top: 1em;
+	}
 }
 
 .row {
@@ -44,4 +46,18 @@
 .skills {
 	display: inline-block;
 	vertical-align: top;
+
+	.line {
+		width:240px;
+		display:block;
+		float:left;
+	}
+
+	.circle {
+		color: $red;
+	}
+}
+
+.grey {
+	color: $lightgrey;
 }
