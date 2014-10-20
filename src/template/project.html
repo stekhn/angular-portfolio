@@ -6,13 +6,13 @@
 
 		<blockquote>
 			<p>
-				<span ng-show="project.type != ''">{{project.type}}</span><br>
-				<span ng-show="project.date != ''">{{project.date}}</span> <span ng-show="project.client != ''">for {{project.client}}</span><br>
-				<span ng-show="project.role != ''">Aufgabe: {{project.role}}</span>
+				<span ng-show="project.type">{{project.type}}</span><br>
+				<span ng-show="project.date">{{project.date}}</span><span ng-show="project.client"> für {{project.client}}</span><br>
+				<span ng-show="project.role">Aufgabe: {{project.role}}</span>
 			</p>
 		</blockquote>
 		
-		<p><a ng-repeat="link in project.links" ng-href="{{link.url}}">{{link.name}}<br></a></p>
+		<p ng-show="project.links"><a ng-repeat="link in project.links" ng-href="{{link.url}}">{{link.name}}<br></a></p>
 	</div>
 
 	<div class="project-images">
@@ -20,7 +20,7 @@
 	</div>
 
 	<div>
-		<a href="#/" class="back">back</div>
+		<a href="#/" class="back">zurück</div>
 	</div>
 
 </article>
