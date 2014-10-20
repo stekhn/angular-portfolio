@@ -1,14 +1,19 @@
 [ 
 	{
-		"title": "Google Location History visualisieren",
-		"description": "A demo project for testing purposes. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Design, Development",
+		"title": "Google Standortverlauf visualisieren",
+		"description": "Der Standortverlauf wird bei vielen Android-Geräten automatisch gespeichert. Google verfolgt aktiv alle Bewegungen des Benutzers, basierend auf Positionsdaten von GPS, WLAN und Mobilfunkmasten. Diese Anwendung ermöglicht es, den eigenen Standortverlauf zusammengefasst anzuzeigen. Dadurch kann man sehen, wo man sich in letzter Zeit besonders häufig aufgehalten hat und was man für typische Beweungsmuster hat. Der Quellcode des Programms ist frei verfügbar und kann jederzeit für eigene Projekte genutzt werden.",
+		"date": "August 2014",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
 		"contributors": "",
-		"client" : "The Big Company S.A.",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "",
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"locationhistory1.jpg",
 			"locationhistory2.jpg"
@@ -22,8 +27,13 @@
 		"role": "Develop",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"eukommission.jpg"
 		]
@@ -36,8 +46,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"rausch1.jpg",
 			"rausch2.jpg",
@@ -52,8 +67,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"brazillion.jpg"
 		]
@@ -66,8 +86,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"fdp.jpg"
 		]
@@ -80,8 +105,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"nebeneinkuenfte1.jpg",
 			"nebeneinkuenfte2.jpg",
@@ -96,8 +126,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"newsgame1.jpg",
 			"newsgame2.jpg",
@@ -112,8 +147,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"bundestagswahl1.jpg",
 			"bundestagswahl2.jpg",
@@ -128,8 +168,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"rechtegewalt.jpg"
 		]
@@ -142,8 +187,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"blossom1.jpg",
 			"blossom2.jpg"
@@ -157,8 +207,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"geheimerkrieg.jpg"
 		]
@@ -171,8 +226,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"zugmonitor.jpg"
 		]
@@ -185,8 +245,13 @@
 		"role": "Develop",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"bayern.jpg"
 		]
@@ -199,8 +264,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"verschaetzung.jpg"
 		]
@@ -213,8 +283,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"begleiter1.jpg",
 			"begleiter2.jpg",
@@ -229,8 +304,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"zensus.jpg",
 			"zensus2.jpg"
@@ -244,8 +324,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"ibis.jpg"
 		]
@@ -258,8 +343,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"vampyre1.jpg",
 			"vampyre2.jpg"
@@ -273,8 +363,13 @@
 		"role": "Developer",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"nipponnuklear.jpg"
 		]
