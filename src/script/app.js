@@ -14,6 +14,30 @@
 			.otherwise("/", {templateUrl: "template/project-list.html"});
 	}]);
 
+	app.run(function ($rootScope, $location, $route) {
+
+		$rootScope.config = {};
+		$rootScope.config.app_url = $location.url();
+		$rootScope.config.app_path = $location.path();
+		$rootScope.layout = {};
+		$rootScope.layout.loading = false;
+
+		$rootScope.$on('$routeChangeStart', function () {
+
+			$rootScope.layout.loading = true;
+		});
+
+		$rootScope.$on('$routeChangeSuccess', function () {
+
+			$rootScope.layout.loading = false;
+		});
+
+		$rootScope.$on('$routeChangeError', function () {
+
+			$rootScope.layout.loading = false;
+		});
+	});
+
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
 		$http.get('data/portfolio.json').success(function (data) {
@@ -26,8 +50,8 @@
 	app.controller('NavCtrl', function($scope, $location) {
 
 		$scope.isActive = function(route) {
-	        return route === $location.path();
-	    };
+			return route === $location.path();
+		};
 	});
 
 	app.controller('ProjectCtrl', function ($scope, $routeParams) {

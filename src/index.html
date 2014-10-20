@@ -20,7 +20,11 @@
 
         <section ng-include='"template/header.html"'></section>
 
-        <main ng-view></main>
+        <section class="loading" ng-hide="!layout.loading"> 
+            <img alt="loading" src="img/loading.gif"/>
+        </section>
+
+        <main ng-view ng-hide="layout.loading"></main>
 
     	<footer>
             <p>made with AngularJS and ♡</p>
