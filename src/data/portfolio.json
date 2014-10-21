@@ -1,14 +1,19 @@
 [ 
 	{
-		"title": "Google Location History visualisieren",
-		"description": "A demo project for testing purposes. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Design, Development",
+		"title": "Google Standortverlauf visualisieren",
+		"description": "Der Standortverlauf wird bei vielen Android-Geräten automatisch gespeichert. Google verfolgt aktiv alle Bewegungen des Benutzers, basierend auf Positionsdaten von GPS, WLAN und Mobilfunkmasten. Diese Anwendung ermöglicht es, den eigenen Standortverlauf zusammengefasst anzuzeigen. Dadurch kann man sehen, wo man sich in letzter Zeit besonders häufig aufgehalten hat und was man für typische Beweungsmuster hat. Der Quellcode des Programms ist frei verfügbar und kann jederzeit für eigene Projekte genutzt werden.",
+		"date": "August 2014",
+		"type": "Kartenvisualisierung und Konverter",
+		"role": "Entwicklung",
 		"contributors": "",
-		"client" : "The Big Company S.A.",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "",
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
 			"locationhistory1.jpg",
 			"locationhistory2.jpg"
@@ -16,28 +21,35 @@
 	},
 	{
 		"title": "EU-Kommission",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Develop",
+		"description": "Die Ernennung der EU-Kommissare ist ein langwieriger Prozess, der sich über Monate hinweg zieht. Die Mitglieder der Kommission werden alle fünf Jahre von den Regierungen der EU-Staaten nominiert und vom Europäischen Parlament bestätigt. Die interaktive Grafik soll den jeweils aktuellen Stand der Nominierungen festhalten und den Nominierungs- und Ernennungsprozess festhalten.",
+		"date": "August 2014",
+		"type": "Memory",
+		"role": "Entwicklung, Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Diese Mannschaft soll Europa lenken",
+				"url": "http://www.sueddeutsche.de/1.2147883"
+			}],
 		"images": [
 			"eukommission.jpg"
 		]
 	},
 	{
 		"title": "Feature Rausch: Hoch fliegen, tief fallen",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Wieso wollen Menschen Kontrolle verlieren, was macht ihnen daran Spaß? Weshalb gehen sie das Risiko ein, dass etwas schiefläuft? Der Rausch lässt uns fliegen und abstürzen, tanzen und stolpern, gewinnen und verlieren. Wir alle brauchen mal Entgrenzung - und wer mag schon immer nüchtern sein? Der Mensch und der Rausch - Perspektiven auf ein Phänomen. Eine interaktive Spurensuche.",
+		"date": "Juli 2014",
+		"type": "Scroll-Geschichte",
+		"role": "Konzept, Entwicklung, Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche Zeitung",
+		"links": [{
+				"name": "Rausch - eine interaktive Spurensuche",
+				"url": "http://gfx.sueddeutsche.de/pages/rausch"
+			},{
+				"name": "Alle Beiträge zum Projekt",
+				"url": "http://www.sueddeutsche.de/thema/360%C2%B0_Rausch"
+			}],
 		"images": [
 			"rausch1.jpg",
 			"rausch2.jpg",
@@ -45,43 +57,115 @@
 		]
 	},
 	{
-		"title": "Brazillion: World Cup Billions",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
-		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
-		"images": [
-			"brazillion.jpg"
-		]
-	},
-		{
 		"title": "Das Verschwinden der FDP",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Nach der Niederlage der bei der Landtagswahl in Sachsen ist die FDP nicht mehr im sächsischen Landesparlament vertreten. In Thüringen und Brandenburg steht der Partei dieses Schicksal womöglich noch bevor. Es wäre die Fortsetzung des beispiellosen Abstiegs der einst stolzen Liberalen. Alle Niederlagen im Überblick.",
+		"date": "Juli 2014",
+		"type": "Kartenvisualisierung, Memory",
+		"role": "Konzept, Entwicklung, Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Das Verschwinden der FDP",
+				"url": "http://www.sueddeutsche.de/1.2102368"
+			}],
 		"images": [
 			"fdp.jpg"
 		]
 	},
 	{
-		"title": "Nebeneinkünfte der Parlamentarier",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"title": "Brazillion: World Cup Billions",
+		"description": "2007 wählte die FIFA Brasilien zum Gastgeber der Fußballweltmeisterschaft 2014. Es wurden viele Bau- und Infrastrukturprojekte angestoßen, um das Schwellenland Brasilien auf die Weltmeisterschaft vorzubereiten. Das brasilianische Amt für Statistik schätzt, dass die WM in Brasilien etwa 11,2 Milliarden US-Dollar gekostet hat. Obwohl Fußball nahezu eine Religion in Brasilien ist, gingen viele Menschen auf die Straße, um gegen die enormen Ausgaben zu protestieren. Aber was hätte man sonst noch mit den Fußball-Milliarden anfangen können? Wir haben das mal nachgerechnet. Ein Projekt, welches im Rahmen des Open Data Hackathons entstanden ist.",
+		"date": "Juni 2014",
+		"type": "Scroll-Geschichte",
+		"role": "Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Open Data Hackday",
+		"links": [{
+				"name": "Prototyp",
+				"url": "https://walterrenner.github.io/odhdnull/"
+			},{
+				"name": "Quellcode",
+				"url": "https://github.com/walterrenner/odhdnull"
+			}],
+		"images": [
+			"brazillion.jpg"
+		]
+	},
+	{
+		"title": "25 Jahre Tiananmen-Massaker",
+		"description": "Chinas Regierung versucht, alle Spuren des Massakers zu beseitigen. In der Nacht zum 4. Juni 1989 war die Volksbefreiungsarmee mit Panzern gegen Studenten vorgegangen, die seit Wochen auf dem Platz des Himmlischen Friedens für mehr Demokratie demonstriert hatten. Dabei wurden Hunderte, möglicherweise sogar Tausende Menschen getötet. SZ und Weltspiegel besuchen Menschen, die sich an die Nacht vor 25 Jahren erinnern. Eine Digital-Reportage anlässlich des Jahrestags der Studentenproteste auf dem Platz des Himmlischen Friedens.",
+		"type": "Scroll-Geschichte",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Trauern verboten",
+				"url": "http://gfx.sueddeutsche.de/pages/tiananmen/"
+			}],
+		"images": [
+			"tiananmen.jpg"
+		]
+	},
+
+	
+	{
+		"title": "Europawahl",
+		"description": "Europa, der schwarze Kontinent. Oder doch der Kontinent der Populisten? Die interaktive Grafik von SZ.de zeigt die Ergebnisse der Europawahl 2014 in vielen Details. Partei-Hochburgen, wahlmüde Regionen, gewählte Abgeordnete. Ein Überblick der Wahlergebnisse.",
+		"date": "Mai 2014",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "So hat Europa gewählt",
+				"url": "http://www.sueddeutsche.de/1.1973782"
+			}],
+		"images": [
+			"europawahl1.jpg",
+			"europawahl2.jpg",
+			"europawahl3.jpg"
+		]
+	},
+	{
+		"title": "Newsgame World Cup Simulation",
+		"description": "Das Newsgame beschäftigt sich mit der Frage, wie sehr die Gastgeberländer von großen Sportveranstaltungen, wie der Fußball-WM oder den Olympischen Spielen,  profitieren. Der Spieler, als zwielichtiger Präsident eines fiktiven, korrupten Staates, muss sich einer Reihe von Fragen stellen. Er muss komplexe Entscheidungen treffen, welche unmittelbare politische, wirtschaftliche und touristischen Folgen haben. Das Ergebnis des Spiels wird durch beurteilt, wie viel Geld der Spieler ausgegeben hat und wie viel das Land davon profitierte. Schafft es der Spieler nicht, alle Aufgaben vor der Weltmeister zu erfüllen, kann diese nicht stattfinden - und das Land wird zum Gespött der freien (und nicht so frei) Welt.",
+		"date": "Mai 2014",
+		"type": "Newsgame",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Newsgames Hackathon (Games Lab Cologne)",
+		"links": [{
+				"name": "Spiel „World Cup Simulator“",
+				"url": "http://stekhn.de/worldcup"
+			},
+			{
+				"name": "Projektseite",
+				"url": "http://newsgames-hackathon.tumblr.com/games"
+			}],
+		"images": [
+			"newsgame1.jpg",
+			"newsgame2.jpg",
+			"newsgame3.jpg"
+		]
+	},
+	{
+		"title": "Nebeneinkünfte der Parlamentarier",
+		"description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
+		"date": "März 2014",
+		"type": "Data-Scraping, Analyse und Visualisierung",
+		"role": "Konzept, Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Quellcode des Scrapers",
+				"url": "https://github.com/stekhn/nebeneinkuenfte"
+			},{
+				"name": "Blogeintrag zum Thema Nebeneinkünfte",
+				"url": "http://datenkritik.de/nebeneinkuenfte-visualisieren"
+			},{
+				"name": "Interaktive Grafik (unveröffentlicht)",
+				"url": "http://gfx.sueddeutsche.de/test/nebeneinkuenfte"
+			}],
 		"images": [
 			"nebeneinkuenfte1.jpg",
 			"nebeneinkuenfte2.jpg",
@@ -89,31 +173,88 @@
 		]
 	},
 	{
-		"title": "Newsgame World Cup Simulation",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"title": "Kartendesign Blossom",
+		"description": "Die Open Street Map bietet hervorragende Kartendaten, jedoch ist die Kartendarstellung nicht sonderlich ansprechend. Blossom ist ein leichtes Kartendesign für Open Street Map und eignet sich vor allem für Übersichtskarten. Das Design wurde in CartoCSS geschrieben und ist Open Source.",
+		"date": "März 2014",
+		"type": "Kartenstil",
+		"role": "Design",
 		"contributors": "",
 		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/location-history"
+			},{
+				"name": "Demo",
+				"url": "http://stekhn.de/locationhistory"
+			}],
 		"images": [
-			"newsgame1.jpg",
-			"newsgame2.jpg",
-			"newsgame3.jpg"
+			"blossom1.jpg",
+			"blossom2.jpg"
 		]
 	},
-		{
-		"title": "Bundestagswahl",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+	{
+		"title": "Süddeutsche.de App",
+		"description": "Mehr Qualitätsjournalismus für unterwegs. News, Hintergründe und mehr: Die Süddeutsche.de-App bringt die gesamte aktuelle Nachrichtenseite der SZ auf iPhone. Analysen, Kommentaren, Videos, Bildergalerien und Ticker in gewohnter SZ-Qualität. Mit Funktionen wie Teilen und merken, Eilmeldungen, Nachrichtenticker und Kompaktmodus.",
+		"date": "Januar 2014",
+		"type": "iPhone-App",
+		"role": "Entwicklung",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Appstore",
+				"url": "https://itunes.apple.com/de/app/suddeutsche.de-nachrichten/id338711072?mt=8"
+			}],
+		"images": [
+			"szdeapp.jpg"
+		]
+	},
+	{
+		"title": "Geheimer Krieg",
+		"description": "Amerika führt seinen „Krieg gegen der Terror“ längst auch in Deutschland - und die Bundesregierung dürfte davon mehr als nur eine Ahnung haben. Eineinhalb Jahre lang hat ein Team aus Journalisten des NDR und der Süddeutschen Zeitung zu den geheimen US-Strukturen recherchiert, die mitten in Deutschland bestehen. Sie haben Datenbanken ausgewertet und ließen Drohnen steigen, haben Informanten getroffen und Regierungsstellen konfrontiert. Die Website Geheimerkrieg.de ist das Ergebnis dieser Recherchen und erzählt mehre unfassbare Geschichten aus der Welt der Spione und Soldaten.",
+		"date": "November 2013",
+		"type": "Map visualization",
+		"role": "Entwicklung Prototyp",
+		"contributors": "",
+		"client" : "Süddeutsche.de, Open Data City",
+		"links": [{
+				"name": "Geheimer Krieg",
+				"url": "http://www.geheimerkrieg.de"
+			},{
+				"name": "Amerikas geheimer Krieg in Deutschland",
+				"url": "http://www.sueddeutsche.de/1.1818850"
+			}],
+		"images": [
+			"geheimerkrieg.jpg"
+		]
+	},
+	{
+		"title": "Rechte Gewalt in Bayern",
+		"description": "In der Kneipe, im Schwimmbad oder an der Tankstelle: 63 Mal haben Rechtsradikale im vergangenen Jahr in Bayern zugeschlagen. Eine bedrückende Dokumentation alltäglicher rechter Gewalt in Bayern.",
+		"date": "Oktober 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Design, Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Terror im Alltag",
+				"url": "http://www.sueddeutsche.de/1.1800885"
+			}],
+		"images": [
+			"rechtegewalt.jpg"
+		]
+	},
+	{
+		"title": "Bundestagswahl",
+		"description": "Deutschland, die geschwärzte Republik: Der Sieg der Union wird auf der interaktiven Wahlkarte erst richtig deutlich. Alle gewählten Abgeordneten, die Hochburgen der Parteien, die Statistiken, die wahlmüdesten Regionen der Bundestagswahl 2013 im Überblick.",
+		"date": "September 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "So hat Deutschland gewählt",
+				"url": "http://www.sueddeutsche.de/1.1776703"
+			}],
 		"images": [
 			"bundestagswahl1.jpg",
 			"bundestagswahl2.jpg",
@@ -121,100 +262,68 @@
 		]
 	},
 	{
-		"title": "Rechte Gewalt in Bayern",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
-		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
-		"images": [
-			"rechtegewalt.jpg"
-		]
-	},
-	{
-		"title": "Kartendesign Blossom",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
-		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
-		"images": [
-			"blossom1.jpg",
-			"blossom2.jpg"
-		]
-	},
-	{
-		"title": "Geheimer Krieg",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
-		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
-		"images": [
-			"geheimerkrieg.jpg"
-		]
-	},
-	{
 		"title": "Zugmonitor Auswertung",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "So genau wurden die Verspätungen der Deutschen Bahn noch nie aufgeschlüsselt: Seit dem Start des SZ-Zugmonitors vor mehr als einem Jahr haben wir die offiziellen Pünktlichkeitsdaten des Konzerns weiter mitgeschrieben - die Auswertung dieses Zeitraums erlaubt präzise Statistiken. Unsere interaktive Deutschlandkarte bietet eine detaillierte Problemanalyse für jede Strecke und jeden Bahnhof.",
+		"date": "April 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "So verspätet ist die Bahn auf Ihrer Strecke",
+				"url": "http://www.sueddeutsche.de/1.1651455"
+			}],
 		"images": [
 			"zugmonitor.jpg"
 		]
 	},
 	{
 		"title": "Regionen in Bayern",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Develop",
+		"description": "Bayern, der eigenwillige Freistaat, besteht aus sieben Regierungsbezirken, die unterschiedlicher nicht sein könnten. Die Regionen unterscheiden sich nicht nur durch ihren Dialekt, sondern auch durch ihre kulinarischen Spezialitäten, ihre Prominenten und ihre Politiker, sowie ihre Sportvereine und ihre Feste. Was hat Thomas Gottschalk mit Richard Wagner gemein? Wo liegt das Medical Valley? Und was ist ein „Öllkawee“?",
+		"date": "August 2013",
+		"type": "Umschalter",
+		"role": "Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Ein Bayern, sieben Welten",
+				"url": "http://www.sueddeutsche.de/1.1742708"
+			}],
 		"images": [
 			"bayern.jpg"
 		]
 	},
 	{
 		"title": "Verschätzung der Welt",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Daten über globale Entwicklungsthemen sind leicht zu finden. Doch nur wenige sind bereit, sich damit auseinanderzusetzen. Klischees und Vorurteile beherrschen unsere Wahrnehmung. Dagegen kann man nur wenig tun, jedoch wäre es interessant zu wissen, wie falsch wir sind, wenn wir über die Armut in Afrika oder CO2-Emissionen in Nordamerika sprechen. Die grundlegende Frage ist: Können wir mit großen Zahlen umgehen? ”Die Verschätzung der Welt“ macht sich den Spaß am Rätseln zunutze und generiert dabei Benutzerdaten. Diese Daten helfen zu verstehen, wie wir die Welt sehen.",
+		"date": "Juni 2013",
+		"type": "Quiz",
+		"role": "Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Global Editors Network Lab",
+		"links": [{
+				"name": "Prototyp des Spiels",
+				"url": "http://stekhn.de/weltquiz/"
+			},{
+				"name": "Projektseite",
+				"url": "http://community.globaleditorsnetwork.org/content/die-versch%C3%A4tzung-der-welt-0"
+			}],
 		"images": [
 			"verschaetzung.jpg"
 		]
 	},
 	{
-		"title": "Feature Begleiter",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"title": "Begleiter",
+		"description": "Verlässlicher Partner oder Stalker, Geschwister oder Konkurrenten, Gefährte auf Zeit oder über den Tod hinaus: Geschichten über Nähe und Distanz, von den Volontären der Süddeutschen Zeitung.",
+		"date": "Juni 2013",
+		"type": "Scroll-Geschichte",
+		"role": "Konzept, Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Begleiter",
+				"url": "gfx.sueddeutsche.de/pages/begleiter/"
+			}],
 		"images": [
 			"begleiter1.jpg",
 			"begleiter2.jpg",
@@ -223,14 +332,16 @@
 	},
 	{
 		"title": "Zensus 2011",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Wo leben die meisten alten Menschen, wo die jüngsten? Wo besonders viele Katholiken? Oder besonders viele mit Migrationshintergrund? Der Zensus 2011 birgt einige Überraschungen. Die wichtigsten Ergebnisse visualisiert auf einer Deutschlandkarte. Gehen Sie auf Entdeckungsreise.",
+		"date": "März 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Konzept, Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Ergebnisse des Zensus 2011",
+				"url": "http://www.sueddeutsche.de/1.1685321"
+			}],
 		"images": [
 			"zensus.jpg",
 			"zensus2.jpg"
@@ -238,28 +349,26 @@
 	},
 	{
 		"title": "Interaktives Bahnhofsinformationssystem",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Bahnsteige sind Orte der Begegnung, des Wartens und der Orientierung. Ebenso sind Bahnsteige zwangsläufig mit Interaktion verbunden – egal ob man Freunde abholt oder täglich den selben Zug zur Arbeit nimmt. Interaktion findet sowohl mit anderen Menschen statt, als auch mit verschiedenen Leitsystemen wie Anzeigetafeln, Fahrplänen oder Sicherheitsmarkierungen. Das Problem ist: Bahnsteige werden oftmals in ihrer Funktion unterschätzt und mit negativen Emotionen verbunden. Zugverspätungen, eine trostlose Atmosphäre und die Bedrohlichkeit bei Nacht, führen dazu, dass man sich ungern an einem Bahnsteig aufhält. Ein besseres Interaktionsdesign kann helfen, eine positive Erfahrung für jeden Zugreisenden zu schaffen.",
+		"date": "Juni 2012",
+		"type": "Interaktive Installation",
+		"role": "Konzept, Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Filmakademie Baden-Württemberg",
+		"links": [],
 		"images": [
 			"ibis.jpg"
 		]
 	},
 	{
 		"title": "Vampyre unter uns",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "„Vampire unter uns“ ist eine interaktive Anwendung, welche über die in Deutschland lebenden Vampire informieren soll. Menschen die sich vampirisch leben gibt es wirklich: Sie trinken Blut, lassen sich die Eckzähne anschleifen und sehen sich nicht als Teil unserer Gesellschaft. Obwohl die meisten Vampire nichts mit Reportern zu tun haben wollen, gibt es doch einige wenige, welche Auskunft über ihre Leben geben. Die Anwendung soll den Zugang zu solchen persönlichen Geschichten ermöglichen. Es gibt Video(-Reportagen), Hintergrundtexte, Interviews, Grafiken und Bildergalerien. Der Benutzer kann sich selbst entscheiden, ob er die Geschichten nach geografischer Verortung, Themengebiet oder nach Person anschauen möchte.",
+		"date": "Mai 2012",
+		"type": "Informationsportal",
+		"role": "Konzept, Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "Filmakademie Baden-Württemberg",
+		"links": [],
 		"images": [
 			"vampyre1.jpg",
 			"vampyre2.jpg"
@@ -267,14 +376,13 @@
 	},
 	{
 		"title": "Nippon Nuklear",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Die Unfallserie im  japanischen Kernkraftwerk Fukushima Daiichi begann am 11. März 2011 mit einem Erdbeben. In drei Blöcken des Kraftwerks kam es zur Kernschmelze. Vier von sechs Reaktorblöcken des Kraftwerks wurden durch die Unfälle zerstört. Große Mengen an radioaktivem Material wurden freigesetzt und kontaminierten Umwelt und Nahrungsmittel. Hunderttausende Einwohner wurden zur Flucht gezwungen. Die Entsorgungsarbeiten werden voraussichtlich 30 bis 40 Jahre dauern, die Kosten der Katastrophe auf über 150 Mrd. Euro (FAZ) geschätzt. Nach der Katastrophe stieg die Skepsis gegenüber der zivilen Nutzung der Kernenergie. Die Karte gibt wieder, wie die Atomenergie im ressourcenarmen Japan bisher exzessiv genutzt wurde.",
+		"date": "April 2011",
+		"type": "Infografik",
+		"role": "Design",
 		"contributors": "",
-		"client" : "Company",
-		"url": "http://example.com",
-		"size": "1", 
+		"client" : "",
+		"links": [],
 		"images": [
 			"nipponnuklear.jpg"
 		]

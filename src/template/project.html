@@ -6,13 +6,14 @@
 
 		<blockquote>
 			<p>
-				{{project.type}}<br>
-				{{project.date}} for {{project.client}}<br>
-				Tasks: {{project.role}}
+				<span ng-show="project.type">{{project.type}}</span><br>
+				<span ng-show="project.role">{{project.role}}</span><br>
+				<span ng-show="project.date">{{project.date}}</span><span ng-show="project.client"> für {{project.client}}</span>
+
 			</p>
 		</blockquote>
 		
-		<p><a ng-href="{{project.url}}">See the project online</a></p>
+		<p ng-show="project.links"><a ng-repeat="link in project.links" ng-href="{{link.url}}">{{link.name}}<br></a></p>
 	</div>
 
 	<div class="project-images">
@@ -20,7 +21,7 @@
 	</div>
 
 	<div>
-		<a href="#/" class="back">back</div>
+		<a href="#/" class="back">zurück</div>
 	</div>
 
 </article>
