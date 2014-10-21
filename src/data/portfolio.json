@@ -286,19 +286,16 @@
 		]
 	},
 	{
-		"title": "Feature Begleiter",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"title": "Begleiter",
+		"description": "Verlässlicher Partner oder Stalker, Geschwister oder Konkurrenten, Gefährte auf Zeit oder über den Tod hinaus: Geschichten über Nähe und Distanz, von den Volontären der „Süddeutschen Zeitung“. Sechs Geschichten als Scroll-Geschichte.",
+		"date": "Juni 2013",
+		"type": "Scroll-Geschichte",
+		"role": "Konzept, Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
+		"client" : "Süddeutsche.de",
 		"links": [{
-				"name": "Quellcode",
-				"url": "https://github.com/stekhn/location-history"
-			},{
-				"name": "Demo",
-				"url": "http://stekhn.de/locationhistory"
+				"name": "Begleiter",
+				"url": "gfx.sueddeutsche.de/pages/begleiter/"
 			}],
 		"images": [
 			"begleiter1.jpg",
@@ -308,18 +305,15 @@
 	},
 	{
 		"title": "Zensus 2011",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Wo leben die meisten alten Menschen, wo die jüngsten? Wo besonders viele Katholiken? Oder besonders viele mit Migrationshintergrund? Der Zensus 2011 birgt einige Überraschungen. Die wichtigsten Ergebnisse visualisiert auf einer Deutschlandkarte. Gehen Sie auf Entdeckungsreise.",
+		"date": "März 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Konzept, Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
+		"client" : "Süddeutsche.de",
 		"links": [{
-				"name": "Quellcode",
-				"url": "https://github.com/stekhn/location-history"
-			},{
-				"name": "Demo",
-				"url": "http://stekhn.de/locationhistory"
+				"name": "Ergebnisse des Zensus 2011",
+				"url": "http://www.sueddeutsche.de/1.1685321"
 			}],
 		"images": [
 			"zensus.jpg",
