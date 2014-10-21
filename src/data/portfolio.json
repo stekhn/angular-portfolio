@@ -92,27 +92,38 @@
 		]
 	},
 	{
-		"title": "Nebeneinkünfte der Parlamentarier",
-		"description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
-		"date": "Juni 2014",
-		"type": "Data-Scraping, Analyse und Visualisierung",
-		"role": "Konzept, Entwicklung",
+		"title": "25 Jahre Tiananmen-Massaker",
+		"description": "Chinas Regierung versucht, alle Spuren des Massakers zu beseitigen. In der Nacht zum 4. Juni 1989 war die Volksbefreiungsarmee mit Panzern gegen Studenten vorgegangen, die seit Wochen auf dem Platz des Himmlischen Friedens für mehr Demokratie demonstriert hatten. Dabei wurden Hunderte, möglicherweise sogar Tausende Menschen getötet. SZ und Weltspiegel besuchen Menschen, die sich an die Nacht vor 25 Jahren erinnern. Eine Digital-Reportage anlässlich des Jahrestags der Studentenproteste auf dem Platz des Himmlischen Friedens.",
+		"type": "Scroll-Geschichte",
+		"role": "Entwicklung",
 		"contributors": "",
 		"client" : "Süddeutsche.de",
 		"links": [{
-				"name": "Quellcode des Scrapers",
-				"url": "https://github.com/stekhn/nebeneinkuenfte"
-			},{
-				"name": "Blogeintrag zum Thema Nebeneinkünfte",
-				"url": "http://datenkritik.de/nebeneinkuenfte-visualisieren"
-			},{
-				"name": "Interaktive Grafik (unveröffentlich)",
-				"url": "http://gfx.sueddeutsche.de/test/nebeneinkuenfte"
+				"name": "Trauern verboten",
+				"url": "http://gfx.sueddeutsche.de/pages/tiananmen/"
 			}],
 		"images": [
-			"nebeneinkuenfte1.jpg",
-			"nebeneinkuenfte2.jpg",
-			"nebeneinkuenfte3.jpg"
+			"tiananmen.jpg"
+		]
+	},
+
+	
+	{
+		"title": "Europawahl",
+		"description": "Europa, der schwarze Kontinent. Oder doch der Kontinent der Populisten? Die interaktive Grafik von SZ.de zeigt die Ergebnisse der Europawahl 2014 in vielen Details. Partei-Hochburgen, wahlmüde Regionen, gewählte Abgeordnete. Ein Überblick der Wahlergebnisse.",
+		"date": "Mai 2014",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "So hat Europa gewählt",
+				"url": "http://www.sueddeutsche.de/1.1973782"
+			}],
+		"images": [
+			"europawahl1.jpg",
+			"europawahl2.jpg",
+			"europawahl3.jpg"
 		]
 	},
 	{
@@ -138,21 +149,27 @@
 		]
 	},
 	{
-		"title": "Europawahl",
-		"description": "Europa, der schwarze Kontinent. Oder doch der Kontinent der Populisten? Die interaktive Grafik von SZ.de zeigt die Ergebnisse der Europawahl 2014 in vielen Details. Partei-Hochburgen, wahlmüde Regionen, gewählte Abgeordnete. Ein Überblick der Wahlergebnisse.",
-		"date": "January 2014",
-		"type": "Kartenvisualisierung",
-		"role": "Entwicklung",
+		"title": "Nebeneinkünfte der Parlamentarier",
+		"description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
+		"date": "März 2014",
+		"type": "Data-Scraping, Analyse und Visualisierung",
+		"role": "Konzept, Entwicklung",
 		"contributors": "",
 		"client" : "Süddeutsche.de",
 		"links": [{
-				"name": "So hat Europa gewählt",
-				"url": "http://www.sueddeutsche.de/1.1973782"
+				"name": "Quellcode des Scrapers",
+				"url": "https://github.com/stekhn/nebeneinkuenfte"
+			},{
+				"name": "Blogeintrag zum Thema Nebeneinkünfte",
+				"url": "http://datenkritik.de/nebeneinkuenfte-visualisieren"
+			},{
+				"name": "Interaktive Grafik (unveröffentlicht)",
+				"url": "http://gfx.sueddeutsche.de/test/nebeneinkuenfte"
 			}],
 		"images": [
-			"europawahl1.jpg",
-			"europawahl2.jpg",
-			"europawahl3.jpg"
+			"nebeneinkuenfte1.jpg",
+			"nebeneinkuenfte2.jpg",
+			"nebeneinkuenfte3.jpg"
 		]
 	},
 	{
@@ -173,6 +190,22 @@
 		"images": [
 			"blossom1.jpg",
 			"blossom2.jpg"
+		]
+	},
+	{
+		"title": "Süddeutsche.de App",
+		"description": "Mehr Qualitätsjournalismus für unterwegs. News, Hintergründe und mehr: Die Süddeutsche.de-App bringt die gesamte aktuelle Nachrichtenseite der SZ auf iPhone. Analysen, Kommentaren, Videos, Bildergalerien und Ticker in gewohnter SZ-Qualität. Mit Funktionen wie Teilen und merken, Eilmeldungen, Nachrichtenticker und Kompaktmodus.",
+		"date": "Januar 2014",
+		"type": "iPhone-App",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Appstore",
+				"url": "https://itunes.apple.com/de/app/suddeutsche.de-nachrichten/id338711072?mt=8"
+			}],
+		"images": [
+			"szdeapp.jpg"
 		]
 	},
 	{
@@ -211,22 +244,6 @@
 		]
 	},
 	{
-		"title": "Zugmonitor Auswertung",
-		"description": "So genau wurden die Verspätungen der Deutschen Bahn noch nie aufgeschlüsselt: Seit dem Start des SZ-Zugmonitors vor mehr als einem Jahr haben wir die offiziellen Pünktlichkeitsdaten des Konzerns weiter mitgeschrieben - die Auswertung dieses Zeitraums erlaubt präzise Statistiken. Unsere interaktive Deutschlandkarte bietet eine detaillierte Problemanalyse für jede Strecke und jeden Bahnhof.",
-		"date": "April 2013",
-		"type": "Kartenvisualisierung",
-		"role": "Entwicklung",
-		"contributors": "",
-		"client" : "Süddeutsche.de",
-		"links": [{
-				"name": "So verspätet ist die Bahn auf Ihrer Strecke",
-				"url": "http://www.sueddeutsche.de/1.1651455"
-			}],
-		"images": [
-			"zugmonitor.jpg"
-		]
-	},
-	{
 		"title": "Bundestagswahl",
 		"description": "Deutschland, die geschwärzte Republik: Der Sieg der Union wird auf der interaktiven Wahlkarte erst richtig deutlich. Alle gewählten Abgeordneten, die Hochburgen der Parteien, die Statistiken, die wahlmüdesten Regionen der Bundestagswahl 2013 im Überblick.",
 		"date": "September 2013",
@@ -242,6 +259,22 @@
 			"bundestagswahl1.jpg",
 			"bundestagswahl2.jpg",
 			"bundestagswahl3.jpg"
+		]
+	},
+	{
+		"title": "Zugmonitor Auswertung",
+		"description": "So genau wurden die Verspätungen der Deutschen Bahn noch nie aufgeschlüsselt: Seit dem Start des SZ-Zugmonitors vor mehr als einem Jahr haben wir die offiziellen Pünktlichkeitsdaten des Konzerns weiter mitgeschrieben - die Auswertung dieses Zeitraums erlaubt präzise Statistiken. Unsere interaktive Deutschlandkarte bietet eine detaillierte Problemanalyse für jede Strecke und jeden Bahnhof.",
+		"date": "April 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "So verspätet ist die Bahn auf Ihrer Strecke",
+				"url": "http://www.sueddeutsche.de/1.1651455"
+			}],
+		"images": [
+			"zugmonitor.jpg"
 		]
 	},
 	{
