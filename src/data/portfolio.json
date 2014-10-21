@@ -156,27 +156,11 @@
 		]
 	},
 	{
-		"title": "Rechte Gewalt in Bayern",
-		"description": "In der Kneipe, im Schwimmbad oder an der Tankstelle: 63 Mal haben Rechtsradikale im vergangenen Jahr in Bayern zugeschlagen. Eine bedrückende Dokumentation alltäglicher rechter Gewalt in Bayern.",
-		"date": "Oktober 2013",
-		"type": "Kartenvisualisierung",
-		"role": "Design, Entwicklung",
-		"contributors": "",
-		"client" : "Süddeutsche.de",
-		"links": [{
-				"name": "Terror im Alltag",
-				"url": "http://www.sueddeutsche.de/1.1800885"
-			}],
-		"images": [
-			"rechtegewalt.jpg"
-		]
-	},
-	{
 		"title": "Kartendesign Blossom",
-		"description": "A demo project for testing purposes",
-		"date": "Oktober 201",
-		"type": "Map visualization",
-		"role": "Developer",
+		"description": "Die Open Street Map bietet hervorragende Kartendaten, jedoch ist die Kartendarstellung nicht sonderlich ansprechend. Blossom ist ein leichtes Kartendesign für Open Street Map und eignet sich vor allem für Übersichtskarten. Das Design wurde in CartoCSS geschrieben und ist Open Source.",
+		"date": "März 2014",
+		"type": "Kartenstil",
+		"role": "Design",
 		"contributors": "",
 		"client" : "Company",
 		"links": [{
@@ -193,37 +177,50 @@
 	},
 	{
 		"title": "Geheimer Krieg",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
+		"description": "Amerika führt seinen \"Krieg gegen der Terror\" längst auch in Deutschland - und die Bundesregierung dürfte davon mehr als nur eine Ahnung haben. Eineinhalb Jahre lang hat ein Team aus Journalisten des NDR und der Süddeutschen Zeitung zu den geheimen US-Strukturen recherchiert, die mitten in Deutschland bestehen. Sie haben Datenbanken ausgewertet und ließen Drohnen steigen, haben Informanten getroffen und Regierungsstellen konfrontiert. Die Website Geheimerkrieg.de ist das Ergebnis dieser Recherchen und erzählt mehre unfassbare Geschichten aus der Welt der Spione und Soldaten.",
+		"date": "November 2013",
 		"type": "Map visualization",
-		"role": "Developer",
+		"role": "Entwicklung Prototyp",
 		"contributors": "",
-		"client" : "Company",
+		"client" : "Süddeutsche.de, Open Data City",
 		"links": [{
-				"name": "Quellcode",
-				"url": "https://github.com/stekhn/location-history"
+				"name": "Geheimer Krieg",
+				"url": "http://www.geheimerkrieg.de"
 			},{
-				"name": "Demo",
-				"url": "http://stekhn.de/locationhistory"
+				"name": "Amerikas geheimer Krieg in Deutschland",
+				"url": "http://www.sueddeutsche.de/1.1818850"
 			}],
 		"images": [
 			"geheimerkrieg.jpg"
 		]
 	},
 	{
-		"title": "Zugmonitor Auswertung",
-		"description": "A demo project for testing purposes",
-		"date": "January 2014",
-		"type": "Map visualization",
-		"role": "Developer",
+		"title": "Rechte Gewalt in Bayern",
+		"description": "In der Kneipe, im Schwimmbad oder an der Tankstelle: 63 Mal haben Rechtsradikale im vergangenen Jahr in Bayern zugeschlagen. Eine bedrückende Dokumentation alltäglicher rechter Gewalt in Bayern.",
+		"date": "Oktober 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Design, Entwicklung",
 		"contributors": "",
-		"client" : "Company",
+		"client" : "Süddeutsche.de",
 		"links": [{
-				"name": "Quellcode",
-				"url": "https://github.com/stekhn/location-history"
-			},{
-				"name": "Demo",
-				"url": "http://stekhn.de/locationhistory"
+				"name": "Terror im Alltag",
+				"url": "http://www.sueddeutsche.de/1.1800885"
+			}],
+		"images": [
+			"rechtegewalt.jpg"
+		]
+	},
+	{
+		"title": "Zugmonitor Auswertung",
+		"description": "So genau wurden die Verspätungen der Deutschen Bahn noch nie aufgeschlüsselt: Seit dem Start des SZ-Zugmonitors vor mehr als einem Jahr haben wir die offiziellen Pünktlichkeitsdaten des Konzerns weiter mitgeschrieben - die Auswertung dieses Zeitraums erlaubt präzise Statistiken. Unsere interaktive Deutschlandkarte bietet eine detaillierte Problemanalyse für jede Strecke und jeden Bahnhof.",
+		"date": "April 2013",
+		"type": "Kartenvisualisierung",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "So verspätet ist die Bahn auf Ihrer Strecke",
+				"url": "http://www.sueddeutsche.de/1.1651455"
 			}],
 		"images": [
 			"zugmonitor.jpg"
