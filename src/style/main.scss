@@ -109,8 +109,23 @@ em, i {
 		}
 	}
 
+	.project-page {
+
+		.project-description {
+			width: 100%;
+		}
+
+		.project-images {
+			float: none;
+		}
+	}
+
 	.map {
 		margin-top: 0;
+	}
+
+	.timeline {
+		display: block;
 	}
 
 	nav {
