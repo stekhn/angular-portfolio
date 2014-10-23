@@ -2,7 +2,20 @@ footer {
 	margin-top: 4em;
 
 	p {
+
 		font-weight: 300;
+		color: $darkgrey;
 		text-align: center;
+
+		a {
+			@include transition(.25s);
+			
+			text-decoration: none;
+			color: $darkgrey;
+
+			&:hover {
+				color: $red;
+			}
+		}
 	}
 }
