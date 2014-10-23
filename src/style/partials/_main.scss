@@ -84,3 +84,58 @@ main {
 		margin-bottom: 0;
 	}
 }
+
+@media (max-width: 960px) {
+
+	.project-thumb {
+		width: 30%;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+  	.project-thumb {
+		width: 45%;
+
+		figcaption {
+			opacity: 1;
+		}
+	}
+
+	.project-page {
+
+		.project-description {
+			width: 100%;
+		}
+
+		.project-images {
+			float: none;
+		}
+	}
+
+	.map {
+		margin-top: 0;
+	}
+
+	.timeline {
+		display: block;
+	}
+
+	nav {
+		float: none;
+		margin: 0 0 2em 0;
+	}
+}
+
+@media (max-width: 460px) {
+
+	body {
+		padding: 0 2em;
+		margin: 1em auto;
+	}
+
+  	.project-thumb {
+		width: 100%;
+	}
+}
