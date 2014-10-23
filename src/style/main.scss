@@ -23,13 +23,11 @@ $darkgrey: #aaa;
 @import "compass/css3";
 @import "partials/reset.scss";
 @import "partials/font.scss";
-@import "partials/content.scss";
+@import "partials/main.scss";
 @import "partials/header.scss";
 @import "partials/project.scss";
 @import "partials/curriculum.scss";
 @import "partials/contact.scss";
-@import "partials/blog.scss";
-@import "partials/imprint.scss";
 @import "partials/footer.scss";
 
 // html {
@@ -46,7 +44,6 @@ body {
 	color: #222;
 
 	max-width: 1200px;
-	widows: 100%;
 	padding: 0 3em;
 	margin: 2em auto;
 }
@@ -66,6 +63,7 @@ h2 {
 
 h3 {
 	font-size: 2em;
+	margin-top: 1em;
 	margin-bottom: .5em;
 }
 
@@ -89,5 +87,61 @@ em, i {
 		margin: -32px 0 0 -32px;
 		width: 64px;
 		height: 64px;		
+	}
+}
+
+
+@media (max-width: 960px) {
+
+	.project-thumb {
+		width: 30%;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+  	.project-thumb {
+		width: 45%;
+
+		figcaption {
+			opacity: 1;
+		}
+	}
+
+	.project-page {
+
+		.project-description {
+			width: 100%;
+		}
+
+		.project-images {
+			float: none;
+		}
+	}
+
+	.map {
+		margin-top: 0;
+	}
+
+	.timeline {
+		display: block;
+	}
+
+	nav {
+		float: none;
+		margin: 0 0 2em 0;
+	}
+}
+
+@media (max-width: 460px) {
+
+	body {
+		padding: 0 2em;
+		margin: 1em auto;
+	}
+
+  	.project-thumb {
+		width: 100%;
 	}
 }

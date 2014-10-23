@@ -1,15 +1,27 @@
 <section class="blog">
 
-	<div ng-show='existingArticles()'>
-		<div ng-repeat="article in articles">
+	<p>
+		In meinem Blog <a href="http://datenkritik.de" target="_blank"><strong>Datenkritik</strong></a> schreibe ich über Journalismus, Code und Design. Ich beobachte die Neuerungen im Bereich Datenjournalismus und verfasse Anleitungen zum Umsetzen kleinerer datenjournalistischer Projekte. Außerdem fordere ich <a href="http://datenkritik.de/open-source-im-journalismus/" target="_blank">mehr Open Source im Journalismus</a>.   
+	</p>
+
+	<section class="timeline" ng-show='existingArticles()'>
+
+		<div class="line"></div>
+
+		<div ng-repeat="article in articles" class="row">
+			<div class="bubble"></div>
 			<p>{{article.title}} <a href='{{article.link}}' target='_blank'>(Link)</a></p>
 		</div>
-	</div>
 
-	<div ng-hide='existingArticles()'>
-		<div >
-			Unable to load RSS feed.
-		</div>
-	</div>
+	</section>
+
+	
+	<section ng-hide='existingArticles()'>
+
+		<p>
+			<strong>RSS-Feed nicht gefunden.</strong>
+		</p>
+
+	</section>
 	
 </section>
