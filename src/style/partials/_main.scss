@@ -1,3 +1,55 @@
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px/22px;
+	color: #222;
+
+	max-width: 1200px;
+	padding: 0 3em;
+	margin: 2em auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'League Gothic', 'Arial Narrow', Impact, sans-serif;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: .5em;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+em, i {
+	font-style: italic;
+}
+
+.loading {
+	position: relative;
+	z-index: 100;
+	height: 20em;
+
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -32px 0 0 -32px;
+		width: 64px;
+		height: 64px;		
+	}
+}
+
 main {
 	clear: both;
 	position: relative;
