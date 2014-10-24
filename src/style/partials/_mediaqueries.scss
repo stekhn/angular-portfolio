@@ -8,6 +8,11 @@
 
 @media (max-width: 768px) {
 
+	body {
+		padding: 0 2em;
+		margin: 1em auto;
+	}
+
   	.project-thumb {
 		width: 45%;
 
@@ -29,6 +34,7 @@
 
 	.map {
 		margin-top: 0;
+		width: 100%
 	}
 
 	.timeline {
@@ -45,9 +51,8 @@
 
 @media (max-width: 460px) {
 
-	body {
-		padding: 0 2em;
-		margin: 1em auto;
+	.map {
+		display: none;
 	}
 
   	.project-thumb {
