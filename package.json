@@ -1,6 +1,13 @@
 {
-  "name": "JRB",
-  "version": "0.0.1",
+  "name": "Portfolio",
+  "description": "Portfolio build with AngularJS",
+  "author": "Steffen Kühne",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stekhn/portfolio.git"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-requirejs": "~0.4.0",
@@ -10,4 +17,5 @@
     "grunt-shell-spawn": "~0.3.0",
     "grunt-contrib-watch": "~0.5.3"
   }
+
 }
