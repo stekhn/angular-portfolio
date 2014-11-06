@@ -2,7 +2,9 @@
 
 	var app = angular.module('portfolio', ['ngRoute', 'feedReader', 'toDashCase']);
 
-	app.config(['$routeProvider', function ($routeProvider) {
+	app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+
+		$locationProvider.hashPrefix('!');
 		$routeProvider
 			.when("/", {templateUrl: "template/project-list.html"})
 			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})

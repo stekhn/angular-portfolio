@@ -1,0 +1,14 @@
+<IfModule mod_headers.c="">
+  RequestHeader set X-Prerender-Token "uhipfWd7Rxsxapvh7SRw"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+ 
+    <IfModule mod_proxy_http.c>
+        RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest|slackbot [NC,OR]
+        RewriteCond %{QUERY_STRING} _escaped_fragment_
+        
+        RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent))(.*) http://service.prerender.io/http://stekhn.de/$2 [P,L]
+    </IfModule>
+</IfModule>
