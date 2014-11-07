@@ -9,6 +9,7 @@ module.exports = function (grunt) {
             dist: {
                 files: [
                     { expand: true, src: ['src/index.html'], dest: 'dist/', filter: 'isFile', flatten: true },
+                    { expand: true, src: ['src/preview.jpg'], dest: 'dist/', filter: 'isFile', flatten: true },
                     { expand: true, src: ['src/font/*'], dest: 'dist/font/', flatten: true },
                     { expand: true, src: ['src/data/*'], dest: 'dist/data/', flatten: true },
                     { expand: true, src: ['src/template/*'], dest: 'dist/template/', flatten: true },

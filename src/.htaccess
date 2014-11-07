@@ -1,4 +1,4 @@
-<IfModule mod_headers.c>
+<IfModule mod_headers.c="">
     RequestHeader set X-Prerender-Token "uhipfWd7Rxsxapvh7SRw"
 </IfModule>
 
