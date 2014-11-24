@@ -13,8 +13,7 @@ module.exports = function (grunt) {
                     { expand: true, src: ['src/font/*'], dest: 'dist/font/', flatten: true },
                     { expand: true, src: ['src/data/*'], dest: 'dist/data/', flatten: true },
                     { expand: true, src: ['src/template/*'], dest: 'dist/template/', flatten: true },
-                    { expand: true, src: ['src/img/*'], dest: 'dist/img/', flatten: true },
-                    { expand: true, src: ['src/img/project/*'], dest: 'dist/img/project', flatten: true },
+                    { expand: true, src: ['src/img/*'], dest: 'dist/img/', flatten: true }
                 ]  
             }
         },
@@ -77,6 +76,20 @@ module.exports = function (grunt) {
                 dest: 'dist/src/main.min.js',
             },
         },
+         imagemin: {
+            jpg: {
+                options: {
+                    progressive: true
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'src/img/project/',
+                    src: ['*.jpg'],
+                    dest: 'dist/img/project/',
+                    ext: '.jpg'
+                }]
+            }
+        }
 
     });
 
@@ -89,8 +102,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-ng-annotate');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     grunt.registerTask('default', [
-        'clean', 'copy', 'compass', 'useminPrepare', 'cssmin', 'ngAnnotate', 'uglify', 'concat', 'usemin'
+        'clean', 'copy', 'compass', 'useminPrepare', 'cssmin', 'ngAnnotate', 'uglify', 'concat', 'usemin', 'imagemin'
     ]);
 };
