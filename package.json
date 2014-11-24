@@ -1,13 +1,25 @@
 {
-  "name": "JRB",
-  "version": "0.0.1",
+  "name": "Portfolio",
+  "description": "Portfolio build with AngularJS",
+  "author": "Steffen Kühne",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stekhn/portfolio.git"
+  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-requirejs": "~0.4.0",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-text-replace": "~0.3.9",
-    "grunt-contrib-compass": "~0.6.0",
-    "grunt-shell-spawn": "~0.3.0",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-imagemin": "^0.9.2",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ng-annotate": "^0.5.0",
+    "grunt-ngmin": "0.0.3",
+    "grunt-usemin": "^2.6.0"
   }
 }

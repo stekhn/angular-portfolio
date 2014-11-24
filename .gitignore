@@ -4,7 +4,7 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-### OSX ###
+### OS X ###
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -13,11 +13,16 @@ Icon
 .Spotlight-V100
 .Trashes
 
-### Project Files ###
+### Project files ###
+build
+dist
+.sass-cache/
+.tmp/
+node_modules/
+
+### Editor files ###
 .idea/
 .idea_modules/
 atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 *.sublime-workspace
-.sass-cache/
-node_modules/
