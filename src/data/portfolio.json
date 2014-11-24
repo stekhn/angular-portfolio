@@ -1,4 +1,25 @@
-[ 
+[
+	
+	{
+		"title": "Serious Game: Organspenden",
+		"description": "Ist Organspende noch ein Thema? Ja, denn die Zahl der Organspender ist so niedrig wie noch nie. Ein Grund dafür ist der Skandal um die Organverteilung im Jahr 2012. The waiting list greift das Problem als Serious Game auf. Das Projekt ist als kurzes Spiel für zwischendurch angelegt. Es soll keine vertiefenden Informationen bieten, sondern einen einfachen und eindrücklichen Zugang zum Thema verschaffen. Der Spieler bekommt ein Gefühl dafür, wie schwierig es ist, bei einer geringen Anzahl von vorhandenen Spenderorganen, möglichst viele Leben zu retten. Das Projekt ist Open Source und entstand im Rahmen des Open Data Hackday.",
+		"date": "Oktober 2014",
+		"type": "Serious Game",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Open Data Hackday",
+		"links": [{
+				"name": "Quellcode",
+				"url": "https://github.com/stekhn/organspenden-game"
+			},{
+				"name": "Spiel",
+				"url": "http://stekhn.github.io/organspenden-game/"
+			}],
+		"images": [
+			"waitinglist1.jpg",
+			"waitinglist2.jpg"
+		]
+	},
 	{
 		"title": "Google Standortverlauf visualisieren",
 		"description": "Der Standortverlauf wird bei vielen Android-Geräten automatisch gespeichert. Google verfolgt aktiv alle Bewegungen des Benutzers, basierend auf Positionsdaten von GPS, WLAN und Mobilfunkmasten. Diese Anwendung ermöglicht es, den eigenen Standortverlauf zusammengefasst anzuzeigen. Dadurch kann man sehen, wo man sich in letzter Zeit besonders häufig aufgehalten hat und was man für typische Beweungsmuster hat. Der Quellcode des Programms ist frei verfügbar und kann jederzeit für eigene Projekte genutzt werden.",
