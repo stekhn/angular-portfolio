@@ -25,10 +25,17 @@
         <meta name="copyright" content="Steffen Kühne"/>
         <meta name="description" content="Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus und -visualisierung, interaktive Grafik und Webentwicklung in München."/>
         <meta name="keywords" content="Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Longread, Webentwicklung, Datenkritik, Steffen Kühne, München"/>
-
-        <link rel="stylesheet" href="css/style.min.css">
         
-        <script src="src/main.min.js"></script>
+        <!-- build:css css/style.min.css -->
+        <link rel="stylesheet" type="text/css" href="style/main.css">
+        <!-- endbuild -->
+        
+        <!-- build:js src/main.min.js -->
+        <script type="text/javascript" src="../vendor/angular/angular.min.js"></script>
+        <script type="text/javascript" src="../vendor/angular/angular-route.min.js"></script>
+        <script type="text/javascript" src="../vendor/underscore/underscore.min.js"></script>
+        <script type="text/javascript" src="script/app.js"></script>
+        <!-- endbuild -->
         
     </head>
 
@@ -42,7 +49,7 @@
 
         <main ng-view ng-hide="layout.loading"></main>
 
-        <footer>
+    	<footer>
             <p><a href="https://twitter.com/stekhn" target="_blank">Twitter</a> | <a href="http://datenkritik.de" target="_blank">Blog</a> | <a href="https://github.com/stekhn/portfolio" target="_blank">Quellcode</a>  
         </footer>
    
