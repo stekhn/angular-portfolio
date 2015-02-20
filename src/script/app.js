@@ -1,6 +1,6 @@
 (function() {
 
-	var app = angular.module('portfolio', ['ngRoute', 'feedReader', 'toDashCase']);
+	var app = angular.module('portfolio', ['ngRoute', 'feedReader']);
 
 	app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 
@@ -53,20 +53,21 @@
 	app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
 
 		$scope.isActive = function(route) {
+
 			return route === $location.path();
 		};
 	}]);
 
-	app.controller('ProjectCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
+	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', function ($scope, $routeParams, $filter) {
 
 		var current;
 
 		for (var key in $scope.projects) {
 
-			// @Todo Use toDashCase function
-			var dashcaseTitle = $scope.projects[key].title.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
+			var dashCaseTitle = $filter('dashcase')($scope.projects[key].title);
 
-			if ($routeParams.name === dashcaseTitle) {
+			if ($routeParams.name === dashCaseTitle) {
+
 				current = key;
 			}
 		}
@@ -74,15 +75,22 @@
 		$scope.project = $scope.projects[current];
 	}]);
 
+	app.filter('dashcase', function() {
+
+		return function(input) {
+			input = input.replace(/\s+/g, '-')
+				.toLowerCase()
+				.replace('ä', 'ae')
+				.replace('ö', 'oe')
+				.replace('ü', 'ue')
+				.replace('ß', 'ss')
+				.replace(/[^a-z0-9-]/g, '');
+			return input;
+		};
+	});
+
 }());
 
-angular.module('toDashCase', []).filter('dashcase', function() {
-	return function(input) {
-		input = input.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
-		console.log(input);
-		return input;
-	};
-});
 
 angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {
 
@@ -91,7 +99,9 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 
 	$scope.existingArticles = function () {
 
+		// @Todo Replace with vanilla JS
 		return _.find($scope.articles, function (a) {
+
 			return !a.cleared;
 		}) !== null;
 	};
@@ -99,10 +109,12 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 	$scope.showOrHideAll = function () {
 
 		var markAsHide = _.every($scope.articles, function (a) {
+
 			return a.show;
 		});
 
 		_.each($scope.articles, function (el, index, list) {
+
 			el.show = !markAsHide;
 		});
 	};
@@ -123,6 +135,7 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 		$scope.trustedHtml = $sce.trustAsHtml($scope.html);
 
 		return {
+
 			title: el.title,
 			content: $scope.trustedHtml,
 			read: false,
@@ -142,12 +155,14 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 		parseRSS($scope.rssFeed).then(function (data) {
 
 			if (data === null) {
+
 				return;
 			}
 
 			var mostRecentDate = null;
 
 			var entries = _.map(data.data.responseData.feed.entries, function (el) {
+
 				return parseEntry(el);
 			});
 
@@ -161,6 +176,7 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 			$scope.articles = _.union($scope.articles, entries);
 
 			$scope.articles = _.sortBy($scope.articles, function (el) {
+
 				return el.date;
 			});
 		});
