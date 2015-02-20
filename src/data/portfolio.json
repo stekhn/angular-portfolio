@@ -1,9 +1,25 @@
 [
 	{
+		"title": "Wählerwanderung Hamburg",
+		"description": "Die SPD ist der Gewinner der Bürgerschaftswahl in Hamburg - Olaf Scholz bleibt Bürgermeister, braucht aber einen Koalitionspartner. Die CDU erlebt ein Debakel. Die Grafik zeigt wie sich das Wählerverhalten im Vergleich zu 2011 verändert hat.",
+		"date": "Februar 2015",
+		"type": "Interaktives Diagramm",
+		"role": "Konzept, Design, Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Wählerwanderung bei der Bürgerschaftwahl Hamburg",
+				"url": "http://www.sueddeutsche.de/1.2353382"
+			}],
+		"images": [
+			"waehlerwanderung.jpg"
+		]
+	},
+	{
 		"title": "Zeitleiste Boko Haram",
 		"description": "Dörfer werden niedergebrannt, die Ärmsten massakriert. Die Terrormiliz Boko Haram überzieht Nigeria mit unvorstellbarer Gewalt. Die interaktive Karte dokumentierten die brutalen Exzesse der vergangenen Jahre und erklären den Rachefeldzug der Terrormiliz.",
-		"date": "Januar 2014",
-		"type": "Scroll-Geschichte",
+		"date": "Januar 2015",
+		"type": "Interaktive Karte",
 		"role": "Konzept, Design, Entwicklung",
 		"contributors": "",
 		"client" : "Süddeutsche.de",
