@@ -63,7 +63,8 @@
 
 		for (var key in $scope.projects) {
 
-			var dashcaseTitle = $scope.projects[key].title.replace(/\s+/g, '-').toLowerCase();
+			// @Todo Use toDashCase function
+			var dashcaseTitle = $scope.projects[key].title.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
 
 			if ($routeParams.name === dashcaseTitle) {
 				current = key;
@@ -77,7 +78,9 @@
 
 angular.module('toDashCase', []).filter('dashcase', function() {
 	return function(input) {
-		return input.replace(/\s+/g, '-').toLowerCase();
+		input = input.replace(/\s+/g, '-').toLowerCase().replace(/[^a-z0-9-]/g, '');
+		console.log(input);
+		return input;
 	};
 });
 
