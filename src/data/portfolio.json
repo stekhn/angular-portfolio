@@ -1,5 +1,55 @@
 [
-	
+	{
+		"title": "Wählerwanderung Hamburg",
+		"description": "Die SPD ist der Gewinner der Bürgerschaftswahl in Hamburg - Olaf Scholz bleibt Bürgermeister, braucht aber einen Koalitionspartner. Die CDU erlebt ein Debakel. Die Grafik zeigt wie sich das Wählerverhalten im Vergleich zu 2011 verändert hat.",
+		"date": "Februar 2015",
+		"type": "Interaktives Diagramm",
+		"role": "Konzept, Design, Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Wählerwanderung bei der Bürgerschaftwahl Hamburg",
+				"url": "http://www.sueddeutsche.de/1.2353382"
+			}],
+		"images": [
+			"waehlerwanderung.jpg"
+		]
+	},
+	{
+		"title": "Zeitleiste Boko Haram",
+		"description": "Dörfer werden niedergebrannt, die Ärmsten massakriert. Die Terrormiliz Boko Haram überzieht Nigeria mit unvorstellbarer Gewalt. Die interaktive Karte dokumentierten die brutalen Exzesse der vergangenen Jahre und erklären den Rachefeldzug der Terrormiliz.",
+		"date": "Januar 2015",
+		"type": "Interaktive Karte",
+		"role": "Konzept, Design, Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Der Terrorfeldzug von Boko Haram",
+				"url": "http://www.sueddeutsche.de/1.2339963"
+			}],
+		"images": [
+			"bokoharam1.jpg",
+			"bokoharam2.jpg"
+		]
+	},
+	{
+		"title": "WM 2014: Der Weg zum Titel",
+		"description": "Alles beginnt mit einer SMS. Ein Jahr später ist Deutschland Fußballweltmeister. Dazwischen bittet Per Mertesacker zum Saunabesuch, eine Fähre setzt auf und Manuel Neuer spielt Libero. Eine interaktive Reise durch die WM in Brasilien, enstanden im Rahmen des SZ-Jahresrückblicks 2014.",
+		"date": "November 2014",
+		"type": "Scroll-Geschichte",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "WM 2014: Der Weg zum Titel",
+				"url": "http://gfx.sueddeutsche.de/sport/wm2014/"
+			}],
+		"images": [
+			"wm1.jpg",
+			"wm2.jpg",
+			"wm3.jpg"
+		]
+	},
 	{
 		"title": "Serious Game: Organspenden",
 		"description": "Ist Organspende noch ein Thema? Ja, denn die Zahl der Organspender ist so niedrig wie noch nie. Ein Grund dafür ist der Skandal um die Organverteilung im Jahr 2012. The waiting list greift das Problem als Serious Game auf. Das Projekt ist als kurzes Spiel für zwischendurch angelegt. Es soll keine vertiefenden Informationen bieten, sondern einen einfachen und eindrücklichen Zugang zum Thema verschaffen. Der Spieler bekommt ein Gefühl dafür, wie schwierig es ist, bei einer geringen Anzahl von vorhandenen Spenderorganen, möglichst viele Leben zu retten. Das Projekt ist Open Source und entstand im Rahmen des Open Data Hackday.",
