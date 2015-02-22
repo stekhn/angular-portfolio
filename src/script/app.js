@@ -99,24 +99,10 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 
 	$scope.existingArticles = function () {
 
-		// @Todo Replace with vanilla JS
-		return _.find($scope.articles, function (a) {
+		return $scope.articles.filter(function (a) {
 
 			return !a.cleared;
-		}) !== null;
-	};
-
-	$scope.showOrHideAll = function () {
-
-		var markAsHide = _.every($scope.articles, function (a) {
-
-			return a.show;
-		});
-
-		_.each($scope.articles, function (el, index, list) {
-
-			el.show = !markAsHide;
-		});
+		})[0] !== null;
 	};
 
 	var hostname = (function () {
@@ -161,23 +147,22 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 
 			var mostRecentDate = null;
 
-			var entries = _.map(data.data.responseData.feed.entries, function (el) {
+			$scope.articles = data.data.responseData.feed.entries.map(function (el) {
 
 				return parseEntry(el);
 			});
 
 			if (mostRecentDate !== null) {
 
-				entries = _.filter(entries, function (el) {
+				$scope.articles = entries.filter(function (el) {
+					
 					return el.date < mostRecentDate;
 				});
 			}
 
-			$scope.articles = _.union($scope.articles, entries);
+			$scope.articles = $scope.articles.sort(function(a,b) {
 
-			$scope.articles = _.sortBy($scope.articles, function (el) {
-
-				return el.date;
+				return a.date > b.date || false;
 			});
 		});
 	};
