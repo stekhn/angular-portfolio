@@ -9,6 +9,8 @@ module.exports = function (grunt) {
             dist: {
                 files: [
                     { expand: true, src: ['src/index.html'], dest: 'dist/', filter: 'isFile', flatten: true },
+                    { expand: true, src: ['src/sitemap.xml'], dest: 'dist/', filter: 'isFile', flatten: true },
+                    { expand: true, src: ['src/favicon*'], dest: 'dist/', filter: 'isFile', flatten: true },
                     { expand: true, src: ['src/preview.jpg'], dest: 'dist/', filter: 'isFile', flatten: true },
                     { expand: true, src: ['src/font/*'], dest: 'dist/font/', flatten: true },
                     { expand: true, src: ['src/data/*'], dest: 'dist/data/', flatten: true },
@@ -70,7 +72,6 @@ module.exports = function (grunt) {
             dist: {
                 src: [  'vendor/angular/angular.min.js',
                         'vendor/angular/angular-route.min.js',
-                        'vendor/underscore/underscore.min.js',
                         '.tmp/uglify/app.min.js'
                     ],
                 dest: 'dist/src/main.min.js',
