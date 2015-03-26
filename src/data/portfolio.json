@@ -1,5 +1,36 @@
 [
 	{
+		"title": "Happy Planet Index",
+		"description": "Welches Land der Welt ist das glücklichste? Der Happy Planet Index misst, wie glücklich, nachhaltig und lange Menschen in 151 verschieden Ländern der Welt leben. Bewertet werden ökonomische, soziologische und ökologische Faktoren. Die Karte ist im Rahmen des International Day of Happiness entstanden und wurde mit der Visualisierungsbibliothek D3.js erstellt.",
+		"date": "März 2015",
+		"type": "Interaktive Karte",
+		"role": "Konzept, Design, Entwicklung",
+		"contributors": "",
+		"client" : "International Day of Happiness",
+		"links": [{
+				"name": "The world's happiest countries",
+				"url": "http://stekhn.de/world-happiness/"
+			}],
+		"images": [
+			"happiness.jpg"
+		]
+	},	{
+		"title": "Wann werde ich ersetzt?",
+		"description": "Fast die Hälfte aller Arbeitsplätze ist in den kommenden 20 Jahren bedroht. Das sagt zumindest eine Oxford-Studie, welche die Zukunftsaussichten von 700 Berufsgruppen angesichts der Konkurrenz durch Roboter und Computer berechnet hat. Der Rechner zeigt an wie groß die Wahrscheinlichkeit ist, selbst in naher Zukunft ersetzt zu werden. Die Anwendung bietet eine intelligente Ergebnisvervollständigung und wurde über 6000 mal in den sozialen Netzwerken geteilt.",
+		"date": "März 2015",
+		"type": "Intelligentes Suchfeld",
+		"role": "Konzept, Design, Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Wie wahrscheinlich ist es, dass ich durch einen Computer ersetzt werde?",
+				"url": "http://www.sueddeutsche.de/1.2353382"
+			}],
+		"images": [
+			"automatisierung.jpg"
+		]
+	},
+	{
 		"title": "Wählerwanderung Hamburg",
 		"description": "Die SPD ist der Gewinner der Bürgerschaftswahl in Hamburg - Olaf Scholz bleibt Bürgermeister, braucht aber einen Koalitionspartner. Die CDU erlebt ein Debakel. Die Grafik zeigt wie sich das Wählerverhalten im Vergleich zu 2011 verändert hat.",
 		"date": "Februar 2015",
@@ -218,6 +249,23 @@
 			"newsgame2.jpg",
 			"newsgame3.jpg"
 		]
+	},
+	{
+		"title": "Prototyp Süddeutsche.de",
+		"description": "Für den Relaunch und die Einführung eines Bezahlmodells auf Süddeutsche.de wurden erstmals Benutzertest in Kooperation mit GfK SirValUse durchgeführt. Um die Usability des neuen Headers und die Akzeptanz der Bezahlschranke zu testen, wurde ein Prototyp entwickelt. Der Prototyp erwies sich als sehr nützlich, um in einer frühen Projektphase konzeptionelle und gestalterische Probleme zu identifizieren.",
+		"date": "März 2014",
+		"type": "Prototyp",
+		"role": "Entwicklung",
+		"contributors": "",
+		"client" : "Süddeutsche.de",
+		"links": [{
+				"name": "Die neue Süddeutsche.de",
+				"url": "http://sueddeutsche.de"
+			}],
+		"images": [
+			"szprototyp1.jpg",
+			"szprototyp2.jpg"
+			]
 	},
 	{
 		"title": "Nebeneinkünfte der Parlamentarier",
