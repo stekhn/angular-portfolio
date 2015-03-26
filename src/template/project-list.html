@@ -1,9 +1,20 @@
+<article>
 
-<section class="project-wrapper">
-<figure ng-repeat="project in projects" class="project-thumb" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
-	<a href="#!/project/{{project.title | dashcase}}">
-		<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
-		<figcaption ng-class="{active: hover}">{{project.title}}</figcaption>
-	</a>
-</figure>
-</section>
+	<p>
+		Willkommen. Mein Schwerpunkt ist die Konzeption und Umsetzung von interaktiven Grafiken, Visualisierungen und Web-Anwendungen im Bereich Storytelling und Datenjournalismus. Ich arbeite als Freiberufler in München und freue mich über Ihre <a href="#!/contact">Anfrage</a>. Hier eine Übersicht besonders gelungener Projekte der letzen Jahre:
+	</p>
+
+	<section class="project-wrapper">
+
+		<figure ng-repeat="project in projects" class="project-thumb" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
+
+			<a href="#!/project/{{project.title | dashcase}}">
+				<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
+				<figcaption ng-class="{active: hover}">{{project.title}}</figcaption>
+			</a>
+
+		</figure>
+
+	</section>
+
+</article>
