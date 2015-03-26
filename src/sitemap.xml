@@ -33,13 +33,16 @@
 		<loc>http://stekhn.de/#!/project/geheimer-krieg</loc>
 	</url>
 	<url>
-		<loc>http://stekhn.de/#!/project/suedddeutsche.de-app</loc>
+		<loc>http://stekhn.de/#!/project/sueddeutschede-app</loc>
 	</url>
 	<url>
 		<loc>http://stekhn.de/#!/project/kartendesign-blossom</loc>
 	</url>
 	<url>
 		<loc>http://stekhn.de/#!/project/nebeneinkuenfte-der-parlamentarier</loc>
+	</url>
+	<url>
+		<loc>http://stekhn.de/#!/project/prototyp-sueddeutschede</loc>
 	</url>
 	<url>
 		<loc>http://stekhn.de/#!/project/newsgame-world-cup-simulation</loc>
@@ -76,6 +79,12 @@
 	</url>
 	<url>
 		<loc>http://stekhn.de/#!/project/waehlerwanderung-hamburg</loc>
+	</url>
+	<url>
+		<loc>http://stekhn.de/#!/project/wann-werde-ich-ersetzt</loc>
+	</url>
+	<url>
+		<loc>http://stekhn.de/#!/project/happy-planet-index</loc>
 	</url>
 	<url>
 		<loc>http://stekhn.de/#!/blog</loc>
