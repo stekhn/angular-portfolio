@@ -7,14 +7,14 @@
 		$locationProvider.hashPrefix('!');
 
 		$routeProvider
-			.when("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"})
-			.when("/project/:name", {templateUrl: "template/project.html", controller: "MainMetaCtrl"})
+			.when("/", {templateUrl: "template/project-list.html"})
+			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectMetaCtrl"})
 			.when("/curriculum", {templateUrl: "template/curriculum.html", controller: "MainMetaCtrl"})
 			.when("/contact", {templateUrl: "template/contact.html", controller: "MainMetaCtrl"})
 			.when("/blog", {templateUrl: "template/blog.html", controller: "MainMetaCtrl"})
 			.when("/imprint", {templateUrl: "template/imprint.html", controller: "MainMetaCtrl"})
 			.when("/project", {templateUrl: "template/project.html", controller: "MainMetaCtrl"})
-			.otherwise("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"});
+			.otherwise("/", {templateUrl: "template/project-list.html"});
 	}]);
 
 	app.run(['$rootScope', '$location', '$route', function ($rootScope, $location, $route) {
@@ -39,7 +39,6 @@
 
 			$rootScope.layout.loading = false;
 		});
-
 	}]);
 
 	app.controller('MetaCtrl', ['$scope', 'Meta', function ($scope, Meta) {
@@ -48,6 +47,7 @@
 	}]);
 
 	app.factory('Meta', function() {
+
 		var title = 'Steffen Kühne – Journalismus, Code & Design';
 		var description = 'Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München.';
 		var author = 'Steffen Kühne';
@@ -55,7 +55,9 @@
 		var keywords = 'keywords" content="Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Webentwicklung, Datenkritik, Steffen Kühne, München';
 		var url = 'http://stekhn.de';
 		var image = 'http://stekhn.de/preview.jpg';
+
 		return {
+
 			title: function() { return title; },
 			setTitle: function(newTitle) { title = newTitle; },
 			description: function() { return description; },
@@ -76,6 +78,27 @@
 	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
 
 
+		Meta.setTitle(getTitle($location.path()));
+		Meta.setDescription(getDescription());
+		Meta.setAuthor('description');
+		Meta.setTwitter('description');
+		Meta.setKeywords('kewyords');
+		Meta.setUrl($location.absUrl());
+		Meta.setImage('kewyords');
+	}]);
+
+	function getDescription() {
+
+		return angular.element(document.querySelector('.description')).text();
+	}
+
+	function getTitle(str) {
+		
+		return str.replace('\/','').charAt(0).toUpperCase() + str.slice(2);
+	}
+
+	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
+
 		Meta.setTitle('title');
 		Meta.setDescription('description');
 		Meta.setAuthor('description');
@@ -85,6 +108,18 @@
 		Meta.setImage('kewyords');
 	}]);
 
+	// @TODO Change JSON loader to factory or provider
+	// app.factory('Data', ['$scope', '$http', function ($scope, $http) {
+
+	// 	var obj = { data: null };
+
+	// 	$http.get('data/portfolio.json').success(function (data) {
+
+	// 		$scope.projects = data;
+	// 	});
+
+	// 	return obj;
+	// }]);
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
@@ -214,5 +249,4 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 
 	// update initially
 	$scope.updateModel();
-
 }]);
