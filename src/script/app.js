@@ -7,14 +7,14 @@
 		$locationProvider.hashPrefix('!');
 
 		$routeProvider
-			.when("/", {templateUrl: "template/project-list.html", controller: "Test1Ctrl"})
-			.when("/project/:name", {templateUrl: "template/project.html"})
-			.when("/curriculum", {templateUrl: "template/curriculum.html"})
-			.when("/contact", {templateUrl: "template/contact.html"})
-			.when("/blog", {templateUrl: "template/blog.html"})
-			.when("/imprint", {templateUrl: "template/imprint.html"})
-			.when("/project", {templateUrl: "template/project.html"})
-			.otherwise("/", {templateUrl: "template/project-list.html"});
+			.when("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"})
+			.when("/project/:name", {templateUrl: "template/project.html", controller: "MainMetaCtrl"})
+			.when("/curriculum", {templateUrl: "template/curriculum.html", controller: "MainMetaCtrl"})
+			.when("/contact", {templateUrl: "template/contact.html", controller: "MainMetaCtrl"})
+			.when("/blog", {templateUrl: "template/blog.html", controller: "MainMetaCtrl"})
+			.when("/imprint", {templateUrl: "template/imprint.html", controller: "MainMetaCtrl"})
+			.when("/project", {templateUrl: "template/project.html", controller: "MainMetaCtrl"})
+			.otherwise("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"});
 	}]);
 
 	app.run(['$rootScope', '$location', '$route', function ($rootScope, $location, $route) {
@@ -47,18 +47,44 @@
 		$scope.Meta = Meta;
 	}]);
 
-	app.controller('Test1Ctrl', ['$scope', 'Meta', function ($scope, Meta) {
-
-		Meta.setTitle('title1');
-	}]);
-
 	app.factory('Meta', function() {
-		var title = 'default';
+		var title = 'Steffen Kühne – Journalismus, Code & Design';
+		var description = 'Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München.';
+		var author = 'Steffen Kühne';
+		var twitter = '@stekhn';
+		var keywords = 'keywords" content="Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Webentwicklung, Datenkritik, Steffen Kühne, München';
+		var url = 'http://stekhn.de';
+		var image = 'http://stekhn.de/preview.jpg';
 		return {
 			title: function() { return title; },
-			setTitle: function(newTitle) { title = newTitle; }
+			setTitle: function(newTitle) { title = newTitle; },
+			description: function() { return description; },
+			setDescription: function(newDescription) { description = newDescription; },
+			author: function() { return author; },
+			setAuthor: function(newAuthor) { author = newAuthor; },
+			twitter: function() { return twitter; },
+			setTwitter: function(newTwitter) { twitter = newTwitter; },
+			keywords: function() { return keywords; },
+			setKeywords: function(newKeywords) { keywords = newKeywords; },
+			url: function() { return url; },
+			setUrl: function(newUrl) { url = newUrl; },
+			image: function() { return image; },
+			setImage: function(newImage) { image = newImage; }
 		};
 	});
+
+	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
+
+
+		Meta.setTitle('title');
+		Meta.setDescription('description');
+		Meta.setAuthor('description');
+		Meta.setTwitter('description');
+		Meta.setKeywords('kewyords');
+		Meta.setUrl('kewyords');
+		Meta.setImage('kewyords');
+	}]);
+
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
