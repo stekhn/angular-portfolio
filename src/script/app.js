@@ -7,11 +7,11 @@
 		$locationProvider.hashPrefix('!');
 
 		$routeProvider
-			.when("/", {templateUrl: "template/project-list.html"})
-			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
+			.when("/", {templateUrl: "template/project-list.html", controller: "Test1Ctrl"})
+			.when("/project/:name", {templateUrl: "template/project.html"})
 			.when("/curriculum", {templateUrl: "template/curriculum.html"})
 			.when("/contact", {templateUrl: "template/contact.html"})
-			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
+			.when("/blog", {templateUrl: "template/blog.html"})
 			.when("/imprint", {templateUrl: "template/imprint.html"})
 			.when("/project", {templateUrl: "template/project.html"})
 			.otherwise("/", {templateUrl: "template/project-list.html"});
@@ -39,7 +39,26 @@
 
 			$rootScope.layout.loading = false;
 		});
+
 	}]);
+
+	app.controller('MetaCtrl', ['$scope', 'Meta', function ($scope, Meta) {
+
+		$scope.Meta = Meta;
+	}]);
+
+	app.controller('Test1Ctrl', ['$scope', 'Meta', function ($scope, Meta) {
+
+		Meta.setTitle('title1');
+	}]);
+
+	app.factory('Meta', function() {
+		var title = 'default';
+		return {
+			title: function() { return title; },
+			setTitle: function(newTitle) { title = newTitle; }
+		};
+	});
 
 	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
 
