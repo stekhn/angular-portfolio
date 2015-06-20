@@ -41,11 +41,6 @@
 		});
 	}]);
 
-	app.controller('MetaCtrl', ['$scope', 'Meta', function ($scope, Meta) {
-
-		$scope.Meta = Meta;
-	}]);
-
 	app.factory('Meta', function() {
 
 		var title = 'Steffen Kühne – Journalismus, Code & Design';
@@ -75,9 +70,9 @@
 		};
 	});
 
-	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
+	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', 'Data', function ($scope, $location, Meta, Data) {
 
-
+		console.log('MainMetaCtrl');
 		Meta.setTitle(getTitle($location.path()));
 		Meta.setDescription(getDescription());
 		Meta.setAuthor('description');
@@ -97,8 +92,9 @@
 		return str.replace('\/','').charAt(0).toUpperCase() + str.slice(2);
 	}
 
-	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
+	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta', 'Data', function ($scope, $location, Meta, Data) {
 
+		console.log('ProjectMetaCtrl');
 		Meta.setTitle('title');
 		Meta.setDescription('description');
 		Meta.setAuthor('description');
@@ -109,25 +105,21 @@
 	}]);
 
 	// @TODO Change JSON loader to factory or provider
-	// app.factory('Data', ['$scope', '$http', function ($scope, $http) {
+	app.factory('Data', ['$http', function ($http) {
+		console.log("DataFactory");
+		return {
+			get: function(callback){
+				$http.get('data/portfolio.json').success(callback);
+			}
+		};
+	}]);
 
-	// 	var obj = { data: null };
-
-	// 	$http.get('data/portfolio.json').success(function (data) {
-
-	// 		$scope.projects = data;
-	// 	});
-
-	// 	return obj;
-	// }]);
-
-	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
+	app.controller('DataCtrl', ['$scope', '$http', 'Data', function ($scope, $http, Data) {
 
 		$http.get('data/portfolio.json').success(function (data) {
 
 			$scope.projects = data;
 		});
-
 	}]);
 
 	app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
