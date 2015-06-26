@@ -2,7 +2,8 @@
 
 	var app = angular.module('portfolio', ['ngRoute', 'feedReader']);
 
-	app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+	app.config(['$routeProvider', '$locationProvider',
+		function ($routeProvider, $locationProvider) {
 
 		$locationProvider.hashPrefix('!');
 
@@ -17,7 +18,8 @@
 			.otherwise("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"});
 	}]);
 
-	app.run(['$rootScope', '$location', '$route', 'Meta', function ($rootScope, $location, $route, Meta) {
+	app.run(['$rootScope', '$location', '$route', 'Meta',
+		function ($rootScope, $location, $route, Meta) {
 
 		$rootScope.Meta = Meta;
 
@@ -57,6 +59,7 @@
 
 	}]);
 
+	// @TODO Make this a service
 	app.factory('Meta', function () {
 
 		var title = "Steffen Kühne – Journalismus; Code & Design";
@@ -86,7 +89,9 @@
 		};
 	});
 
-	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
+	// @TODO Get data from Meta service an save them to the current scope 
+	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta',
+		function ($scope, $location, Meta) {
 
 		var metadata = $scope.metadata[$location.url()] || $scope.metadata['/'];
 
@@ -99,7 +104,11 @@
 		Meta.setImage(metadata.image);
 	}]);
 
-	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta', function ($scope, $location, Meta) {
+	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta', 'ProjectService',
+		function ($scope, $location, Meta, ProjectService) {
+
+		var metadata = ProjectService.getProject();
+		console.log(metadata);
 
 		Meta.setTitle('title');
 		Meta.setDescription('description');
@@ -110,7 +119,8 @@
 		Meta.setImage('kewyords');
 	}]);
 
-	app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
+	app.controller('NavCtrl', ['$scope', '$location',
+		function ($scope, $location) {
 
 		$scope.isActive = function(route) {
 
@@ -118,7 +128,8 @@
 		};
 	}]);
 
-	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', function ($scope, $routeParams, $filter) {
+	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', 'ProjectService',
+		function ($scope, $routeParams, $filter, ProjectService) {
 
 		var current;
 
@@ -133,7 +144,26 @@
 		}
 		
 		$scope.project = $scope.projects[current];
+		ProjectService.setProject($scope.project);
 	}]);
+
+	app.factory('ProjectService', function() {
+		var project = {};
+
+		var setProject = function(obj) {
+			project = obj;
+		};
+
+		var getProject = function(){
+			return project;
+		};
+
+		return {
+			setProject: setProject,
+			getProject: getProject
+		};
+
+	});
 
 	app.filter('dashcase', function() {
 
