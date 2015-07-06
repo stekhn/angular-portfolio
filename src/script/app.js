@@ -104,19 +104,19 @@
 		Meta.setImage(metadata.image);
 	}]);
 
-	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta', 'ProjectService',
-		function ($scope, $location, Meta, ProjectService) {
+	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta',
+		function ($scope, $location, Meta) {
 
-		var metadata = ProjectService.getProject();
-		console.log(metadata);
+		$scope.$on('projectChanged', function(event, project) {
 
-		Meta.setTitle('title');
-		Meta.setDescription('description');
-		Meta.setAuthor('description');
-		Meta.setTwitter('description');
-		Meta.setKeywords('kewyords');
-		Meta.setUrl('kewyords');
-		Meta.setImage('kewyords');
+			Meta.setTitle(project.title);
+			Meta.setDescription(project.description);
+			Meta.setAuthor('description');
+			Meta.setTwitter('description');
+			Meta.setKeywords('kewyords');
+			Meta.setUrl($location.absUrl());
+			Meta.setImage($location.protocol() + '://' + $location.host() + '/img/' + project.images[0]);
+		});
 	}]);
 
 	app.controller('NavCtrl', ['$scope', '$location',
@@ -128,10 +128,8 @@
 		};
 	}]);
 
-	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', 'ProjectService',
-		function ($scope, $routeParams, $filter, ProjectService) {
-
-		var current;
+	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter',
+		function ($scope, $routeParams, $filter) {
 
 		for (var key in $scope.projects) {
 
@@ -139,31 +137,11 @@
 
 			if ($routeParams.name === dashCaseTitle) {
 
-				current = key;
+				$scope.project = $scope.projects[key];
+				$scope.$emit('projectChanged', $scope.project);
 			}
 		}
-		
-		$scope.project = $scope.projects[current];
-		ProjectService.setProject($scope.project);
 	}]);
-
-	app.factory('ProjectService', function() {
-		var project = {};
-
-		var setProject = function(obj) {
-			project = obj;
-		};
-
-		var getProject = function(){
-			return project;
-		};
-
-		return {
-			setProject: setProject,
-			getProject: getProject
-		};
-
-	});
 
 	app.filter('dashcase', function() {
 
