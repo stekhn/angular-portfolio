@@ -333,7 +333,7 @@
 				]
 		},
 		{
-			"title": "Nebeneinkünfte der Parlamentarier",
+			"title": "Nebeneinkünfte Bundestag",
 			"description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
 			"date": "März 2014",
 			"type": "Data-Scraping, Analyse und Visualisierung",
