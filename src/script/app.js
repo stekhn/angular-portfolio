@@ -2,26 +2,27 @@
 
 	var app = angular.module('portfolio', ['ngRoute', 'feedReader']);
 
-	app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+	app.config(['$routeProvider', '$locationProvider',
+		function ($routeProvider, $locationProvider) {
 
 		$locationProvider.hashPrefix('!');
 
 		$routeProvider
-			.when("/", {templateUrl: "template/project-list.html"})
-			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectCtrl"})
-			.when("/curriculum", {templateUrl: "template/curriculum.html"})
-			.when("/contact", {templateUrl: "template/contact.html"})
-			.when("/blog", {templateUrl: "template/blog.html", controller: "RssFeedCtrl"})
-			.when("/imprint", {templateUrl: "template/imprint.html"})
-			.when("/project", {templateUrl: "template/project.html"})
-			.otherwise("/", {templateUrl: "template/project-list.html"});
+			.when("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"})
+			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectMetaCtrl"})
+			.when("/curriculum", {templateUrl: "template/curriculum.html", controller: "MainMetaCtrl"})
+			.when("/contact", {templateUrl: "template/contact.html", controller: "MainMetaCtrl"})
+			.when("/blog", {templateUrl: "template/blog.html", controller: "MainMetaCtrl"})
+			.when("/imprint", {templateUrl: "template/imprint.html", controller: "MainMetaCtrl"})
+			.when("/project", {templateUrl: "template/project.html", controller: "MainMetaCtrl"})
+			.otherwise("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"});
 	}]);
 
-	app.run(['$rootScope', '$location', '$route', function ($rootScope, $location, $route) {
+	app.run(['$rootScope', '$location', '$route', 'Meta',
+		function ($rootScope, $location, $route, Meta) {
 
-		$rootScope.config = {};
-		$rootScope.config.app_url = $location.url();
-		$rootScope.config.app_path = $location.path();
+		$rootScope.Meta = Meta;
+
 		$rootScope.layout = {};
 		$rootScope.layout.loading = false;
 
@@ -41,16 +42,77 @@
 		});
 	}]);
 
-	app.controller('JsonLoaderCtrl', ['$scope', '$http', function ($scope, $http) {
+	app.factory('Data', ['$http', function ($http) {
 
-		$http.get('data/portfolio.json').success(function (data) {
+		return $http.get('data/data.json');
+	}]);
 
-			$scope.projects = data;
+	app.controller('DataCtrl', ['$scope', 'Data', function ($scope, Data) {
+
+		Data.success(function(data) { 
+
+		    $scope.metadata = data.metadata;
+		    $scope.projects = data.projects;
 		});
 
 	}]);
 
-	app.controller('NavCtrl', ['$scope', '$location', function ($scope, $location) {
+	// @TODO Make this a service
+	app.factory('Meta', function () {
+
+		var title = "Steffen Kühne – Journalismus; Code & Design";
+		var description = "Konzeption; Beratung und Umsetzung von Projekten im Bereich Datenjournalismus; Visualisierung; interaktive Grafik und Webentwicklung in München.";
+		var keywords = "Datenjournalismus; Datenvisualisierung; interaktive Grafik; Storytelling; Innovation; Online-Journalismus; Webentwicklung; Datenkritik; Steffen Kühne; München";
+		var url = "http://stekhn.de";
+		var image = "http://stekhn.de/preview.jpg";
+
+		return {
+
+			title: function() { return title; },
+			setTitle: function(newTitle) { title = newTitle; },
+
+			description: function() { return description; },
+			setDescription: function(newDescription) { description = newDescription; },
+
+			keywords: function() { return keywords; },
+			setKeywords: function(newKeywords) { keywords = newKeywords; },
+
+			url: function() { return url; },
+			setUrl: function(newUrl) { url = newUrl; },
+
+			image: function() { return image; },
+			setImage: function(newImage) { image = newImage; }
+		};
+	});
+
+	// @TODO Get data from Meta service an save them to the current scope 
+	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta',
+		function ($scope, $location, Meta) {
+
+		var metadata = $scope.metadata[$location.url()] || $scope.metadata['/'];
+
+		Meta.setTitle(metadata.title);
+		Meta.setDescription(metadata.description);
+		Meta.setKeywords(metadata.keywords);
+		Meta.setUrl($location.absUrl());
+		Meta.setImage(metadata.image);
+	}]);
+
+	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta',
+		function ($scope, $location, Meta) {
+
+		$scope.$on('projectChanged', function(event, project) {
+
+			Meta.setTitle(project.title);
+			Meta.setDescription(project.description);
+			Meta.setKeywords('keywords');
+			Meta.setUrl($location.absUrl());
+			Meta.setImage('img/project/' + project.images[0]);
+		});
+	}]);
+
+	app.controller('NavCtrl', ['$scope', '$location',
+		function ($scope, $location) {
 
 		$scope.isActive = function(route) {
 
@@ -58,9 +120,8 @@
 		};
 	}]);
 
-	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', function ($scope, $routeParams, $filter) {
-
-		var current;
+	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter',
+		function ($scope, $routeParams, $filter) {
 
 		for (var key in $scope.projects) {
 
@@ -68,11 +129,10 @@
 
 			if ($routeParams.name === dashCaseTitle) {
 
-				current = key;
+				$scope.project = $scope.projects[key];
+				$scope.$emit('projectChanged', $scope.project);
 			}
 		}
-		
-		$scope.project = $scope.projects[current];
 	}]);
 
 	app.filter('dashcase', function() {
@@ -169,5 +229,4 @@ angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval'
 
 	// update initially
 	$scope.updateModel();
-
 }]);

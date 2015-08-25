@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="portfolio">
+<html lang="en" ng-app="portfolio" ng-controller="DataCtrl">
 
     <head>
 
@@ -8,23 +8,23 @@
 
         <meta name="fragment" content="!">
 
-        <title>Steffen Kühne – Journalismus, Code & Design</title>
+        <title>{{ Meta.title() }}</title>
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@stekhn">
         <meta name="twitter:creator" content="@stekhn" />
-        <meta name="twitter:description" content="Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München."/>
-        <meta name="twitter:image" content="http://stekhn.de/preview.jpg"/>
+        <meta name="twitter:description" content="{{ Meta.description() }}"/>
+        <meta name="twitter:image" content="{{ Meta.image() }}"/>
 
-        <meta name="og:url" content="http://stekhn.de" />
-        <meta property="og:title" content="Steffen Kühne – Portfolio" />
-        <meta property="og:description" content="Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München." />
-        <meta property="og:image" content="http://stekhn.de/preview.jpg" />
+        <meta name="og:url" content="{{ Meta.url() }}" />
+        <meta property="og:title" content="{{ Meta.title() }}" />
+        <meta property="og:description" content="{{ Meta.description() }}" />
+        <meta property="og:image" content="{{ Meta.image() }}" />
 
-        <meta name="author" content="Steffen Kühne"/>
-        <meta name="copyright" content="Steffen Kühne"/>
-        <meta name="description" content="Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München."/>
-        <meta name="keywords" content="Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Longread, Webentwicklung, Datenkritik, Steffen Kühne, München"/>
+        <meta name="author" content="{{ Meta.author() }}"/>
+        <meta name="copyright" content="{{ Meta.author() }}"/>
+        <meta name="description" content="{{ Meta.description() }}"/>
+        <meta name="keywords" content="{{ Meta.keywords() }}"/>
 
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
@@ -43,8 +43,7 @@
         
     </head>
 
-    <body ng-controller="JsonLoaderCtrl">
-
+    <body>
         <section ng-include='"template/header.html"'></section>
 
         <section class="loading" ng-hide="!layout.loading"> 
@@ -54,7 +53,7 @@
         <main ng-view ng-hide="layout.loading"></main>
 
     	<footer>
-            <p><a href="https://twitter.com/stekhn" target="_blank">Twitter</a> | <a href="http://datenkritik.de" target="_blank">Blog</a> | <a href="https://github.com/stekhn/portfolio" target="_blank">Quellcode</a>  
+            <p><a href="https://twitter.com/stekhn" target="_blank">Twitter</a> | <a href="http://datenkritik.de" target="_blank">Blog</a> | <a href="https://github.com/stekhn/portfolio" target="_blank">Quellcode</a></p> 
         </footer>
    
     </body>
