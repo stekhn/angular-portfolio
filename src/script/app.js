@@ -23,9 +23,6 @@
 
 		$rootScope.Meta = Meta;
 
-		$rootScope.config = {};
-		$rootScope.config.app_url = $location.url();
-		$rootScope.config.app_path = $location.path();
 		$rootScope.layout = {};
 		$rootScope.layout.loading = false;
 
@@ -50,9 +47,10 @@
 		return $http.get('data/data.json');
 	}]);
 
-	app.controller('DataCtrl', ['$scope', '$http', 'Data', function ($scope, $http, Data) {
+	app.controller('DataCtrl', ['$scope', 'Data', function ($scope, Data) {
 
 		Data.success(function(data) { 
+
 		    $scope.metadata = data.metadata;
 		    $scope.projects = data.projects;
 		});
@@ -64,8 +62,6 @@
 
 		var title = "Steffen Kühne – Journalismus; Code & Design";
 		var description = "Konzeption; Beratung und Umsetzung von Projekten im Bereich Datenjournalismus; Visualisierung; interaktive Grafik und Webentwicklung in München.";
-		var author = "Steffen Kühne";
-		var twitter = "@stekhn";
 		var keywords = "Datenjournalismus; Datenvisualisierung; interaktive Grafik; Storytelling; Innovation; Online-Journalismus; Webentwicklung; Datenkritik; Steffen Kühne; München";
 		var url = "http://stekhn.de";
 		var image = "http://stekhn.de/preview.jpg";
@@ -74,16 +70,16 @@
 
 			title: function() { return title; },
 			setTitle: function(newTitle) { title = newTitle; },
+
 			description: function() { return description; },
 			setDescription: function(newDescription) { description = newDescription; },
-			author: function() { return author; },
-			setAuthor: function(newAuthor) { author = newAuthor; },
-			twitter: function() { return twitter; },
-			setTwitter: function(newTwitter) { twitter = newTwitter; },
+
 			keywords: function() { return keywords; },
 			setKeywords: function(newKeywords) { keywords = newKeywords; },
+
 			url: function() { return url; },
 			setUrl: function(newUrl) { url = newUrl; },
+
 			image: function() { return image; },
 			setImage: function(newImage) { image = newImage; }
 		};
@@ -97,8 +93,6 @@
 
 		Meta.setTitle(metadata.title);
 		Meta.setDescription(metadata.description);
-		Meta.setAuthor(metadata.author);
-		Meta.setTwitter(metadata.twitter);
 		Meta.setKeywords(metadata.keywords);
 		Meta.setUrl($location.absUrl());
 		Meta.setImage(metadata.image);
@@ -111,11 +105,9 @@
 
 			Meta.setTitle(project.title);
 			Meta.setDescription(project.description);
-			Meta.setAuthor('description');
-			Meta.setTwitter('description');
-			Meta.setKeywords('kewyords');
+			Meta.setKeywords('keywords');
 			Meta.setUrl($location.absUrl());
-			Meta.setImage($location.protocol() + '://' + $location.host() + '/img/' + project.images[0]);
+			Meta.setImage('img/project/' + project.images[0]);
 		});
 	}]);
 
