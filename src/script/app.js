@@ -23,6 +23,9 @@
 
 		$rootScope.Meta = Meta;
 
+		$rootScope.config = {};
+		$rootScope.config.app_url = $location.url();
+		$rootScope.config.app_path = $location.path();
 		$rootScope.layout = {};
 		$rootScope.layout.loading = false;
 
@@ -51,8 +54,12 @@
 
 		Data.success(function(data) { 
 
-		    $scope.metadata = data.metadata;
-		    $scope.projects = data.projects;
+			//@TODO Add callback or event
+			setTimeout(function() {
+				$scope.metadata = data.metadata;
+		    	$scope.projects = data.projects;
+			}, 2000);
+		   
 		});
 
 	}]);
@@ -88,6 +95,8 @@
 	// @TODO Get data from Meta service an save them to the current scope 
 	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta',
 		function ($scope, $location, Meta) {
+
+		console.log($scope.metadata);
 
 		var metadata = $scope.metadata[$location.url()] || $scope.metadata['/'];
 
