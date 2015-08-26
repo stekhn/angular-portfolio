@@ -8,24 +8,58 @@
 		$locationProvider.hashPrefix('!');
 
 		$routeProvider
-			.when("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"})
-			.when("/project/:name", {templateUrl: "template/project.html", controller: "ProjectMetaCtrl"})
-			.when("/curriculum", {templateUrl: "template/curriculum.html", controller: "MainMetaCtrl"})
-			.when("/contact", {templateUrl: "template/contact.html", controller: "MainMetaCtrl"})
-			.when("/blog", {templateUrl: "template/blog.html", controller: "MainMetaCtrl"})
-			.when("/imprint", {templateUrl: "template/imprint.html", controller: "MainMetaCtrl"})
-			.when("/project", {templateUrl: "template/project.html", controller: "MainMetaCtrl"})
-			.otherwise("/", {templateUrl: "template/project-list.html", controller: "MainMetaCtrl"});
+			.when("/", {
+				templateUrl: "template/project-list.html",
+				controller: "MainMetaCtrl",
+				resolve: {
+
+					data: function (JsonLoader) {
+
+						return JsonLoader.getData();
+					}					
+				}
+			});
+
+			// .when("/project/:name", {
+			// 	templateUrl: "template/project.html",
+			// 	controller: "ProjectMetaCtrl"
+			// })
+
+			// .when("/curriculum", {
+			// 	templateUrl: "template/curriculum.html",
+			// 	controller: "MainMetaCtrl"
+			// })
+
+			// .when("/contact", {
+			// 	templateUrl: "template/contact.html",
+			// 	controller: "MainMetaCtrl"
+			// })
+
+			// .when("/blog", {
+			// 	templateUrl: "template/blog.html",
+			// 	controller: "MainMetaCtrl"
+			// })
+
+			// .when("/imprint", {
+			// 	templateUrl: "template/imprint.html",
+			// 	controller: "MainMetaCtrl"
+			// })
+
+			// .when("/project", {
+			// 	templateUrl: "template/project.html",
+			// 	controller: "MainMetaCtrl"})
+
+			// .otherwise("/", {
+			// 	templateUrl: "template/project-list.html",
+			// 	controller: "MainMetaCtrl"
+			// });
 	}]);
 
-	app.run(['$rootScope', '$location', '$route', 'Meta',
-		function ($rootScope, $location, $route, Meta) {
+	app.run(['$rootScope', '$http', '$location', '$route', 'Meta',
+		function ($rootScope, $http, $location, $route, Meta) {
 
 		$rootScope.Meta = Meta;
 
-		$rootScope.config = {};
-		$rootScope.config.app_url = $location.url();
-		$rootScope.config.app_path = $location.path();
 		$rootScope.layout = {};
 		$rootScope.layout.loading = false;
 
@@ -45,28 +79,38 @@
 		});
 	}]);
 
-	app.factory('Data', ['$http', function ($http) {
+	// app.service('Data', ['$http', function ($http) {
 
-		return $http.get('data/data.json');
-	}]);
+	// 	var myData;
 
-	app.controller('DataCtrl', ['$scope', 'Data', function ($scope, Data) {
+	// 	return $http.get('data/data.json').success(function (data) {
 
-		Data.success(function(data) { 
+	// 		myData = data;
+	// 	});
+	// }]);
 
-			//@TODO Add callback or event
-			setTimeout(function() {
-				$scope.metadata = data.metadata;
-		    	$scope.projects = data.projects;
-			}, 2000);
-		   
-		});
+	app.factory('JsonLoader', ['$http', function ($http) {
 
+		return {
+
+			getData: function() {
+
+				var promise = $http.get('data/data.json');
+
+				promise.success(function (data) {
+
+					return data;
+				});
+
+				return promise;
+			}
+		};
 	}]);
 
 	// @TODO Make this a service
 	app.factory('Meta', function () {
 
+		// @TODO move this somewhere else
 		var title = "Steffen Kühne – Journalismus; Code & Design";
 		var description = "Konzeption; Beratung und Umsetzung von Projekten im Bereich Datenjournalismus; Visualisierung; interaktive Grafik und Webentwicklung in München.";
 		var keywords = "Datenjournalismus; Datenvisualisierung; interaktive Grafik; Storytelling; Innovation; Online-Journalismus; Webentwicklung; Datenkritik; Steffen Kühne; München";
@@ -93,12 +137,12 @@
 	});
 
 	// @TODO Get data from Meta service an save them to the current scope 
-	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta',
-		function ($scope, $location, Meta) {
+	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', 'data',
+		function ($scope, $location, Meta, data) {
 
-		console.log($scope.metadata);
+		$scope.data = data.data;
 
-		var metadata = $scope.metadata[$location.url()] || $scope.metadata['/'];
+		var metadata = $scope.data.metadata[$location.url()] || $scope.data.metadata['/'];
 
 		Meta.setTitle(metadata.title);
 		Meta.setDescription(metadata.description);
@@ -107,8 +151,8 @@
 		Meta.setImage(metadata.image);
 	}]);
 
-	app.controller('ProjectMetaCtrl', ['$scope', '$location', 'Meta',
-		function ($scope, $location, Meta) {
+	app.controller('ProjectMetaCtrl',['$scope', '$location', 'Meta', 'Data',
+		function ($scope, $location, Meta, Data) {
 
 		$scope.$on('projectChanged', function(event, project) {
 
