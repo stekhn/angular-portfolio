@@ -1,5 +1,7 @@
 module.exports = function (grunt) {
 
+    var mozjpeg = require('imagemin-mozjpeg');
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
@@ -25,6 +27,14 @@ module.exports = function (grunt) {
         },
 
         usemin: {
+            options: {
+                blockReplacements: {
+                    js: function (block) {
+
+                        return '<script async src="' + block.dest + '"><\/script>';
+                    }
+                },
+            },
             html: ['dist/index.html']
         },
 
@@ -80,7 +90,8 @@ module.exports = function (grunt) {
          imagemin: {
             jpg: {
                 options: {
-                    progressive: true
+                    progressive: true,
+                    use: [mozjpeg()]
                 },
                 files: [{
                     expand: true,
