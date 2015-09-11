@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="portfolio" ng-controller="DataCtrl">
+<html lang="en" ng-app="portfolio">
 
     <head>
 
@@ -46,11 +46,11 @@
     <body>
         <section ng-include='"template/header.html"'></section>
 
-        <section class="loading" ng-hide="!layout.loading"> 
+        <section class="loading" ng-hide="!loading"> 
             <img alt="loading" src="img/loading.gif"/>
         </section>
 
-        <main ng-view ng-hide="layout.loading"></main>
+        <main ng-view ng-hide="loading"></main>
 
     	<footer>
             <p><a href="https://twitter.com/stekhn" target="_blank">Twitter</a> | <a href="http://datenkritik.de" target="_blank">Blog</a> | <a href="https://github.com/stekhn/portfolio" target="_blank">Quellcode</a></p> 
