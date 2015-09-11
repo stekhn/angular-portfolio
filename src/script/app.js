@@ -11,83 +11,71 @@
 			.when("/", {
 				templateUrl: "template/project-list.html",
 				controller: "MainMetaCtrl",
-				resolve: {
+			})
 
-					data: function (JsonLoader) {
+			.when("/project/:name", {
+				templateUrl: "template/project.html",
+				controller: "ProjectMetaCtrl"
+			})
 
-						return JsonLoader.getData();
-					}					
-				}
+			.when("/curriculum", {
+				templateUrl: "template/curriculum.html",
+				controller: "MainMetaCtrl"
+			})
+
+			.when("/contact", {
+				templateUrl: "template/contact.html",
+				controller: "MainMetaCtrl"
+			})
+
+			.when("/blog", {
+				templateUrl: "template/blog.html",
+				controller: "MainMetaCtrl"
+			})
+
+			.when("/imprint", {
+				templateUrl: "template/imprint.html",
+				controller: "MainMetaCtrl"
+			})
+
+			.when("/project", {
+				templateUrl: "template/project.html",
+				controller: "MainMetaCtrl"})
+
+			.otherwise("/", {
+				templateUrl: "template/project-list.html",
+				controller: "MainMetaCtrl"
 			});
-
-			// .when("/project/:name", {
-			// 	templateUrl: "template/project.html",
-			// 	controller: "ProjectMetaCtrl"
-			// })
-
-			// .when("/curriculum", {
-			// 	templateUrl: "template/curriculum.html",
-			// 	controller: "MainMetaCtrl"
-			// })
-
-			// .when("/contact", {
-			// 	templateUrl: "template/contact.html",
-			// 	controller: "MainMetaCtrl"
-			// })
-
-			// .when("/blog", {
-			// 	templateUrl: "template/blog.html",
-			// 	controller: "MainMetaCtrl"
-			// })
-
-			// .when("/imprint", {
-			// 	templateUrl: "template/imprint.html",
-			// 	controller: "MainMetaCtrl"
-			// })
-
-			// .when("/project", {
-			// 	templateUrl: "template/project.html",
-			// 	controller: "MainMetaCtrl"})
-
-			// .otherwise("/", {
-			// 	templateUrl: "template/project-list.html",
-			// 	controller: "MainMetaCtrl"
-			// });
 	}]);
 
-	app.run(['$rootScope', '$http', '$location', '$route', 'Meta',
-		function ($rootScope, $http, $location, $route, Meta) {
+	app.run(['$rootScope', 'Meta', 'JsonLoader',
+		function ($rootScope, Meta, JsonLoader) {
 
 		$rootScope.Meta = Meta;
 
-		$rootScope.layout = {};
-		$rootScope.layout.loading = false;
+		JsonLoader.getData().then(function(data) {
+
+			$rootScope.projects = data.data.projects;
+			$rootScope.metadata = data.data.metadata;
+		});
+
+		$rootScope.loading = false;
 
 		$rootScope.$on('$routeChangeStart', function () {
 
-			$rootScope.layout.loading = true;
+			$rootScope.loading = true;
 		});
 
-		$rootScope.$on('$routeChangeSuccess', function () {
+		$rootScope.$on('$routeChangeSuccess', function(e, curr, prev) { 
 
-			$rootScope.layout.loading = false;
+			$rootScope.loading = false;
 		});
 
 		$rootScope.$on('$routeChangeError', function () {
 
-			$rootScope.layout.loading = false;
+			$rootScope.loading = false;
 		});
 	}]);
-
-	// app.service('Data', ['$http', function ($http) {
-
-	// 	var myData;
-
-	// 	return $http.get('data/data.json').success(function (data) {
-
-	// 		myData = data;
-	// 	});
-	// }]);
 
 	app.factory('JsonLoader', ['$http', function ($http) {
 
@@ -137,21 +125,36 @@
 	});
 
 	// @TODO Get data from Meta service an save them to the current scope 
-	app.controller('MainMetaCtrl', ['$scope', '$location', 'Meta', 'data',
-		function ($scope, $location, Meta, data) {
+	app.controller('MainMetaCtrl', ['$rootScope', '$location', 'Meta', 'JsonLoader',
+		function ($rootScope, $location, Meta, JsonLoader) {
 
-		$scope.data = data.data;
+		if ($rootScope.metadata) {
 
-		var metadata = $scope.data.metadata[$location.url()] || $scope.data.metadata['/'];
+			setMeta();
+		} else {
 
-		Meta.setTitle(metadata.title);
-		Meta.setDescription(metadata.description);
-		Meta.setKeywords(metadata.keywords);
-		Meta.setUrl($location.absUrl());
-		Meta.setImage(metadata.image);
+			JsonLoader.getData().then(function(data) {
+
+				$rootScope.metadata = data.data.metadata;
+
+				setMeta();
+			});
+		}
+
+		function setMeta() {
+
+			var data = $rootScope.metadata;
+			var metadata = data[$location.url()] || data['/'];
+
+			Meta.setTitle(metadata.title);
+			Meta.setDescription(metadata.description);
+			Meta.setKeywords(metadata.keywords);
+			Meta.setUrl($location.absUrl());
+			Meta.setImage(metadata.image);
+		}
 	}]);
 
-	app.controller('ProjectMetaCtrl',['$scope', '$location', 'Meta', 'Data',
+	app.controller('ProjectMetaCtrl',['$scope', '$location', 'Meta',
 		function ($scope, $location, Meta, Data) {
 
 		$scope.$on('projectChanged', function(event, project) {
@@ -173,17 +176,34 @@
 		};
 	}]);
 
-	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter',
-		function ($scope, $routeParams, $filter) {
+	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', 'JsonLoader',
+		function ($scope, $routeParams, $filter, JsonLoader) {
 
-		for (var key in $scope.projects) {
 
-			var dashCaseTitle = $filter('dashcase')($scope.projects[key].title);
+		if ($scope.projects) {
 
-			if ($routeParams.name === dashCaseTitle) {
+			setProject();
+		} else {
 
-				$scope.project = $scope.projects[key];
-				$scope.$emit('projectChanged', $scope.project);
+			JsonLoader.getData().then(function(data) {
+
+				$scope.projects = data.data.projects;
+
+				setProject();
+			});
+		}
+		
+		function setProject() {
+
+			for (var key in $scope.projects) {
+
+				var dashCaseTitle = $filter('dashcase')($scope.projects[key].title);
+
+				if ($routeParams.name === dashCaseTitle) {
+
+					$scope.project = $scope.projects[key];
+					$scope.$emit('projectChanged', $scope.project);
+				}
 			}
 		}
 	}]);
@@ -204,8 +224,9 @@
 
 }());
 
-
-angular.module('feedReader', []).controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce', function ($http, $interval, $scope, $sce) {
+angular.module('feedReader', [])
+	.controller('RssFeedCtrl', ['$http', '$interval', '$scope', '$sce',
+		function ($http, $interval, $scope, $sce) {
 
 	$scope.articles = [ ];
 	$scope.rssFeed = 'http://datenkritik.de/feed/';
