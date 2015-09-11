@@ -7,27 +7,64 @@
 		},
 		"/curriculum": {
 			"title": "Steffen Kühne – Vita",
-			"description": "Foooooo baaaar",
-			"keyword": "lorem ipsum"
+			"description": "Das Internet ist eine großartige Bühne für Menschen und ihre Geschichten. Um Geschichten im Netz gut erzählen zu können, braucht man sowohl ein solides technisches Grundwissen, als auch eine Gespür für Gestaltung und Dramaturgie.",
+			"keyword": "Webentwicklung, Datenjournalismus, Datenvisualisierung, interaktive Grafik, JavaScript, HTML 5, CSS 3, D3.js, Steffen Kühne, München"
 		},
 		"/contact": {
 			"title": "Steffen Kühne – Kontakt",
-			"description": "Dolores sit amet conquistat vencit dolores sum. Tacit venom caluculus ergot.",
-			"keyword": "lorem ipsum"
+			"description": "Ich bin immer auf der Suche nach spannenden Projekten im Bereich interaktive Grafik, Datenjournalismus und Anwendungsentwicklung. Wenn Sie Interesse haben mit mir zusammenzuarbeiten, würde ich mich über eine kurze Nachricht freuen.",
+			"keyword": "Interaktive Grafik, Datenjournalismus, Anwendungsentwicklung, Steffen Kühne, München, Skype, Twitter, Github, Facebook, Linkedin, Xing"
 		},
 		"/blog": {
 			"title": "Steffen Kühne – Blog",
-			"description": "Dolores sit amet conquistat vencit dolores sum. Tacit venom caluculus ergot.",
-			"keyword": "lorem ipsum"
+			"description": "In meinem Blog Datenkritik schreibe ich über Journalismus, Code und Design. Ich beobachte die Neuerungen im Bereich Datenjournalismus und verfasse Anleitungen zum Umsetzen kleinerer datenjournalistischer Projekte. Außerdem fordere ich mehr Open Source im Journalismus.",
+			"keyword": "Datenkritik, Journalismus, Code, Design, Datenjournalismus, Open Source, Blog, Steffen Kühne, München"
 		},
 		"/imprint": {
 			"title": "Steffen Kühne – Impressum",
-			"description": "Dolores sit amet conquistat vencit dolores sum. Tacit venom caluculus ergot.",
-			"keyword": "lorem ipsum"
+			"description": "Impressum gemäß § 5 TMG. Haftung für Inhalte, Haftung für Links und Urheberrecht.",
+			"keyword": "Impressum, Kontakt, Steffen Kühne, München"
 		}
 	},
 	"projects" :[
 		{
+			"title": "Game of Thrones",
+			"description": "Die vielen Beziehungen in Game of Thrones zu visualisieren ist eine Herausforderung. Aber es ist nicht zuletzt dieses komplexe Geflecht an Beziehungen, welches der Fantasy-Serie einen besonderen Reiz verleiht. Die interaktive Grafik ist ein Versuch, Ordnung in dieses Beziehungschaos zu bringen. Sie soll dem Nutzer ermöglichen, den aktuellen Status zu jedem Zeitpunkt der Serie abzurufen, ohne dass er Gefahr läuft, etwas zu erfahren, was er noch nicht wissen möchte - zumindest so lange er den Episoden-Schieberegler nicht zu weit nach rechts schiebt.",
+			"date": "Juni 2015",
+			"type": "Netzwerkvisualisierung",
+			"role": "Konzept, Design, Entwicklung",
+			"contributors": "",
+			"client" : "Süddeutsche Zeitung",
+			"links": [{
+					"name": "Game of Thrones – Wer mit wem?",
+					"url": "http://gfx.sueddeutsche.de/kultur/gameofthrones/?lang=de"
+				},{
+					"name": "Daten",
+					"url": "https://docs.google.com/spreadsheets/d/1SbMWBGGvdh3iKwWIMRL7lHZzKjWfB8oCqMNwKcq8tIY/pubhtml"
+				},{
+					"name": "Quellcode",
+					"url": "https://github.com/stekhn/got-relationships"
+				}],
+			"images": [
+				"got.jpg"
+			]
+		},{
+			"title": "Kinder des Krieges",
+			"description": "Vor 20 Jahren brachten sie sich im Bosnienkrieg gegenseitig um. Noch heute leben Bosniaken, Serben und Kroaten in einem geteilten Land. Bosnien hat zwei Landeshälften, eine bosniakisch-kroatische und eine serbische. Die Bürger sprechen drei Sprachen, die sich kaum unterscheiden. Und erzählen sich drei Versionen von Geschichte. Doch in Bosnien leben auch Menschen, die alte Gräben überwinden wollen – und mit neuen Problemen kämpfen müssen.",
+			"date": "April 2015",
+			"type": "Webreportage",
+			"role": "Design, Entwicklung",
+			"contributors": "",
+			"client" : "Deutsche Journalisten Schule",
+			"links": [{
+					"name": "Bosnien – Kinder des Krieges",
+					"url": "http://www.klartext-magazin.de/53K/bosnien/#!/"
+				}],
+			"images": [
+				"bosnien1.jpg",
+				"bosnien2.jpg"
+			]
+		}, {
 			"title": "Happy Planet Index",
 			"description": "Welches Land der Welt ist das glücklichste? Der Happy Planet Index misst, wie glücklich, nachhaltig und lange Menschen in 151 verschieden Ländern der Welt leben. Bewertet werden ökonomische, soziologische und ökologische Faktoren. Die Karte ist im Rahmen des International Day of Happiness entstanden und wurde mit der Visualisierungsbibliothek D3.js erstellt.",
 			"date": "März 2015",
@@ -49,10 +86,10 @@
 			"type": "Intelligentes Suchfeld",
 			"role": "Konzept, Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Wie wahrscheinlich ist es, dass ich durch einen Computer ersetzt werde?",
-					"url": "http://www.sueddeutsche.de/1.2353382"
+					"url": "http://www.sueddeutsche.de/automatisierung"
 				}],
 			"images": [
 				"automatisierung.jpg"
@@ -65,7 +102,7 @@
 			"type": "Interaktives Diagramm",
 			"role": "Konzept, Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Wählerwanderung bei der Bürgerschaftwahl Hamburg",
 					"url": "http://www.sueddeutsche.de/1.2353382"
@@ -75,13 +112,13 @@
 			]
 		},
 		{
-			"title": "Zeitleiste Boko Haram",
-			"description": "Dörfer werden niedergebrannt, die Ärmsten massakriert. Die Terrormiliz Boko Haram überzieht Nigeria mit unvorstellbarer Gewalt. Die interaktive Karte dokumentierten die brutalen Exzesse der vergangenen Jahre und erklären den Rachefeldzug der Terrormiliz.",
+			"title": "Chronik Boko Haram",
+			"description": "Dörfer werden niedergebrannt, ganze Familien verschleppt oder massakriert. Die Terrormiliz Boko Haram überzieht Nigeria mit unvorstellbarer Gewalt. Die interaktive Karte dokumentiert die brutalen Exzesse der vergangenen Jahre und erklärt den Rachefeldzug der Terrormiliz.",
 			"date": "Januar 2015",
 			"type": "Interaktive Karte",
 			"role": "Konzept, Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Der Terrorfeldzug von Boko Haram",
 					"url": "http://www.sueddeutsche.de/1.2339963"
@@ -98,7 +135,7 @@
 			"type": "Scroll-Geschichte",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "WM 2014: Der Weg zum Titel",
 					"url": "http://gfx.sueddeutsche.de/sport/wm2014/"
@@ -156,7 +193,7 @@
 			"type": "Memory",
 			"role": "Entwicklung, Design",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Diese Mannschaft soll Europa lenken",
 					"url": "http://www.sueddeutsche.de/1.2147883"
@@ -193,7 +230,7 @@
 			"type": "Kartenvisualisierung, Memory",
 			"role": "Konzept, Entwicklung, Design",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Das Verschwinden der FDP",
 					"url": "http://www.sueddeutsche.de/1.2102368"
@@ -227,7 +264,7 @@
 			"type": "Scroll-Geschichte",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Trauern verboten",
 					"url": "http://gfx.sueddeutsche.de/pages/tiananmen/"
@@ -245,7 +282,7 @@
 			"type": "Kartenvisualisierung",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "So hat Europa gewählt",
 					"url": "http://www.sueddeutsche.de/1.1973782"
@@ -279,15 +316,15 @@
 			]
 		},
 		{
-			"title": "Prototyp Süddeutsche.de",
-			"description": "Für den Relaunch und die Einführung eines Bezahlmodells auf Süddeutsche.de wurden erstmals Benutzertest in Kooperation mit GfK SirValUse durchgeführt. Um die Usability des neuen Headers und die Akzeptanz der Bezahlschranke zu testen, wurde ein Prototyp entwickelt. Der Prototyp erwies sich als sehr nützlich, um in einer frühen Projektphase konzeptionelle und gestalterische Probleme zu identifizieren.",
+			"title": "Prototyp Süddeutsche Zeitung",
+			"description": "Für den Relaunch und die Einführung eines Bezahlmodells auf Süddeutsche Zeitung wurden erstmals Benutzertest in Kooperation mit GfK SirValUse durchgeführt. Um die Usability des neuen Headers und die Akzeptanz der Bezahlschranke zu testen, wurde ein Prototyp entwickelt. Der Prototyp erwies sich als sehr nützlich, um in einer frühen Projektphase konzeptionelle und gestalterische Probleme zu identifizieren.",
 			"date": "März 2014",
 			"type": "Prototyp",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
-					"name": "Die neue Süddeutsche.de",
+					"name": "Die neue Süddeutsche Zeitung",
 					"url": "http://sueddeutsche.de"
 				}],
 			"images": [
@@ -296,13 +333,13 @@
 				]
 		},
 		{
-			"title": "Nebeneinkünfte der Parlamentarier",
+			"title": "Nebeneinkünfte Bundestag",
 			"description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
 			"date": "März 2014",
 			"type": "Data-Scraping, Analyse und Visualisierung",
 			"role": "Konzept, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Quellcode des Scrapers",
 					"url": "https://github.com/stekhn/nebeneinkuenfte"
@@ -340,13 +377,13 @@
 			]
 		},
 		{
-			"title": "Süddeutsche.de App",
-			"description": "Mehr Qualitätsjournalismus für unterwegs. News, Hintergründe und mehr: Die Süddeutsche.de-App bringt die gesamte aktuelle Nachrichtenseite der SZ auf iPhone. Analysen, Kommentaren, Videos, Bildergalerien und Ticker in gewohnter SZ-Qualität. Mit Funktionen wie Teilen und merken, Eilmeldungen, Nachrichtenticker und Kompaktmodus.",
+			"title": "Süddeutsche Zeitung App",
+			"description": "Mehr Qualitätsjournalismus für unterwegs. News, Hintergründe und mehr: Die Süddeutsche Zeitung-App bringt die gesamte aktuelle Nachrichtenseite der SZ auf iPhone. Analysen, Kommentaren, Videos, Bildergalerien und Ticker in gewohnter SZ-Qualität. Mit Funktionen wie Teilen und merken, Eilmeldungen, Nachrichtenticker und Kompaktmodus.",
 			"date": "Januar 2014",
 			"type": "iPhone-App",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Appstore",
 					"url": "https://itunes.apple.com/de/app/suddeutsche.de-nachrichten/id338711072?mt=8"
@@ -362,7 +399,7 @@
 			"type": "Map visualization",
 			"role": "Entwicklung Prototyp",
 			"contributors": "",
-			"client" : "Süddeutsche.de, Open Data City",
+			"client" : "Süddeutsche Zeitung, Open Data City",
 			"links": [{
 					"name": "Geheimer Krieg",
 					"url": "http://www.geheimerkrieg.de"
@@ -381,7 +418,7 @@
 			"type": "Kartenvisualisierung",
 			"role": "Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Terror im Alltag",
 					"url": "http://www.sueddeutsche.de/1.1800885"
@@ -397,7 +434,7 @@
 			"type": "Kartenvisualisierung",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "So hat Deutschland gewählt",
 					"url": "http://www.sueddeutsche.de/1.1776703"
@@ -415,7 +452,7 @@
 			"type": "Kartenvisualisierung",
 			"role": "Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "So verspätet ist die Bahn auf Ihrer Strecke",
 					"url": "http://www.sueddeutsche.de/1.1651455"
@@ -431,7 +468,7 @@
 			"type": "Umschalter",
 			"role": "Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Ein Bayern, sieben Welten",
 					"url": "http://www.sueddeutsche.de/1.1742708"
@@ -466,7 +503,7 @@
 			"type": "Scroll-Geschichte",
 			"role": "Konzept, Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Begleiter",
 					"url": "gfx.sueddeutsche.de/pages/begleiter/"
@@ -484,7 +521,7 @@
 			"type": "Kartenvisualisierung",
 			"role": "Konzept, Design, Entwicklung",
 			"contributors": "",
-			"client" : "Süddeutsche.de",
+			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Ergebnisse des Zensus 2011",
 					"url": "http://www.sueddeutsche.de/1.1685321"
