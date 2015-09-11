@@ -159,9 +159,6 @@
 
 		$scope.$on('projectChanged', function(event, project) {
 
-			console.log($location.protocol() + '://' + $location.host() +
-				'/img/project/' + project.images[0]);
-
 			Meta.setTitle(project.title);
 			Meta.setDescription(project.description);
 			Meta.setKeywords('keywords');

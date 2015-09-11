@@ -538,7 +538,7 @@
 			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Begleiter",
-					"url": "gfx.sueddeutsche.de/pages/begleiter/"
+					"url": "http://gfx.sueddeutsche.de/pages/begleiter/"
 				}],
 			"images": [
 				"begleiter1.jpg",
