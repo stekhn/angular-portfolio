@@ -230,7 +230,7 @@ angular.module('feedReader', [])
 		function ($http, $interval, $scope, $sce) {
 
 	$scope.articles = [ ];
-	$scope.rssFeed = 'http://datenkritik.de/feed/';
+	$scope.rssFeed = 'http://datenkritik.de/feed/?20150916';
 
 	$scope.existingArticles = function () {
 
@@ -280,24 +280,9 @@ angular.module('feedReader', [])
 				return;
 			}
 
-			var mostRecentDate = null;
-
 			$scope.articles = data.data.responseData.feed.entries.map(function (el) {
 
 				return parseEntry(el);
-			});
-
-			if (mostRecentDate !== null) {
-
-				$scope.articles = entries.filter(function (el) {
-					
-					return el.date < mostRecentDate;
-				});
-			}
-
-			$scope.articles = $scope.articles.sort(function(a,b) {
-
-				return a.date > b.date || false;
 			});
 		});
 	};
