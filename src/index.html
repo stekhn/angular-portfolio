@@ -31,6 +31,22 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
         
+    </head>
+
+    <body>
+
+        <section ng-include='"template/header.html"'></section>
+
+        <section class="loading" ng-hide="!loading"> 
+            <img alt="loading" src="img/loading.gif"/>
+        </section>
+
+        <main ng-view ng-hide="loading"></main>
+
+        <footer>
+            <p><a href="https://twitter.com/stekhn" target="_blank">Twitter</a> | <a href="http://datenkritik.de" target="_blank">Blog</a> | <a href="https://github.com/stekhn/portfolio" target="_blank">Quellcode</a></p> 
+        </footer>
+   
         <!-- build:css css/style.min.css -->
         <link rel="stylesheet" type="text/css" href="style/main.css">
         <!-- endbuild -->
@@ -40,22 +56,7 @@
         <script type="text/javascript" src="../vendor/angular/angular-route.min.js"></script>
         <script type="text/javascript" src="script/app.js"></script>
         <!-- endbuild -->
-        
-    </head>
 
-    <body>
-        <section ng-include='"template/header.html"'></section>
-
-        <section class="loading" ng-hide="!loading"> 
-            <img alt="loading" src="img/loading.gif"/>
-        </section>
-
-        <main ng-view ng-hide="loading"></main>
-
-    	<footer>
-            <p><a href="https://twitter.com/stekhn" target="_blank">Twitter</a> | <a href="http://datenkritik.de" target="_blank">Blog</a> | <a href="https://github.com/stekhn/portfolio" target="_blank">Quellcode</a></p> 
-        </footer>
-   
     </body>
 
 </html>

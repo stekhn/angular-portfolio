@@ -28,6 +28,38 @@
 	},
 	"projects" :[
 		{
+			"title": "Woher stammt die Liga?",
+			"description": "Zwischen Globalisierung und Heimatgefühl: Was die Geburtsorte der Spieler über die Fußball-Bundesliga verraten. Das datenjournalistisches Projekt wertet die Herkunft der 505 Bundesligaspieler aus. Dabei wird der Frage nachgegangen, welche Mannschaft am internationalsten, und welche am regionalsten ist. Außerdem: Wo liegt eigentlich Deutschlands Fußballhaupstadt? Und wer sind die „Local Heros“, welche noch immer an ihrem Geburtsort spielen? Neben einer linearen Datenanalyse lädt das Projekt zum Entdecken eigener Geschichten ein und ermöglicht es noch so manches über den persönlichen Lieblingsverein zu lernen.",
+			"date": "September 2015",
+			"type": "Datenanalyse",
+			"role": "Design, Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Heimvorteil – Woher stammt die Liga",
+					"url": "http://web.br.de/woher-stammt-die-liga"
+				}],
+			"images": [
+				"liga3.jpg",
+				"liga1.jpg",
+				"liga2.jpg"
+			]
+		},{
+			"title": "Bayerische Nationalmannschaft",
+			"description": "Bayern hat viele brilliante Bundesligaspieler hervorgebracht. Das Tool ermöglicht es, eine eigene Mannschaft aus bayerischen Spielern zusammenzustellen und mit Freunden zu teilen. Denn wenn eines die Fußballgemüter bewegt, dann ist es die Frage wer der besser Rechtsverteidiger ist – Philipp Lahm oder Roberto Hilbert? Alle Benutzer-Aufstellungen werden gespeichert und ermöglichen am Ende eine Auswertung um deartige Fragen ein für alle mal zu klären (Antwort: Philipp Lahm).",
+			"date": "September 2015",
+			"type": "Aufstellungsplaner",
+			"role": "Konzept, Design, Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Bayerische Nationalmannschaft",
+					"url": "http://web.br.de/woher-stammt-die-liga/mannschaft/"
+				}],
+			"images": [
+				"mannschaft.jpg"
+			]
+		},{
 			"title": "Game of Thrones",
 			"description": "Die vielen Beziehungen in Game of Thrones zu visualisieren ist eine Herausforderung. Aber es ist nicht zuletzt dieses komplexe Geflecht an Beziehungen, welches der Fantasy-Serie einen besonderen Reiz verleiht. Die interaktive Grafik ist ein Versuch, Ordnung in dieses Beziehungschaos zu bringen. Sie soll dem Nutzer ermöglichen, den aktuellen Status zu jedem Zeitpunkt der Serie abzurufen, ohne dass er Gefahr läuft, etwas zu erfahren, was er noch nicht wissen möchte - zumindest so lange er den Episoden-Schieberegler nicht zu weit nach rechts schiebt.",
 			"date": "Juni 2015",
@@ -506,7 +538,7 @@
 			"client" : "Süddeutsche Zeitung",
 			"links": [{
 					"name": "Begleiter",
-					"url": "gfx.sueddeutsche.de/pages/begleiter/"
+					"url": "http://gfx.sueddeutsche.de/pages/begleiter/"
 				}],
 			"images": [
 				"begleiter1.jpg",
