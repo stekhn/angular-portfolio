@@ -58,23 +58,6 @@
 			$rootScope.projects = data.data.projects;
 			$rootScope.metadata = data.data.metadata;
 		});
-
-		$rootScope.loading = false;
-
-		$rootScope.$on('$routeChangeStart', function () {
-
-			$rootScope.loading = true;
-		});
-
-		$rootScope.$on('$routeChangeSuccess', function(e, curr, prev) { 
-
-			$rootScope.loading = false;
-		});
-
-		$rootScope.$on('$routeChangeError', function () {
-
-			$rootScope.loading = false;
-		});
 	}]);
 
 	app.factory('JsonLoader', ['$http', function ($http) {
