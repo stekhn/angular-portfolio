@@ -1,9 +1,16 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	font-family: 'Helvetica Neue', sans-serif;
-	font-size: 15px/22px;
 	color: #222;
 
-	max-width: 1200px;
+	max-width: 920px;
 	padding: 0 3em;
 	margin: 2em auto;
 }

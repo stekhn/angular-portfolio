@@ -8,9 +8,6 @@ $darkgrey: #aaa;
 	background: #fff;
 	border: 1px solid #eee;
 	box-shadow: 0 0 3px #eee;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 }
 
 @mixin transition($speed) {

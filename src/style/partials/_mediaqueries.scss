@@ -1,24 +1,12 @@
-@media (max-width: 960px) {
+@media (max-width: 740px) {
+
+	.project-wrapper {
+		margin-left: -4%;
+	}
 
 	.project-thumb {
-		width: 30%;
-	}
-
-}
-
-@media (max-width: 768px) {
-
-	body {
-		padding: 0 2em;
-		margin: 1em auto;
-	}
-
-  	.project-thumb {
 		width: 45%;
-
-		figcaption {
-			opacity: 1;
-		}
+		margin: 0 0 4% 4%;
 	}
 
 	.project-page {
@@ -28,7 +16,15 @@
 		}
 
 		.project-images {
-			float: none;
+			position: static;
+
+			img {
+				width: 100%;
+
+				&:not(:first-child) {
+					display: none;
+				}
+			}
 		}
 	}
 
@@ -42,20 +38,22 @@
 		display: block;
 	}
 
-	nav {
+	header nav {
 		line-height: 1.6em;
 		float: none;
-		margin: 0 0 2em 0;
+		display: block;
+		margin: 1.5em 0 2em 0;
 	}
 }
 
-@media (max-width: 460px) {
+@media (max-width: 520px) {
 
 	.map {
 		display: none;
 	}
 
-  	.project-thumb {
-		width: 100%;
+	.project-thumb {
+		width: 96%;
+		margin: 4% 4%;
 	}
 }

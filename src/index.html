@@ -13,6 +13,7 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@stekhn">
         <meta name="twitter:creator" content="@stekhn" />
+        <meta name="twitter:title" content="{{ Meta.title() }}"/>
         <meta name="twitter:description" content="{{ Meta.description() }}"/>
         <meta name="twitter:image" content="{{ Meta.image() }}"/>
 
@@ -20,6 +21,7 @@
         <meta property="og:title" content="{{ Meta.title() }}" />
         <meta property="og:description" content="{{ Meta.description() }}" />
         <meta property="og:image" content="{{ Meta.image() }}" />
+        <meta property="og:locale" content="de_DE" />
 
         <meta name="author" content="{{ Meta.author() }}"/>
         <meta name="copyright" content="{{ Meta.author() }}"/>
@@ -52,7 +54,7 @@
                     <p>Journalismus, Code & Design</p>
                 </a>
             </section>
-            
+
             <nav ng-controller="NavCtrl">
                 <ul>
                     <li><a href="#!/" ng-class="{active: isActive('/')}">Portfolio</a></li>
