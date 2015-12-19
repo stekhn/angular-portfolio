@@ -28,9 +28,16 @@
 		}
 	}
 
-	.map {
-		margin-top: 0;
-		width: 100%
+	.contact {
+
+		.map {
+			margin-top: 0;
+			width: 100%;
+		}
+
+		.address {
+			width: 100%;
+		}
 	}
 
 	.timeline {
@@ -60,13 +67,16 @@
 
 @media (max-width: 520px) {
 
-	.map {
-		display: none;
-	}
-
 	.project-thumb {
 		width: 96%;
 		margin: 4% 4%;
+	}
+
+	.contact {
+
+		.map {
+			display: none;
+		}
 	}
 }
 

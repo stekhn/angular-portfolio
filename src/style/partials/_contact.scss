@@ -1,12 +1,19 @@
-.contact {
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 4em 1em 0;
-}
 
-.map {
-	width: 50%;
-	margin-top: 1em;
+.contact {
+
+	.address {
+		display: inline-block;
+		width: 35%;
+		margin-right: 5%;
+	}
+
+	.map {
+		margin-top: 1em;
+		width: 55%;
+		height: 250px;
+		display: inline-block;
+		float: right;
+	}
 }
 
 .social {
