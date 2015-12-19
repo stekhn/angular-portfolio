@@ -35,13 +35,19 @@
 
 	.timeline {
 		width: 100%;
-		display: block;
 	}
 
 	.skills {
 		float: none;
 		width: 100%;
 		display: block;
+	}
+
+	.social {
+
+		.timeline {
+			width: 40%;
+		}
 	}
 
 	header nav {
@@ -61,5 +67,15 @@
 	.project-thumb {
 		width: 96%;
 		margin: 4% 4%;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.social {
+
+		.timeline {
+			width: 100%;
+		}
 	}
 }
