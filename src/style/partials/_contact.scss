@@ -20,7 +20,11 @@
 
 	.timeline {
 
-		width: 19%;
+		width: 20%;
+
+		&:last-child {
+			margin-right: 0;
+		}
 
 		.bubble {
 			background-size: 383px;
