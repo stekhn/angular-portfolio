@@ -87,7 +87,16 @@ module.exports = function (grunt) {
                 dest: 'dist/src/main.min.js',
             },
         },
-         imagemin: {
+
+        'json-minify': {
+
+            build: {
+
+                files: 'dist/data/*.json'
+            }
+        },
+
+        imagemin: {
             jpg: {
                 options: {
                     progressive: true,
@@ -113,10 +122,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-ng-annotate');
-    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-json-minify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', [
-        'clean', 'copy', 'compass', 'useminPrepare', 'cssmin', 'ngAnnotate', 'uglify', 'concat', 'usemin', 'imagemin'
+        'clean', 'copy', 'compass', 'useminPrepare', 'cssmin', 'ngAnnotate', 'uglify', 'concat', 'usemin', 'json-minify', 'imagemin'
     ]);
 };

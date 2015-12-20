@@ -2,25 +2,23 @@ $red: #bf3600;
 $black: #222;
 $lightgrey: #eee;
 $darkgrey: #aaa;
+$white: #fff;
+$background: #fff;;
 
 @mixin image-box {
 	padding: 10px;
 	background: #fff;
 	border: 1px solid #eee;
 	box-shadow: 0 0 3px #eee;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 }
 
 @mixin transition($speed) {
-	transition: all $speed ease-in-out $speed;
-	-webkit-transition: all $speed ease-in-out $speed;
-	-moz-transition: all $speed ease-in-out $speed;
-	-o-transition: all $speed ease-in-out $speed;
+	transition: all $speed ease-in-out;
+	-webkit-transition: all $speed ease-in-out;
+	-moz-transition: all $speed ease-in-out;
+	-o-transition: all $speed ease-in-out;
 }
 
-@import "compass/css3";
 @import "partials/reset.scss";
 @import "partials/font.scss";
 @import "partials/main.scss";

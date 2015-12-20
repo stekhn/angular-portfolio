@@ -11,7 +11,8 @@
 .timeline {
 	display: inline-block;
 	position: relative;
-	margin-right: 6em;
+	margin-right: 5%;
+	width: 40%;
 	overflow: hidden;
 
 	h3 {
@@ -43,6 +44,7 @@
 .skills {
 	display: inline-block;
 	vertical-align: top;
+	float: right;
 
 	.line {
 		width:240px;

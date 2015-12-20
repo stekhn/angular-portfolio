@@ -1,62 +1,78 @@
+
 .contact {
-	display: inline-block;
-	vertical-align: top;
-	margin: 0 4em 1em 0;
-}
 
-.map {
-	width: 50%;
-	margin-top: 1em;
-}
+	.address {
+		display: inline-block;
+		width: 35%;
+		margin-right: 5%;
+	}
 
-.timeline {
-
-	.bubble {
-		background-size: 383px;
+	.map {
+		margin-top: 1em;
+		width: 55%;
+		height: 250px;
+		display: inline-block;
+		float: right;
 	}
 }
 
-.skype {
-	background-image: url("../img/socialicons.png");
-	background-position: -133px -54px;
-}
+.social {
 
-.twitter {
-	background-image: url("../img/socialicons.png");
-	background-position: -51px -54px;
-}
+	.timeline {
 
-.google {
-	background-image: url("../img/socialicons.png");
-	background-position: -92px -54px;
-}
+		width: 20%;
 
-.facebook {
-	background-image: url("../img/socialicons.png");
-	background-position: -8px -54px;
-}
+		&:last-child {
+			margin-right: 0;
+		}
 
-.xing {
-	background-image: url("../img/socialicons.png");
-	background-position: -217px -54px;
-}
+		.bubble {
+			background-size: 383px;
+		}
+	}
 
-.linkedin {
-	background-image: url("../img/socialicons.png");
-	background-position: -175px -54px;
-}
+	.skype {
+		background-image: url("../img/socialicons.png");
+		background-position: -133px -54px;
+	}
 
-.github {
-	background-image: url("../img/socialicons.png");
-	background-position: -259px -54px;
-}
+	.twitter {
+		background-image: url("../img/socialicons.png");
+		background-position: -51px -54px;
+	}
 
-.vimeo {
-	background-image: url("../img/socialicons.png");
-	background-position: -300px -54px;
-}
+	.google {
+		background-image: url("../img/socialicons.png");
+		background-position: -92px -54px;
+	}
 
-.lastfm {
-	background-image: url("../img/socialicons.png");
-	background-position: -342px -54px;
+	.facebook {
+		background-image: url("../img/socialicons.png");
+		background-position: -8px -54px;
+	}
+
+	.xing {
+		background-image: url("../img/socialicons.png");
+		background-position: -217px -54px;
+	}
+
+	.linkedin {
+		background-image: url("../img/socialicons.png");
+		background-position: -175px -54px;
+	}
+
+	.github {
+		background-image: url("../img/socialicons.png");
+		background-position: -259px -54px;
+	}
+
+	.vimeo {
+		background-image: url("../img/socialicons.png");
+		background-position: -300px -54px;
+	}
+
+	.lastfm {
+		background-image: url("../img/socialicons.png");
+		background-position: -342px -54px;
+	}
 }

@@ -2,6 +2,11 @@
 
 	<div class="project-description">
 		<p><strong>{{project.title}}</strong></p>
+
+		<div class="project-images">
+			<img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
+		</div>
+		
 		<p>{{project.description}}</p>
 
 		<blockquote>
@@ -14,10 +19,6 @@
 		</blockquote>
 		
 		<p ng-show="project.links"><a ng-repeat="link in project.links" ng-href="{{link.url}}" target="_blank">{{link.name}}<br></a></p>
-	</div>
-
-	<div class="project-images">
-		<img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
 	</div>
 
 	<div>
