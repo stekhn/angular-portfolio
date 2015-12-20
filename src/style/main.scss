@@ -2,6 +2,8 @@ $red: #bf3600;
 $black: #222;
 $lightgrey: #eee;
 $darkgrey: #aaa;
+$white: #fff;
+$background: #fff;;
 
 @mixin image-box {
 	padding: 10px;
@@ -11,10 +13,10 @@ $darkgrey: #aaa;
 }
 
 @mixin transition($speed) {
-	transition: all $speed ease-in-out $speed;
-	-webkit-transition: all $speed ease-in-out $speed;
-	-moz-transition: all $speed ease-in-out $speed;
-	-o-transition: all $speed ease-in-out $speed;
+	transition: all $speed ease-in-out;
+	-webkit-transition: all $speed ease-in-out;
+	-moz-transition: all $speed ease-in-out;
+	-o-transition: all $speed ease-in-out;
 }
 
 @import "partials/reset.scss";
