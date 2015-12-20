@@ -28,7 +28,71 @@
 	},
 	"projects" :[
 		{
-			"title": "Woher stammt die Liga?",
+			"title": "Sie haben gewonnen: Gewinnspielbetrug",
+			"description": "Elfriede und Siegfried Hannebohn hofften zehn Jahre lang auf den großen Gewinn – und verschleuderten dafür ihre gesamte Rente.  Die 53B an der Deutschen Journalistenschule hat recherchiert, wohin das Geld verschwunden ist und ist dabei auf ein verworrenes Netzwerk aus windigen Inkasso-Firmen, Adresshändlern und Scheinfirmen gestoßen. Deren Geschäftspraktiken sind sittenwidrig, aber nicht unbedingt illegal. Was das vorgehen gegen die Gewinnspielbetrüger um so so schwieriger macht.",
+			"date": "Dezember 2015",
+			"type": "Storytelling, Netzwerkvisualisierung",
+			"role": "Design, Entwicklung",
+			"contributors": "",
+			"client" : "Deutsche Journalistenschule",
+			"links": [{
+					"name": "Sie haben gewonnen!",
+					"url": "http://www.klartext-magazin.de/53B/sie-haben-gewonnen"
+				}],
+			"images": [
+				"gewinnspiele1.jpg",
+				"gewinnspiele2.jpg"
+			]
+		},{
+			"title": "Klimawandel in den bayerischen Alpen",
+			"description": "„Wann schneit es endlich? Und reicht der Schnee überhaupt aus, um Ski- oder Snowboardfahren zu können?“ Fragen, die sich Wintersportler in den vergangenen Jahren wohl öfter gestellt habe. Doch die Schneehöhen nehmen ab und die Konkurrenz aus Österreich wird immer stärker. Wie gehen Bayerns Ski-Gemeinden, für die der Wintersport ein wichtiger Wirtschaftsfaktor ist, mit der Situation um? Für das Projekt wurden insgesamt 101 Gemeinden im bayerischen Alpenraum analysiert. Das Team von BR-Data hast sich auf die Suche gemacht und zwei verschiedene Ansätze gefunden.",
+			"date": "November 2015",
+			"type": "Mobile Website",
+			"role": "Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Schnee von morgen",
+					"url": "http://schnee-von-morgen.br.de"
+				}],
+			"images": [
+				"schneevonmorgen.jpg"
+			]
+		},{
+			"title": "Asylgroßaufträge: Wer von den Flüchtlingen profitiert",
+			"description": "In der Asylkrise winken Sicherheitsdiensten und Cateringfirmen gute Geschäfte. Öffentliche Aufträge werden oft freihändig, also ohne Ausschreibung vergeben, für manch einen Anbieter ist das die Lizenz zum Abkassieren. BR-Data hat hunderte Aufträge in der Datenbank analysiert. Die Recherchen belegen: Was zählt ist der niedrigste Preis. Und weil die Zeit drängt und eine landes- oder europaweite Ausschreibung kompliziert ist, werden viele Aufträge gar nicht mehr ausgeschrieben, sondern im Schnellverfahren vergeben.",
+			"date": "November 2015",
+			"type": "Interaktive Karte",
+			"role": "Design, Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Wer von den Flüchtlingen profitiert",
+					"url": "http://www.br.de/extra/br-data/asyl-grossauftraege-karte-100.html"
+				}],
+			"images": [
+				"asylauftraege.jpg"
+			]
+		},{
+			"title": "Asylgroßaufträge: Twitter-Bot",
+			"description": "@asylauftraege ist ein Twitter-Bot, der Großaufträge deutscher Behörden veröffentlicht, die im Zusammenhang mit Flüchtlingen und Asylbewerbern stehen und an private Firmen vergeben werden. Öffentliche Aufträge ab einer gewissen Größenordnung müssen EU-weit ausgeschrieben werden. Diese Aufträge werden in der öffentlich einsehbaren EU-Datenbank TED gesammelt. Neue Aufträge werden vom Twitter-Bot erfasst und mit einem Link zur Ausschreibung getwittert.",
+			"date": "Oktober 2015",
+			"type": "Twitter-Bot",
+			"role": "Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Twitter @asylauftraege",
+					"url": "https://twitter.com/asylauftraege"
+				},{
+					"name": "FAQ zum Twitter-Bot",
+					"url": "http://www.br.de/extra/br-data/twitter-bot-asylauftraege-100.html"
+				}],
+			"images": [
+				"asylauftraege-twitter.jpg"
+			]
+		},{
+			"title": "Heimvorteil: Woher stammt die Liga?",
 			"description": "Zwischen Globalisierung und Heimatgefühl: Was die Geburtsorte der Spieler über die Fußball-Bundesliga verraten. Das datenjournalistisches Projekt wertet die Herkunft der 505 Bundesligaspieler aus. Dabei wird der Frage nachgegangen, welche Mannschaft am internationalsten, und welche am regionalsten ist. Außerdem: Wo liegt eigentlich Deutschlands Fußballhaupstadt? Und wer sind die „Local Heros“, welche noch immer an ihrem Geburtsort spielen? Neben einer linearen Datenanalyse lädt das Projekt zum Entdecken eigener Geschichten ein und ermöglicht es noch so manches über den persönlichen Lieblingsverein zu lernen.",
 			"date": "September 2015",
 			"type": "Datenanalyse",
@@ -40,12 +104,11 @@
 					"url": "http://web.br.de/woher-stammt-die-liga"
 				}],
 			"images": [
-				"liga3.jpg",
 				"liga1.jpg",
 				"liga2.jpg"
 			]
 		},{
-			"title": "Bayerische Nationalmannschaft",
+			"title": "Heimvorteil: Bayerische Nationalmannschaft",
 			"description": "Bayern hat viele brilliante Bundesligaspieler hervorgebracht. Das Tool ermöglicht es, eine eigene Mannschaft aus bayerischen Spielern zusammenzustellen und mit Freunden zu teilen. Denn wenn eines die Fußballgemüter bewegt, dann ist es die Frage wer der besser Rechtsverteidiger ist – Philipp Lahm oder Roberto Hilbert? Alle Benutzer-Aufstellungen werden gespeichert und ermöglichen am Ende eine Auswertung um deartige Fragen ein für alle mal zu klären (Antwort: Philipp Lahm).",
 			"date": "September 2015",
 			"type": "Aufstellungsplaner",
@@ -60,7 +123,7 @@
 				"mannschaft.jpg"
 			]
 		},{
-			"title": "Game of Thrones",
+			"title": "Game of Thrones: Netzwerk",
 			"description": "Die vielen Beziehungen in Game of Thrones zu visualisieren ist eine Herausforderung. Aber es ist nicht zuletzt dieses komplexe Geflecht an Beziehungen, welches der Fantasy-Serie einen besonderen Reiz verleiht. Die interaktive Grafik ist ein Versuch, Ordnung in dieses Beziehungschaos zu bringen. Sie soll dem Nutzer ermöglichen, den aktuellen Status zu jedem Zeitpunkt der Serie abzurufen, ohne dass er Gefahr läuft, etwas zu erfahren, was er noch nicht wissen möchte - zumindest so lange er den Episoden-Schieberegler nicht zu weit nach rechts schiebt.",
 			"date": "Juni 2015",
 			"type": "Netzwerkvisualisierung",
@@ -81,13 +144,28 @@
 				"got.jpg"
 			]
 		},{
-			"title": "Kinder des Krieges",
+			"title": "Karte: Gleichgeschlechtliche Ehe",
+			"description": "Welche Rechte haben schwule und lesbische Paare weltweit? Die Unterschiede sind enorm. Vorreiter bei der Gleichstellung war Dänemark, das 1989 als erstes Land der Welt die standesamtliche Verbindung gleichgeschlechtlicher Paare zuließ - als sogenannte registrierte Partnerschaft. Die Niederlande gingen am 1. April 2001 sogar noch weiter: Als erstes Land der Welt öffneten sie die Ehe für gleichgeschlechtliche Paare. Inzwischen sind 19 Länder diesem Beispiel gefolgt, zuletzt Irland.",
+			"date": "Mai 2015",
+			"type": "Interaktive Karte",
+			"role": "Konzept, Design, Entwicklung",
+			"contributors": "",
+			"client" : "Süddeutsche Zeitung",
+			"links": [{
+					"name": "Weltkarte zur gleichgeschlechtlichen Ehe",
+					"url": "http://www.sueddeutsche.de/1.2497466"
+				}],
+			"images": [
+				"homoehe.jpg"
+			]
+		},{
+			"title": "Bosnien: Kinder des Krieges",
 			"description": "Vor 20 Jahren brachten sie sich im Bosnienkrieg gegenseitig um. Noch heute leben Bosniaken, Serben und Kroaten in einem geteilten Land. Bosnien hat zwei Landeshälften, eine bosniakisch-kroatische und eine serbische. Die Bürger sprechen drei Sprachen, die sich kaum unterscheiden. Und erzählen sich drei Versionen von Geschichte. Doch in Bosnien leben auch Menschen, die alte Gräben überwinden wollen – und mit neuen Problemen kämpfen müssen.",
 			"date": "April 2015",
 			"type": "Webreportage",
 			"role": "Design, Entwicklung",
 			"contributors": "",
-			"client" : "Deutsche Journalisten Schule",
+			"client" : "Deutsche Journalistenschule",
 			"links": [{
 					"name": "Bosnien – Kinder des Krieges",
 					"url": "http://www.klartext-magazin.de/53K/bosnien/#!/"
@@ -96,23 +174,8 @@
 				"bosnien1.jpg",
 				"bosnien2.jpg"
 			]
-		}, {
-			"title": "Happy Planet Index",
-			"description": "Welches Land der Welt ist das glücklichste? Der Happy Planet Index misst, wie glücklich, nachhaltig und lange Menschen in 151 verschieden Ländern der Welt leben. Bewertet werden ökonomische, soziologische und ökologische Faktoren. Die Karte ist im Rahmen des International Day of Happiness entstanden und wurde mit der Visualisierungsbibliothek D3.js erstellt.",
-			"date": "März 2015",
-			"type": "Interaktive Karte",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "International Day of Happiness",
-			"links": [{
-					"name": "The world's happiest countries",
-					"url": "http://stekhn.de/world-happiness/"
-				}],
-			"images": [
-				"happiness.jpg"
-			]
-		},	{
-			"title": "Wann werde ich ersetzt?",
+		},{
+			"title": "Automatisierung: Wann werde ich ersetzt?",
 			"description": "Fast die Hälfte aller Arbeitsplätze ist in den kommenden 20 Jahren bedroht. Das sagt zumindest eine Oxford-Studie, welche die Zukunftsaussichten von 700 Berufsgruppen angesichts der Konkurrenz durch Roboter und Computer berechnet hat. Der Rechner zeigt an wie groß die Wahrscheinlichkeit ist, selbst in naher Zukunft ersetzt zu werden. Die Anwendung bietet eine intelligente Ergebnisvervollständigung und wurde über 6000 mal in den sozialen Netzwerken geteilt.",
 			"date": "März 2015",
 			"type": "Intelligentes Suchfeld",
@@ -126,8 +189,7 @@
 			"images": [
 				"automatisierung.jpg"
 			]
-		},
-		{
+		},{
 			"title": "Wählerwanderung Hamburg",
 			"description": "Die SPD ist der Gewinner der Bürgerschaftswahl in Hamburg - Olaf Scholz bleibt Bürgermeister, braucht aber einen Koalitionspartner. Die CDU erlebt ein Debakel. Die Grafik zeigt wie sich das Wählerverhalten im Vergleich zu 2011 verändert hat.",
 			"date": "Februar 2015",
@@ -164,7 +226,7 @@
 			"title": "WM 2014: Der Weg zum Titel",
 			"description": "Alles beginnt mit einer SMS. Ein Jahr später ist Deutschland Fußballweltmeister. Dazwischen bittet Per Mertesacker zum Saunabesuch, eine Fähre setzt auf und Manuel Neuer spielt Libero. Eine interaktive Reise durch die WM in Brasilien, enstanden im Rahmen des SZ-Jahresrückblicks 2014.",
 			"date": "November 2014",
-			"type": "Scroll-Geschichte",
+			"type": "Storytelling",
 			"role": "Entwicklung",
 			"contributors": "",
 			"client" : "Süddeutsche Zeitung",
@@ -174,8 +236,7 @@
 				}],
 			"images": [
 				"wm1.jpg",
-				"wm2.jpg",
-				"wm3.jpg"
+				"wm2.jpg"
 			]
 		},
 		{
@@ -235,10 +296,10 @@
 			]
 		},
 		{
-			"title": "Feature Rausch: Hoch fliegen, tief fallen",
+			"title": "Rausch: Hoch fliegen, tief fallen",
 			"description": "Wieso wollen Menschen Kontrolle verlieren, was macht ihnen daran Spaß? Weshalb gehen sie das Risiko ein, dass etwas schiefläuft? Der Rausch lässt uns fliegen und abstürzen, tanzen und stolpern, gewinnen und verlieren. Wir alle brauchen mal Entgrenzung - und wer mag schon immer nüchtern sein? Der Mensch und der Rausch - Perspektiven auf ein Phänomen. Eine interaktive Spurensuche.",
 			"date": "Juli 2014",
-			"type": "Scroll-Geschichte",
+			"type": "Storytelling",
 			"role": "Konzept, Entwicklung, Design",
 			"contributors": "",
 			"client" : "Süddeutsche Zeitung",
@@ -251,8 +312,7 @@
 				}],
 			"images": [
 				"rausch1.jpg",
-				"rausch2.jpg",
-				"rausch3.jpg"
+				"rausch2.jpg"
 			]
 		},
 		{
@@ -275,7 +335,7 @@
 			"title": "Brazillion: World Cup Billions",
 			"description": "2007 wählte die FIFA Brasilien zum Gastgeber der Fußballweltmeisterschaft 2014. Es wurden viele Bau- und Infrastrukturprojekte angestoßen, um das Schwellenland Brasilien auf die Weltmeisterschaft vorzubereiten. Das brasilianische Amt für Statistik schätzt, dass die WM in Brasilien etwa 11,2 Milliarden US-Dollar gekostet hat. Obwohl Fußball nahezu eine Religion in Brasilien ist, gingen viele Menschen auf die Straße, um gegen die enormen Ausgaben zu protestieren. Aber was hätte man sonst noch mit den Fußball-Milliarden anfangen können? Wir haben das mal nachgerechnet. Ein Projekt, welches im Rahmen des Open Data Hackathons entstanden ist.",
 			"date": "Juni 2014",
-			"type": "Scroll-Geschichte",
+			"type": "Storytelling",
 			"role": "Design, Entwicklung",
 			"contributors": "",
 			"client" : "Open Data Hackday",
@@ -293,7 +353,7 @@
 		{
 			"title": "25 Jahre Tiananmen-Massaker",
 			"description": "Chinas Regierung versucht, alle Spuren des Massakers zu beseitigen. In der Nacht zum 4. Juni 1989 war die Volksbefreiungsarmee mit Panzern gegen Studenten vorgegangen, die seit Wochen auf dem Platz des Himmlischen Friedens für mehr Demokratie demonstriert hatten. Dabei wurden Hunderte, möglicherweise sogar Tausende Menschen getötet. SZ und Weltspiegel besuchen Menschen, die sich an die Nacht vor 25 Jahren erinnern. Eine Digital-Reportage anlässlich des Jahrestags der Studentenproteste auf dem Platz des Himmlischen Friedens.",
-			"type": "Scroll-Geschichte",
+			"type": "Storytelling",
 			"role": "Entwicklung",
 			"contributors": "",
 			"client" : "Süddeutsche Zeitung",
@@ -321,8 +381,7 @@
 				}],
 			"images": [
 				"europawahl1.jpg",
-				"europawahl2.jpg",
-				"europawahl3.jpg"
+				"europawahl2.jpg"
 			]
 		},
 		{
@@ -343,8 +402,7 @@
 				}],
 			"images": [
 				"newsgame1.jpg",
-				"newsgame2.jpg",
-				"newsgame3.jpg"
+				"newsgame2.jpg"
 			]
 		},
 		{
@@ -384,8 +442,7 @@
 				}],
 			"images": [
 				"nebeneinkuenfte1.jpg",
-				"nebeneinkuenfte2.jpg",
-				"nebeneinkuenfte3.jpg"
+				"nebeneinkuenfte2.jpg"
 			]
 		},
 		{
@@ -473,8 +530,7 @@
 				}],
 			"images": [
 				"bundestagswahl1.jpg",
-				"bundestagswahl2.jpg",
-				"bundestagswahl3.jpg"
+				"bundestagswahl2.jpg"
 			]
 		},
 		{
@@ -532,7 +588,7 @@
 			"title": "Begleiter",
 			"description": "Verlässlicher Partner oder Stalker, Geschwister oder Konkurrenten, Gefährte auf Zeit oder über den Tod hinaus: Geschichten über Nähe und Distanz, von den Volontären der Süddeutschen Zeitung.",
 			"date": "Juni 2013",
-			"type": "Scroll-Geschichte",
+			"type": "Storytelling",
 			"role": "Konzept, Design, Entwicklung",
 			"contributors": "",
 			"client" : "Süddeutsche Zeitung",
@@ -542,8 +598,7 @@
 				}],
 			"images": [
 				"begleiter1.jpg",
-				"begleiter2.jpg",
-				"begleiter3.jpg"
+				"begleiter2.jpg"
 			]
 		},
 		{
@@ -559,8 +614,7 @@
 					"url": "http://www.sueddeutsche.de/1.1685321"
 				}],
 			"images": [
-				"zensus.jpg",
-				"zensus2.jpg"
+				"zensus1.jpg"
 			]
 		},
 		{
