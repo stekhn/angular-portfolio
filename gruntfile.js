@@ -126,7 +126,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', [
+    grunt.registerTask('dist', [
         'clean', 'copy', 'compass', 'useminPrepare', 'cssmin', 'ngAnnotate', 'uglify', 'concat', 'usemin', 'json-minify', 'imagemin'
     ]);
 };

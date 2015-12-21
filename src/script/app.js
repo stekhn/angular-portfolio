@@ -163,7 +163,6 @@
 	app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', 'JsonLoader',
 		function ($scope, $routeParams, $filter, JsonLoader) {
 
-
 		if ($scope.projects) {
 
 			setProject();
