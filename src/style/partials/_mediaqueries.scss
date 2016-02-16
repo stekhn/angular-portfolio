@@ -73,6 +73,27 @@
 	.project-thumb {
 		width: 95%;
 		margin-bottom: 1.4em;
+
+		.overlay {
+			opacity: 1;
+			background: rgba(15,5,0,.5);
+
+			p {
+				line-height: 1.3em;
+				opacity: 1;
+				transition: none;
+				font-size: 1.4em;
+				margin: 2em 0;
+			}
+
+			&:hover {
+				background: rgba(15,5,0,.7);
+
+				p {
+					margin: 2em 0;
+				}
+			}
+		}
 	}
 
 	.contact {
