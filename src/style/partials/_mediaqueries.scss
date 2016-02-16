@@ -62,8 +62,17 @@
 
 @media (max-width: 520px) {
 
+	body {
+		padding: 2em;
+	}
+
+	.project-wrapper {
+		margin-top: 2em;
+	}
+
 	.project-thumb {
 		width: 95%;
+		margin-bottom: 1.4em;
 	}
 
 	.contact {
