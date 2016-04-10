@@ -33,6 +33,52 @@
 	},
 	"projects" :[
 		{
+			"title": "Bayern: Crystal Meth breitet sich aus",
+			"description": "Die Droge Crystal Meth breitet sich in ganz Bayern aus. Seit längerem werden an der tschechischen Grenze immer wieder größere Mengen Crystal sichergestellt. Doch zunehmend sind auch andere Regionen Bayerns betroffen. Vor allem der Raum Nürnberg ist zu einem Drogen-Brennpunkt geworden. Die Recherchen von BR Data und BR Recherche liefern eine ausführliche Einschätzung der Situation. Neben mehreren Datenvisualisierungen kann sich der Leser einen detaillierten Bericht für seinen Landkreis erstellen lassen.",
+			"date": "April 2016",
+			"type": "Storytelling",
+			"role": "Design, Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Bayern: Crystal Meth breitet sich aus",
+					"url": "http://web.br.de/interaktiv/crystal/"
+				}],
+			"images": [
+				"crystal.jpg"
+			]
+		},{
+			"title": "Twitter-Analyse des Tatorts",
+			"description": "Fast eine Million Tweets in drei Jahren. BR Data hat Deutschlands bekannteste TV-Krimireihe auf Twitter analysiert. Doch wer sind die Menschen die am Sonntagabend im Minutentakt twittern?Welche Tatort-Folge begeisterte die Twitter-Gemeinde am meisten? Die interaktive Auswertung beantwortet diese Fragen und ermöglicht es den Benutzern, sich beim Twitter-Ranking gegenseitig zu vergleichen.",
+			"date": "März 2016",
+			"type": "Storytelling",
+			"role": "Datenanalyse, Design, Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "#Tatort in der Twitter-Analyse",
+					"url": "http://web.br.de/interaktiv/tatort/"
+				}],
+			"images": [
+				"tatort1.jpg",
+				"tatort2.jpg"
+			]
+		},{
+			"title": "Deutsche Wahlkampfspenden in den USA",
+			"description": "Der US-Wahlkampf ist eine gigantische Show und kostet Milliarden. Ein Großteil der Spenden kommt von Spendenkomitees (PACs), hinter denen meist große Verbände oder Konzerne stehen. Darunter auch deutsche Unternehmen wie Bayer, BASF, Siemens und die Allianz. Unterstützt werden vor allem Kongressabgeordneten die in wichtigen Ausschüssen sitzen und welche über Agrarsubventionen oder Infrastrukturprojekte entscheiden. Eine Datenanalyse für das Investigativmagazin kontrovers des Bayerischen Fernsehens.",
+			"date": "Februar 2016",
+			"type": "Fernsehbeitrag",
+			"role": "Datenanalyse",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Mit deutscher Hilfe in den Kongress",
+					"url": "http://www.br.de/nachrichten/usa-wahlkampf-pac-100.html"
+				}],
+			"images": [
+				"wahlkampfspenden.jpg"
+			]
+		},{
 			"title": "Sie haben gewonnen: Gewinnspielbetrug",
 			"description": "Elfriede und Siegfried Hannebohn hofften zehn Jahre lang auf den großen Gewinn – und verschleuderten dafür ihre gesamte Rente.  Die 53B an der Deutschen Journalistenschule hat recherchiert, wohin das Geld verschwunden ist und ist dabei auf ein verworrenes Netzwerk aus windigen Inkasso-Firmen, Adresshändlern und Scheinfirmen gestoßen. Deren Geschäftspraktiken sind sittenwidrig, aber nicht unbedingt illegal. Was das Vorgehen gegen die Gewinnspielbetrüger um so so schwieriger macht.",
 			"date": "Dezember 2015",
