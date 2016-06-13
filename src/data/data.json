@@ -33,6 +33,21 @@
 	},
 	"projects" :[
 		{
+			"title": "EM 2016: Geburtsorte der Spieler",
+			"description": "Bei der Europameisterschaft in Frankreich treten 552 Fußballer gegeneinander an. Bei weitem nicht alle sind in dem Land geboren, dessen Trikot sie tragen. Was die Geburtsorte der Spieler über das moderne Europa erzählen. Mehrere Kartenvisualisierung zur UEFA Euro 2016.",
+			"date": "Juni 2016",
+			"type": "Kartenvisualisierung, Longread",
+			"role": "Entwicklung",
+			"contributors": "",
+			"client" : "Bayerischer Rundfunk",
+			"links": [{
+					"name": "Europas Beste: Woher kommen die Spieler der EM 2016?",
+					"url": "http://web.br.de/interaktiv/europasbeste/"
+				}],
+			"images": [
+				"em2016.jpg"
+			]
+		},{
 			"title": "Entwicklung der Milchpreise",
 			"description": "Milch wird international gehandelt – der deutsche Milchpreis hängt deshalb auch von Entwicklungen auf dem Weltmarkt ab. Auch der Preis den die einzelnen Molkereien den Bauern zahlen, ist deutschlandweit sehr unterschiedlich. Dabei stehen die bayerischen Molkereien noch vergleichweise gut da. Zweit interaktive Diagramme die, anlässlich des europäischen Milchgipfels, diese Zusammenhänge erklären.",
 			"date": "Mai 2016",
