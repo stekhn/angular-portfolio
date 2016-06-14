@@ -1,25 +1,25 @@
 <article>
 
-	<p class="description">
-		Willkommen. Mein Schwerpunkt ist die Konzeption und Umsetzung von interaktiven Grafiken, Visualisierungen und Web-Anwendungen im Bereich Storytelling und Datenjournalismus. Ich arbeite als Freiberufler in München und freue mich über Ihre <a href="#!/contact">Anfrage</a>. Hier eine Übersicht besonders gelungener Projekte der letzten Jahre:
-	</p>
+  <p class="description">
+    Willkommen. Mein Schwerpunkt ist die Konzeption und Umsetzung von interaktiven Grafiken, Visualisierungen und Web-Anwendungen im Bereich Storytelling und Datenjournalismus. Ich arbeite als Freiberufler in München und freue mich über Ihre <a href="#!/contact">Anfrage</a>. Hier eine Übersicht besonders gelungener Projekte der letzten Jahre:
+  </p>
 
-	<section class="project-wrapper">
+  <section class="project-wrapper">
 
-		<div ng-repeat="project in projects" class="project">
+    <div ng-repeat="project in projects" class="project">
 
-			<a href="#!/project/{{project.title | dashcase}}">
-				<div class="thumb">
-						<img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
-						<div class="overlay">
-						</div>
-				</div>
-				
-				<p><strong>{{project.title}}</strong> – {{project.role}}</p>
-			</a>
+      <a href="#!/project/{{project.title | dashcase}}">
+        <div class="thumb">
+            <img alt="{{project.title}}" ng-src="{{'img/project/' + project.images[0]}}">
+            <div class="overlay">
+            </div>
+        </div>
 
-		</div>
+        <p><strong>{{project.title}}</strong> – {{project.role}}</p>
+      </a>
 
-	</section>
+    </div>
+
+  </section>
 
 </article>

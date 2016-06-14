@@ -1,77 +1,77 @@
 .contact {
 
-	.address {
-		display: inline-block;
-		width: 35%;
-		margin-right: 5%;
-	}
+  .address {
+    display: inline-block;
+    width: 35%;
+    margin-right: 5%;
+  }
 
-	.map {
-		margin-top: 1em;
-		width: 55%;
-		height: 250px;
-		display: inline-block;
-		float: right;
-	}
+  .map {
+    margin-top: 1em;
+    width: 55%;
+    height: 250px;
+    display: inline-block;
+    float: right;
+  }
 }
 
 .social {
 
-	.timeline {
+  .timeline {
 
-		width: 20%;
+    width: 20%;
 
-		&:last-child {
-			margin-right: 0;
-		}
+    &:last-child {
+      margin-right: 0;
+    }
 
-		.bubble {
-			background-size: 383px;
-		}
-	}
+    .bubble {
+      background-size: 383px;
+    }
+  }
 
-	.skype {
-		background-image: url("../img/socialicons.png");
-		background-position: -133px -54px;
-	}
+  .skype {
+    background-image: url("../img/socialicons.png");
+    background-position: -133px -54px;
+  }
 
-	.twitter {
-		background-image: url("../img/socialicons.png");
-		background-position: -51px -54px;
-	}
+  .twitter {
+    background-image: url("../img/socialicons.png");
+    background-position: -51px -54px;
+  }
 
-	.google {
-		background-image: url("../img/socialicons.png");
-		background-position: -92px -54px;
-	}
+  .google {
+    background-image: url("../img/socialicons.png");
+    background-position: -92px -54px;
+  }
 
-	.facebook {
-		background-image: url("../img/socialicons.png");
-		background-position: -8px -54px;
-	}
+  .facebook {
+    background-image: url("../img/socialicons.png");
+    background-position: -8px -54px;
+  }
 
-	.xing {
-		background-image: url("../img/socialicons.png");
-		background-position: -217px -54px;
-	}
+  .xing {
+    background-image: url("../img/socialicons.png");
+    background-position: -217px -54px;
+  }
 
-	.linkedin {
-		background-image: url("../img/socialicons.png");
-		background-position: -175px -54px;
-	}
+  .linkedin {
+    background-image: url("../img/socialicons.png");
+    background-position: -175px -54px;
+  }
 
-	.github {
-		background-image: url("../img/socialicons.png");
-		background-position: -259px -54px;
-	}
+  .github {
+    background-image: url("../img/socialicons.png");
+    background-position: -259px -54px;
+  }
 
-	.vimeo {
-		background-image: url("../img/socialicons.png");
-		background-position: -300px -54px;
-	}
+  .vimeo {
+    background-image: url("../img/socialicons.png");
+    background-position: -300px -54px;
+  }
 
-	.lastfm {
-		background-image: url("../img/socialicons.png");
-		background-position: -342px -54px;
-	}
+  .lastfm {
+    background-image: url("../img/socialicons.png");
+    background-position: -342px -54px;
+  }
 }

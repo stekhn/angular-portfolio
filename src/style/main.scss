@@ -6,17 +6,17 @@ $white: #fff;
 $background: #fff;;
 
 @mixin image-box {
-	padding: 10px;
-	background: #fff;
-	border: 1px solid #eee;
-	box-shadow: 0 0 3px #eee;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 0 3px #eee;
 }
 
 @mixin transition($speed) {
-	transition: all $speed ease-in-out;
-	-webkit-transition: all $speed ease-in-out;
-	-moz-transition: all $speed ease-in-out;
-	-o-transition: all $speed ease-in-out;
+  transition: all $speed ease-in-out;
+  -webkit-transition: all $speed ease-in-out;
+  -moz-transition: all $speed ease-in-out;
+  -o-transition: all $speed ease-in-out;
 }
 
 @import "partials/reset.scss";

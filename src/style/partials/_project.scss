@@ -1,72 +1,72 @@
 .project-wrapper {
-	margin-top: 3em;
-	margin-left: -3%;
+  margin-top: 3em;
+  margin-left: -3%;
 }
 
 .project {
-	position: relative;
-	display: inline-block;
-	margin: 0 3% 3% 3%;
-	width: 27.3%;
-	vertical-align: top;
-	text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 0 3% 3% 3%;
+  width: 27.3%;
+  vertical-align: top;
+  text-align: center;
 
-	.thumb {
-		@include image-box;
+  .thumb {
+    @include image-box;
 
-		img {
-			@include transition(.25s);
-			
-			width: 100%;
-		}
-	}
+    img {
+      @include transition(.25s);
 
-	p {
-		@include transition(.25s);
-		
-		color: $black;
-		padding: 10px;
-		margin: 0;
-	}
+      width: 100%;
+    }
+  }
 
-	&:hover {
-		p {
-			color: $red;
-		}
-	}
+  p {
+    @include transition(.25s);
+
+    color: $black;
+    padding: 10px;
+    margin: 0;
+  }
+
+  &:hover {
+    p {
+      color: $red;
+    }
+  }
 }
 
 .project-page {
-	position: relative;
+  position: relative;
 
-	.back {
-		@include transition(.25s);
+  .back {
+    @include transition(.25s);
 
-		cursor: pointer;
-		font-size: 3em;
-		color: $red;
+    cursor: pointer;
+    font-size: 3em;
+    color: $red;
 
-		&:hover {
-			color: $black;
-		}
-	}
+    &:hover {
+      color: $black;
+    }
+  }
 
-	.project-description {
-		margin-bottom: 1em;
-		width: calc(100% - 360px);
-	}
+  .project-description {
+    margin-bottom: 1em;
+    width: calc(100% - 360px);
+  }
 
-	.project-images {
-		position: absolute;
-		top: 46px;
-		right: 0;
+  .project-images {
+    position: absolute;
+    top: 46px;
+    right: 0;
 
-		img {
-			@include image-box;
-			
-			display: block;
-			width: 300px;
-			margin-bottom: 1.5em;
-		}
-	}
+    img {
+      @include image-box;
+
+      display: block;
+      width: 300px;
+      margin-bottom: 1.5em;
+    }
+  }
 }

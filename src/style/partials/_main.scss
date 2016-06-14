@@ -1,81 +1,81 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-	font-family: 'Helvetica Neue', sans-serif;
-	color: $black;
-	background: $background;
-	max-width: 920px;
-	padding: 2em 3em;
-	margin: 0 auto;
-	background: url(../img/graph.svg);
-	overflow-y: scroll;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: $black;
+  background: $background;
+  max-width: 920px;
+  padding: 2em 3em;
+  margin: 0 auto;
+  background: url(../img/graph.svg);
+  overflow-y: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'League Gothic', 'Arial Narrow', Impact, sans-serif;
+  font-family: 'League Gothic', 'Arial Narrow', Impact, sans-serif;
 }
 
 h1 {
-	font-size: 4em;
+  font-size: 4em;
 }
 
 h2 {
-	font-size: 3em;
-	margin-bottom: 1em;
+  font-size: 3em;
+  margin-bottom: 1em;
 }
 
 h3 {
-	font-size: 2em;
-	margin-top: 1em;
-	margin-bottom: .5em;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: .5em;
 }
 
 strong, b {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 em, i {
-	font-style: italic;
+  font-style: italic;
 }
 
 main {
-	clear: both;
-	position: relative;
-	display: block;
+  clear: both;
+  position: relative;
+  display: block;
 
-	p {
-		margin-bottom: 1.4em;
-		line-height: 1.6em;
-		font-weight: 300;
-	}
+  p {
+    margin-bottom: 1.4em;
+    line-height: 1.6em;
+    font-weight: 300;
+  }
 
-	a {
-		@include transition(.2s);
-		
-		text-decoration: none;
-		font-weight: 300;
-		color: $red;
+  a {
+    @include transition(.2s);
 
-		&:hover {
-			color: $black;
-		}
-	}
+    text-decoration: none;
+    font-weight: 300;
+    color: $red;
 
-	blockquote {
-		padding: .2em .7em;
-		margin: 0 0 1.4em;
-		border-left: 5px solid #eee;
-	}
+    &:hover {
+      color: $black;
+    }
+  }
 
-	blockquote p:last-child,
-	blockquote ul:last-child,
-	blockquote ol:last-child {
-		margin-bottom: 0;
-	}
+  blockquote {
+    padding: .2em .7em;
+    margin: 0 0 1.4em;
+    border-left: 5px solid #eee;
+  }
+
+  blockquote p:last-child,
+  blockquote ul:last-child,
+  blockquote ol:last-child {
+    margin-bottom: 0;
+  }
 }

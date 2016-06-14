@@ -1,57 +1,57 @@
 header {
 
-	margin-bottom: 3em;
+  margin-bottom: 3em;
 
-	.logo {
-		display: inline-block;
-		
-
-		p {
-			font-weight: 300;
-		}
+  .logo {
+    display: inline-block;
 
 
-		a {
-			color: $black;
-			text-decoration: none;
-		}
-	}
+    p {
+      font-weight: 300;
+    }
 
-	nav {
 
-		display: inline-block;
-		float: right;
-		margin-top: 2.2em;
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+  }
 
-		li {
-			display: inline;
+  nav {
 
-			a {
-				@include transition(.25s);
+    display: inline-block;
+    float: right;
+    margin-top: 2.2em;
 
-				position: relative;
-				text-decoration: none;
-				font-weight: 300;
-				font-size: 1.2em;
-				color: $red;
-				margin-right: .5em;
+    li {
+      display: inline;
 
-				&:hover {
-					color: $black;
-				}
-			}
+      a {
+        @include transition(.25s);
 
-			a.active:after {
-				content: '';
+        position: relative;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 1.2em;
+        color: $red;
+        margin-right: .5em;
 
-				width: 100%;
-				position: absolute;
-				left: 0;
-				bottom: -3px;
+        &:hover {
+          color: $black;
+        }
+      }
 
-				border-width: 0 0 2px;
-				border-style: solid;
-			}
-		}
-	}
+      a.active:after {
+        content: '';
+
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+
+        border-width: 0 0 2px;
+        border-style: solid;
+      }
+    }
+  }
 }

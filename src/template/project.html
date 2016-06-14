@@ -1,28 +1,28 @@
 <article class="project-page" ng-controller="ProjectCtrl">
 
-	<div class="project-description">
-		<p><strong>{{project.title}}</strong></p>
+  <div class="project-description">
+    <p><strong>{{project.title}}</strong></p>
 
-		<div class="project-images">
-			<img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
-		</div>
-		
-		<p>{{project.description}}</p>
+    <div class="project-images">
+      <img ng-repeat="image in project.images" alt="{{project.title}}" ng-src="{{'img/project/' + image}}">
+    </div>
 
-		<blockquote>
-			<p>
-				<span ng-show="project.type">{{project.type}}</span><br>
-				<span ng-show="project.role">{{project.role}}</span><br>
-				<span ng-show="project.date">{{project.date}}</span><span ng-show="project.client"> für {{project.client}}</span>
+    <p>{{project.description}}</p>
 
-			</p>
-		</blockquote>
-		
-		<p ng-show="project.links"><a ng-repeat="link in project.links" ng-href="{{link.url}}" target="_blank">{{link.name}}<br></a></p>
-	</div>
+    <blockquote>
+      <p>
+        <span ng-show="project.type">{{project.type}}</span><br>
+        <span ng-show="project.role">{{project.role}}</span><br>
+        <span ng-show="project.date">{{project.date}}</span><span ng-show="project.client"> für {{project.client}}</span>
 
-	<div>
-		<a href="#!/" class="back">zurück</div>
-	</div>
+      </p>
+    </blockquote>
+
+    <p ng-show="project.links"><a ng-repeat="link in project.links" ng-href="{{link.url}}" target="_blank">{{link.name}}<br></a></p>
+  </div>
+
+  <div>
+    <a href="#!/" class="back">zurück</div>
+  </div>
 
 </article>

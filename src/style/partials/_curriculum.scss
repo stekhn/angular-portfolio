@@ -1,62 +1,62 @@
 .row {
-	position: relative;
-	padding-left: 3em;
+  position: relative;
+  padding-left: 3em;
     clear: both;
 
     p {
-    	padding-top: .2em;
+      padding-top: .2em;
     }
 }
 
 .timeline {
-	display: inline-block;
-	position: relative;
-	margin-right: 5%;
-	width: 40%;
-	overflow: hidden;
+  display: inline-block;
+  position: relative;
+  margin-right: 5%;
+  width: 40%;
+  overflow: hidden;
 
-	h3 {
-		padding-left: 0
-	}
+  h3 {
+    padding-left: 0
+  }
 
-	.line {
-		position: absolute;
-		left: 1em;
-		width: 1px;
-		height: 100%;
-		background-color: $lightgrey;
-	}
+  .line {
+    position: absolute;
+    left: 1em;
+    width: 1px;
+    height: 100%;
+    background-color: $lightgrey;
+  }
 
-	.timestamp {
-		margin-bottom: 0;
-	}
+  .timestamp {
+    margin-bottom: 0;
+  }
 
-	.bubble {
-		position: absolute;
-		left: 0;
-		width: 2em;
-		height: 2em;
-		border-radius: 50%;
-		background-color: $lightgrey;
-	}
+  .bubble {
+    position: absolute;
+    left: 0;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: $lightgrey;
+  }
 }
 
 .skills {
-	display: inline-block;
-	vertical-align: top;
-	float: right;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
 
-	.line {
-		width:240px;
-		display:block;
-		float:left;
-	}
+  .line {
+    width:240px;
+    display:block;
+    float:left;
+  }
 
-	.circle {
-		color: $red;
-	}
+  .circle {
+    color: $red;
+  }
 }
 
 .grey {
-	color: $lightgrey;
+  color: $lightgrey;
 }

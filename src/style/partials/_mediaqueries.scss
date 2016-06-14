@@ -1,115 +1,115 @@
 @media (max-width: 740px) {
 
-	.project-thumb {
-		width: 45%;
-	}
+  .project-thumb {
+    width: 45%;
+  }
 
-	.project-page {
+  .project-page {
 
-		.project-description {
-			width: 100%;
-		}
+    .project-description {
+      width: 100%;
+    }
 
-		.project-images {
-			position: static;
+    .project-images {
+      position: static;
 
-			img {
-				width: 100%;
+      img {
+        width: 100%;
 
-				&:not(:first-child) {
-					display: none;
-				}
-			}
-		}
-	}
+        &:not(:first-child) {
+          display: none;
+        }
+      }
+    }
+  }
 
-	.contact {
+  .contact {
 
-		.map {
-			margin-top: 0;
-			width: 100%;
-		}
+    .map {
+      margin-top: 0;
+      width: 100%;
+    }
 
-		.address {
-			width: 100%;
-		}
-	}
+    .address {
+      width: 100%;
+    }
+  }
 
-	.timeline {
-		width: 100%;
-	}
+  .timeline {
+    width: 100%;
+  }
 
-	.skills {
-		float: none;
-		width: 100%;
-		display: block;
-	}
+  .skills {
+    float: none;
+    width: 100%;
+    display: block;
+  }
 
-	.social {
+  .social {
 
-		.timeline {
-			width: 40%;
-		}
-	}
+    .timeline {
+      width: 40%;
+    }
+  }
 
-	header nav {
-		line-height: 1.6em;
-		float: none;
-		display: block;
-		margin: 1.5em 0 2em 0;
-	}
+  header nav {
+    line-height: 1.6em;
+    float: none;
+    display: block;
+    margin: 1.5em 0 2em 0;
+  }
 }
 
 @media (max-width: 520px) {
 
-	body {
-		padding: 2em;
-	}
+  body {
+    padding: 2em;
+  }
 
-	.project-wrapper {
-		margin-top: 2em;
-	}
+  .project-wrapper {
+    margin-top: 2em;
+  }
 
-	.project-thumb {
-		width: 95%;
-		margin-bottom: 1.4em;
+  .project-thumb {
+    width: 95%;
+    margin-bottom: 1.4em;
 
-		.overlay {
-			opacity: 1;
-			background: rgba(15,5,0,.5);
+    .overlay {
+      opacity: 1;
+      background: rgba(15,5,0,.5);
 
-			p {
-				line-height: 1.3em;
-				opacity: 1;
-				transition: none;
-				font-size: 1.4em;
-				margin: 2em 0;
-			}
+      p {
+        line-height: 1.3em;
+        opacity: 1;
+        transition: none;
+        font-size: 1.4em;
+        margin: 2em 0;
+      }
 
-			&:hover {
-				background: rgba(15,5,0,.7);
+      &:hover {
+        background: rgba(15,5,0,.7);
 
-				p {
-					margin: 2em 0;
-				}
-			}
-		}
-	}
+        p {
+          margin: 2em 0;
+        }
+      }
+    }
+  }
 
-	.contact {
+  .contact {
 
-		.map {
-			display: none;
-		}
-	}
+    .map {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 400px) {
 
-	.social {
+  .social {
 
-		.timeline {
-			width: 100%;
-		}
-	}
+    .timeline {
+      width: 100%;
+    }
+  }
 }

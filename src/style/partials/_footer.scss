@@ -1,21 +1,21 @@
 footer {
-	margin-top: 4em;
+  margin-top: 4em;
 
-	p {
+  p {
 
-		font-weight: 300;
-		color: $darkgrey;
-		text-align: center;
+    font-weight: 300;
+    color: $darkgrey;
+    text-align: center;
 
-		a {
-			@include transition(.25s);
-			
-			text-decoration: none;
-			color: $darkgrey;
+    a {
+      @include transition(.25s);
 
-			&:hover {
-				color: $red;
-			}
-		}
-	}
+      text-decoration: none;
+      color: $darkgrey;
+
+      &:hover {
+        color: $red;
+      }
+    }
+  }
 }
