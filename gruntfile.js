@@ -12,8 +12,7 @@ module.exports = function (grunt) {
         files: [
           { expand: true, src: ['src/index.html'], dest: 'dist/', filter: 'isFile', flatten: true },
           { expand: true, src: ['src/sitemap.xml'], dest: 'dist/', filter: 'isFile', flatten: true },
-          { expand: true, src: ['src/favicon*'], dest: 'dist/', filter: 'isFile', flatten: true },
-          { expand: true, src: ['src/preview.jpg'], dest: 'dist/', filter: 'isFile', flatten: true },
+          { expand: true, src: ['src/favicon.ico'], dest: 'dist/', filter: 'isFile', flatten: true },
           { expand: true, src: ['src/font/*'], dest: 'dist/font/', flatten: true },
           { expand: true, src: ['src/data/*'], dest: 'dist/data/', flatten: true },
           { expand: true, src: ['src/template/*'], dest: 'dist/template/', flatten: true },
