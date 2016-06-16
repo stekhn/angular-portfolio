@@ -6,7 +6,7 @@ app.factory('metaTags', function () {
   var description = 'Konzeption; Beratung und Umsetzung von Projekten im Bereich Datenjournalismus; Visualisierung; interaktive Grafik und Webentwicklung in München.';
   var keywords = 'Datenjournalismus; Datenvisualisierung; interaktive Grafik; Storytelling; Innovation; Online-Journalismus; Webentwicklung; Datenkritik; Steffen Kühne; München';
   var url = 'http://stekhn.de';
-  var image = 'http://stekhn.de/preview.jpg';
+  var image = 'http://stekhn.de/img/preview.jpg';
 
   return {
 
