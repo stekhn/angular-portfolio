@@ -18,6 +18,8 @@ app.controller('MetaCtrl', ['$rootScope', '$location', 'metaTags', 'jsonLoader',
   function setMeta() {
 
     var data = $rootScope.metadata;
+
+    console.log();
     var metadata = data[$location.url()] || data['/'];
 
     metaTags.setTitle(metadata.title);

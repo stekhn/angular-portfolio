@@ -11,18 +11,18 @@ app.factory('metaTags', function () {
   return {
 
     title: function() { return title; },
-    setTitle: function(newTitle) { title = newTitle; },
+    setTitle: function (newTitle) { title = newTitle; },
 
-    description: function() { return description; },
+    description: function () { return description; },
     setDescription: function(newDescription) { description = newDescription; },
 
-    keywords: function() { return keywords; },
+    keywords: function () { return keywords; },
     setKeywords: function(newKeywords) { keywords = newKeywords; },
 
-    url: function() { return url; },
+    url: function () { return url; },
     setUrl: function(newUrl) { url = newUrl; },
 
-    image: function() { return image; },
+    image: function () { return image; },
     setImage: function(newImage) { image = newImage; }
   };
 });
