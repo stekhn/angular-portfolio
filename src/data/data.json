@@ -32,7 +32,25 @@
 		}
 	},
 	"projects" :[
-		{
+    {
+      "title": "Rio de Janeiro: Gewalt und Spiele",
+      "description": "Kurz vor den Olympischen Spielen 2016 ist die Gewalt in Rio de Janeiro weiter ein großes Problem. Allein in der ersten Jahreshälfte wurden mehr als doppelt so viele Polizisten getötet wie im Gesamtjahr 2015. Schwer umkämpft sind vor allem die Armenviertel, die sogenannten Favelas. Eine Datenauswertung von tagesthemen und BR Data zeigt das ganze Ausmaß der Gewalt.",
+      "date": "Juli 2016",
+      "type": "Artikel",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client" : "Tagesthemen",
+      "links": [{
+          "name": "Artikel mit Übersichtskarte",
+          "url": "http://www.tagesschau.de/ausland/olympia-rio-kriminalitaet-101.html"
+        },{
+          "name": "Tagesthemen-Beitrag (0:17)",
+          "url": "https://www.tagesschau.de/multimedia/sendung/tt-4621.html"
+        }],
+      "images": [
+        "rio.jpg"
+      ]
+    },{
 			"title": "EM 2016: Geburtsorte der Spieler",
 			"description": "Bei der Europameisterschaft in Frankreich treten 552 Fußballer gegeneinander an. Bei weitem nicht alle sind in dem Land geboren, dessen Trikot sie tragen. Was die Geburtsorte der Spieler über das moderne Europa erzählen. Mehrere Kartenvisualisierung zur UEFA Euro 2016.",
 			"date": "Juni 2016",
