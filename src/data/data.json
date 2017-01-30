@@ -33,8 +33,38 @@
 	},
 	"projects" :[
     {
+      "title": "Präsidentschaftswahlen in den USA",
+      "description": "Donald Trumps Wahlsieg bei der US-Präsidentschaftswahl 2016 schockierte die Medien. Die Umfrageergebnisse kurz vor der Wahl deuteten noch auf einen knappen Sieg der demokratischen Kandidatin Hillary Clinton hin und fast alle Journalisten und Meinungsforscher lagen mit ihren Vorhersagen daneben. Doch wie typisch ist ein derartiger Stimmungsumschwung kurz vor der Wahl? Eine Datenanalyse der letzten zwanzig Wahlen liefert Klarheit.",
+      "date": "November 2016",
+      "type": "Datenvisualisierung",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client" : "",
+      "links": [{
+          "name": "How Close Were the Last Presidential Elections?",
+          "url": "https://stekhn.github.io/us-elections-chart/src/"
+        }],
+      "images": [
+        "us-wahl.jpg"
+      ]
+    },{
+      "title": "Milliarden für Syrien",
+      "description": "Die Menschen in Syrien leiden, obwohl letztes Jahr mehr als vier Milliarden US-Dollar an Hilfsgelder in die Region flossen. Doch kommt das Geld auch dort an wo es gebraucht wird? Mehrere Hilfsorganisationen erheben schwere Vorwürfe gegen die UN. Auf den Spuren von Hilfsgeldern und Projekten, die dem Assad-Regime nützen.",
+      "date": "Oktober 2016",
+      "type": "Fernsehbeitrag",
+      "role": "Datenanalyse, Recherche",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Report München: Milliarden für Syrien",
+          "url": "http://www.br.de/fernsehen/das-erste/sendungen/report-muenchen/report-syrien-hilfe-126.html"
+        }],
+      "images": [
+        "syrien-spenden.jpg"
+      ]
+    },{
       "title": "Rio de Janeiro: Gewalt und Spiele",
-      "description": "Kurz vor den Olympischen Spielen 2016 ist die Gewalt in Rio de Janeiro weiter ein großes Problem. Allein in der ersten Jahreshälfte wurden mehr als doppelt so viele Polizisten getötet wie im Gesamtjahr 2015. Schwer umkämpft sind vor allem die Armenviertel, die sogenannten Favelas. Eine Datenauswertung von tagesthemen und BR Data zeigt das ganze Ausmaß der Gewalt.",
+      "description": "Die Menschen in Syrien leiden, obwohl letztes Jahr mehr als vier Milliarden US-Dollar an Hilfsgelder in die Region flossen. Doch kommt das Geld auch dort an wo es gebraucht wird? Report München, BR Data und das Recherchenetzwerk CORRECTIV auf den Spuren von Hilfsgeldern und Projekten, die dem Assad-Regime nützen.",
       "date": "Juli 2016",
       "type": "Artikel",
       "role": "Datenanalyse, Visualisierung",
