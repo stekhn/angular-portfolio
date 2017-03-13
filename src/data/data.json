@@ -1,38 +1,86 @@
 {
-	"metadata": {
-		"/": {
-			"title": "Steffen Kühne – Journalismus, Code & Design",
-			"description": "Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München.",
-			"keywords": "Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Webentwicklung, Datenkritik, Steffen Kühne, München",
-			"image": "http://stekhn.de/img/preview.jpg"
-		},
-		"/curriculum": {
-			"title": "Steffen Kühne – Vita",
-			"description": "Das Internet ist eine großartige Bühne für Menschen und ihre Geschichten. Um Geschichten im Netz gut erzählen zu können, braucht man sowohl ein solides technisches Grundwissen, als auch eine Gespür für Gestaltung und Dramaturgie.",
-			"keyword": "Webentwicklung, Datenjournalismus, Datenvisualisierung, interaktive Grafik, JavaScript, HTML 5, CSS 3, D3.js, Steffen Kühne, München",
-			"image": "http://stekhn.de/img/preview.jpg"
-		},
-		"/contact": {
-			"title": "Steffen Kühne – Kontakt",
-			"description": "Ich bin immer auf der Suche nach spannenden Projekten im Bereich interaktive Grafik, Datenjournalismus und Anwendungsentwicklung. Wenn Sie Interesse haben mit mir zusammenzuarbeiten, würde ich mich über eine kurze Nachricht freuen.",
-			"keyword": "Interaktive Grafik, Datenjournalismus, Anwendungsentwicklung, Steffen Kühne, München, Skype, Twitter, Github, Facebook, Linkedin, Xing",
-			"image": "http://stekhn.de/img/preview.jpg"
-		},
-		"/blog": {
-			"title": "Steffen Kühne – Blog",
-			"description": "In meinem Blog Datenkritik schreibe ich über Journalismus, Code und Design. Ich beobachte die Neuerungen im Bereich Datenjournalismus und verfasse Anleitungen zum Umsetzen kleinerer datenjournalistischer Projekte. Außerdem fordere ich mehr Open Source im Journalismus.",
-			"keyword": "Datenkritik, Journalismus, Code, Design, Datenjournalismus, Open Source, Blog, Steffen Kühne, München",
-			"image": "http://stekhn.de/img/preview.jpg"
-		},
-		"/imprint": {
-			"title": "Steffen Kühne – Impressum",
-			"description": "Impressum gemäß § 5 TMG. Haftung für Inhalte, Haftung für Links und Urheberrecht.",
-			"keyword": "Impressum, Kontakt, Steffen Kühne, München",
-			"image": "http://stekhn.de/img/preview.jpg"
-		}
-	},
-	"projects" :[
+  "metadata": {
+    "/": {
+      "title": "Steffen Kühne – Journalismus, Code & Design",
+      "description": "Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München.",
+      "keywords": "Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Webentwicklung, Datenkritik, Steffen Kühne, München",
+      "image": "http://stekhn.de/img/preview.jpg"
+    },
+    "/curriculum": {
+      "title": "Steffen Kühne – Vita",
+      "description": "Das Internet ist eine großartige Bühne für Menschen und ihre Geschichten. Um Geschichten im Netz gut erzählen zu können, braucht man sowohl ein solides technisches Grundwissen, als auch eine Gespür für Gestaltung und Dramaturgie.",
+      "keyword": "Webentwicklung, Datenjournalismus, Datenvisualisierung, interaktive Grafik, JavaScript, HTML 5, CSS 3, D3.js, Steffen Kühne, München",
+      "image": "http://stekhn.de/img/preview.jpg"
+    },
+    "/contact": {
+      "title": "Steffen Kühne – Kontakt",
+      "description": "Ich bin immer auf der Suche nach spannenden Projekten im Bereich interaktive Grafik, Datenjournalismus und Anwendungsentwicklung. Wenn Sie Interesse haben mit mir zusammenzuarbeiten, würde ich mich über eine kurze Nachricht freuen.",
+      "keyword": "Interaktive Grafik, Datenjournalismus, Anwendungsentwicklung, Steffen Kühne, München, Skype, Twitter, Github, Facebook, Linkedin, Xing",
+      "image": "http://stekhn.de/img/preview.jpg"
+    },
+    "/blog": {
+      "title": "Steffen Kühne – Blog",
+      "description": "In meinem Blog Datenkritik schreibe ich über Journalismus, Code und Design. Ich beobachte die Neuerungen im Bereich Datenjournalismus und verfasse Anleitungen zum Umsetzen kleinerer datenjournalistischer Projekte. Außerdem fordere ich mehr Open Source im Journalismus.",
+      "keyword": "Datenkritik, Journalismus, Code, Design, Datenjournalismus, Open Source, Blog, Steffen Kühne, München",
+      "image": "http://stekhn.de/img/preview.jpg"
+    },
+    "/imprint": {
+      "title": "Steffen Kühne – Impressum",
+      "description": "Impressum gemäß § 5 TMG. Haftung für Inhalte, Haftung für Links und Urheberrecht.",
+      "keyword": "Impressum, Kontakt, Steffen Kühne, München",
+      "image": "http://stekhn.de/img/preview.jpg"
+    }
+  },
+  "projects" :[
     {
+      "title": "Angriff auf die Demokratie",
+      "description": "Demolierte Büros, gelockerte Radmuttern, Morddrohungen. Politiker zu sein, kann gefährlich werden. Letztes Jahr alleine zählte die Polizei 755 rechts-motivierten Übergriffe auf Politiker. Hinzu kommen die links-motivierten und nicht zugeordneten Straftaten. Die Analyse zeigt: Alle großen Parteien werden angefeindet und der Osten Deutschlands ist besonders stark betroffen.",
+      "date": "Februar 2017",
+      "type": "Web-Special",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Das Erste",
+      "links": [{
+          "name": "Angriff auf die Demokratie",
+          "url": "http://web.br.de/interaktiv/angriff-auf-die-demokratie/"
+        }],
+      "images": [
+        "angriff.jpg"
+      ]
+    },{
+      "title": "Madeira Offshore",
+      "description": "Seit 30 Jahren genehmigt die EU-Kommission extrem niedrige Steuersätze auf der portugiesischen Insel Madeira. Das Ziel: die Wirtschaft ankurbeln. Tatsächlich profitieren internationale Großkonzerne und reiche Privatpersonen. Arbeitsplätze entstehen kaum und anderen Ländern entgehen Steuereinnahmen in Milliardenhöhe. Eine Analyse des Niedrigsteuersystems und der Briefkastenfirmen vor Ort.",
+      "date": "Februar 2017",
+      "type": "Investigative Recherche",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Analyse: Das System Madeira",
+          "url": "https://br.de/madeira/artikel"
+        },{
+          "name": "Podcast: Money Island",
+          "url": "https://br.de/madeira/podcast"
+        }],
+      "images": [
+        "madeira.jpg"
+      ]
+    },{
+      "title": "Madeira Search",
+      "description": "Für die investigative Recherche zum Steuerparadies Madeira mussten tausenden Dokumente heruntergeladen und durchsuchbar (OCR) gemacht werden. Die Suchmaschine ermöglicht es die knapp 20.000 Seiten nach bekannten Firmen und Persönlichkeiten zu durchsuchen. Ein API-Endpunkt ermöglich eine systematische Suche und ein regelmäßiges Aktualisieren der Dokumente. Die Suche baut auf der Elasticsearch-Engine auf.",
+      "date": "November 2016",
+      "type": "Entwicklung, Datenanalyse",
+      "role": "Text Mining, OCR, Backend",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "How to Build a Document Search Engine",
+          "url": "https://stekhn.github.io/us-elections-chart/src/"
+        }],
+      "images": [
+        "mammon-search.jpg"
+      ]
+    },{
       "title": "Präsidentschaftswahlen in den USA",
       "description": "Donald Trumps Wahlsieg bei der US-Präsidentschaftswahl 2016 schockierte die Medien. Die Umfrageergebnisse kurz vor der Wahl deuteten noch auf einen knappen Sieg der demokratischen Kandidatin Hillary Clinton hin und fast alle Journalisten und Meinungsforscher lagen mit ihren Vorhersagen daneben. Doch wie typisch ist ein derartiger Stimmungsumschwung kurz vor der Wahl? Eine Datenanalyse der letzten zwanzig Wahlen liefert Klarheit.",
       "date": "November 2016",
@@ -81,727 +129,727 @@
         "rio.jpg"
       ]
     },{
-			"title": "EM 2016: Geburtsorte der Spieler",
-			"description": "Bei der Europameisterschaft in Frankreich treten 552 Fußballer gegeneinander an. Bei weitem nicht alle sind in dem Land geboren, dessen Trikot sie tragen. Was die Geburtsorte der Spieler über das moderne Europa erzählen. Mehrere Kartenvisualisierung zur UEFA Euro 2016.",
-			"date": "Juni 2016",
-			"type": "Kartenvisualisierung, Longread",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Europas Beste: Woher kommen die Spieler der EM 2016?",
-					"url": "http://web.br.de/interaktiv/europasbeste/"
-				}],
-			"images": [
-				"em2016.jpg"
-			]
-		},{
-			"title": "Entwicklung der Milchpreise",
-			"description": "Milch wird international gehandelt – der deutsche Milchpreis hängt deshalb auch von Entwicklungen auf dem Weltmarkt ab. Auch der Preis den die einzelnen Molkereien den Bauern zahlen, ist deutschlandweit sehr unterschiedlich. Dabei stehen die bayerischen Molkereien noch vergleichweise gut da. Zweit interaktive Diagramme die, anlässlich des europäischen Milchgipfels, diese Zusammenhänge erklären.",
-			"date": "Mai 2016",
-			"type": "Artikel",
-			"role": "Datenanalyse, Visualisierung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Milch: Das weiße Öl",
-					"url": "http://www.br.de/nachrichten/milch-weltmarkt-daten-100.html"
-				}],
-			"images": [
-				"milchpreise1.jpg",
-				"milchpreise2.jpg"
-			]
-		},{
-			"title": "Ladensterben in Bayern",
-			"description": "Während in Boom-Gegenden wie München oder Ingolstadt immer mehr Lebensmittelgeschäfte eröffnen, geht die Zahl in vielen Landkreisen teilweise dramatisch zurück. Das hat Auswirkungen, vor allem für die ländlichen Gemeinden und ihre Bürger. Ein Reportage aus dem oberfränkischen Landkreis Wunsiedel. Zusätzlich zu den Webvideos kann sich der Leser einen detaillierten Bericht für seinen Landkreis erstellen lassen.",
-			"date": "Mai 2016",
-			"type": "Web-Reportage",
-			"role": "Datenanalyse, Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "BR Data: Nahversorgung in Gefahr",
-					"url": "http://web.br.de/interaktiv/ladensterben/"
-				}],
-			"images": [
-				"ladensterben1.jpg",
-				"ladensterben2.jpg"
-			]
-		},{
-			"title": "Bayern: Crystal Meth breitet sich aus",
-			"description": "Die Droge Crystal Meth breitet sich in ganz Bayern aus. Seit längerem werden an der tschechischen Grenze immer wieder größere Mengen Crystal sichergestellt. Doch zunehmend sind auch andere Regionen Bayerns betroffen. Vor allem der Raum Nürnberg ist zu einem Drogen-Brennpunkt geworden. Die Recherchen von BR Data und BR Recherche liefern eine ausführliche Einschätzung der Situation. Neben mehreren Datenvisualisierungen kann sich der Leser einen detaillierten Bericht für seinen Landkreis erstellen lassen.",
-			"date": "April 2016",
-			"type": "Storytelling",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Bayern: Crystal Meth breitet sich aus",
-					"url": "http://web.br.de/interaktiv/crystal/"
-				}],
-			"images": [
-				"crystal.jpg"
-			]
-		},{
-			"title": "Twitter-Analyse des Tatorts",
-			"description": "Fast eine Million Tweets in drei Jahren. BR Data hat Deutschlands bekannteste TV-Krimireihe auf Twitter analysiert. Doch wer sind die Menschen die am Sonntagabend im Minutentakt twittern?Welche Tatort-Folge begeisterte die Twitter-Gemeinde am meisten? Die interaktive Auswertung beantwortet diese Fragen und ermöglicht es den Benutzern, sich beim Twitter-Ranking gegenseitig zu vergleichen.",
-			"date": "März 2016",
-			"type": "Storytelling",
-			"role": "Datenanalyse, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "#Tatort in der Twitter-Analyse",
-					"url": "http://web.br.de/interaktiv/tatort/"
-				}],
-			"images": [
-				"tatort1.jpg",
-				"tatort2.jpg"
-			]
-		},{
-			"title": "Deutsche Wahlkampfspenden in den USA",
-			"description": "Der US-Wahlkampf ist eine gigantische Show und kostet Milliarden. Ein Großteil der Spenden kommt von Spendenkomitees (PACs), hinter denen meist große Verbände oder Konzerne stehen. Darunter auch deutsche Unternehmen wie Bayer, BASF, Siemens und die Allianz. Unterstützt werden vor allem Kongressabgeordneten die in wichtigen Ausschüssen sitzen und welche über Agrarsubventionen oder Infrastrukturprojekte entscheiden. Eine Datenanalyse für das Investigativmagazin kontrovers des Bayerischen Fernsehens.",
-			"date": "Februar 2016",
-			"type": "Fernsehbeitrag",
-			"role": "Datenanalyse",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Mit deutscher Hilfe in den Kongress",
-					"url": "http://www.br.de/nachrichten/usa-wahlkampf-pac-100.html"
-				}],
-			"images": [
-				"wahlkampfspenden.jpg"
-			]
-		},{
-			"title": "Sie haben gewonnen: Gewinnspielbetrug",
-			"description": "Elfriede und Siegfried Hannebohn hofften zehn Jahre lang auf den großen Gewinn – und verschleuderten dafür ihre gesamte Rente.  Die 53B an der Deutschen Journalistenschule hat recherchiert, wohin das Geld verschwunden ist und ist dabei auf ein verworrenes Netzwerk aus windigen Inkasso-Firmen, Adresshändlern und Scheinfirmen gestoßen. Deren Geschäftspraktiken sind sittenwidrig, aber nicht unbedingt illegal. Was das Vorgehen gegen die Gewinnspielbetrüger um so so schwieriger macht.",
-			"date": "Dezember 2015",
-			"type": "Storytelling, Netzwerkvisualisierung",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Deutsche Journalistenschule",
-			"links": [{
-					"name": "Sie haben gewonnen!",
-					"url": "http://www.klartext-magazin.de/53B/sie-haben-gewonnen"
-				}],
-			"images": [
-				"gewinnspiele1.jpg",
-				"gewinnspiele2.jpg"
-			]
-		},{
-			"title": "Klimawandel in den bayerischen Alpen",
-			"description": "„Wann schneit es endlich? Und reicht der Schnee überhaupt aus, um Ski- oder Snowboardfahren zu können?“ Fragen, die sich Wintersportler in den vergangenen Jahren wohl öfter gestellt habe. Doch die Schneehöhen nehmen ab und die Konkurrenz aus Österreich wird immer stärker. Wie gehen Bayerns Ski-Gemeinden, für die der Wintersport ein wichtiger Wirtschaftsfaktor ist, mit der Situation um? Für das Projekt wurden insgesamt 101 Gemeinden im bayerischen Alpenraum analysiert. Das Team von BR-Data hast sich auf die Suche gemacht und zwei verschiedene Ansätze gefunden.",
-			"date": "November 2015",
-			"type": "Mobile Website",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Schnee von morgen",
-					"url": "http://schnee-von-morgen.br.de"
-				}],
-			"images": [
-				"schneevonmorgen.jpg"
-			]
-		},{
-			"title": "Asylgroßaufträge: Wer von den Flüchtlingen profitiert",
-			"description": "In der Asylkrise winken Sicherheitsdiensten und Cateringfirmen gute Geschäfte. Öffentliche Aufträge werden oft freihändig, also ohne Ausschreibung vergeben, für manch einen Anbieter ist das die Lizenz zum Abkassieren. BR-Data hat hunderte Aufträge in der Datenbank analysiert. Die Recherchen belegen: Was zählt ist der niedrigste Preis. Und weil die Zeit drängt und eine landes- oder europaweite Ausschreibung kompliziert ist, werden viele Aufträge gar nicht mehr ausgeschrieben, sondern im Schnellverfahren vergeben.",
-			"date": "November 2015",
-			"type": "Interaktive Karte",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Wer von den Flüchtlingen profitiert",
-					"url": "http://www.br.de/extra/br-data/asyl-grossauftraege-karte-100.html"
-				}],
-			"images": [
-				"asylauftraege.jpg"
-			]
-		},{
-			"title": "Asylgroßaufträge: Twitter-Bot",
-			"description": "@asylauftraege ist ein Twitter-Bot, der Großaufträge deutscher Behörden veröffentlicht, die im Zusammenhang mit Flüchtlingen und Asylbewerbern stehen und an private Firmen vergeben werden. Öffentliche Aufträge ab einer gewissen Größenordnung müssen EU-weit ausgeschrieben werden. Diese Aufträge werden in der öffentlich einsehbaren EU-Datenbank TED gesammelt. Neue Aufträge werden vom Twitter-Bot erfasst und mit einem Link zur Ausschreibung getwittert.",
-			"date": "Oktober 2015",
-			"type": "Twitter-Bot",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Twitter @asylauftraege",
-					"url": "https://twitter.com/asylauftraege"
-				},{
-					"name": "FAQ zum Twitter-Bot",
-					"url": "http://www.br.de/extra/br-data/twitter-bot-asylauftraege-100.html"
-				}],
-			"images": [
-				"asylauftraege-twitter.jpg"
-			]
-		},{
-			"title": "Heimvorteil: Woher stammt die Liga?",
-			"description": "Zwischen Globalisierung und Heimatgefühl: Was die Geburtsorte der Spieler über die Fußball-Bundesliga verraten. Das datenjournalistisches Projekt wertet die Herkunft der 505 Bundesligaspieler aus. Dabei wird der Frage nachgegangen, welche Mannschaft am internationalsten, und welche am regionalsten ist. Außerdem: Wo liegt eigentlich Deutschlands Fußballhaupstadt? Und wer sind die „Local Heros“, welche noch immer an ihrem Geburtsort spielen? Neben einer linearen Datenanalyse lädt das Projekt zum Entdecken eigener Geschichten ein und ermöglicht es noch so manches über den persönlichen Lieblingsverein zu lernen. Nominiert für den Reporterpreis 2015.",
-			"date": "September 2015",
-			"type": "Datenanalyse",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Heimvorteil – Woher stammt die Liga",
-					"url": "http://web.br.de/woher-stammt-die-liga"
-				}],
-			"images": [
-				"liga1.jpg",
-				"liga2.jpg"
-			]
-		},{
-			"title": "Heimvorteil: Bayerische Nationalmannschaft",
-			"description": "Bayern hat viele brilliante Bundesligaspieler hervorgebracht. Das Tool ermöglicht es, eine eigene Mannschaft aus bayerischen Spielern zusammenzustellen und mit Freunden zu teilen. Denn wenn eines die Fußballgemüter bewegt, dann ist es die Frage wer der besser Rechtsverteidiger ist – Philipp Lahm oder Roberto Hilbert? Alle Benutzer-Aufstellungen werden gespeichert und ermöglichen am Ende eine Auswertung um deartige Fragen ein für alle mal zu klären (Antwort: Philipp Lahm).",
-			"date": "September 2015",
-			"type": "Aufstellungsplaner",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Bayerischer Rundfunk",
-			"links": [{
-					"name": "Bayerische Nationalmannschaft",
-					"url": "http://web.br.de/woher-stammt-die-liga/mannschaft/"
-				}],
-			"images": [
-				"mannschaft.jpg"
-			]
-		},{
-			"title": "Game of Thrones: Netzwerk",
-			"description": "Die vielen Beziehungen in Game of Thrones zu visualisieren ist eine Herausforderung. Aber es ist nicht zuletzt dieses komplexe Geflecht an Beziehungen, welches der Fantasy-Serie einen besonderen Reiz verleiht. Die interaktive Grafik ist ein Versuch, Ordnung in dieses Beziehungschaos zu bringen. Sie soll dem Nutzer ermöglichen, den aktuellen Status zu jedem Zeitpunkt der Serie abzurufen, ohne dass er Gefahr läuft, etwas zu erfahren, was er noch nicht wissen möchte - zumindest so lange er den Episoden-Schieberegler nicht zu weit nach rechts schiebt.",
-			"date": "Juni 2015",
-			"type": "Netzwerkvisualisierung",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Game of Thrones – Wer mit wem?",
-					"url": "http://gfx.sueddeutsche.de/kultur/gameofthrones/?lang=de"
-				},{
-					"name": "Daten",
-					"url": "https://docs.google.com/spreadsheets/d/1SbMWBGGvdh3iKwWIMRL7lHZzKjWfB8oCqMNwKcq8tIY/pubhtml"
-				},{
-					"name": "Quellcode",
-					"url": "https://github.com/stekhn/got-relationships"
-				}],
-			"images": [
-				"got.jpg"
-			]
-		},{
-			"title": "Karte: Gleichgeschlechtliche Ehe",
-			"description": "Welche Rechte haben schwule und lesbische Paare weltweit? Die Unterschiede sind enorm. Vorreiter bei der Gleichstellung war Dänemark, das 1989 als erstes Land der Welt die standesamtliche Verbindung gleichgeschlechtlicher Paare zuließ - als sogenannte registrierte Partnerschaft. Die Niederlande gingen am 1. April 2001 sogar noch weiter: Als erstes Land der Welt öffneten sie die Ehe für gleichgeschlechtliche Paare. Inzwischen sind 19 Länder diesem Beispiel gefolgt, zuletzt Irland.",
-			"date": "Mai 2015",
-			"type": "Interaktive Karte",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Weltkarte zur gleichgeschlechtlichen Ehe",
-					"url": "http://www.sueddeutsche.de/1.2497466"
-				}],
-			"images": [
-				"homoehe.jpg"
-			]
-		},{
-			"title": "Bosnien: Kinder des Krieges",
-			"description": "Vor 20 Jahren brachten sie sich im Bosnienkrieg gegenseitig um. Noch heute leben Bosniaken, Serben und Kroaten in einem geteilten Land. Bosnien hat zwei Landeshälften, eine bosniakisch-kroatische und eine serbische. Die Bürger sprechen drei Sprachen, die sich kaum unterscheiden. Und erzählen sich drei Versionen von Geschichte. Doch in Bosnien leben auch Menschen, die alte Gräben überwinden wollen – und mit neuen Problemen kämpfen müssen.",
-			"date": "April 2015",
-			"type": "Webreportage",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Deutsche Journalistenschule",
-			"links": [{
-					"name": "Bosnien – Kinder des Krieges",
-					"url": "http://www.klartext-magazin.de/53K/bosnien/#!/"
-				}],
-			"images": [
-				"bosnien1.jpg",
-				"bosnien2.jpg"
-			]
-		},{
-			"title": "Automatisierung: Wann werde ich ersetzt?",
-			"description": "Fast die Hälfte aller Arbeitsplätze ist in den kommenden 20 Jahren bedroht. Das sagt zumindest eine Oxford-Studie, welche die Zukunftsaussichten von 700 Berufsgruppen angesichts der Konkurrenz durch Roboter und Computer berechnet hat. Der Rechner zeigt an wie groß die Wahrscheinlichkeit ist, selbst in naher Zukunft ersetzt zu werden. Die Anwendung bietet eine intelligente Ergebnisvervollständigung und wurde über 6000 mal in den sozialen Netzwerken geteilt.",
-			"date": "März 2015",
-			"type": "Intelligentes Suchfeld",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Wie wahrscheinlich ist es, dass ich durch einen Computer ersetzt werde?",
-					"url": "http://www.sueddeutsche.de/automatisierung"
-				}],
-			"images": [
-				"automatisierung.jpg"
-			]
-		},{
-			"title": "Wählerwanderung Hamburg",
-			"description": "Die SPD ist der Gewinner der Bürgerschaftswahl in Hamburg - Olaf Scholz bleibt Bürgermeister, braucht aber einen Koalitionspartner. Die CDU erlebt ein Debakel. Die Grafik zeigt wie sich das Wählerverhalten im Vergleich zu 2011 verändert hat.",
-			"date": "Februar 2015",
-			"type": "Interaktives Diagramm",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Wählerwanderung bei der Bürgerschaftwahl Hamburg",
-					"url": "http://www.sueddeutsche.de/1.2353382"
-				}],
-			"images": [
-				"waehlerwanderung.jpg"
-			]
-		},
-		{
-			"title": "Chronik Boko Haram",
-			"description": "Dörfer werden niedergebrannt, ganze Familien verschleppt oder massakriert. Die Terrormiliz Boko Haram überzieht Nigeria mit unvorstellbarer Gewalt. Die interaktive Karte dokumentiert die brutalen Exzesse der vergangenen Jahre und erklärt den Rachefeldzug der Terrormiliz.",
-			"date": "Januar 2015",
-			"type": "Interaktive Karte",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Der Terrorfeldzug von Boko Haram",
-					"url": "http://www.sueddeutsche.de/1.2339963"
-				}],
-			"images": [
-				"bokoharam1.jpg",
-				"bokoharam2.jpg"
-			]
-		},
-		{
-			"title": "WM 2014: Der Weg zum Titel",
-			"description": "Alles beginnt mit einer SMS. Ein Jahr später ist Deutschland Fußballweltmeister. Dazwischen bittet Per Mertesacker zum Saunabesuch, eine Fähre setzt auf und Manuel Neuer spielt Libero. Eine interaktive Reise durch die WM in Brasilien, enstanden im Rahmen des SZ-Jahresrückblicks 2014. Gewinnner Großer Preis des Verbands Deutscher Sportjournalisten.",
-			"date": "November 2014",
-			"type": "Storytelling",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "WM 2014: Der Weg zum Titel",
-					"url": "http://gfx.sueddeutsche.de/sport/wm2014/"
-				}],
-			"images": [
-				"wm1.jpg",
-				"wm2.jpg"
-			]
-		},
-		{
-			"title": "Serious Game: Organspenden",
-			"description": "Ist Organspende noch ein Thema? Ja, denn die Zahl der Organspender ist so niedrig wie noch nie. Ein Grund dafür ist der Skandal um die Organverteilung im Jahr 2012. The waiting list greift das Problem als Serious Game auf. Das Projekt ist als kurzes Spiel für zwischendurch angelegt. Es soll keine vertiefenden Informationen bieten, sondern einen einfachen und eindrücklichen Zugang zum Thema verschaffen. Der Spieler bekommt ein Gefühl dafür, wie schwierig es ist, bei einer geringen Anzahl von vorhandenen Spenderorganen, möglichst viele Leben zu retten. Das Projekt ist Open Source und entstand im Rahmen des Open Data Hackday.",
-			"date": "Oktober 2014",
-			"type": "Serious Game",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Open Data Hackday",
-			"links": [{
-					"name": "Quellcode",
-					"url": "https://github.com/stekhn/organspenden-game"
-				},{
-					"name": "Spiel",
-					"url": "http://stekhn.github.io/organspenden-game/"
-				}],
-			"images": [
-				"waitinglist1.jpg",
-				"waitinglist2.jpg"
-			]
-		},
-		{
-			"title": "Google Standortverlauf visualisieren",
-			"description": "Der Standortverlauf wird bei vielen Android-Geräten automatisch gespeichert. Google verfolgt aktiv alle Bewegungen des Benutzers, basierend auf Positionsdaten von GPS, WLAN und Mobilfunkmasten. Diese Anwendung ermöglicht es, den eigenen Standortverlauf zusammengefasst anzuzeigen. Dadurch kann man sehen, wo man sich in letzter Zeit besonders häufig aufgehalten hat und was man für typische Beweungsmuster hat. Der Quellcode des Programms ist frei verfügbar und kann jederzeit für eigene Projekte genutzt werden.",
-			"date": "August 2014",
-			"type": "Kartenvisualisierung und Konverter",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "",
-			"links": [{
-					"name": "Quellcode",
-					"url": "https://github.com/stekhn/location-history"
-				},{
-					"name": "Demo",
-					"url": "http://stekhn.de/locationhistory"
-				}],
-			"images": [
-				"locationhistory1.jpg",
-				"locationhistory2.jpg"
-			]
-		},
-		{
-			"title": "EU-Kommission",
-			"description": "Die Ernennung der EU-Kommissare ist ein langwieriger Prozess, der sich über Monate hinweg zieht. Die Mitglieder der Kommission werden alle fünf Jahre von den Regierungen der EU-Staaten nominiert und vom Europäischen Parlament bestätigt. Die interaktive Grafik soll den jeweils aktuellen Stand der Nominierungen festhalten und den Nominierungs- und Ernennungsprozess festhalten.",
-			"date": "August 2014",
-			"type": "Memory",
-			"role": "Entwicklung, Design",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Diese Mannschaft soll Europa lenken",
-					"url": "http://www.sueddeutsche.de/1.2147883"
-				}],
-			"images": [
-				"eukommission.jpg"
-			]
-		},
-		{
-			"title": "Rausch: Hoch fliegen, tief fallen",
-			"description": "Wieso wollen Menschen Kontrolle verlieren, was macht ihnen daran Spaß? Weshalb gehen sie das Risiko ein, dass etwas schiefläuft? Der Rausch lässt uns fliegen und abstürzen, tanzen und stolpern, gewinnen und verlieren. Wir alle brauchen mal Entgrenzung - und wer mag schon immer nüchtern sein? Der Mensch und der Rausch - Perspektiven auf ein Phänomen. Eine interaktive Spurensuche.",
-			"date": "Juli 2014",
-			"type": "Storytelling",
-			"role": "Konzept, Entwicklung, Design",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Rausch - eine interaktive Spurensuche",
-					"url": "http://gfx.sueddeutsche.de/pages/rausch"
-				},{
-					"name": "Alle Beiträge zum Projekt",
-					"url": "http://www.sueddeutsche.de/thema/360%C2%B0_Rausch"
-				}],
-			"images": [
-				"rausch1.jpg",
-				"rausch2.jpg"
-			]
-		},
-		{
-			"title": "Das Verschwinden der FDP",
-			"description": "Nach der Niederlage der bei der Landtagswahl in Sachsen ist die FDP nicht mehr im sächsischen Landesparlament vertreten. In Thüringen und Brandenburg steht der Partei dieses Schicksal womöglich noch bevor. Es wäre die Fortsetzung des beispiellosen Abstiegs der einst stolzen Liberalen. Alle Niederlagen im Überblick.",
-			"date": "Juli 2014",
-			"type": "Kartenvisualisierung, Memory",
-			"role": "Konzept, Entwicklung, Design",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Das Verschwinden der FDP",
-					"url": "http://www.sueddeutsche.de/1.2102368"
-				}],
-			"images": [
-				"fdp.jpg"
-			]
-		},
-		{
-			"title": "Brazillion: World Cup Billions",
-			"description": "2007 wählte die FIFA Brasilien zum Gastgeber der Fußballweltmeisterschaft 2014. Es wurden viele Bau- und Infrastrukturprojekte angestoßen, um das Schwellenland Brasilien auf die Weltmeisterschaft vorzubereiten. Das brasilianische Amt für Statistik schätzt, dass die WM in Brasilien etwa 11,2 Milliarden US-Dollar gekostet hat. Obwohl Fußball nahezu eine Religion in Brasilien ist, gingen viele Menschen auf die Straße, um gegen die enormen Ausgaben zu protestieren. Aber was hätte man sonst noch mit den Fußball-Milliarden anfangen können? Wir haben das mal nachgerechnet. Ein Projekt, welches im Rahmen des Open Data Hackathons entstanden ist.",
-			"date": "Juni 2014",
-			"type": "Storytelling",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Open Data Hackday",
-			"links": [{
-					"name": "Prototyp",
-					"url": "https://walterrenner.github.io/odhdnull/"
-				},{
-					"name": "Quellcode",
-					"url": "https://github.com/walterrenner/odhdnull"
-				}],
-			"images": [
-				"brazillion.jpg"
-			]
-		},
-		{
-			"title": "25 Jahre Tiananmen-Massaker",
-			"description": "Chinas Regierung versucht, alle Spuren des Massakers zu beseitigen. In der Nacht zum 4. Juni 1989 war die Volksbefreiungsarmee mit Panzern gegen Studenten vorgegangen, die seit Wochen auf dem Platz des Himmlischen Friedens für mehr Demokratie demonstriert hatten. Dabei wurden Hunderte, möglicherweise sogar Tausende Menschen getötet. SZ und Weltspiegel besuchen Menschen, die sich an die Nacht vor 25 Jahren erinnern. Eine Digital-Reportage anlässlich des Jahrestags der Studentenproteste auf dem Platz des Himmlischen Friedens. Nominiert für den Grimme Online Award.",
-			"type": "Storytelling",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Trauern verboten",
-					"url": "http://gfx.sueddeutsche.de/pages/tiananmen/"
-				}],
-			"images": [
-				"tiananmen.jpg"
-			]
-		},
+      "title": "EM 2016: Geburtsorte der Spieler",
+      "description": "Bei der Europameisterschaft in Frankreich treten 552 Fußballer gegeneinander an. Bei weitem nicht alle sind in dem Land geboren, dessen Trikot sie tragen. Was die Geburtsorte der Spieler über das moderne Europa erzählen. Mehrere Kartenvisualisierung zur UEFA Euro 2016.",
+      "date": "Juni 2016",
+      "type": "Kartenvisualisierung, Longread",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Europas Beste: Woher kommen die Spieler der EM 2016?",
+          "url": "http://web.br.de/interaktiv/europasbeste/"
+        }],
+      "images": [
+        "em2016.jpg"
+      ]
+    },{
+      "title": "Entwicklung der Milchpreise",
+      "description": "Milch wird international gehandelt – der deutsche Milchpreis hängt deshalb auch von Entwicklungen auf dem Weltmarkt ab. Auch der Preis den die einzelnen Molkereien den Bauern zahlen, ist deutschlandweit sehr unterschiedlich. Dabei stehen die bayerischen Molkereien noch vergleichweise gut da. Zweit interaktive Diagramme die, anlässlich des europäischen Milchgipfels, diese Zusammenhänge erklären.",
+      "date": "Mai 2016",
+      "type": "Artikel",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Milch: Das weiße Öl",
+          "url": "http://www.br.de/nachrichten/milch-weltmarkt-daten-100.html"
+        }],
+      "images": [
+        "milchpreise1.jpg",
+        "milchpreise2.jpg"
+      ]
+    },{
+      "title": "Ladensterben in Bayern",
+      "description": "Während in Boom-Gegenden wie München oder Ingolstadt immer mehr Lebensmittelgeschäfte eröffnen, geht die Zahl in vielen Landkreisen teilweise dramatisch zurück. Das hat Auswirkungen, vor allem für die ländlichen Gemeinden und ihre Bürger. Ein Reportage aus dem oberfränkischen Landkreis Wunsiedel. Zusätzlich zu den Webvideos kann sich der Leser einen detaillierten Bericht für seinen Landkreis erstellen lassen.",
+      "date": "Mai 2016",
+      "type": "Web-Reportage",
+      "role": "Datenanalyse, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "BR Data: Nahversorgung in Gefahr",
+          "url": "http://web.br.de/interaktiv/ladensterben/"
+        }],
+      "images": [
+        "ladensterben1.jpg",
+        "ladensterben2.jpg"
+      ]
+    },{
+      "title": "Bayern: Crystal Meth breitet sich aus",
+      "description": "Die Droge Crystal Meth breitet sich in ganz Bayern aus. Seit längerem werden an der tschechischen Grenze immer wieder größere Mengen Crystal sichergestellt. Doch zunehmend sind auch andere Regionen Bayerns betroffen. Vor allem der Raum Nürnberg ist zu einem Drogen-Brennpunkt geworden. Die Recherchen von BR Data und BR Recherche liefern eine ausführliche Einschätzung der Situation. Neben mehreren Datenvisualisierungen kann sich der Leser einen detaillierten Bericht für seinen Landkreis erstellen lassen.",
+      "date": "April 2016",
+      "type": "Storytelling",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Bayern: Crystal Meth breitet sich aus",
+          "url": "http://web.br.de/interaktiv/crystal/"
+        }],
+      "images": [
+        "crystal.jpg"
+      ]
+    },{
+      "title": "Twitter-Analyse des Tatorts",
+      "description": "Fast eine Million Tweets in drei Jahren. BR Data hat Deutschlands bekannteste TV-Krimireihe auf Twitter analysiert. Doch wer sind die Menschen die am Sonntagabend im Minutentakt twittern?Welche Tatort-Folge begeisterte die Twitter-Gemeinde am meisten? Die interaktive Auswertung beantwortet diese Fragen und ermöglicht es den Benutzern, sich beim Twitter-Ranking gegenseitig zu vergleichen.",
+      "date": "März 2016",
+      "type": "Storytelling",
+      "role": "Datenanalyse, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "#Tatort in der Twitter-Analyse",
+          "url": "http://web.br.de/interaktiv/tatort/"
+        }],
+      "images": [
+        "tatort1.jpg",
+        "tatort2.jpg"
+      ]
+    },{
+      "title": "Deutsche Wahlkampfspenden in den USA",
+      "description": "Der US-Wahlkampf ist eine gigantische Show und kostet Milliarden. Ein Großteil der Spenden kommt von Spendenkomitees (PACs), hinter denen meist große Verbände oder Konzerne stehen. Darunter auch deutsche Unternehmen wie Bayer, BASF, Siemens und die Allianz. Unterstützt werden vor allem Kongressabgeordneten die in wichtigen Ausschüssen sitzen und welche über Agrarsubventionen oder Infrastrukturprojekte entscheiden. Eine Datenanalyse für das Investigativmagazin kontrovers des Bayerischen Fernsehens.",
+      "date": "Februar 2016",
+      "type": "Fernsehbeitrag",
+      "role": "Datenanalyse",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Mit deutscher Hilfe in den Kongress",
+          "url": "http://www.br.de/nachrichten/usa-wahlkampf-pac-100.html"
+        }],
+      "images": [
+        "wahlkampfspenden.jpg"
+      ]
+    },{
+      "title": "Sie haben gewonnen: Gewinnspielbetrug",
+      "description": "Elfriede und Siegfried Hannebohn hofften zehn Jahre lang auf den großen Gewinn – und verschleuderten dafür ihre gesamte Rente.  Die 53B an der Deutschen Journalistenschule hat recherchiert, wohin das Geld verschwunden ist und ist dabei auf ein verworrenes Netzwerk aus windigen Inkasso-Firmen, Adresshändlern und Scheinfirmen gestoßen. Deren Geschäftspraktiken sind sittenwidrig, aber nicht unbedingt illegal. Was das Vorgehen gegen die Gewinnspielbetrüger um so so schwieriger macht.",
+      "date": "Dezember 2015",
+      "type": "Storytelling, Netzwerkvisualisierung",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Deutsche Journalistenschule",
+      "links": [{
+          "name": "Sie haben gewonnen!",
+          "url": "http://www.klartext-magazin.de/53B/sie-haben-gewonnen"
+        }],
+      "images": [
+        "gewinnspiele1.jpg",
+        "gewinnspiele2.jpg"
+      ]
+    },{
+      "title": "Klimawandel in den bayerischen Alpen",
+      "description": "„Wann schneit es endlich? Und reicht der Schnee überhaupt aus, um Ski- oder Snowboardfahren zu können?“ Fragen, die sich Wintersportler in den vergangenen Jahren wohl öfter gestellt habe. Doch die Schneehöhen nehmen ab und die Konkurrenz aus Österreich wird immer stärker. Wie gehen Bayerns Ski-Gemeinden, für die der Wintersport ein wichtiger Wirtschaftsfaktor ist, mit der Situation um? Für das Projekt wurden insgesamt 101 Gemeinden im bayerischen Alpenraum analysiert. Das Team von BR-Data hast sich auf die Suche gemacht und zwei verschiedene Ansätze gefunden.",
+      "date": "November 2015",
+      "type": "Mobile Website",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Schnee von morgen",
+          "url": "http://schnee-von-morgen.br.de"
+        }],
+      "images": [
+        "schneevonmorgen.jpg"
+      ]
+    },{
+      "title": "Asylgroßaufträge: Wer von den Flüchtlingen profitiert",
+      "description": "In der Asylkrise winken Sicherheitsdiensten und Cateringfirmen gute Geschäfte. Öffentliche Aufträge werden oft freihändig, also ohne Ausschreibung vergeben, für manch einen Anbieter ist das die Lizenz zum Abkassieren. BR-Data hat hunderte Aufträge in der Datenbank analysiert. Die Recherchen belegen: Was zählt ist der niedrigste Preis. Und weil die Zeit drängt und eine landes- oder europaweite Ausschreibung kompliziert ist, werden viele Aufträge gar nicht mehr ausgeschrieben, sondern im Schnellverfahren vergeben.",
+      "date": "November 2015",
+      "type": "Interaktive Karte",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Wer von den Flüchtlingen profitiert",
+          "url": "http://www.br.de/extra/br-data/asyl-grossauftraege-karte-100.html"
+        }],
+      "images": [
+        "asylauftraege.jpg"
+      ]
+    },{
+      "title": "Asylgroßaufträge: Twitter-Bot",
+      "description": "@asylauftraege ist ein Twitter-Bot, der Großaufträge deutscher Behörden veröffentlicht, die im Zusammenhang mit Flüchtlingen und Asylbewerbern stehen und an private Firmen vergeben werden. Öffentliche Aufträge ab einer gewissen Größenordnung müssen EU-weit ausgeschrieben werden. Diese Aufträge werden in der öffentlich einsehbaren EU-Datenbank TED gesammelt. Neue Aufträge werden vom Twitter-Bot erfasst und mit einem Link zur Ausschreibung getwittert.",
+      "date": "Oktober 2015",
+      "type": "Twitter-Bot",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Twitter @asylauftraege",
+          "url": "https://twitter.com/asylauftraege"
+        },{
+          "name": "FAQ zum Twitter-Bot",
+          "url": "http://www.br.de/extra/br-data/twitter-bot-asylauftraege-100.html"
+        }],
+      "images": [
+        "asylauftraege-twitter.jpg"
+      ]
+    },{
+      "title": "Heimvorteil: Woher stammt die Liga?",
+      "description": "Zwischen Globalisierung und Heimatgefühl: Was die Geburtsorte der Spieler über die Fußball-Bundesliga verraten. Das datenjournalistisches Projekt wertet die Herkunft der 505 Bundesligaspieler aus. Dabei wird der Frage nachgegangen, welche Mannschaft am internationalsten, und welche am regionalsten ist. Außerdem: Wo liegt eigentlich Deutschlands Fußballhaupstadt? Und wer sind die „Local Heros“, welche noch immer an ihrem Geburtsort spielen? Neben einer linearen Datenanalyse lädt das Projekt zum Entdecken eigener Geschichten ein und ermöglicht es noch so manches über den persönlichen Lieblingsverein zu lernen. Nominiert für den Reporterpreis 2015.",
+      "date": "September 2015",
+      "type": "Datenanalyse",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Heimvorteil – Woher stammt die Liga",
+          "url": "http://web.br.de/woher-stammt-die-liga"
+        }],
+      "images": [
+        "liga1.jpg",
+        "liga2.jpg"
+      ]
+    },{
+      "title": "Heimvorteil: Bayerische Nationalmannschaft",
+      "description": "Bayern hat viele brilliante Bundesligaspieler hervorgebracht. Das Tool ermöglicht es, eine eigene Mannschaft aus bayerischen Spielern zusammenzustellen und mit Freunden zu teilen. Denn wenn eines die Fußballgemüter bewegt, dann ist es die Frage wer der besser Rechtsverteidiger ist – Philipp Lahm oder Roberto Hilbert? Alle Benutzer-Aufstellungen werden gespeichert und ermöglichen am Ende eine Auswertung um deartige Fragen ein für alle mal zu klären (Antwort: Philipp Lahm).",
+      "date": "September 2015",
+      "type": "Aufstellungsplaner",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Bayerische Nationalmannschaft",
+          "url": "http://web.br.de/woher-stammt-die-liga/mannschaft/"
+        }],
+      "images": [
+        "mannschaft.jpg"
+      ]
+    },{
+      "title": "Game of Thrones: Netzwerk",
+      "description": "Die vielen Beziehungen in Game of Thrones zu visualisieren ist eine Herausforderung. Aber es ist nicht zuletzt dieses komplexe Geflecht an Beziehungen, welches der Fantasy-Serie einen besonderen Reiz verleiht. Die interaktive Grafik ist ein Versuch, Ordnung in dieses Beziehungschaos zu bringen. Sie soll dem Nutzer ermöglichen, den aktuellen Status zu jedem Zeitpunkt der Serie abzurufen, ohne dass er Gefahr läuft, etwas zu erfahren, was er noch nicht wissen möchte - zumindest so lange er den Episoden-Schieberegler nicht zu weit nach rechts schiebt.",
+      "date": "Juni 2015",
+      "type": "Netzwerkvisualisierung",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Game of Thrones – Wer mit wem?",
+          "url": "http://gfx.sueddeutsche.de/kultur/gameofthrones/?lang=de"
+        },{
+          "name": "Daten",
+          "url": "https://docs.google.com/spreadsheets/d/1SbMWBGGvdh3iKwWIMRL7lHZzKjWfB8oCqMNwKcq8tIY/pubhtml"
+        },{
+          "name": "Quellcode",
+          "url": "https://github.com/stekhn/got-relationships"
+        }],
+      "images": [
+        "got.jpg"
+      ]
+    },{
+      "title": "Karte: Gleichgeschlechtliche Ehe",
+      "description": "Welche Rechte haben schwule und lesbische Paare weltweit? Die Unterschiede sind enorm. Vorreiter bei der Gleichstellung war Dänemark, das 1989 als erstes Land der Welt die standesamtliche Verbindung gleichgeschlechtlicher Paare zuließ - als sogenannte registrierte Partnerschaft. Die Niederlande gingen am 1. April 2001 sogar noch weiter: Als erstes Land der Welt öffneten sie die Ehe für gleichgeschlechtliche Paare. Inzwischen sind 19 Länder diesem Beispiel gefolgt, zuletzt Irland.",
+      "date": "Mai 2015",
+      "type": "Interaktive Karte",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Weltkarte zur gleichgeschlechtlichen Ehe",
+          "url": "http://www.sueddeutsche.de/1.2497466"
+        }],
+      "images": [
+        "homoehe.jpg"
+      ]
+    },{
+      "title": "Bosnien: Kinder des Krieges",
+      "description": "Vor 20 Jahren brachten sie sich im Bosnienkrieg gegenseitig um. Noch heute leben Bosniaken, Serben und Kroaten in einem geteilten Land. Bosnien hat zwei Landeshälften, eine bosniakisch-kroatische und eine serbische. Die Bürger sprechen drei Sprachen, die sich kaum unterscheiden. Und erzählen sich drei Versionen von Geschichte. Doch in Bosnien leben auch Menschen, die alte Gräben überwinden wollen – und mit neuen Problemen kämpfen müssen.",
+      "date": "April 2015",
+      "type": "Webreportage",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Deutsche Journalistenschule",
+      "links": [{
+          "name": "Bosnien – Kinder des Krieges",
+          "url": "http://www.klartext-magazin.de/53K/bosnien/#!/"
+        }],
+      "images": [
+        "bosnien1.jpg",
+        "bosnien2.jpg"
+      ]
+    },{
+      "title": "Automatisierung: Wann werde ich ersetzt?",
+      "description": "Fast die Hälfte aller Arbeitsplätze ist in den kommenden 20 Jahren bedroht. Das sagt zumindest eine Oxford-Studie, welche die Zukunftsaussichten von 700 Berufsgruppen angesichts der Konkurrenz durch Roboter und Computer berechnet hat. Der Rechner zeigt an wie groß die Wahrscheinlichkeit ist, selbst in naher Zukunft ersetzt zu werden. Die Anwendung bietet eine intelligente Ergebnisvervollständigung und wurde über 6000 mal in den sozialen Netzwerken geteilt.",
+      "date": "März 2015",
+      "type": "Intelligentes Suchfeld",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Wie wahrscheinlich ist es, dass ich durch einen Computer ersetzt werde?",
+          "url": "http://www.sueddeutsche.de/automatisierung"
+        }],
+      "images": [
+        "automatisierung.jpg"
+      ]
+    },{
+      "title": "Wählerwanderung Hamburg",
+      "description": "Die SPD ist der Gewinner der Bürgerschaftswahl in Hamburg - Olaf Scholz bleibt Bürgermeister, braucht aber einen Koalitionspartner. Die CDU erlebt ein Debakel. Die Grafik zeigt wie sich das Wählerverhalten im Vergleich zu 2011 verändert hat.",
+      "date": "Februar 2015",
+      "type": "Interaktives Diagramm",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Wählerwanderung bei der Bürgerschaftwahl Hamburg",
+          "url": "http://www.sueddeutsche.de/1.2353382"
+        }],
+      "images": [
+        "waehlerwanderung.jpg"
+      ]
+    },
+    {
+      "title": "Chronik Boko Haram",
+      "description": "Dörfer werden niedergebrannt, ganze Familien verschleppt oder massakriert. Die Terrormiliz Boko Haram überzieht Nigeria mit unvorstellbarer Gewalt. Die interaktive Karte dokumentiert die brutalen Exzesse der vergangenen Jahre und erklärt den Rachefeldzug der Terrormiliz.",
+      "date": "Januar 2015",
+      "type": "Interaktive Karte",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Der Terrorfeldzug von Boko Haram",
+          "url": "http://www.sueddeutsche.de/1.2339963"
+        }],
+      "images": [
+        "bokoharam1.jpg",
+        "bokoharam2.jpg"
+      ]
+    },
+    {
+      "title": "WM 2014: Der Weg zum Titel",
+      "description": "Alles beginnt mit einer SMS. Ein Jahr später ist Deutschland Fußballweltmeister. Dazwischen bittet Per Mertesacker zum Saunabesuch, eine Fähre setzt auf und Manuel Neuer spielt Libero. Eine interaktive Reise durch die WM in Brasilien, enstanden im Rahmen des SZ-Jahresrückblicks 2014. Gewinnner Großer Preis des Verbands Deutscher Sportjournalisten.",
+      "date": "November 2014",
+      "type": "Storytelling",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "WM 2014: Der Weg zum Titel",
+          "url": "http://gfx.sueddeutsche.de/sport/wm2014/"
+        }],
+      "images": [
+        "wm1.jpg",
+        "wm2.jpg"
+      ]
+    },
+    {
+      "title": "Serious Game: Organspenden",
+      "description": "Ist Organspende noch ein Thema? Ja, denn die Zahl der Organspender ist so niedrig wie noch nie. Ein Grund dafür ist der Skandal um die Organverteilung im Jahr 2012. The waiting list greift das Problem als Serious Game auf. Das Projekt ist als kurzes Spiel für zwischendurch angelegt. Es soll keine vertiefenden Informationen bieten, sondern einen einfachen und eindrücklichen Zugang zum Thema verschaffen. Der Spieler bekommt ein Gefühl dafür, wie schwierig es ist, bei einer geringen Anzahl von vorhandenen Spenderorganen, möglichst viele Leben zu retten. Das Projekt ist Open Source und entstand im Rahmen des Open Data Hackday.",
+      "date": "Oktober 2014",
+      "type": "Serious Game",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Open Data Hackday",
+      "links": [{
+          "name": "Quellcode",
+          "url": "https://github.com/stekhn/organspenden-game"
+        },{
+          "name": "Spiel",
+          "url": "http://stekhn.github.io/organspenden-game/"
+        }],
+      "images": [
+        "waitinglist1.jpg",
+        "waitinglist2.jpg"
+      ]
+    },
+    {
+      "title": "Google Standortverlauf visualisieren",
+      "description": "Der Standortverlauf wird bei vielen Android-Geräten automatisch gespeichert. Google verfolgt aktiv alle Bewegungen des Benutzers, basierend auf Positionsdaten von GPS, WLAN und Mobilfunkmasten. Diese Anwendung ermöglicht es, den eigenen Standortverlauf zusammengefasst anzuzeigen. Dadurch kann man sehen, wo man sich in letzter Zeit besonders häufig aufgehalten hat und was man für typische Beweungsmuster hat. Der Quellcode des Programms ist frei verfügbar und kann jederzeit für eigene Projekte genutzt werden.",
+      "date": "August 2014",
+      "type": "Kartenvisualisierung und Konverter",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "",
+      "links": [{
+          "name": "Quellcode",
+          "url": "https://github.com/stekhn/location-history"
+        },{
+          "name": "Demo",
+          "url": "http://stekhn.de/locationhistory"
+        }],
+      "images": [
+        "locationhistory1.jpg",
+        "locationhistory2.jpg"
+      ]
+    },
+    {
+      "title": "EU-Kommission",
+      "description": "Die Ernennung der EU-Kommissare ist ein langwieriger Prozess, der sich über Monate hinweg zieht. Die Mitglieder der Kommission werden alle fünf Jahre von den Regierungen der EU-Staaten nominiert und vom Europäischen Parlament bestätigt. Die interaktive Grafik soll den jeweils aktuellen Stand der Nominierungen festhalten und den Nominierungs- und Ernennungsprozess festhalten.",
+      "date": "August 2014",
+      "type": "Memory",
+      "role": "Entwicklung, Design",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Diese Mannschaft soll Europa lenken",
+          "url": "http://www.sueddeutsche.de/1.2147883"
+        }],
+      "images": [
+        "eukommission.jpg"
+      ]
+    },
+    {
+      "title": "Rausch: Hoch fliegen, tief fallen",
+      "description": "Wieso wollen Menschen Kontrolle verlieren, was macht ihnen daran Spaß? Weshalb gehen sie das Risiko ein, dass etwas schiefläuft? Der Rausch lässt uns fliegen und abstürzen, tanzen und stolpern, gewinnen und verlieren. Wir alle brauchen mal Entgrenzung - und wer mag schon immer nüchtern sein? Der Mensch und der Rausch - Perspektiven auf ein Phänomen. Eine interaktive Spurensuche.",
+      "date": "Juli 2014",
+      "type": "Storytelling",
+      "role": "Konzept, Entwicklung, Design",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Rausch - eine interaktive Spurensuche",
+          "url": "http://gfx.sueddeutsche.de/pages/rausch"
+        },{
+          "name": "Alle Beiträge zum Projekt",
+          "url": "http://www.sueddeutsche.de/thema/360%C2%B0_Rausch"
+        }],
+      "images": [
+        "rausch1.jpg",
+        "rausch2.jpg"
+      ]
+    },
+    {
+      "title": "Das Verschwinden der FDP",
+      "description": "Nach der Niederlage der bei der Landtagswahl in Sachsen ist die FDP nicht mehr im sächsischen Landesparlament vertreten. In Thüringen und Brandenburg steht der Partei dieses Schicksal womöglich noch bevor. Es wäre die Fortsetzung des beispiellosen Abstiegs der einst stolzen Liberalen. Alle Niederlagen im Überblick.",
+      "date": "Juli 2014",
+      "type": "Kartenvisualisierung, Memory",
+      "role": "Konzept, Entwicklung, Design",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Das Verschwinden der FDP",
+          "url": "http://www.sueddeutsche.de/1.2102368"
+        }],
+      "images": [
+        "fdp.jpg"
+      ]
+    },
+    {
+      "title": "Brazillion: World Cup Billions",
+      "description": "2007 wählte die FIFA Brasilien zum Gastgeber der Fußballweltmeisterschaft 2014. Es wurden viele Bau- und Infrastrukturprojekte angestoßen, um das Schwellenland Brasilien auf die Weltmeisterschaft vorzubereiten. Das brasilianische Amt für Statistik schätzt, dass die WM in Brasilien etwa 11,2 Milliarden US-Dollar gekostet hat. Obwohl Fußball nahezu eine Religion in Brasilien ist, gingen viele Menschen auf die Straße, um gegen die enormen Ausgaben zu protestieren. Aber was hätte man sonst noch mit den Fußball-Milliarden anfangen können? Wir haben das mal nachgerechnet. Ein Projekt, welches im Rahmen des Open Data Hackathons entstanden ist.",
+      "date": "Juni 2014",
+      "type": "Storytelling",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Open Data Hackday",
+      "links": [{
+          "name": "Prototyp",
+          "url": "https://walterrenner.github.io/odhdnull/"
+        },{
+          "name": "Quellcode",
+          "url": "https://github.com/walterrenner/odhdnull"
+        }],
+      "images": [
+        "brazillion.jpg"
+      ]
+    },
+    {
+      "title": "25 Jahre Tiananmen-Massaker",
+      "description": "Chinas Regierung versucht, alle Spuren des Massakers zu beseitigen. In der Nacht zum 4. Juni 1989 war die Volksbefreiungsarmee mit Panzern gegen Studenten vorgegangen, die seit Wochen auf dem Platz des Himmlischen Friedens für mehr Demokratie demonstriert hatten. Dabei wurden Hunderte, möglicherweise sogar Tausende Menschen getötet. SZ und Weltspiegel besuchen Menschen, die sich an die Nacht vor 25 Jahren erinnern. Eine Digital-Reportage anlässlich des Jahrestags der Studentenproteste auf dem Platz des Himmlischen Friedens. Nominiert für den Grimme Online Award.",
+      "type": "Storytelling",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Trauern verboten",
+          "url": "http://gfx.sueddeutsche.de/pages/tiananmen/"
+        }],
+      "images": [
+        "tiananmen.jpg"
+      ]
+    },
 
 
-		{
-			"title": "Europawahl",
-			"description": "Europa, der schwarze Kontinent. Oder doch der Kontinent der Populisten? Die interaktive Grafik von SZ.de zeigt die Ergebnisse der Europawahl 2014 in vielen Details. Partei-Hochburgen, wahlmüde Regionen, gewählte Abgeordnete. Ein Überblick der Wahlergebnisse.",
-			"date": "Mai 2014",
-			"type": "Kartenvisualisierung",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "So hat Europa gewählt",
-					"url": "http://www.sueddeutsche.de/1.1973782"
-				}],
-			"images": [
-				"europawahl1.jpg",
-				"europawahl2.jpg"
-			]
-		},
-		{
-			"title": "Newsgame World Cup Simulation",
-			"description": "Das Newsgame beschäftigt sich mit der Frage, wie sehr die Gastgeberländer von großen Sportveranstaltungen, wie der Fußball-WM oder den Olympischen Spielen,  profitieren. Der Spieler, als zwielichtiger Präsident eines fiktiven, korrupten Staates, muss sich einer Reihe von Fragen stellen. Er muss komplexe Entscheidungen treffen, welche unmittelbare politische, wirtschaftliche und touristischen Folgen haben. Das Ergebnis des Spiels wird durch beurteilt, wie viel Geld der Spieler ausgegeben hat und wie viel das Land davon profitierte. Schafft es der Spieler nicht, alle Aufgaben vor der Weltmeister zu erfüllen, kann diese nicht stattfinden - und das Land wird zum Gespött der freien (und nicht so frei) Welt.",
-			"date": "Mai 2014",
-			"type": "Newsgame",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Newsgames Hackathon (Games Lab Cologne)",
-			"links": [{
-					"name": "Spiel „World Cup Simulator“",
-					"url": "http://stekhn.de/worldcup"
-				},
-				{
-					"name": "Projektseite",
-					"url": "http://newsgames-hackathon.tumblr.com/games"
-				}],
-			"images": [
-				"newsgame1.jpg",
-				"newsgame2.jpg"
-			]
-		},
-		{
-			"title": "Prototyp Süddeutsche Zeitung",
-			"description": "Für den Relaunch und die Einführung eines Bezahlmodells auf Süddeutsche Zeitung wurden erstmals Benutzertest in Kooperation mit GfK SirValUse durchgeführt. Um die Usability des neuen Headers und die Akzeptanz der Bezahlschranke zu testen, wurde ein Prototyp entwickelt. Der Prototyp erwies sich als sehr nützlich, um in einer frühen Projektphase konzeptionelle und gestalterische Probleme zu identifizieren.",
-			"date": "März 2014",
-			"type": "Prototyp",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Die neue Süddeutsche Zeitung",
-					"url": "http://sueddeutsche.de"
-				}],
-			"images": [
-				"szprototyp1.jpg",
-				"szprototyp2.jpg"
-				]
-		},
-		{
-			"title": "Nebeneinkünfte Bundestag",
-			"description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
-			"date": "März 2014",
-			"type": "Data-Scraping, Analyse und Visualisierung",
-			"role": "Konzept, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Quellcode des Scrapers",
-					"url": "https://github.com/stekhn/nebeneinkuenfte"
-				},{
-					"name": "Blogeintrag zum Thema Nebeneinkünfte",
-					"url": "http://datenkritik.de/nebeneinkuenfte-visualisieren"
-				},{
-					"name": "Interaktive Grafik (unveröffentlicht)",
-					"url": "http://stekhn.de/nebeneinkuenfte"
-				}],
-			"images": [
-				"nebeneinkuenfte1.jpg",
-				"nebeneinkuenfte2.jpg"
-			]
-		},
-		{
-			"title": "Kartendesign Blossom",
-			"description": "Die Open Street Map bietet hervorragende Kartendaten, jedoch ist die Kartendarstellung nicht sonderlich ansprechend. Blossom ist ein leichtes Kartendesign für Open Street Map und eignet sich vor allem für Übersichtskarten. Das Design wurde in CartoCSS geschrieben und ist Open Source.",
-			"date": "März 2014",
-			"type": "Kartenstil",
-			"role": "Design",
-			"contributors": "",
-			"client" : "Company",
-			"links": [{
-					"name": "Quellcode",
-					"url": "https://github.com/stekhn/location-history"
-				},{
-					"name": "Demo",
-					"url": "http://stekhn.de/locationhistory"
-				}],
-			"images": [
-				"blossom1.jpg",
-				"blossom2.jpg"
-			]
-		},
-		{
-			"title": "Süddeutsche Zeitung App",
-			"description": "Mehr Qualitätsjournalismus für unterwegs. News, Hintergründe und mehr: Die Süddeutsche Zeitung-App bringt die gesamte aktuelle Nachrichtenseite der SZ auf iPhone. Analysen, Kommentaren, Videos, Bildergalerien und Ticker in gewohnter SZ-Qualität. Mit Funktionen wie Teilen und merken, Eilmeldungen, Nachrichtenticker und Kompaktmodus.",
-			"date": "Januar 2014",
-			"type": "iPhone-App",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Appstore",
-					"url": "https://itunes.apple.com/de/app/suddeutsche.de-nachrichten/id338711072?mt=8"
-				}],
-			"images": [
-				"szdeapp.jpg"
-			]
-		},
-		{
-			"title": "Geheimer Krieg",
-			"description": "Amerika führt seinen „Krieg gegen der Terror“ längst auch in Deutschland - und die Bundesregierung dürfte davon mehr als nur eine Ahnung haben. Eineinhalb Jahre lang hat ein Team aus Journalisten des NDR und der Süddeutschen Zeitung zu den geheimen US-Strukturen recherchiert, die mitten in Deutschland bestehen. Sie haben Datenbanken ausgewertet und ließen Drohnen steigen, haben Informanten getroffen und Regierungsstellen konfrontiert. Die Website Geheimerkrieg.de ist das Ergebnis dieser Recherchen und erzählt mehre unfassbare Geschichten aus der Welt der Spione und Soldaten.",
-			"date": "November 2013",
-			"type": "Map visualization",
-			"role": "Entwicklung Prototyp",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung, Open Data City",
-			"links": [{
-					"name": "Geheimer Krieg",
-					"url": "http://www.geheimerkrieg.de"
-				},{
-					"name": "Amerikas geheimer Krieg in Deutschland",
-					"url": "http://www.sueddeutsche.de/1.1818850"
-				}],
-			"images": [
-				"geheimerkrieg.jpg"
-			]
-		},
-		{
-			"title": "Rechte Gewalt in Bayern",
-			"description": "In der Kneipe, im Schwimmbad oder an der Tankstelle: 63 Mal haben Rechtsradikale im vergangenen Jahr in Bayern zugeschlagen. Eine bedrückende Dokumentation alltäglicher rechter Gewalt in Bayern.",
-			"date": "Oktober 2013",
-			"type": "Kartenvisualisierung",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Terror im Alltag",
-					"url": "http://www.sueddeutsche.de/1.1800885"
-				}],
-			"images": [
-				"rechtegewalt.jpg"
-			]
-		},
-		{
-			"title": "Bundestagswahl",
-			"description": "Deutschland, die geschwärzte Republik: Der Sieg der Union wird auf der interaktiven Wahlkarte erst richtig deutlich. Alle gewählten Abgeordneten, die Hochburgen der Parteien, die Statistiken, die wahlmüdesten Regionen der Bundestagswahl 2013 im Überblick.",
-			"date": "September 2013",
-			"type": "Kartenvisualisierung",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "So hat Deutschland gewählt",
-					"url": "http://www.sueddeutsche.de/1.1776703"
-				}],
-			"images": [
-				"bundestagswahl1.jpg",
-				"bundestagswahl2.jpg"
-			]
-		},
-		{
-			"title": "Zugmonitor Auswertung",
-			"description": "So genau wurden die Verspätungen der Deutschen Bahn noch nie aufgeschlüsselt: Seit dem Start des SZ-Zugmonitors vor mehr als einem Jahr haben wir die offiziellen Pünktlichkeitsdaten des Konzerns weiter mitgeschrieben - die Auswertung dieses Zeitraums erlaubt präzise Statistiken. Unsere interaktive Deutschlandkarte bietet eine detaillierte Problemanalyse für jede Strecke und jeden Bahnhof.",
-			"date": "April 2013",
-			"type": "Kartenvisualisierung",
-			"role": "Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "So verspätet ist die Bahn auf Ihrer Strecke",
-					"url": "http://www.sueddeutsche.de/1.1651455"
-				}],
-			"images": [
-				"zugmonitor.jpg"
-			]
-		},
-		{
-			"title": "Regionen in Bayern",
-			"description": "Bayern, der eigenwillige Freistaat, besteht aus sieben Regierungsbezirken, die unterschiedlicher nicht sein könnten. Die Regionen unterscheiden sich nicht nur durch ihren Dialekt, sondern auch durch ihre kulinarischen Spezialitäten, ihre Prominenten und ihre Politiker, sowie ihre Sportvereine und ihre Feste. Was hat Thomas Gottschalk mit Richard Wagner gemein? Wo liegt das Medical Valley? Und was ist ein „Öllkawee“?",
-			"date": "August 2013",
-			"type": "Umschalter",
-			"role": "Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Ein Bayern, sieben Welten",
-					"url": "http://www.sueddeutsche.de/1.1742708"
-				}],
-			"images": [
-				"bayern.jpg"
-			]
-		},
-		{
-			"title": "Verschätzung der Welt",
-			"description": "Daten über globale Entwicklungsthemen sind leicht zu finden. Doch nur wenige sind bereit, sich damit auseinanderzusetzen. Klischees und Vorurteile beherrschen unsere Wahrnehmung. Dagegen kann man nur wenig tun, jedoch wäre es interessant zu wissen, wie falsch wir sind, wenn wir über die Armut in Afrika oder CO2-Emissionen in Nordamerika sprechen. Die grundlegende Frage ist: Können wir mit großen Zahlen umgehen? ”Die Verschätzung der Welt“ macht sich den Spaß am Rätseln zunutze und generiert dabei Benutzerdaten. Diese Daten helfen zu verstehen, wie wir die Welt sehen.",
-			"date": "Juni 2013",
-			"type": "Quiz",
-			"role": "Design",
-			"contributors": "",
-			"client" : "Global Editors Network Lab",
-			"links": [{
-					"name": "Prototyp des Spiels",
-					"url": "http://stekhn.de/weltquiz/"
-				},{
-					"name": "Projektseite",
-					"url": "http://community.globaleditorsnetwork.org/content/die-versch%C3%A4tzung-der-welt-0"
-				}],
-			"images": [
-				"verschaetzung.jpg"
-			]
-		},
-		{
-			"title": "Begleiter",
-			"description": "Verlässlicher Partner oder Stalker, Geschwister oder Konkurrenten, Gefährte auf Zeit oder über den Tod hinaus: Geschichten über Nähe und Distanz, von den Volontären der Süddeutschen Zeitung.",
-			"date": "Juni 2013",
-			"type": "Storytelling",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Begleiter",
-					"url": "http://gfx.sueddeutsche.de/pages/begleiter/"
-				}],
-			"images": [
-				"begleiter1.jpg",
-				"begleiter2.jpg"
-			]
-		},
-		{
-			"title": "Zensus 2011",
-			"description": "Wo leben die meisten alten Menschen, wo die jüngsten? Wo besonders viele Katholiken? Oder besonders viele mit Migrationshintergrund? Der Zensus 2011 birgt einige Überraschungen. Die wichtigsten Ergebnisse visualisiert auf einer Deutschlandkarte. Gehen Sie auf Entdeckungsreise.",
-			"date": "März 2013",
-			"type": "Kartenvisualisierung",
-			"role": "Konzept, Design, Entwicklung",
-			"contributors": "",
-			"client" : "Süddeutsche Zeitung",
-			"links": [{
-					"name": "Ergebnisse des Zensus 2011",
-					"url": "http://www.sueddeutsche.de/1.1685321"
-				}],
-			"images": [
-				"zensus1.jpg"
-			]
-		},
-		{
-			"title": "Interaktives Bahnhofsinformationssystem",
-			"description": "Bahnsteige sind Orte der Begegnung, des Wartens und der Orientierung. Ebenso sind Bahnsteige zwangsläufig mit Interaktion verbunden – egal ob man Freunde abholt oder täglich den selben Zug zur Arbeit nimmt. Interaktion findet sowohl mit anderen Menschen statt, als auch mit verschiedenen Leitsystemen wie Anzeigetafeln, Fahrplänen oder Sicherheitsmarkierungen. Das Problem ist: Bahnsteige werden oftmals in ihrer Funktion unterschätzt und mit negativen Emotionen verbunden. Zugverspätungen, eine trostlose Atmosphäre und die Bedrohlichkeit bei Nacht, führen dazu, dass man sich ungern an einem Bahnsteig aufhält. Ein besseres Interaktionsdesign kann helfen, eine positive Erfahrung für jeden Zugreisenden zu schaffen.",
-			"date": "Juni 2012",
-			"type": "Interaktive Installation",
-			"role": "Konzept, Design",
-			"contributors": "",
-			"client" : "Filmakademie Baden-Württemberg",
-			"links": [],
-			"images": [
-				"ibis.jpg"
-			]
-		},
-		{
-			"title": "Vampyre unter uns",
-			"description": "„Vampire unter uns“ ist eine interaktive Anwendung, welche über die in Deutschland lebenden Vampire informieren soll. Menschen die sich vampirisch leben gibt es wirklich: Sie trinken Blut, lassen sich die Eckzähne anschleifen und sehen sich nicht als Teil unserer Gesellschaft. Obwohl die meisten Vampire nichts mit Reportern zu tun haben wollen, gibt es doch einige wenige, welche Auskunft über ihre Leben geben. Die Anwendung soll den Zugang zu solchen persönlichen Geschichten ermöglichen. Es gibt Video(-Reportagen), Hintergrundtexte, Interviews, Grafiken und Bildergalerien. Der Benutzer kann sich selbst entscheiden, ob er die Geschichten nach geografischer Verortung, Themengebiet oder nach Person anschauen möchte.",
-			"date": "Mai 2012",
-			"type": "Informationsportal",
-			"role": "Konzept, Design",
-			"contributors": "",
-			"client" : "Filmakademie Baden-Württemberg",
-			"links": [],
-			"images": [
-				"vampyre1.jpg",
-				"vampyre2.jpg"
-			]
-		},
-		{
-			"title": "Nippon Nuklear",
-			"description": "Die Unfallserie im  japanischen Kernkraftwerk Fukushima Daiichi begann am 11. März 2011 mit einem Erdbeben. In drei Blöcken des Kraftwerks kam es zur Kernschmelze. Vier von sechs Reaktorblöcken des Kraftwerks wurden durch die Unfälle zerstört. Große Mengen an radioaktivem Material wurden freigesetzt und kontaminierten Umwelt und Nahrungsmittel. Hunderttausende Einwohner wurden zur Flucht gezwungen. Die Entsorgungsarbeiten werden voraussichtlich 30 bis 40 Jahre dauern, die Kosten der Katastrophe auf über 150 Mrd. Euro (FAZ) geschätzt. Nach der Katastrophe stieg die Skepsis gegenüber der zivilen Nutzung der Kernenergie. Die Karte gibt wieder, wie die Atomenergie im ressourcenarmen Japan bisher exzessiv genutzt wurde.",
-			"date": "April 2011",
-			"type": "Infografik",
-			"role": "Design",
-			"contributors": "",
-			"client" : "",
-			"links": [],
-			"images": [
-				"nipponnuklear.jpg"
-			]
-		}
-	]
+    {
+      "title": "Europawahl",
+      "description": "Europa, der schwarze Kontinent. Oder doch der Kontinent der Populisten? Die interaktive Grafik von SZ.de zeigt die Ergebnisse der Europawahl 2014 in vielen Details. Partei-Hochburgen, wahlmüde Regionen, gewählte Abgeordnete. Ein Überblick der Wahlergebnisse.",
+      "date": "Mai 2014",
+      "type": "Kartenvisualisierung",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "So hat Europa gewählt",
+          "url": "http://www.sueddeutsche.de/1.1973782"
+        }],
+      "images": [
+        "europawahl1.jpg",
+        "europawahl2.jpg"
+      ]
+    },
+    {
+      "title": "Newsgame World Cup Simulation",
+      "description": "Das Newsgame beschäftigt sich mit der Frage, wie sehr die Gastgeberländer von großen Sportveranstaltungen, wie der Fußball-WM oder den Olympischen Spielen,  profitieren. Der Spieler, als zwielichtiger Präsident eines fiktiven, korrupten Staates, muss sich einer Reihe von Fragen stellen. Er muss komplexe Entscheidungen treffen, welche unmittelbare politische, wirtschaftliche und touristischen Folgen haben. Das Ergebnis des Spiels wird durch beurteilt, wie viel Geld der Spieler ausgegeben hat und wie viel das Land davon profitierte. Schafft es der Spieler nicht, alle Aufgaben vor der Weltmeister zu erfüllen, kann diese nicht stattfinden - und das Land wird zum Gespött der freien (und nicht so frei) Welt.",
+      "date": "Mai 2014",
+      "type": "Newsgame",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Newsgames Hackathon (Games Lab Cologne)",
+      "links": [{
+          "name": "Spiel „World Cup Simulator“",
+          "url": "http://stekhn.de/worldcup"
+        },
+        {
+          "name": "Projektseite",
+          "url": "http://newsgames-hackathon.tumblr.com/games"
+        }],
+      "images": [
+        "newsgame1.jpg",
+        "newsgame2.jpg"
+      ]
+    },
+    {
+      "title": "Prototyp Süddeutsche Zeitung",
+      "description": "Für den Relaunch und die Einführung eines Bezahlmodells auf Süddeutsche Zeitung wurden erstmals Benutzertest in Kooperation mit GfK SirValUse durchgeführt. Um die Usability des neuen Headers und die Akzeptanz der Bezahlschranke zu testen, wurde ein Prototyp entwickelt. Der Prototyp erwies sich als sehr nützlich, um in einer frühen Projektphase konzeptionelle und gestalterische Probleme zu identifizieren.",
+      "date": "März 2014",
+      "type": "Prototyp",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Die neue Süddeutsche Zeitung",
+          "url": "http://sueddeutsche.de"
+        }],
+      "images": [
+        "szprototyp1.jpg",
+        "szprototyp2.jpg"
+        ]
+    },
+    {
+      "title": "Nebeneinkünfte Bundestag",
+      "description": "Viele der Bundestagsabgeordneten haben einen Nebenjob. Egal ob bei gemeinnützigen Organisationen, Universitäten oder auch in der freien Wirtschaft – die Parlamentarier verdienen teilweise ganz ordentlich dazu. Zwar müssen die Abgeordneten ihre Nebeneinkünfte offenlegen, aber wirklich transparent ist das System nicht. Die Angabe der Nebeneinkünfte erfolgt in Stufen von 1 bis 10, wobei die Einkommensstufe 10 nach oben hin offen ist. Für wen die Abgeordneten nebenbei tätig sind, ist in ihren Profilen auf der Webseite des Bundestags einsehbar. Nach Scrapen und Auswerten der Daten lassen sich folgende Fragen beantworten: Wer bekommt die höchsten Nebeneinkünfte und welche Fraktion kassiert am meisten?",
+      "date": "März 2014",
+      "type": "Data-Scraping, Analyse und Visualisierung",
+      "role": "Konzept, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Quellcode des Scrapers",
+          "url": "https://github.com/stekhn/nebeneinkuenfte"
+        },{
+          "name": "Blogeintrag zum Thema Nebeneinkünfte",
+          "url": "http://datenkritik.de/nebeneinkuenfte-visualisieren"
+        },{
+          "name": "Interaktive Grafik (unveröffentlicht)",
+          "url": "http://stekhn.de/nebeneinkuenfte"
+        }],
+      "images": [
+        "nebeneinkuenfte1.jpg",
+        "nebeneinkuenfte2.jpg"
+      ]
+    },
+    {
+      "title": "Kartendesign Blossom",
+      "description": "Die Open Street Map bietet hervorragende Kartendaten, jedoch ist die Kartendarstellung nicht sonderlich ansprechend. Blossom ist ein leichtes Kartendesign für Open Street Map und eignet sich vor allem für Übersichtskarten. Das Design wurde in CartoCSS geschrieben und ist Open Source.",
+      "date": "März 2014",
+      "type": "Kartenstil",
+      "role": "Design",
+      "contributors": "",
+      "client" : "Company",
+      "links": [{
+          "name": "Quellcode",
+          "url": "https://github.com/stekhn/location-history"
+        },{
+          "name": "Demo",
+          "url": "http://stekhn.de/locationhistory"
+        }],
+      "images": [
+        "blossom1.jpg",
+        "blossom2.jpg"
+      ]
+    },
+    {
+      "title": "Süddeutsche Zeitung App",
+      "description": "Mehr Qualitätsjournalismus für unterwegs. News, Hintergründe und mehr: Die Süddeutsche Zeitung-App bringt die gesamte aktuelle Nachrichtenseite der SZ auf iPhone. Analysen, Kommentaren, Videos, Bildergalerien und Ticker in gewohnter SZ-Qualität. Mit Funktionen wie Teilen und merken, Eilmeldungen, Nachrichtenticker und Kompaktmodus.",
+      "date": "Januar 2014",
+      "type": "iPhone-App",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Appstore",
+          "url": "https://itunes.apple.com/de/app/suddeutsche.de-nachrichten/id338711072?mt=8"
+        }],
+      "images": [
+        "szdeapp.jpg"
+      ]
+    },
+    {
+      "title": "Geheimer Krieg",
+      "description": "Amerika führt seinen „Krieg gegen der Terror“ längst auch in Deutschland - und die Bundesregierung dürfte davon mehr als nur eine Ahnung haben. Eineinhalb Jahre lang hat ein Team aus Journalisten des NDR und der Süddeutschen Zeitung zu den geheimen US-Strukturen recherchiert, die mitten in Deutschland bestehen. Sie haben Datenbanken ausgewertet und ließen Drohnen steigen, haben Informanten getroffen und Regierungsstellen konfrontiert. Die Website Geheimerkrieg.de ist das Ergebnis dieser Recherchen und erzählt mehre unfassbare Geschichten aus der Welt der Spione und Soldaten.",
+      "date": "November 2013",
+      "type": "Map visualization",
+      "role": "Entwicklung Prototyp",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung, Open Data City",
+      "links": [{
+          "name": "Geheimer Krieg",
+          "url": "http://www.geheimerkrieg.de"
+        },{
+          "name": "Amerikas geheimer Krieg in Deutschland",
+          "url": "http://www.sueddeutsche.de/1.1818850"
+        }],
+      "images": [
+        "geheimerkrieg.jpg"
+      ]
+    },
+    {
+      "title": "Rechte Gewalt in Bayern",
+      "description": "In der Kneipe, im Schwimmbad oder an der Tankstelle: 63 Mal haben Rechtsradikale im vergangenen Jahr in Bayern zugeschlagen. Eine bedrückende Dokumentation alltäglicher rechter Gewalt in Bayern.",
+      "date": "Oktober 2013",
+      "type": "Kartenvisualisierung",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Terror im Alltag",
+          "url": "http://www.sueddeutsche.de/1.1800885"
+        }],
+      "images": [
+        "rechtegewalt.jpg"
+      ]
+    },
+    {
+      "title": "Bundestagswahl",
+      "description": "Deutschland, die geschwärzte Republik: Der Sieg der Union wird auf der interaktiven Wahlkarte erst richtig deutlich. Alle gewählten Abgeordneten, die Hochburgen der Parteien, die Statistiken, die wahlmüdesten Regionen der Bundestagswahl 2013 im Überblick.",
+      "date": "September 2013",
+      "type": "Kartenvisualisierung",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "So hat Deutschland gewählt",
+          "url": "http://www.sueddeutsche.de/1.1776703"
+        }],
+      "images": [
+        "bundestagswahl1.jpg",
+        "bundestagswahl2.jpg"
+      ]
+    },
+    {
+      "title": "Zugmonitor Auswertung",
+      "description": "So genau wurden die Verspätungen der Deutschen Bahn noch nie aufgeschlüsselt: Seit dem Start des SZ-Zugmonitors vor mehr als einem Jahr haben wir die offiziellen Pünktlichkeitsdaten des Konzerns weiter mitgeschrieben - die Auswertung dieses Zeitraums erlaubt präzise Statistiken. Unsere interaktive Deutschlandkarte bietet eine detaillierte Problemanalyse für jede Strecke und jeden Bahnhof.",
+      "date": "April 2013",
+      "type": "Kartenvisualisierung",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "So verspätet ist die Bahn auf Ihrer Strecke",
+          "url": "http://www.sueddeutsche.de/1.1651455"
+        }],
+      "images": [
+        "zugmonitor.jpg"
+      ]
+    },
+    {
+      "title": "Regionen in Bayern",
+      "description": "Bayern, der eigenwillige Freistaat, besteht aus sieben Regierungsbezirken, die unterschiedlicher nicht sein könnten. Die Regionen unterscheiden sich nicht nur durch ihren Dialekt, sondern auch durch ihre kulinarischen Spezialitäten, ihre Prominenten und ihre Politiker, sowie ihre Sportvereine und ihre Feste. Was hat Thomas Gottschalk mit Richard Wagner gemein? Wo liegt das Medical Valley? Und was ist ein „Öllkawee“?",
+      "date": "August 2013",
+      "type": "Umschalter",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Ein Bayern, sieben Welten",
+          "url": "http://www.sueddeutsche.de/1.1742708"
+        }],
+      "images": [
+        "bayern.jpg"
+      ]
+    },
+    {
+      "title": "Verschätzung der Welt",
+      "description": "Daten über globale Entwicklungsthemen sind leicht zu finden. Doch nur wenige sind bereit, sich damit auseinanderzusetzen. Klischees und Vorurteile beherrschen unsere Wahrnehmung. Dagegen kann man nur wenig tun, jedoch wäre es interessant zu wissen, wie falsch wir sind, wenn wir über die Armut in Afrika oder CO2-Emissionen in Nordamerika sprechen. Die grundlegende Frage ist: Können wir mit großen Zahlen umgehen? ”Die Verschätzung der Welt“ macht sich den Spaß am Rätseln zunutze und generiert dabei Benutzerdaten. Diese Daten helfen zu verstehen, wie wir die Welt sehen.",
+      "date": "Juni 2013",
+      "type": "Quiz",
+      "role": "Design",
+      "contributors": "",
+      "client" : "Global Editors Network Lab",
+      "links": [{
+          "name": "Prototyp des Spiels",
+          "url": "http://stekhn.de/weltquiz/"
+        },{
+          "name": "Projektseite",
+          "url": "http://community.globaleditorsnetwork.org/content/die-versch%C3%A4tzung-der-welt-0"
+        }],
+      "images": [
+        "verschaetzung.jpg"
+      ]
+    },
+    {
+      "title": "Begleiter",
+      "description": "Verlässlicher Partner oder Stalker, Geschwister oder Konkurrenten, Gefährte auf Zeit oder über den Tod hinaus: Geschichten über Nähe und Distanz, von den Volontären der Süddeutschen Zeitung.",
+      "date": "Juni 2013",
+      "type": "Storytelling",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Begleiter",
+          "url": "http://gfx.sueddeutsche.de/pages/begleiter/"
+        }],
+      "images": [
+        "begleiter1.jpg",
+        "begleiter2.jpg"
+      ]
+    },
+    {
+      "title": "Zensus 2011",
+      "description": "Wo leben die meisten alten Menschen, wo die jüngsten? Wo besonders viele Katholiken? Oder besonders viele mit Migrationshintergrund? Der Zensus 2011 birgt einige Überraschungen. Die wichtigsten Ergebnisse visualisiert auf einer Deutschlandkarte. Gehen Sie auf Entdeckungsreise.",
+      "date": "März 2013",
+      "type": "Kartenvisualisierung",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Süddeutsche Zeitung",
+      "links": [{
+          "name": "Ergebnisse des Zensus 2011",
+          "url": "http://www.sueddeutsche.de/1.1685321"
+        }],
+      "images": [
+        "zensus1.jpg"
+      ]
+    },
+    {
+      "title": "Interaktives Bahnhofsinformationssystem",
+      "description": "Bahnsteige sind Orte der Begegnung, des Wartens und der Orientierung. Ebenso sind Bahnsteige zwangsläufig mit Interaktion verbunden – egal ob man Freunde abholt oder täglich den selben Zug zur Arbeit nimmt. Interaktion findet sowohl mit anderen Menschen statt, als auch mit verschiedenen Leitsystemen wie Anzeigetafeln, Fahrplänen oder Sicherheitsmarkierungen. Das Problem ist: Bahnsteige werden oftmals in ihrer Funktion unterschätzt und mit negativen Emotionen verbunden. Zugverspätungen, eine trostlose Atmosphäre und die Bedrohlichkeit bei Nacht, führen dazu, dass man sich ungern an einem Bahnsteig aufhält. Ein besseres Interaktionsdesign kann helfen, eine positive Erfahrung für jeden Zugreisenden zu schaffen.",
+      "date": "Juni 2012",
+      "type": "Interaktive Installation",
+      "role": "Konzept, Design",
+      "contributors": "",
+      "client" : "Filmakademie Baden-Württemberg",
+      "links": [],
+      "images": [
+        "ibis.jpg"
+      ]
+    },
+    {
+      "title": "Vampyre unter uns",
+      "description": "„Vampire unter uns“ ist eine interaktive Anwendung, welche über die in Deutschland lebenden Vampire informieren soll. Menschen die sich vampirisch leben gibt es wirklich: Sie trinken Blut, lassen sich die Eckzähne anschleifen und sehen sich nicht als Teil unserer Gesellschaft. Obwohl die meisten Vampire nichts mit Reportern zu tun haben wollen, gibt es doch einige wenige, welche Auskunft über ihre Leben geben. Die Anwendung soll den Zugang zu solchen persönlichen Geschichten ermöglichen. Es gibt Video(-Reportagen), Hintergrundtexte, Interviews, Grafiken und Bildergalerien. Der Benutzer kann sich selbst entscheiden, ob er die Geschichten nach geografischer Verortung, Themengebiet oder nach Person anschauen möchte.",
+      "date": "Mai 2012",
+      "type": "Informationsportal",
+      "role": "Konzept, Design",
+      "contributors": "",
+      "client" : "Filmakademie Baden-Württemberg",
+      "links": [],
+      "images": [
+        "vampyre1.jpg",
+        "vampyre2.jpg"
+      ]
+    },
+    {
+      "title": "Nippon Nuklear",
+      "description": "Die Unfallserie im  japanischen Kernkraftwerk Fukushima Daiichi begann am 11. März 2011 mit einem Erdbeben. In drei Blöcken des Kraftwerks kam es zur Kernschmelze. Vier von sechs Reaktorblöcken des Kraftwerks wurden durch die Unfälle zerstört. Große Mengen an radioaktivem Material wurden freigesetzt und kontaminierten Umwelt und Nahrungsmittel. Hunderttausende Einwohner wurden zur Flucht gezwungen. Die Entsorgungsarbeiten werden voraussichtlich 30 bis 40 Jahre dauern, die Kosten der Katastrophe auf über 150 Mrd. Euro (FAZ) geschätzt. Nach der Katastrophe stieg die Skepsis gegenüber der zivilen Nutzung der Kernenergie. Die Karte gibt wieder, wie die Atomenergie im ressourcenarmen Japan bisher exzessiv genutzt wurde.",
+      "date": "April 2011",
+      "type": "Infografik",
+      "role": "Design",
+      "contributors": "",
+      "client" : "",
+      "links": [],
+      "images": [
+        "nipponnuklear.jpg"
+      ]
+    }
+  ]
 }
