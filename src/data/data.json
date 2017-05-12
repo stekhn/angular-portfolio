@@ -33,6 +33,21 @@
   },
   "projects" :[
     {
+      "title": "Merkel nach Zahlen",
+      "description": "Arbeits­lose, Kern­kraft­werke, Bundes­wehr: Wie hat sich Deutsch­land unter Angela Merkels Kanzlerschaft verändert? Ein interaktives Erklärstück. Der Leser muss verschiedene Faktoren selbst schätzen und das Diagramm weiterzuzeichnen. Erst dann gibt es die Auflösung.",
+      "date": "April 2017",
+      "type": "Interaktiver Artikel",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Merkel nach Zahlen",
+          "url": "http://web.br.de/interaktiv/merkel-nach-zahlen/"
+        }],
+      "images": [
+        "merkeljahre.jpg"
+      ]
+    }, {
       "title": "Angriff auf die Demokratie",
       "description": "Demolierte Büros, gelockerte Radmuttern, Morddrohungen. Politiker zu sein, kann gefährlich werden. Letztes Jahr alleine zählte die Polizei 755 rechts-motivierten Übergriffe auf Politiker. Hinzu kommen die links-motivierten und nicht zugeordneten Straftaten. Die Analyse zeigt: Alle großen Parteien werden angefeindet und der Osten Deutschlands ist besonders stark betroffen.",
       "date": "Februar 2017",
@@ -69,7 +84,7 @@
       "title": "Madeira Search",
       "description": "Für die investigative Recherche zum Steuerparadies Madeira mussten tausenden Dokumente heruntergeladen und durchsuchbar (OCR) gemacht werden. Die Suchmaschine ermöglicht es die knapp 20.000 Seiten nach bekannten Firmen und Persönlichkeiten zu durchsuchen. Ein API-Endpunkt ermöglich eine systematische Suche und ein regelmäßiges Aktualisieren der Dokumente. Die Suche baut auf der Elasticsearch-Engine auf.",
       "date": "November 2016",
-      "type": "Entwicklung, Datenanalyse",
+      "type": "Suchmaschine",
       "role": "Text Mining, OCR, Backend",
       "contributors": "",
       "client" : "Bayerischer Rundfunk",
