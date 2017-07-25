@@ -33,6 +33,21 @@
   },
   "projects" :[
     {
+      "title": "Diskriminierung auf dem Mietmarkt",
+      "description": "Wer mit einem ausländischen Namen eine Wohnung sucht, hat es deutlich schwerer als ein deutscher Bewerber. Besonders stark diskriminiert werden Menschen mit arabischem und türkischem Namen. Um zu diesem Ergebnis zu gelangen, haben wir über mehrere Wochen hinweg automatisiert 20.000 Wohnungsanfragen verschickt, jeweils mit fiktiven deutschen und nicht-deutschen Profilen.",
+      "date": "Juni 2017",
+      "type": "Datenanalyse",
+      "role": "Konzept, Design, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk, Spiegel Online",
+      "links": [{
+          "name": "Hanna und Ismail",
+          "url": "https://www.hanna-und-ismail.de/"
+        }],
+      "images": [
+        "diskriminierung.jpg"
+      ]
+    }, {
       "title": "Merkel nach Zahlen",
       "description": "Arbeits­lose, Kern­kraft­werke, Bundes­wehr: Wie hat sich Deutsch­land unter Angela Merkels Kanzlerschaft verändert? Ein interaktives Erklärstück. Der Leser muss verschiedene Faktoren selbst schätzen und das Diagramm weiterzuzeichnen. Erst dann gibt es die Auflösung.",
       "date": "April 2017",
