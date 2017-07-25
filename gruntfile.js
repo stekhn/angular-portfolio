@@ -37,19 +37,31 @@ module.exports = function (grunt) {
       html: ['dist/index.html']
     },
 
-    compass: {
-      dist: {
-        options: {
-          sassDir: 'src/style',
-          cssDir: 'src/style'
+    sass: {
+      options: {
+        sourceMap: true
+      },
+      build: {
+        files: {
+          'src/style/main.css': 'src/style/main.scss'
         }
       }
     },
 
-    cssmin: {
-      combine: {
+    postcss: {
+      options: {
+        processors: [
+          require('autoprefixer')({
+            browsers: ['> 5%', 'last 2 versions', 'IE 8', 'IE 9']
+          }),
+          require('cssnano')()
+        ],
+        map: true
+      },
+
+      build: {
         files: {
-          'dist/css/style.min.css': ['src/style/main.css']
+          'dist/css/style.min.css': 'src/style/main.css'
         }
       }
     },
@@ -58,7 +70,6 @@ module.exports = function (grunt) {
       options: {
         singleQuotes: true
       },
-
       dist: {
         files: {
           '.tmp/ngAnnotate/app.js': [
@@ -120,15 +131,23 @@ module.exports = function (grunt) {
           ext: '.jpg'
         }]
       }
-    }
+    },
 
+    watch: {
+
+      css: {
+
+        files: 'src/style/**/*.scss',
+        tasks: ['sass', 'postcss']
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-usemin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-ng-annotate');
@@ -137,6 +156,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('dist', [
-    'clean', 'copy', 'compass', 'useminPrepare', 'cssmin', 'ngAnnotate', 'uglify', 'concat', 'usemin', 'json-minify', 'imagemin'
+    'clean', 'copy', 'useminPrepare', 'sass', 'postcss', 'ngAnnotate', 'uglify', 'concat', 'usemin', 'json-minify', 'imagemin'
   ]);
 };
