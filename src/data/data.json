@@ -33,6 +33,21 @@
   },
   "projects" :[
     {
+      "title": "Analyse der Wahlprogramme",
+      "description": "Wir haben ein Experiment gewagt: Ein lernender Algorithmus hat für uns die Wahlprogramme der großen Parteien zur Bundestagswahl 2017 analysiert. Per Machine-Learning haben wir 810 Textabschnitte automatisch bewertet und in Kategorien einsortiert. So lassen sich die Standpunkte der Parteien gegenüberstellen und vergleichen.",
+      "date": "Juni 2017",
+      "type": "Machine Learning",
+      "role": "Design, Datenanalyse",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Analyse der Wahlprogramme",
+          "url": "http://web.br.de/interaktiv/wahlprogramm-analyse-bundestagswahl/"
+        }],
+      "images": [
+        "wahlprogramme.jpg"
+      ]
+    }, {
       "title": "Diskriminierung auf dem Mietmarkt",
       "description": "Wer mit einem ausländischen Namen eine Wohnung sucht, hat es deutlich schwerer als ein deutscher Bewerber. Besonders stark diskriminiert werden Menschen mit arabischem und türkischem Namen. Um zu diesem Ergebnis zu gelangen, haben wir über mehrere Wochen hinweg automatisiert 20.000 Wohnungsanfragen verschickt, jeweils mit fiktiven deutschen und nicht-deutschen Profilen.",
       "date": "Juni 2017",
