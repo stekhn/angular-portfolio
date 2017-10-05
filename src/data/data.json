@@ -33,6 +33,22 @@
   },
   "projects" :[
     {
+      "title": "Korrelationen der Wahlergebnisse",
+      "description": "Die AfD hat bei Bundestagswahl ein überraschen starkes Ergebnis erzielt. Wahlergebnisse über demografische oder sozio-ökonomische Faktoren, wie Arbeitslosigkeit oder Ausländeranteil, zu erklären ist jedoch gefährlich. Eine starke Korrelation kann, muss aber nicht, auf einen Sachzusammenhang hindeuten. Die Visualisierung zeigt die 50 stärksten Korrelationen von Wahlergebnissen und Strukturmerkmalen in Deutschlands 299 Wahlkreisen.",
+      "date": "Juni 2017",
+      "type": "Small Multiples",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client" : "",
+      "links": [{
+          "name": "50 Korrelationen zur Bundestagswahl 2017",
+          "url": "https://stekhn.github.io/german-elections-correlations/src/"
+        }],
+      "images": [
+        "korrelationen.jpg"
+      ]
+    },
+    {
       "title": "Analyse der Wahlprogramme",
       "description": "Wir haben ein Experiment gewagt: Ein lernender Algorithmus hat für uns die Wahlprogramme der großen Parteien zur Bundestagswahl 2017 analysiert. Per Machine-Learning haben wir 810 Textabschnitte automatisch bewertet und in Kategorien einsortiert. So lassen sich die Standpunkte der Parteien gegenüberstellen und vergleichen.",
       "date": "Juni 2017",
