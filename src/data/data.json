@@ -33,9 +33,25 @@
   },
   "projects" :[
     {
+      "title": "Kabinett-O-Mat",
+      "description": "Die Verhandlungen zur Jamaika-Koalition haben begonnen – und damit auch der Kampf um die Ministerposten. Mit dem Kabinett-O-Mat kann sich jeder Nutzer sein eigenes Wunsch-Kabinett zusammenstellen. Zur Auswahl stehen aussichtsreiche Kandidaten von CDU, CSU, FDP und Grünen. Sind die Politiker auf die verschiedenen Ministerposten verteilt, kann das Ergebnis in den sozialen Netzwerken geteilt und wieder aufgerufen werden.",
+      "date": "Oktober 2017",
+      "type": "News Game",
+      "role": "Konzept, Entwicklung",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "Kabinett-O-Mat",
+          "url": "http://web.br.de/interaktiv/kabinett-o-mat/"
+        }],
+      "images": [
+        "kabinett-o-mat.jpg"
+      ]
+    },
+    {
       "title": "Korrelationen der Wahlergebnisse",
-      "description": "Die AfD hat bei Bundestagswahl ein überraschen starkes Ergebnis erzielt. Wahlergebnisse über demografische oder sozio-ökonomische Faktoren, wie Arbeitslosigkeit oder Ausländeranteil, zu erklären ist jedoch gefährlich. Eine starke Korrelation kann, muss aber nicht, auf einen Sachzusammenhang hindeuten. Die Visualisierung zeigt die 50 stärksten Korrelationen von Wahlergebnissen und Strukturmerkmalen in Deutschlands 299 Wahlkreisen.",
-      "date": "Juni 2017",
+      "description": "Die AfD hat bei Bundestagswahl ein überraschend starkes Ergebnis erzielt. Wahlergebnisse über demografische oder sozio-ökonomische Faktoren, wie Arbeitslosigkeit oder Ausländeranteil, zu erklären ist jedoch gefährlich. Eine starke Korrelation kann, muss aber nicht, auf einen Sachzusammenhang hindeuten. Die Visualisierung zeigt die 50 stärksten Korrelationen von Wahlergebnissen und Strukturmerkmalen in Deutschlands 299 Wahlkreisen.",
+      "date": "September 2017",
       "type": "Small Multiples",
       "role": "Datenanalyse, Visualisierung",
       "contributors": "",
@@ -51,7 +67,7 @@
     {
       "title": "Analyse der Wahlprogramme",
       "description": "Wir haben ein Experiment gewagt: Ein lernender Algorithmus hat für uns die Wahlprogramme der großen Parteien zur Bundestagswahl 2017 analysiert. Per Machine-Learning haben wir 810 Textabschnitte automatisch bewertet und in Kategorien einsortiert. So lassen sich die Standpunkte der Parteien gegenüberstellen und vergleichen.",
-      "date": "Juni 2017",
+      "date": "September 2017",
       "type": "Machine Learning",
       "role": "Design, Datenanalyse",
       "contributors": "",
