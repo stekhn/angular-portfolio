@@ -33,6 +33,22 @@
   },
   "projects" :[
     {
+      "title": "oBike Datenleck",
+      "description": "In immer mehr deutschen Städten bietet oBike Leihfahrräder an, doch die App des Anbieters hatte eine kritische Sicherheitslücke. Persönliche Daten und Bewegungsdaten von Nutzern waren frei über das Internet zugänglich. Ob Namen, Handynummern, E-Mail-Adressen oder Profilfotos: Journalisten von BR Data und BR Recherche konnten im Internet zahlreiche Nutzerdaten des Fahrradverleihs oBike einsehen.",
+      "date": "November 2017",
+      "type": "Investigation",
+      "role": "Datenrecherche, Design",
+      "contributors": "",
+      "client" : "Bayerischer Rundfunk",
+      "links": [{
+          "name": "BR deckt Datenleck beim Fahrradverleiher Obike auf",
+          "url": "https://www.br.de/nachrichten/datenleck-obike-100.html"
+        }],
+      "images": [
+        "obike.jpg"
+      ]
+    },
+    {
       "title": "Kabinett-O-Mat",
       "description": "Die Verhandlungen zur Jamaika-Koalition haben begonnen – und damit auch der Kampf um die Ministerposten. Mit dem Kabinett-O-Mat kann sich jeder Nutzer sein eigenes Wunsch-Kabinett zusammenstellen. Zur Auswahl stehen aussichtsreiche Kandidaten von CDU, CSU, FDP und Grünen. Sind die Politiker auf die verschiedenen Ministerposten verteilt, kann das Ergebnis in den sozialen Netzwerken geteilt und wieder aufgerufen werden.",
       "date": "Oktober 2017",
@@ -41,7 +57,7 @@
       "contributors": "",
       "client" : "Bayerischer Rundfunk",
       "links": [{
-          "name": "Kabinett-O-Mat",
+          "name": "Entscheiden Sie: Der Kabinett-O-Mat",
           "url": "http://web.br.de/interaktiv/kabinett-o-mat/"
         }],
       "images": [
@@ -140,6 +156,7 @@
           "url": "https://br.de/madeira/podcast"
         }],
       "images": [
+        "madeira2.jpg",
         "madeira.jpg"
       ]
     },{
