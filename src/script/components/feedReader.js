@@ -41,7 +41,13 @@ angular.module('feedReader', [])
 
   var parseRSS = function (url) {
 
-    return $http.jsonp('https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=50&callback=JSON_CALLBACK&q=' + encodeURIComponent(url));
+    return $http.jsonp(
+      'https://query.yahooapis.com/v1/public/' +
+      'yql?q=select%20*%20from%20xml%20where%20url%20%3D%20"' +
+      encodeURIComponent(url) +
+      '"&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys' +
+      '&callback=JSON_CALLBACK'
+    );
   };
 
   $scope.updateModel = function () {
@@ -53,7 +59,7 @@ angular.module('feedReader', [])
         return;
       }
 
-      $scope.articles = data.data.responseData.feed.entries.map(function (el) {
+      $scope.articles = data.data.query.results.rss.channel.item.map(function (el) {
 
         return parseEntry(el);
       });
