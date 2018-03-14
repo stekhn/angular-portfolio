@@ -19,13 +19,22 @@
     <loc>http://stekhn.de/#!/imprint</loc>
   </url>
   <url>
+    <loc>http://stekhn.de/#!/project/preiswahnsinn-bei-grafikkarten</loc>
+  </url>
+  <url>
     <loc>http://stekhn.de/#!/project/obike-datenleck</loc>
+  </url>
+  <url>
+    <loc>http://stekhn.de/#!/project/workshop-d3-und-leaflet</loc>
   </url>
   <url>
     <loc>http://stekhn.de/#!/project/kabinett-o-mat</loc>
   </url>
   <url>
     <loc>http://stekhn.de/#!/project/korrelationen-der-wahlergebnisse</loc>
+  </url>
+  <url>
+    <loc>http://stekhn.de/#!/project/fake-follower-der-parteien</loc>
   </url>
   <url>
     <loc>http://stekhn.de/#!/project/analyse-der-wahlprogramme</loc>

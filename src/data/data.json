@@ -33,11 +33,29 @@
   },
   "projects": [
     {
+      "title": "Preiswahnsinn bei Grafikkarten",
+      "description": "Bitcoin und andere Kryptowährungen haben im vergangenen Jahr kräftig an Wert gewonnen. Die hohe Nachfrage verschiedener Investoren hat gleichzeitig zu einem Preisanstieg bei Grafikkarten (GPUs) geführt, welche für das Mining von Kryptowährungen benötigt werden. Die Analyse zeigt, wie die hohe Nachfrage nach Kryptowährungen die Grafikkartenpreise auch in Deutschland antreibt.",
+      "date": "November 2017",
+      "type": "Artikel",
+      "role": "Datenanalyse, Design",
+      "contributors": "",
+      "client": "",
+      "links": [
+        {
+          "name": "GPU Price Surge",
+          "url": "https://stekhn.github.io/gpu-price-surge-analysis/"
+        }
+      ],
+      "images": [
+        "gpuprices.jpg"
+      ]
+    },
+    {
       "title": "oBike Datenleck",
       "description": "In immer mehr deutschen Städten bietet oBike Leihfahrräder an, doch die App des Anbieters hatte eine kritische Sicherheitslücke. Persönliche Daten und Bewegungsdaten von Nutzern waren frei über das Internet zugänglich. Ob Namen, Handynummern, E-Mail-Adressen oder Profilfotos: Journalisten von BR Data und BR Recherche konnten im Internet zahlreiche Nutzerdaten des Fahrradverleihs oBike einsehen.",
       "date": "November 2017",
       "type": "Investigation",
-      "role": "Datenrecherche, Design",
+      "role": "Reverse Engineering, Design",
       "contributors": "",
       "client": "Bayerischer Rundfunk",
       "links": [
@@ -48,6 +66,28 @@
       ],
       "images": [
         "obike.jpg"
+      ]
+    },
+    {
+      "title": "Workshop: D3 und Leaflet",
+      "description": "Das Coding Bootcamp des ifp vermittelt Journalisten einen praktischen Einstieg ins Programmieren. Ziel ist es, zu verstehen wie Code funktioniert und kleine Projekte selbst umsetzen zu können. In diesem Workshop lernen Journalisten, einfache Datenvisualisierung mit D3 und Karten mit Leaflet zu erstellen. Die Anleitungen, Beispielen und praktischen Übungen zu diesem Seminar sind auf Github verfügbar.",
+      "date": "Oktober 2017",
+      "type": "Workshop",
+      "role": "Konzept, Seminar",
+      "contributors": "",
+      "client": "ifp München",
+      "links": [
+        {
+          "name": "D3-Workshop (Github)",
+          "url": "https://github.com/stekhn/d3-workshop"
+        },
+        {
+          "name": "Leaflet-Workshop (Github)",
+          "url": "https://github.com/stekhn/leaflet-workshop"
+        }
+      ],
+      "images": [
+        "bootcamp.jpg"
       ]
     },
     {
@@ -87,11 +127,29 @@
       ]
     },
     {
+      "title": "Fake Follower der Parteien",
+      "description": "Auf Twitter haben alle großen Parteien und Spitzenkandidaten zweifelhafte Follower. Viele der Accounts scheinen keine echten Personen zu sein und die Follower der AfD sind auffällig aktiv. Wir haben 2,4 Millionen Twitter-Follower sowie die letzten 100 Tweets der im Bundestag vertretenen Parteien sowie der FDP und der AfD und ihrer Spitzenkandidaten ausgewertet. Eine Recherche über falsche Follower und hyperaktive Helfer der Parteien.",
+      "date": "Oktober 2017",
+      "type": "Social Media Analyse",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Parteien und ihre fragwürdigen Follower",
+          "url": "https://www.br.de/nachrichten/faktencheck/twitter-wahlkampf-analyse-der-parteien-100.html"
+        }
+      ],
+      "images": [
+        "fakefollower.jpg"
+      ]
+    },
+    {
       "title": "Analyse der Wahlprogramme",
       "description": "Wir haben ein Experiment gewagt: Ein lernender Algorithmus hat für uns die Wahlprogramme der großen Parteien zur Bundestagswahl 2017 analysiert. Per Machine-Learning haben wir 810 Textabschnitte automatisch bewertet und in Kategorien einsortiert. So lassen sich die Standpunkte der Parteien gegenüberstellen und vergleichen.",
       "date": "September 2017",
       "type": "Machine Learning",
-      "role": "Design, Datenanalyse",
+      "role": "Datenanalyse, Visualisierung",
       "contributors": "",
       "client": "Bayerischer Rundfunk",
       "links": [
@@ -124,7 +182,7 @@
     },
     {
       "title": "Merkel nach Zahlen",
-      "description": "Arbeits­lose, Kern­kraft­werke, Bundes­wehr: Wie hat sich Deutsch­land unter Angela Merkels Kanzlerschaft verändert? Ein interaktives Erklärstück. Der Leser muss verschiedene Faktoren selbst schätzen und das Diagramm weiterzuzeichnen. Erst dann gibt es die Auflösung.",
+      "description": "Arbeits­lose, Kern­kraft­werke, Bundes­wehr: Wie hat sich Deutsch­land unter Angela Merkels Kanzlerschaft verändert? Ein interaktives Erklärstück. Der Leser muss verschiedene Faktoren selbst schätzen und das Diagramm weiterzeichnen. Erst dann gibt es die Auflösung.",
       "date": "April 2017",
       "type": "Interaktiver Artikel",
       "role": "Design, Entwicklung",
@@ -142,7 +200,7 @@
     },
     {
       "title": "Angriff auf die Demokratie",
-      "description": "Demolierte Büros, gelockerte Radmuttern, Morddrohungen. Politiker zu sein, kann gefährlich werden. Letztes Jahr alleine zählte die Polizei 755 rechts-motivierten Übergriffe auf Politiker. Hinzu kommen die links-motivierten und nicht zugeordneten Straftaten. Die Analyse zeigt: Alle großen Parteien werden angefeindet und der Osten Deutschlands ist besonders stark betroffen.",
+      "description": "Demolierte Büros, gelockerte Radmuttern, Morddrohungen. Politiker zu sein kann gefährlich werden. Letztes Jahr alleine zählte die Polizei 755 rechts-motivierten Übergriffe auf Politiker. Hinzu kommen die links-motivierten und nicht zugeordneten Straftaten. Die Analyse zeigt: Alle großen Parteien werden angefeindet und der Osten Deutschlands ist besonders stark betroffen.",
       "date": "Februar 2017",
       "type": "Web-Special",
       "role": "Design, Entwicklung",
@@ -237,7 +295,7 @@
     },
     {
       "title": "Rio de Janeiro: Gewalt und Spiele",
-      "description": "Die Menschen in Syrien leiden, obwohl letztes Jahr mehr als vier Milliarden US-Dollar an Hilfsgelder in die Region flossen. Doch kommt das Geld auch dort an wo es gebraucht wird? Report München, BR Data und das Recherchenetzwerk CORRECTIV auf den Spuren von Hilfsgeldern und Projekten, die dem Assad-Regime nützen.",
+      "description": "Kurz vor Beginn der Olympischen Spiele in Rio de Janeiro ist die Gewalt weiter ein großes Problem. Allein in der ersten Jahreshälfte wurden mehr als doppelt so viele Polizisten getötet wie im gesamten Jahr 2015. Dem gegenüber steht die Kritik an dem oftmals brutalen Vorgehen der Polizeikräfte. Bisherige Maßnahmen, wie die Befriedung der Favelas, scheinen nur bedingt erfolgreich und bergen sozialen Sprengstoff. Unsere Datenauswertung zeigt, wo die Gewalt am schlimmsten und wer besonders davon betroffen ist.",
       "date": "Juli 2016",
       "type": "Artikel",
       "role": "Datenanalyse, Visualisierung",
@@ -735,11 +793,11 @@
       "links": [
         {
           "name": "Prototyp",
-          "url": "https://walterrenner.github.io/odhdnull/"
+          "url": "https://stekhn.github.io/brazillion/"
         },
         {
           "name": "Quellcode",
-          "url": "https://github.com/walterrenner/odhdnull"
+          "url": "https://github.com/stekhn/brazillion/"
         }
       ],
       "images": [
