@@ -16,6 +16,7 @@
     "autoprefixer": "^8.6.5",
     "cssnano": "^4.0.1",
     "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
@@ -28,7 +29,8 @@
     "grunt-sass": "^3.0.1",
     "grunt-usemin": "^3.1.1",
     "imagemin-mozjpeg": "^7.0.0",
-    "mozjpeg": "^6.0.0"
+    "mozjpeg": "^6.0.0",
+    "node-sass": "^4.9.3"
   },
   "dependencies": {}
 }

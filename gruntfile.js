@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
 
   var mozjpeg = require('imagemin-mozjpeg');
+  var sass = require('node-sass');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -39,6 +40,7 @@ module.exports = function (grunt) {
 
     sass: {
       options: {
+        implementation: sass,
         sourceMap: true
       },
       build: {
