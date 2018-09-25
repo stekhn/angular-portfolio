@@ -8,9 +8,11 @@ html {
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+  hyphens: auto;
   color: $black;
   background: $background;
-  max-width: 920px;
+  max-width: 1200px;
   padding: 2em 3em;
   margin: 0 auto;
   background: url(../img/graph.svg);

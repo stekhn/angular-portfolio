@@ -9,7 +9,6 @@
   margin: 0 3% 3% 3%;
   width: 27.3%;
   vertical-align: top;
-  text-align: center;
 
   .thumb {
     @include image-box;
@@ -25,6 +24,7 @@
     @include transition(.25s);
 
     color: $black;
+    line-height: 1.3;
     padding: 10px;
     margin: 0;
   }

@@ -54,9 +54,11 @@ html {
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.2em;
+  hyphens: auto;
   color: #222;
   background: #fff;
-  max-width: 920px;
+  max-width: 1200px;
   padding: 2em 3em;
   margin: 0 auto;
   background: url(../img/graph.svg);
@@ -98,7 +100,7 @@ main {
     -o-transition: all 0.2s ease-in-out;
     text-decoration: none;
     font-weight: 300;
-    color: #bf3600; }
+    color: #86ad38; }
     main a:hover {
       color: #222; }
   main blockquote {
@@ -134,7 +136,7 @@ header {
         text-decoration: none;
         font-weight: 300;
         font-size: 1.2em;
-        color: #bf3600;
+        color: #86ad38;
         margin-right: .5em; }
         header nav li a:hover {
           color: #222; }
@@ -156,8 +158,7 @@ header {
   display: inline-block;
   margin: 0 3% 3% 3%;
   width: 27.3%;
-  vertical-align: top;
-  text-align: center; }
+  vertical-align: top; }
   .project .thumb {
     padding: 10px;
     background: #fff;
@@ -175,10 +176,11 @@ header {
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     color: #222;
+    line-height: 1.3;
     padding: 10px;
     margin: 0; }
   .project:hover p {
-    color: #bf3600; }
+    color: #86ad38; }
 
 .project-page {
   position: relative; }
@@ -189,7 +191,7 @@ header {
     -o-transition: all 0.25s ease-in-out;
     cursor: pointer;
     font-size: 3em;
-    color: #bf3600; }
+    color: #86ad38; }
     .project-page .back:hover {
       color: #222; }
   .project-page .project-description {
@@ -248,7 +250,7 @@ header {
     display: block;
     float: left; }
   .skills .circle {
-    color: #bf3600; }
+    color: #86ad38; }
 
 .grey {
   color: #eee; }
@@ -325,7 +327,7 @@ footer {
       text-decoration: none;
       color: #aaa; }
       footer p a:hover {
-        color: #bf3600; }
+        color: #86ad38; }
 
 @media (max-width: 740px) {
   .project {
