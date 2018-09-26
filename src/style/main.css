@@ -100,7 +100,7 @@ main {
     -o-transition: all 0.2s ease-in-out;
     text-decoration: none;
     font-weight: 300;
-    color: #86ad38; }
+    color: #779a32; }
     main a:hover {
       color: #222; }
   main blockquote {
@@ -136,7 +136,7 @@ header {
         text-decoration: none;
         font-weight: 300;
         font-size: 1.2em;
-        color: #86ad38;
+        color: #779a32;
         margin-right: .5em; }
         header nav li a:hover {
           color: #222; }
@@ -180,7 +180,7 @@ header {
     padding: 10px;
     margin: 0; }
   .project:hover p {
-    color: #86ad38; }
+    color: #779a32; }
 
 .project-page {
   position: relative; }
@@ -191,7 +191,7 @@ header {
     -o-transition: all 0.25s ease-in-out;
     cursor: pointer;
     font-size: 3em;
-    color: #86ad38; }
+    color: #779a32; }
     .project-page .back:hover {
       color: #222; }
   .project-page .project-description {
@@ -250,7 +250,7 @@ header {
     display: block;
     float: left; }
   .skills .circle {
-    color: #86ad38; }
+    color: #779a32; }
 
 .grey {
   color: #eee; }
@@ -327,7 +327,7 @@ footer {
       text-decoration: none;
       color: #aaa; }
       footer p a:hover {
-        color: #86ad38; }
+        color: #779a32; }
 
 @media (max-width: 740px) {
   .project {

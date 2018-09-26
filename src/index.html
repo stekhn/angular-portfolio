@@ -6,8 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1">
 
-    <meta name="fragment" content="!">
-
     <title>{{ meta.title() }}</title>
 
     <meta name="twitter:card" content="summary" />
@@ -70,11 +68,11 @@
 
       <nav ng-controller="NavCtrl">
         <ul>
-          <li><a href="#!/" ng-class="{active: isActive('/')}">Portfolio</a></li>
-          <li><a href="#!/curriculum" ng-class="{active: isActive('/curriculum')}">Vita</a></li>
-          <li><a href="#!/contact" ng-class="{active: isActive('/contact')}">Kontakt</a></li>
-          <li><a href="#!/blog" ng-class="{active: isActive('/blog')}">Blog</a></li>
-          <li><a href="#!/imprint" ng-class="{active: isActive('/imprint')}">Impressum</a></li>
+          <li><a href="/" ng-class="{active: isActive('/')}">Portfolio</a></li>
+          <li><a href="/curriculum" ng-class="{active: isActive('/curriculum')}">Vita</a></li>
+          <li><a href="/contact" ng-class="{active: isActive('/contact')}">Kontakt</a></li>
+          <li><a href="/blog" ng-class="{active: isActive('/blog')}">Blog</a></li>
+          <li><a href="/imprint" ng-class="{active: isActive('/imprint')}">Impressum</a></li>
         </ul>
       </nav>
     </header>

@@ -1,30 +1,31 @@
 app.controller('ProjectCtrl', ['$scope', '$routeParams', '$filter', 'jsonLoader',
   function ($scope, $routeParams, $filter, jsonLoader) {
 
-  if ($scope.projects) {
-
-    setProject();
-  } else {
-
-    jsonLoader.getData().then(function(data) {
-
-      $scope.projects = data.data.projects;
+    if ($scope.projects) {
 
       setProject();
-    });
-  }
+    } else {
 
-  function setProject() {
+      jsonLoader.getData().then(function(data) {
 
-    for (var key in $scope.projects) {
+        $scope.projects = data.data.projects;
 
-      var dashCaseTitle = $filter('dashcase')($scope.projects[key].title);
+        setProject();
+      });
+    }
 
-      if ($routeParams.name === dashCaseTitle) {
+    function setProject() {
 
-        $scope.project = $scope.projects[key];
-        $scope.$emit('projectChanged', $scope.project);
+      for (var key in $scope.projects) {
+
+        var dashCaseTitle = $filter('dashcase')($scope.projects[key].title);
+
+        if ($routeParams.name === dashCaseTitle) {
+
+          $scope.project = $scope.projects[key];
+          $scope.$emit('projectChanged', $scope.project);
+        }
       }
     }
   }
-}]);
+]);
