@@ -4,14 +4,11 @@ app.factory('jsonLoader', ['$http', function ($http) {
 
     getData: function() {
 
-      var promise = $http.get('data/data.json');
+      return $http.get('data/data.json')
+        .then(function (data) {
 
-      promise.success(function (data) {
-
-        return data;
-      });
-
-      return promise;
+          return data;
+        });
     }
   };
 }]);

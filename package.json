@@ -32,5 +32,8 @@
     "mozjpeg": "^6.0.0",
     "node-sass": "^4.9.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "angular": "^1.7.4",
+    "angular-route": "^1.7.4"
+  }
 }

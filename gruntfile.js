@@ -105,8 +105,8 @@ module.exports = function (grunt) {
       },
       dist: {
         src: [
-          'vendor/angular/angular.min.js',
-          'vendor/angular/angular-route.min.js',
+          '../node_modules/angular/angular.min.js',
+          '../node_modules/angular-route/angular-route.min.js',
           '.tmp/uglify/app.min.js'
         ],
         dest: 'dist/src/main.min.js'
