@@ -122,7 +122,6 @@ header {
       color: #222;
       text-decoration: none; }
   header nav {
-    display: inline-block;
     float: right;
     margin-top: 2.2em; }
     header nav li {
@@ -220,7 +219,7 @@ header {
 .timeline {
   display: inline-block;
   position: relative;
-  margin-right: 5%;
+  margin-right: 10%;
   width: 40%;
   overflow: hidden; }
   .timeline h3 {
@@ -242,13 +241,15 @@ header {
     background-color: #eee; }
 
 .skills {
-  display: inline-block;
-  vertical-align: top;
-  float: right; }
+  width: 50%;
+  float: right;
+  vertical-align: top; }
+  .skills p {
+    margin: 0; }
   .skills .line {
-    width: 240px;
-    display: block;
-    float: left; }
+    float: left;
+    width: 15em;
+    white-space: nowrap; }
   .skills .circle {
     color: #779a32; }
 
@@ -329,7 +330,7 @@ footer {
       footer p a:hover {
         color: #779a32; }
 
-@media (max-width: 740px) {
+@media (max-width: 880px) {
   .project {
     width: 44%; }
   .project-page .project-description {
@@ -359,9 +360,10 @@ footer {
     display: block;
     margin: 1.5em 0 2em 0; } }
 
-@media (max-width: 520px) {
+@media (max-width: 540px) {
   body {
-    padding: 2em; }
+    padding: 2em;
+    font-size: 1em; }
   .project-wrapper {
     margin-top: 2em; }
   .project {

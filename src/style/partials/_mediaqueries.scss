@@ -1,4 +1,4 @@
-@media (max-width: 740px) {
+@media (max-width: 880px) {
 
   .project {
     width: 44%;
@@ -60,10 +60,11 @@
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 540px) {
 
   body {
     padding: 2em;
+    font-size: 1em;
   }
 
   .project-wrapper {
