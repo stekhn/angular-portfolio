@@ -33,6 +33,24 @@
   },
   "projects": [
     {
+      "title": "Repräsentativität des Landtags",
+      "description": "Gäbe es so etwas wie den bayerischen Durchschnitts-Abgeordneten, er wäre Jurist, Mitte 50 und vor allem männlich. BR Data hat den Bayerischen Landtag anhand verschiedener Kriterien analysiert und mit der Bevölkerung verglichen. Vor allem Frauen, junge Menschen und Menschen mit Migrationshintergrund sind unterrepräsentiert.",
+      "date": "Oktober 2018",
+      "type": "Visualisierung",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client": "",
+      "links": [
+        {
+          "name": "(K)ein Spiegelbild der Gesellschaft",
+          "url": "https://web.br.de/interaktiv/landtag-demografie/"
+        }
+      ],
+      "images": [
+        "repraesentativitaet.jpg"
+      ]
+    },
+    {
       "title": "Honorarkonsuln",
       "description": "Zahlreiche deutsche Honorarkonsuln machen nach Recherchen von BR und SZ fragwürdige Geschäfte in Steueroasen. Gleichzeitig vertreten sie die Bundesregierung im Ausland. Das Auswärtige Amt, welches die Honorarkonsuln auswählt und einstellt, will von diesen fragwürdigen Geschäften nichts gewusst habe. Der Geschichte führt den Leser durch die einzelnen Fälle und zu einigen abgelegen Offshore-Inselparadiesen.",
       "date": "Juni 2018",
@@ -43,7 +61,7 @@
       "links": [
         {
           "name": "Deutsche Honorarkonsuln im Offshore-Business",
-          "url": "http://web.br.de/interaktiv/honorarkonsuln/"
+          "url": "https://web.br.de/interaktiv/honorarkonsuln/"
         }
       ],
       "images": [
@@ -61,7 +79,7 @@
       "links": [
         {
           "name": "Die kranke Rechnung",
-          "url": "http://web.br.de/interaktiv/aerzteplanung/"
+          "url": "https://web.br.de/interaktiv/aerzteplanung/"
         }
       ],
       "images": [
