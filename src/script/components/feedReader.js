@@ -3,7 +3,7 @@ angular.module('feedReader', [])
     function ($http, $interval, $scope, $sce) {
 
       $scope.articles = [];
-      $scope.rssFeed = 'http://datenkritik.de/feed/';
+      $scope.rssFeed = 'https://ssl.webpack.de/datenkritik.de/feed/';
 
       $scope.existingArticles = function () {
 
