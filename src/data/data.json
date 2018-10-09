@@ -4,31 +4,31 @@
       "title": "Steffen Kühne – Journalismus, Code & Design",
       "description": "Konzeption, Beratung und Umsetzung von Projekten im Bereich Datenjournalismus, Visualisierung, interaktive Grafik und Webentwicklung in München.",
       "keywords": "Datenjournalismus, Datenvisualisierung, interaktive Grafik, Storytelling, Innovation, Online-Journalismus, Webentwicklung, Datenkritik, Steffen Kühne, München",
-      "image": "http://stekhn.de/img/preview.jpg"
+      "image": "https://stekhn.de/img/preview.jpg"
     },
     "/curriculum": {
       "title": "Steffen Kühne – Vita",
       "description": "Das Internet ist eine großartige Bühne für Menschen und ihre Geschichten. Um Geschichten im Netz gut erzählen zu können, braucht man sowohl ein solides technisches Grundwissen, als auch eine Gespür für Gestaltung und Dramaturgie.",
       "keyword": "Webentwicklung, Datenjournalismus, Datenvisualisierung, interaktive Grafik, JavaScript, HTML 5, CSS 3, D3.js, Steffen Kühne, München",
-      "image": "http://stekhn.de/img/preview.jpg"
+      "image": "https://stekhn.de/img/preview.jpg"
     },
     "/contact": {
       "title": "Steffen Kühne – Kontakt",
       "description": "Ich bin immer auf der Suche nach spannenden Projekten im Bereich interaktive Grafik, Datenjournalismus und Anwendungsentwicklung. Wenn Sie Interesse haben mit mir zusammenzuarbeiten, würde ich mich über eine kurze Nachricht freuen.",
       "keyword": "Interaktive Grafik, Datenjournalismus, Anwendungsentwicklung, Steffen Kühne, München, Skype, Twitter, Github, Facebook, Linkedin, Xing",
-      "image": "http://stekhn.de/img/preview.jpg"
+      "image": "https://stekhn.de/img/preview.jpg"
     },
     "/blog": {
       "title": "Steffen Kühne – Blog",
       "description": "In meinem Blog Datenkritik schreibe ich über Journalismus, Code und Design. Ich beobachte die Neuerungen im Bereich Datenjournalismus und verfasse Anleitungen zum Umsetzen kleinerer datenjournalistischer Projekte. Außerdem fordere ich mehr Open Source im Journalismus.",
       "keyword": "Datenkritik, Journalismus, Code, Design, Datenjournalismus, Open Source, Blog, Steffen Kühne, München",
-      "image": "http://stekhn.de/img/preview.jpg"
+      "image": "https://stekhn.de/img/preview.jpg"
     },
     "/imprint": {
       "title": "Steffen Kühne – Impressum",
       "description": "Impressum gemäß § 5 TMG. Haftung für Inhalte, Haftung für Links und Urheberrecht.",
       "keyword": "Impressum, Kontakt, Steffen Kühne, München",
-      "image": "http://stekhn.de/img/preview.jpg"
+      "image": "https://stekhn.de/img/preview.jpg"
     }
   },
   "projects": [
