@@ -33,6 +33,24 @@
   },
   "projects": [
     {
+      "title": "CumEx-Files",
+      "description": "Gemeinsam durchwühlten 38 Reporter aus 12 Ländern tausende Dokumente, recherchierten Undercover und befragten Kronzeugen. Herausgefunden haben sie, wie gierige Banker, Anwälte und Superreiche Europa durch „steuergetriebene Aktiengeschäfte“ ausrauben. Der organisierte Griff in die Steuerkasse hat einen Schaden von mindestens 55 Milliarden Euro verursacht, für den letztendlich die Bürger der jeweiligen EU-Staaten aufkommen müssen. Eine packende Geschichte über unmoralische Steuergeschäfte, welche nur durch die enge Zusammenarbeit europäischer Journalisten möglich wurde.",
+      "date": "Oktober 2018",
+      "type": "Webseite, Longread",
+      "role": "Entwicklung",
+      "contributors": "",
+      "client": "CORRECTIV",
+      "links": [
+        {
+          "name": "CumEx-Files",
+          "url": "https://cumex-files.com/"
+        }
+      ],
+      "images": [
+        "cumex.jpg"
+      ]
+    },
+    {
       "title": "Repräsentativität des Landtags",
       "description": "Gäbe es so etwas wie den bayerischen Durchschnitts-Abgeordneten, er wäre Jurist, Mitte 50 und vor allem männlich. BR Data hat den Bayerischen Landtag anhand verschiedener Kriterien analysiert und mit der Bevölkerung verglichen. Vor allem Frauen, junge Menschen und Menschen mit Migrationshintergrund sind unterrepräsentiert.",
       "date": "Oktober 2018",
