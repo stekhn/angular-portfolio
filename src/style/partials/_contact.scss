@@ -10,7 +10,6 @@
     margin-top: 1em;
     width: 55%;
     height: 250px;
-    display: inline-block;
     float: right;
   }
 }
@@ -20,6 +19,7 @@
   .timeline {
 
     width: 20%;
+    margin-right: 6%;
 
     &:last-child {
       margin-right: 0;

@@ -265,11 +265,11 @@ header {
   margin-top: 1em;
   width: 55%;
   height: 250px;
-  display: inline-block;
   float: right; }
 
 .social .timeline {
-  width: 20%; }
+  width: 20%;
+  margin-right: 6%; }
   .social .timeline:last-child {
     margin-right: 0; }
   .social .timeline .bubble {
