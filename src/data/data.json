@@ -33,6 +33,24 @@
   },
   "projects": [
     {
+      "title": "Pestizidzulassungen",
+      "description": "Das europäische Zulassungsverfahren für Pestizide ist intransparent und fehleranfällig. Die Datenanalyse zeigt, wie Behörden Risikobewertungen der Industrie per Copy & Paste übernehmen. Analysiert wurden jeweils Herstelleranträge und Bewertungsberichte zu 25 verschiedenen Pestizidwirkstoffen, deren Zulassungen in den vergangenen Jahren verlängert wurden. Die Vielzahl der Übernahmen wird in der Strichcode-Visualisierung besonders deutlich und half dabei kritische Textpassagen zu identifizieren.",
+      "date": "Dezember 2018",
+      "type": "Longread",
+      "role": "Analyse, Design, Entwicklung",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Gift im System",
+          "url": "https://br.de/pestizide"
+        }
+      ],
+      "images": [
+        "pestizide.jpg"
+      ]
+    },
+    {
       "title": "CumEx-Files",
       "description": "Gemeinsam durchwühlten 38 Reporter aus 12 Ländern tausende Dokumente, recherchierten Undercover und befragten Kronzeugen. Herausgefunden haben sie, wie gierige Banker, Anwälte und Superreiche Europa durch „steuergetriebene Aktiengeschäfte“ ausrauben. Der organisierte Griff in die Steuerkasse hat einen Schaden von mindestens 55 Milliarden Euro verursacht, für den letztendlich die Bürger der jeweiligen EU-Staaten aufkommen müssen. Eine packende Geschichte über unmoralische Steuergeschäfte, welche nur durch die enge Zusammenarbeit europäischer Journalisten möglich wurde.",
       "date": "Oktober 2018",
@@ -47,7 +65,25 @@
         }
       ],
       "images": [
-        "cumex.jpg"
+        "cumex-files.jpg"
+      ]
+    },
+    {
+      "title": "Black Friday",
+      "description": "Lohnen sich Black Friday Deals wirklich? Ja, denn die Preise schwanken teilweise stark und einzelne Artikel sind teilweise deutlich unter dem Normalpreis erhältlich. Durchschnittlich liegt der Rabatt aber nur bei etwa 12 Prozent. Verglichen wurden die jeweils günstigsten verfügbaren Preise für 787 Artikel – welche zum Black Friday reduziert angeboten wurden – über einen Zeitraum von drei Monaten. Die Daten kommen von der Idealo.de-API und wurden mit D3.js und Canvas visualisiert.",
+      "date": "November 2018",
+      "type": "Infografik",
+      "role": "Datenanalyse, Visualisierung",
+      "contributors": "",
+      "client": "",
+      "links": [
+        {
+          "name": "Are Black Friday deals worth it?",
+          "url": "https://stekhn.github.io/black-friday/"
+        }
+      ],
+      "images": [
+        "black-friday.jpg"
       ]
     },
     {
@@ -102,6 +138,24 @@
       ],
       "images": [
         "aerztemangel.jpg"
+      ]
+    },
+    {
+      "title": "Durchschnittliche Parlamentarier",
+      "description": "Wie sieht der durchschnittliche Abgeordnete im Bayerischen Landtag aus? Die durchschnittlichen Gesichter wurden aus allen verfügbaren Porträtfotos auf der Website des Landtags berechnet – jeweils pro Geschlecht. Das Ergebnis überrascht jedoch ein wenig: Das durchschnittliche hohe Alter der männlichen Parlamentarier und die große Zahl der Trachtenjanker-Träger ist kaum zu erkennen. Die Analyse wurde in Python geschrieben und verwendet die Machine-Learning-Library dlib und das Computer-Vision-Toolkit OpenCV.",
+      "date": "März 2018",
+      "type": "Computer Vision",
+      "role": "Datenanalyse",
+      "contributors": "",
+      "client": "",
+      "links": [
+        {
+          "name": "Average faces with OpenCV (Python)",
+          "url": "https://github.com/stekhn/average-faces-opencv/"
+        }
+      ],
+      "images": [
+        "average-faces.jpg"
       ]
     },
     {
@@ -988,15 +1042,11 @@
       "type": "Kartenstil",
       "role": "Design",
       "contributors": "",
-      "client": "Company",
+      "client": "",
       "links": [
         {
           "name": "Quellcode",
-          "url": "https://github.com/stekhn/location-history"
-        },
-        {
-          "name": "Demo",
-          "url": "http://stekhn.de/locationhistory"
+          "url": "https://github.com/stekhn/blossom"
         }
       ],
       "images": [
