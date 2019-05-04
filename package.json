@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^8.6.5",
-    "cssnano": "^4.0.1",
-    "grunt": "^1.0.3",
+    "cssnano": "^4.1.10",
+    "grunt": "^1.0.4",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
@@ -29,8 +29,8 @@
     "grunt-sass": "^3.0.1",
     "grunt-usemin": "^3.1.1",
     "imagemin-mozjpeg": "^7.0.0",
-    "mozjpeg": "^6.0.0",
-    "node-sass": "^4.9.3"
+    "mozjpeg": "^6.0.1",
+    "node-sass": "^4.12.0"
   },
   "dependencies": {
     "angular": "^1.7.4",
