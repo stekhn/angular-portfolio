@@ -33,6 +33,24 @@
   },
   "projects": [
     {
+      "title": "Dreckige Ernte",
+      "description": "Frisches Obst und Gemüse zu günstigen Preisen – die Supermarkt­regale sind voll davon. Doch hinter preis­werten Tomaten, Gurken, Orangen steckt oft großes Leid: Zehn­tausende Flüchtlinge und Migranten werden in Spanien und Italien brutal ausgebeutet und versklavt. Auch die Mafia mischt mit. Kontroll­behörden versagen, der Handel schaut weg. Die EU unterstützt sogar das menschen­verachtende System mit millionen­schweren Subventionen.",
+      "date": "Januar 2019",
+      "type": "Landing-Page",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Dreckige Ernte",
+          "url": "https://web.br.de/interaktiv/dreckige-ernte/"
+        }
+      ],
+      "images": [
+        "dreckige-ernte.jpg"
+      ]
+    },
+    {
       "title": "Pestizidzulassungen",
       "description": "Das europäische Zulassungsverfahren für Pestizide ist intransparent und fehleranfällig. Die Datenanalyse zeigt, wie Behörden Risikobewertungen der Industrie per Copy & Paste übernehmen. Analysiert wurden jeweils Herstelleranträge und Bewertungsberichte zu 25 verschiedenen Pestizidwirkstoffen, deren Zulassungen in den vergangenen Jahren verlängert wurden. Die Vielzahl der Übernahmen wird in der Strichcode-Visualisierung besonders deutlich und half dabei kritische Textpassagen zu identifizieren.",
       "date": "Dezember 2018",
