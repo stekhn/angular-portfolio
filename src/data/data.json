@@ -33,6 +33,25 @@
   },
   "projects": [
     {
+      "title": "EU-Urheberrechtsreform",
+      "description": "Am 26. März 2019 hat das Europäische Parlaments eine neue Richtlinie zur Urheberrechtsreform beschlossen. Der Gesetzesvorschlag ist vor allem durch den umstrittenen Artikel 13 bekannt geworden, welcher Online-Plattformen dazu zwingt soll, urheberrechtlich geschützte Inhalte von ihren Portalen zu entfernen – möglicherweise auch durch sogenannte Upload-Filter. Ob die Urheberrechtsreform unabhänigen Schriftstellern, Künstlern und anderen Kreativen wirklich hilft fraglich. In der Praxis werden vor allem große Verlage und Rechteverwerter von der Reform profitieren. Dieser Artikel ist eine Übersicht darüber, wer für das Gesetz gestimmt hat und wer dagegen.",
+      "date": "März 2019",
+      "type": "Artikel",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client": "",
+      "links": [
+        {
+          "name": "Who voted for Article 13?",
+          "url": "https://github.com/stekhn/eu-parliament-votes"
+        }
+      ],
+      "images": [
+        "article-13.jpg",
+        "article-13-2.jpg"
+      ]
+    },
+    {
       "title": "Dreckige Ernte",
       "description": "Frisches Obst und Gemüse zu günstigen Preisen – die Supermarkt­regale sind voll davon. Doch hinter preis­werten Tomaten, Gurken, Orangen steckt oft großes Leid: Zehn­tausende Flüchtlinge und Migranten werden in Spanien und Italien brutal ausgebeutet und versklavt. Auch die Mafia mischt mit. Kontroll­behörden versagen, der Handel schaut weg. Die EU unterstützt sogar das menschen­verachtende System mit millionen­schweren Subventionen.",
       "date": "Januar 2019",
