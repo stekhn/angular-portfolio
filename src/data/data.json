@@ -32,6 +32,24 @@
     }
   },
   "projects": [
+     {
+      "title": "Schwierige Datenschutzerklärungen",
+      "description": "Der Haken unter einer Datenschutzerklärung ist schnell gesetzt, doch kaum jemand liest sie. Die Texte von Online-Dienste wie Facebook, Twitter und Whatsapp sind zu lang und kompliziert, wie unsere Analyse zeigt. Vor allem für jüngere Nutzer ist die Mehrzahl der Datenschutzerklärungen kaum verständlich.",
+      "date": "Juni 2019",
+      "type": "Artikel",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Der Haken am Häkchen",
+          "url": "https://web.br.de/interaktiv/datenschutzerklaerungen/"
+        }
+      ],
+      "images": [
+        "datenschutz.jpg"
+      ]
+    },
     {
       "title": "EU nach Zahlen",
       "description": "Populismus, Wirtschaftskraft, Demografie: Europa verändert sich. Doch was hat sich in den letzten Jahren getan? In diesem Erklärstück kann der Leser verschiedene Faktoren selbst schätzen und dabei viel über Europa lernen. Ein interaktive Mischung aus Quizzes, Diagramme zeichen, Werte schätzen und sortieren. Das Projekt wurde anlässlich der Europawahl 2019 konzipiert und umgesetzt.",
@@ -39,7 +57,7 @@
       "type": "Artikel",
       "role": "Design, Entwicklung",
       "contributors": "",
-      "client": "",
+      "client": "Bayerischer Rundfunk",
       "links": [
         {
           "name": "EU nach Zahlen",
@@ -55,7 +73,7 @@
       "description": "Am 26. März 2019 hat das Europäische Parlaments eine neue Richtlinie zur Urheberrechtsreform beschlossen. Der Gesetzesvorschlag ist vor allem durch den umstrittenen Artikel 13 bekannt geworden, welcher Online-Plattformen dazu zwingt soll, urheberrechtlich geschützte Inhalte von ihren Portalen zu entfernen – möglicherweise auch durch sogenannte Upload-Filter. Ob die Urheberrechtsreform unabhänigen Schriftstellern, Künstlern und anderen Kreativen wirklich hilft fraglich. In der Praxis werden vor allem große Verlage und Rechteverwerter von der Reform profitieren. Dieser Artikel ist eine Übersicht darüber, wer für das Gesetz gestimmt hat und wer dagegen.",
       "date": "März 2019",
       "type": "Artikel",
-      "role": "Design, Entwicklung",
+      "role": "Analyse, Design, Entwicklung",
       "contributors": "",
       "client": "",
       "links": [
