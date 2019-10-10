@@ -32,7 +32,44 @@
     }
   },
   "projects": [
-     {
+    {
+      "title": "Datenleck bei Patientendaten",
+      "description": "Seit Jahren spioniert eine professionelle Hackergruppe weltweit Unternehmen aus. Die Hackergruppe Winnti wird mutmaßlich aus China gesteuert. Reporterinnen und Reportern von BR und NDR ist es erstmals gelungen, Hunderte Varianten der dafür verwendeten Schadsoftware auszuwerten. Betroffen sind auch mindestens sechs Dax-Konzerne, Aushängeschilder der deutschen Industrie. Ein Longread der die Funktionsweise der Schadsoftware erklärt und über die Hintergründe der Angriffe aufklärt.",
+      "date": "Juni 2019",
+      "type": "Artikel",
+      "role": "Recherche",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Winnti: Angriff auf das Herz der deutschen Industrie",
+          "url": "https://web.br.de/interaktiv/winnti/"
+        }
+      ],
+      "images": [
+        "pacs.jpg"
+      ]
+    },
+    {
+      "title": "Hackergruppe Winnti",
+      "description": "Seit Jahren spioniert eine professionelle Hackergruppe weltweit Unternehmen aus. Die Hackergruppe Winnti wird mutmaßlich aus China gesteuert. Reporterinnen und Reportern von BR und NDR ist es erstmals gelungen, Hunderte Varianten der dafür verwendeten Schadsoftware auszuwerten. Betroffen sind auch mindestens sechs Dax-Konzerne, Aushängeschilder der deutschen Industrie. Ein Longread der die Funktionsweise der Schadsoftware erklärt und über die Hintergründe der Angriffe aufklärt.",
+      "date": "Juni 2019",
+      "type": "Artikel",
+      "role": "Design, Entwicklung",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Winnti: Angriff auf das Herz der deutschen Industrie",
+          "url": "https://web.br.de/interaktiv/winnti/"
+        }
+      ],
+      "images": [
+        "winnti1.jpg",
+        "winnti2.jpg"
+      ]
+    },
+    {
       "title": "Schwierige Datenschutzerklärungen",
       "description": "Der Haken unter einer Datenschutzerklärung ist schnell gesetzt, doch kaum jemand liest sie. Die Texte von Online-Dienste wie Facebook, Twitter und Whatsapp sind zu lang und kompliziert, wie unsere Analyse zeigt. Vor allem für jüngere Nutzer ist die Mehrzahl der Datenschutzerklärungen kaum verständlich.",
       "date": "Juni 2019",
