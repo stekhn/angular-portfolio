@@ -42,8 +42,8 @@
       "client": "Bayerischer Rundfunk",
       "links": [
         {
-          "name": "Winnti: Angriff auf das Herz der deutschen Industrie",
-          "url": "https://web.br.de/interaktiv/winnti/"
+          "name": "Millionenfach Patientendaten ungeschützt im Netz",
+          "url": "https://www.br.de/nachrichten/deutschland-welt/millionenfach-patientendaten-ungeschuetzt-im-netz,RcF09BW"
         }
       ],
       "images": [
@@ -116,7 +116,7 @@
       "links": [
         {
           "name": "Who voted for Article 13?",
-          "url": "https://github.com/stekhn/eu-parliament-votes"
+          "url": "https://stekhn.github.io/eu-parliament-votes/"
         }
       ],
       "images": [
