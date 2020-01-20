@@ -33,6 +33,24 @@
   },
   "projects": [
     {
+      "title": "Defekte Aufzüge",
+      "description": "Wer mit dem Rollstuhl, schwerem Gepäck oder Kinderwagen unterwegs ist, braucht oft einen Aufzug, um am Bahnhof ans Gleis zu kommen. Doch diese fallen öfters mal auf, sofern es überhaupt einen gibt. Danke eines umfangreichen Datensatzes der Deutschen Bahn, konnten wir analysieren wo, und wie häufig, kaputte Aufzüge zum Problem werden.",
+      "date": "Dezember 2019",
+      "type": "Artikel",
+      "role": "Entwicklung, Design",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Bedingt barrierefrei: Die defekten Aufzüge der Deutschen Bahn",
+          "url": "https://web.br.de/interaktiv/defekte-aufzuege/"
+        }
+      ],
+      "images": [
+        "aufzuege.jpg"
+      ]
+    },
+    {
       "title": "Datenleck bei Patientendaten",
       "description": "Seit Jahren spioniert eine professionelle Hackergruppe weltweit Unternehmen aus. Die Hackergruppe Winnti wird mutmaßlich aus China gesteuert. Reporterinnen und Reportern von BR und NDR ist es erstmals gelungen, Hunderte Varianten der dafür verwendeten Schadsoftware auszuwerten. Betroffen sind auch mindestens sechs Dax-Konzerne, Aushängeschilder der deutschen Industrie. Ein Longread der die Funktionsweise der Schadsoftware erklärt und über die Hintergründe der Angriffe aufklärt.",
       "date": "Juni 2019",
