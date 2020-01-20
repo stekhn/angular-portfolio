@@ -1,12 +1,11 @@
 {
-  "name": "Portfolio",
+  "name": "angular-portfolio",
   "description": "Portfolio build with AngularJS",
   "author": "Steffen Kühne",
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/stekhn/portfolio.git"
+    "url": "https://github.com/stekhn/angular-portfolio"
   },
   "scripts": {
     "watch": "grunt watch",
