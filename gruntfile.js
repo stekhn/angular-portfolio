@@ -1,5 +1,4 @@
 module.exports = function (grunt) {
-
   var mozjpeg = require('imagemin-mozjpeg');
   var sass = require('node-sass');
 
@@ -30,7 +29,6 @@ module.exports = function (grunt) {
       options: {
         blockReplacements: {
           js: function (block) {
-
             return '<script async src="' + block.dest + '"><\/script>';
           }
         }
@@ -53,14 +51,11 @@ module.exports = function (grunt) {
     postcss: {
       options: {
         processors: [
-          require('autoprefixer')({
-            browsers: ['> 5%', 'last 2 versions', 'IE 8', 'IE 9']
-          }),
+          require('autoprefixer')(),
           require('cssnano')()
         ],
         map: true
       },
-
       build: {
         files: {
           'dist/css/style.min.css': 'src/style/main.css'
@@ -136,9 +131,7 @@ module.exports = function (grunt) {
     },
 
     watch: {
-
       css: {
-
         files: 'src/style/**/*.scss',
         tasks: ['sass', 'postcss']
       }
@@ -149,7 +142,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-usemin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-ng-annotate');
