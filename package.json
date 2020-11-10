@@ -29,11 +29,11 @@
     "grunt-usemin": "^3.1.1",
     "imagemin-mozjpeg": "^9.0.0",
     "mozjpeg": "^7.0.0",
-    "node-sass": "^4.14.1",
-    "postcss": "^8.1.1"
+    "node-sass": "^5.0.0",
+    "postcss": "^8.1.6"
   },
   "dependencies": {
-    "angular": "^1.8.1",
-    "angular-route": "^1.8.1"
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2"
   }
 }
