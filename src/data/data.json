@@ -33,6 +33,97 @@
   },
   "projects": [
     {
+      "title": "Corona-Testzahlen",
+      "description": "Mails mit Fragen und Zweifeln an den Corona-Zahlen erreichen unsere Redaktion fast täglich. Ein großer Streitpunkt ist die Frage, wie die Corona-Testzahlen zu bewerten sind. In unserem #Faktenfuchs-Artikel klären wir die gängigsten Irrtümer auf, denn die Corona-Pandemie ist bei weitem kein Pandemie der steigenden Testzahlen und auch die Positivrate ist kein perfekter Indikator, um das Infektionsgeschehen in Deutschland zu bewerten.",
+      "date": "Oktober 2020",
+      "type": "Artikel",
+      "role": "Recherche, Grafik",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Faktenfuchs: Mehr Corona-Tests, mehr Fälle?",
+          "url": "https://www.br.de/nachrichten/wissen/corona-mehr-infizierte-wegen-mehr-tests-ein-faktenfuchs,S6yVtYM"
+        }
+      ],
+      "images": [
+        "corona-testzahlen.jpg"
+      ]
+    },
+    {
+      "title": "Corona-Rückblick",
+      "description": "Von Webasto nach Mamming: Unsere Datenanalyse zeigt, wie sich das Coronavirus im vergangenen halben Jahr durch Bayern bewegt hat. Eine interaktive Karte ermöglicht es den Nutzer und Nutzerinnen zu erkunden, wie sich die Pandemie entwickelt hat und wo die Brennpunkte lagen. Um das Infektionsgeschehen besser zu verstehen, fassen wir die wichtigsten Ereignisse der vergangenen Monate noch einmal chronologisch zusammen.",
+      "date": "September 2020",
+      "type": "Artikel",
+      "role": "Analyse, Recherche, Grafik",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Datenanalyse: Der Weg des Coronavirus durch Bayern",
+          "url": "https://www.br.de/nachrichten/bayern/der-weg-des-coronavirus-durch-bayern-eine-datenanalyse,S6Cc5Jq"
+        }
+      ],
+      "images": [
+        "corona-timeline.jpg"
+      ]
+    },
+    {
+      "title": "Corona-Meldepannen",
+      "description": "Für die Einschätzung des lokale Infektionsgeschehen ist die Zahl der Neuinfektionen ein zentraler Indikator. Das Corona-Frühwarnsystem mit maximal 50 Neuinfektionen je 100.000 Einwohner pro Landkreis funktioniert jedoch nicht überall gleich gut. Die verwendeten Daten sind teils stark verspätet und lückenhaft. Unsere Datenanalyse zeigt das Ausmaß des Problems.",
+      "date": "Mai 2020",
+      "type": "Artikel",
+      "role": "Analyse, Grafik",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Datenanalyse: Wo es beim Corona-Frühwarnsystem hakt",
+          "url": "https://www.br.de/nachrichten/deutschland-welt/datenanalyse-wo-es-beim-corona-fruehwarnsystem-hakt,RzkMbkF"
+        }
+      ],
+      "images": [
+        "corona-meldepannen.jpg"
+      ]
+    },
+    {
+      "title": "Corona-FAQ",
+      "description": "Zahlen und Statistiken sind ein großer Streitpunkt, wenn es um Corona geht. Es gibt sehr viele Indikatoren, welche jeweils unterschiedliche Zwecke erfüllen und verschiedene Einschränkungen haben. Aber welche Statistik ist nun die wichtigsten? Und was ist noch mal die 7-Tage-Inzidenz? Wir haben die wichtigsten Fragen unserer Nutzer und Nutzerinnen zum Thema Corona gesammelt und versuchen, diese zu beantworten.",
+      "date": "April 2020",
+      "type": "Artikel",
+      "role": "Recherche",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Häufig gestellte Fragen zu den Corona-Statistiken",
+          "url": "https://www.br.de/nachrichten/wissen/haeufig-gestellte-fragen-zu-den-coronavirus-statistiken,Rvmnej4"
+        }
+      ],
+      "images": [
+        "corona-faq.jpg"
+      ]
+    },
+    {
+      "title": "Corona-Newsletter",
+      "description": "Die wichtigsten Zahlen und Statistiken zur laufenden Corona-Pandemie als automatisch generierter Newsletter. Die Texte, Grafiken und Tabellen für Bayern und Deutschland werden täglich aus den Daten des Robert Koch-Instituts neu erzeugt. Außerdem berechnen wir weitere relevante Indikatoren wie die Reproduktionszahl R oder regionale Zwei-Wochen-Trends. Die Statistiken und Grafiken können von allen aktuellen Redaktionen des Bayerischen Rundfunks für die tägliche Berichterstattung verwendet werden und bieten zudem einen Mehrwert für unsere Nutzer und Nutzerinnen.",
+      "date": "April 2020",
+      "type": "Automatisierung",
+      "role": "Analyse, Design, Entwicklung",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Coronavirus: Aktuelle Zahlen für Bayern und Deutschland",
+          "url": "https://br.de/corona-newsletter"
+        }
+      ],
+      "images": [
+        "corona-newsletter-1.jpg",
+        "corona-newsletter-2.jpg"
+      ]
+    },
+    {
       "title": "Corona-Simulation",
       "description": "Die Zahl der Infizierten mit dem neuartigen Coronavirus steigt rapide, denn jeder Infizierte steckt weitere Personen an. Je weniger es sind, desto besser. Die Zahl der Neuinfektionen zu senken kann aber nur gelingen, wenn wir uns voneinander fernhalten. Der englische Begriff dafür ist „social distancing“. Unsere Simulation zeigt wie wirkungsvoll diese Methode ist.",
       "date": "März 2020",
