@@ -33,6 +33,60 @@
   },
   "projects": [
     {
+      "title": "KI-Bewerbung",
+      "description": "Künstliche Intelligenz gilt als Technologie der Zukunft und ist schon heute kaum noch wegzudenken. Anbieter neuer Software versprechen Vorstellungsgespräche, die vorurteilsfreier ablaufen sollen: Eine KI erstellt Persönlichkeitsprofile von Bewerbern anhand kurzer Videos. Laut Angaben der Entwickler analysiert die KI Stimme, Sprache, Gestik und Mimik. Doch die Technologie hat auch Schwächen, wie eine einmaliges Experiment des BR zeigt. Schon kleine Veränderungen im Video können große Einflüsse auf die Erkennungsqualität des Algorithmus haben.",
+      "date": "Februar 2021",
+      "type": "Artikel",
+      "role": "Entwicklung, Grafik",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Einsatz Künstlicher Intelligenz bei der Jobbewerbung fragwürdig",
+          "url": "https://web.br.de/interaktiv/ki-bewerbung"
+        }
+      ],
+      "images": [
+        "ki-bewerbung.jpg"
+      ]
+    },
+    {
+      "title": "Corona-Impfrechner",
+      "description": "Ausrechnen, wann man mit der Corona-Impfung an der Reihe ist: Das wird von mehreren Plattformen angeboten. Experten sehen durchaus positive Aspekte – für die Berechnung eines realistischen Impfzeitraums sei die Datenlage jedoch zu unsicher.",
+      "date": "Januar 2021",
+      "type": "Artikel",
+      "role": "Grafik",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Impfrechner: Wann werde ich geimpft? Eine unsichere Rechnung",
+          "url": "https://www.br.de/nachrichten/wissen/wann-werde-ich-geimpft-impfterminrechner-mit-vielen-unsicherheiten,SNIxFZV"
+        }
+      ],
+      "images": [
+        "corona-impfrechner.jpg"
+      ]
+    },
+    {
+      "title": "Corona-Reproduktionszahl",
+      "description": "Wenn die Reproduktionszahl kleiner als eins ist, geht die Zahl der Neuinfektionen zurück. Eine Corona-Weisheit, die in den vergangenen Wochen oft nicht stimmte. Berechnung, Aussagekraft, Kritik – der #Faktenfuchs nimmt den R-Wert unter die Lupe.",
+      "date": "November 2020",
+      "type": "Artikel",
+      "role": "Recherche, Grafik",
+      "contributors": "",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "#Faktenfuchs: R-Wert - Die Tücken einer wichtigen Corona-Zahl",
+          "url": "https://www.br.de/nachrichten/deutschland-welt/faktenfuchs-r-wert-die-tuecken-einer-wichtigen-corona-zahl,SGLBo6h"
+        }
+      ],
+      "images": [
+        "corona-reproduktionszahl.jpg"
+      ]
+    },
+    {
       "title": "Corona-Testzahlen",
       "description": "Mails mit Fragen und Zweifeln an den Corona-Zahlen erreichen unsere Redaktion fast täglich. Ein großer Streitpunkt ist die Frage, wie die Corona-Testzahlen zu bewerten sind. In unserem #Faktenfuchs-Artikel klären wir die gängigsten Irrtümer auf, denn die Corona-Pandemie ist bei weitem kein Pandemie der steigenden Testzahlen und auch die Positivrate ist kein perfekter Indikator, um das Infektionsgeschehen in Deutschland zu bewerten.",
       "date": "Oktober 2020",
