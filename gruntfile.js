@@ -1,7 +1,9 @@
 module.exports = function (grunt) {
   var mozjpeg = require('imagemin-mozjpeg');
+  var autoprefixer = require('autoprefixer');
+  var cssnano = require('cssnano');
   var sass = require('node-sass');
-
+  
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -51,8 +53,8 @@ module.exports = function (grunt) {
     postcss: {
       options: {
         processors: [
-          require('autoprefixer')(),
-          require('cssnano')()
+          autoprefixer(),
+          cssnano()
         ],
         map: true
       },
@@ -142,7 +144,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-sass');
-  grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('@lodder/grunt-postcss');
   grunt.loadNpmTasks('grunt-usemin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-ng-annotate');
