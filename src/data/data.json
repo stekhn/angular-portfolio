@@ -33,6 +33,66 @@
   },
   "projects": [
     {
+      "title": "Klima-Dashboard",
+      "description": "Das Ausmaß des Klimawandels zeigt sich in verschieden Zahlen und Statistiken: CO2-Emissionen, steigende Temperaturen und Meeresspiegel. In unserem Klima-Dashboard zeigen wir die maßgebenden Indikatoren und erklären warum wir sie wichtig finden. Ein Projekt zum Relaunch des neuen Wissensportals von ARD alpha.",
+      "date": "Oktober 2021",
+      "type": "Interactive",
+      "role": "Recherche, Design, Entwicklung",
+      "client": "ARD alpha",
+      "links": [
+        {
+          "name": "Klima-Dashboard",
+          "url": "https://interaktiv.br.de/klima-dashboard/"
+        }
+      ],
+      "images": ["klima-dashboard.jpg"]
+    },
+    {
+      "title": "Urbane Hitzeinseln",
+      "description": "Tausende Menschen sterben in Deutschland jedes Jahr an Hitze und ihren Folgen. Urbanisierung und Klimawandel verschärfen das Problem, wie Satellitenbilder aus deutschen Städten zeigen. Vor allem nachts wird die stehenden Hitze in den Städten häufig zum Problem.",
+      "date": "September 2021",
+      "type": "Longread",
+      "role": "Entwicklung, Grafik",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Hitzeinseln",
+          "url": "https://interaktiv.br.de/urbane-hitzeinseln/"
+        }
+      ],
+      "images": ["hitzeinseln.jpg"]
+    },
+    {
+      "title": "Bundestagswahl: Merkel nach Zahlen",
+      "description": "Staatsverschuldung, Asylanträge, Windkraft: Wie hat sich Deutsch­land unter Angela Merkels Kanzlerschaft verändert? Ein Erklärstück zum Mitmachen: Der Leser kann die Entwicklung verschiedener Indikatoren aus Gesellschaft, Politik und Wirtschaft schätzen und das Liniendiagramm weiterzeichnen.",
+      "date": "Februar 2021",
+      "type": "Interaktiver Artikel",
+      "role": "Entwicklung, Grafik",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Merkel nach Zahlen",
+          "url": "https://interaktiv.br.de/merkel-nach-zahlen-2021/"
+        }
+      ],
+      "images": ["merkel-nach-zahlen.jpg"]
+    },
+    {
+      "title": "Automatische Corona-Grafiken",
+      "description": "Webanwendung zum Erstellen von tagesaktuellen Corona-Grafiken für Instagram, Twitter, Facebook sowie die Online- und Fernsehangebote des Bayerischen Rundfunks. Die einzelnen Grafiken werden aus den Daten des Robert Koch-Instituts und des DIVI-Intensivregisters erzeugt. Überschriften und Beschreibungen können zielgruppengerecht angepasst werden. Zudem lassen sich verschiedene Einzelauswertungen ein- oder ausblenden.",
+      "date": "Februar 2021",
+      "type": "Webanwendung",
+      "role": "Entwicklung, Design",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Corona-Grafiken",
+          "url": "https://interaktiv.br.de/corona-grafiken/"
+        }
+      ],
+      "images": ["corona-grafiken.jpg"]
+    },
+    {
       "title": "KI-Bewerbung",
       "description": "Künstliche Intelligenz gilt als Technologie der Zukunft und ist schon heute kaum noch wegzudenken. Anbieter neuer Software versprechen Vorstellungsgespräche, die vorurteilsfreier ablaufen sollen: Eine KI erstellt Persönlichkeitsprofile von Bewerbern anhand kurzer Videos. Laut Angaben der Entwickler analysiert die KI Stimme, Sprache, Gestik und Mimik. Doch die Technologie hat auch Schwächen, wie eine einmaliges Experiment des BR zeigt. Schon kleine Veränderungen im Video können große Einflüsse auf die Erkennungsqualität des Algorithmus haben.",
       "date": "Februar 2021",
@@ -46,9 +106,7 @@
           "url": "https://web.br.de/interaktiv/ki-bewerbung"
         }
       ],
-      "images": [
-        "ki-bewerbung.jpg"
-      ]
+      "images": ["ki-bewerbung.jpg"]
     },
     {
       "title": "Corona-Impfrechner",
@@ -64,9 +122,7 @@
           "url": "https://www.br.de/nachrichten/wissen/wann-werde-ich-geimpft-impfterminrechner-mit-vielen-unsicherheiten,SNIxFZV"
         }
       ],
-      "images": [
-        "corona-impfrechner.jpg"
-      ]
+      "images": ["corona-impfrechner.jpg"]
     },
     {
       "title": "Corona-Reproduktionszahl",
@@ -82,9 +138,7 @@
           "url": "https://www.br.de/nachrichten/deutschland-welt/faktenfuchs-r-wert-die-tuecken-einer-wichtigen-corona-zahl,SGLBo6h"
         }
       ],
-      "images": [
-        "corona-reproduktionszahl.jpg"
-      ]
+      "images": ["corona-reproduktionszahl.jpg"]
     },
     {
       "title": "Corona-Testzahlen",
@@ -100,9 +154,7 @@
           "url": "https://www.br.de/nachrichten/wissen/corona-mehr-infizierte-wegen-mehr-tests-ein-faktenfuchs,S6yVtYM"
         }
       ],
-      "images": [
-        "corona-testzahlen.jpg"
-      ]
+      "images": ["corona-testzahlen.jpg"]
     },
     {
       "title": "Corona-Rückblick",
@@ -118,9 +170,7 @@
           "url": "https://www.br.de/nachrichten/bayern/der-weg-des-coronavirus-durch-bayern-eine-datenanalyse,S6Cc5Jq"
         }
       ],
-      "images": [
-        "corona-timeline.jpg"
-      ]
+      "images": ["corona-timeline.jpg"]
     },
     {
       "title": "Corona-Meldepannen",
@@ -136,9 +186,7 @@
           "url": "https://www.br.de/nachrichten/deutschland-welt/datenanalyse-wo-es-beim-corona-fruehwarnsystem-hakt,RzkMbkF"
         }
       ],
-      "images": [
-        "corona-meldepannen.jpg"
-      ]
+      "images": ["corona-meldepannen.jpg"]
     },
     {
       "title": "Corona-FAQ",
@@ -154,9 +202,7 @@
           "url": "https://www.br.de/nachrichten/wissen/haeufig-gestellte-fragen-zu-den-coronavirus-statistiken,Rvmnej4"
         }
       ],
-      "images": [
-        "corona-faq.jpg"
-      ]
+      "images": ["corona-faq.jpg"]
     },
     {
       "title": "Corona-Newsletter",
@@ -172,10 +218,7 @@
           "url": "https://br.de/corona-newsletter"
         }
       ],
-      "images": [
-        "corona-newsletter-1.jpg",
-        "corona-newsletter-2.jpg"
-      ]
+      "images": ["corona-newsletter-1.jpg", "corona-newsletter-2.jpg"]
     },
     {
       "title": "Corona-Simulation",
@@ -191,9 +234,7 @@
           "url": "https://web.br.de/interaktiv/corona-simulation/"
         }
       ],
-      "images": [
-        "corona-simulation.jpg"
-      ]
+      "images": ["corona-simulation.jpg"]
     },
     {
       "title": "Defekte Aufzüge",
@@ -209,9 +250,7 @@
           "url": "https://web.br.de/interaktiv/defekte-aufzuege/"
         }
       ],
-      "images": [
-        "aufzuege.jpg"
-      ]
+      "images": ["aufzuege.jpg"]
     },
     {
       "title": "Datenleck bei Patientendaten",
@@ -227,9 +266,7 @@
           "url": "https://www.br.de/nachrichten/deutschland-welt/millionenfach-patientendaten-ungeschuetzt-im-netz,RcF09BW"
         }
       ],
-      "images": [
-        "pacs.jpg"
-      ]
+      "images": ["pacs.jpg"]
     },
     {
       "title": "Hackergruppe Winnti",
@@ -245,10 +282,7 @@
           "url": "https://web.br.de/interaktiv/winnti/"
         }
       ],
-      "images": [
-        "winnti1.jpg",
-        "winnti2.jpg"
-      ]
+      "images": ["winnti1.jpg", "winnti2.jpg"]
     },
     {
       "title": "Schwierige Datenschutzerklärungen",
@@ -264,9 +298,7 @@
           "url": "https://web.br.de/interaktiv/datenschutzerklaerungen/"
         }
       ],
-      "images": [
-        "datenschutz.jpg"
-      ]
+      "images": ["datenschutz.jpg"]
     },
     {
       "title": "EU nach Zahlen",
@@ -282,9 +314,7 @@
           "url": "https://web.br.de/interaktiv/eu-nach-zahlen/"
         }
       ],
-      "images": [
-        "eu-nach-zahlen.jpg"
-      ]
+      "images": ["eu-nach-zahlen.jpg"]
     },
     {
       "title": "EU-Urheberrechtsreform",
@@ -300,10 +330,7 @@
           "url": "https://stekhn.github.io/eu-parliament-votes/"
         }
       ],
-      "images": [
-        "article-13.jpg",
-        "article-13-2.jpg"
-      ]
+      "images": ["article-13.jpg", "article-13-2.jpg"]
     },
     {
       "title": "Dreckige Ernte",
@@ -319,9 +346,7 @@
           "url": "https://web.br.de/interaktiv/dreckige-ernte/"
         }
       ],
-      "images": [
-        "dreckige-ernte.jpg"
-      ]
+      "images": ["dreckige-ernte.jpg"]
     },
     {
       "title": "Pestizidzulassungen",
@@ -337,9 +362,7 @@
           "url": "https://br.de/pestizide"
         }
       ],
-      "images": [
-        "pestizide.jpg"
-      ]
+      "images": ["pestizide.jpg"]
     },
     {
       "title": "CumEx-Files",
@@ -355,9 +378,7 @@
           "url": "https://cumex-files.com/"
         }
       ],
-      "images": [
-        "cumex-files.jpg"
-      ]
+      "images": ["cumex-files.jpg"]
     },
     {
       "title": "Black Friday",
@@ -373,9 +394,7 @@
           "url": "https://stekhn.github.io/black-friday/"
         }
       ],
-      "images": [
-        "black-friday.jpg"
-      ]
+      "images": ["black-friday.jpg"]
     },
     {
       "title": "Repräsentativität des Landtags",
@@ -391,9 +410,7 @@
           "url": "https://web.br.de/interaktiv/landtag-demografie/"
         }
       ],
-      "images": [
-        "repraesentativitaet.jpg"
-      ]
+      "images": ["repraesentativitaet.jpg"]
     },
     {
       "title": "Honorarkonsuln",
@@ -409,9 +426,7 @@
           "url": "https://web.br.de/interaktiv/honorarkonsuln/"
         }
       ],
-      "images": [
-        "honorarkonsuln.jpg"
-      ]
+      "images": ["honorarkonsuln.jpg"]
     },
     {
       "title": "Ärztemangel",
@@ -427,9 +442,7 @@
           "url": "https://web.br.de/interaktiv/aerzteplanung/"
         }
       ],
-      "images": [
-        "aerztemangel.jpg"
-      ]
+      "images": ["aerztemangel.jpg"]
     },
     {
       "title": "Durchschnittliche Parlamentarier",
@@ -445,9 +458,7 @@
           "url": "https://github.com/stekhn/average-faces-opencv/"
         }
       ],
-      "images": [
-        "average-faces.jpg"
-      ]
+      "images": ["average-faces.jpg"]
     },
     {
       "title": "Preiswahnsinn bei Grafikkarten",
@@ -463,9 +474,7 @@
           "url": "https://stekhn.github.io/gpu-price-surge-analysis/"
         }
       ],
-      "images": [
-        "gpuprices.jpg"
-      ]
+      "images": ["gpuprices.jpg"]
     },
     {
       "title": "oBike Datenleck",
@@ -481,9 +490,7 @@
           "url": "https://www.br.de/nachrichten/datenleck-obike-100.html"
         }
       ],
-      "images": [
-        "obike.jpg"
-      ]
+      "images": ["obike.jpg"]
     },
     {
       "title": "Workshop: D3 und Leaflet",
@@ -503,9 +510,7 @@
           "url": "https://github.com/stekhn/leaflet-workshop"
         }
       ],
-      "images": [
-        "leaflet.jpg"
-      ]
+      "images": ["leaflet.jpg"]
     },
     {
       "title": "Kabinett-O-Mat",
@@ -521,9 +526,7 @@
           "url": "http://web.br.de/interaktiv/kabinett-o-mat/"
         }
       ],
-      "images": [
-        "kabinett-o-mat.jpg"
-      ]
+      "images": ["kabinett-o-mat.jpg"]
     },
     {
       "title": "Korrelationen der Wahlergebnisse",
@@ -539,9 +542,7 @@
           "url": "https://stekhn.github.io/german-elections-correlations/src/"
         }
       ],
-      "images": [
-        "korrelationen.jpg"
-      ]
+      "images": ["korrelationen.jpg"]
     },
     {
       "title": "Fake Follower der Parteien",
@@ -557,9 +558,7 @@
           "url": "https://www.br.de/nachrichten/faktencheck/twitter-wahlkampf-analyse-der-parteien-100.html"
         }
       ],
-      "images": [
-        "fake-follower.jpg"
-      ]
+      "images": ["fake-follower.jpg"]
     },
     {
       "title": "Analyse der Wahlprogramme",
@@ -575,9 +574,7 @@
           "url": "http://web.br.de/interaktiv/wahlprogramm-analyse-bundestagswahl/"
         }
       ],
-      "images": [
-        "wahlprogramme.jpg"
-      ]
+      "images": ["wahlprogramme.jpg"]
     },
     {
       "title": "Diskriminierung auf dem Mietmarkt",
@@ -593,9 +590,7 @@
           "url": "https://www.hanna-und-ismail.de/"
         }
       ],
-      "images": [
-        "diskriminierung.jpg"
-      ]
+      "images": ["diskriminierung.jpg"]
     },
     {
       "title": "Merkel nach Zahlen",
@@ -611,9 +606,7 @@
           "url": "http://web.br.de/interaktiv/merkel-nach-zahlen/"
         }
       ],
-      "images": [
-        "merkeljahre.jpg"
-      ]
+      "images": ["merkeljahre.jpg"]
     },
     {
       "title": "Angriff auf die Demokratie",
@@ -629,9 +622,7 @@
           "url": "http://web.br.de/interaktiv/angriff-auf-die-demokratie/"
         }
       ],
-      "images": [
-        "angriff.jpg"
-      ]
+      "images": ["angriff.jpg"]
     },
     {
       "title": "Madeira Offshore",
@@ -651,10 +642,7 @@
           "url": "https://br.de/madeira/podcast"
         }
       ],
-      "images": [
-        "madeira2.jpg",
-        "madeira.jpg"
-      ]
+      "images": ["madeira2.jpg", "madeira.jpg"]
     },
     {
       "title": "Madeira Search",
@@ -670,9 +658,7 @@
           "url": "https://stekhn.github.io/us-elections-chart/src/"
         }
       ],
-      "images": [
-        "mammon-search.jpg"
-      ]
+      "images": ["mammon-search.jpg"]
     },
     {
       "title": "Präsidentschaftswahlen in den USA",
@@ -688,9 +674,22 @@
           "url": "https://stekhn.github.io/us-elections-chart/src/"
         }
       ],
-      "images": [
-        "us-wahl.jpg"
-      ]
+      "images": ["us-wahl.jpg"]
+    },
+    {
+      "title": "Rentenrechner",
+      "description": "Seit einigen Jahren unterliegt auch die Rente der Sozial­versicherung und muss ver­steuert werden. Der interaktive Rentenrechner zeigt, welche Ab­schläge auf zukünftige Rentner zu­kommen.",
+      "date": "Oktober 2016",
+      "type": "Longread",
+      "role": "Entwicklung, Grafik",
+      "client": "Bayerischer Rundfunk",
+      "links": [
+        {
+          "name": "Rentenrechner",
+          "url": "https://interaktiv.br.de/rentenrechner/"
+        }
+      ],
+      "images": ["rentenrechner.jpg"]
     },
     {
       "title": "Milliarden für Syrien",
@@ -706,9 +705,7 @@
           "url": "http://www.br.de/fernsehen/das-erste/sendungen/report-muenchen/report-syrien-hilfe-126.html"
         }
       ],
-      "images": [
-        "syrien-spenden.jpg"
-      ]
+      "images": ["syrien-spenden.jpg"]
     },
     {
       "title": "Rio de Janeiro: Gewalt und Spiele",
@@ -728,9 +725,7 @@
           "url": "https://www.tagesschau.de/multimedia/sendung/tt-4621.html"
         }
       ],
-      "images": [
-        "rio.jpg"
-      ]
+      "images": ["rio.jpg"]
     },
     {
       "title": "EM 2016: Geburtsorte der Spieler",
@@ -746,9 +741,7 @@
           "url": "http://web.br.de/interaktiv/europasbeste/"
         }
       ],
-      "images": [
-        "em2016.jpg"
-      ]
+      "images": ["em2016.jpg"]
     },
     {
       "title": "Entwicklung der Milchpreise",
@@ -764,10 +757,7 @@
           "url": "http://www.br.de/nachrichten/milch-weltmarkt-daten-100.html"
         }
       ],
-      "images": [
-        "milchpreise1.jpg",
-        "milchpreise2.jpg"
-      ]
+      "images": ["milchpreise1.jpg", "milchpreise2.jpg"]
     },
     {
       "title": "Ladensterben in Bayern",
@@ -783,10 +773,7 @@
           "url": "http://web.br.de/interaktiv/ladensterben/"
         }
       ],
-      "images": [
-        "ladensterben1.jpg",
-        "ladensterben2.jpg"
-      ]
+      "images": ["ladensterben1.jpg", "ladensterben2.jpg"]
     },
     {
       "title": "Bayern: Crystal Meth breitet sich aus",
@@ -802,9 +789,7 @@
           "url": "http://web.br.de/interaktiv/crystal/"
         }
       ],
-      "images": [
-        "crystal.jpg"
-      ]
+      "images": ["crystal.jpg"]
     },
     {
       "title": "Twitter-Analyse des Tatorts",
@@ -820,10 +805,7 @@
           "url": "http://web.br.de/interaktiv/tatort/"
         }
       ],
-      "images": [
-        "tatort1.jpg",
-        "tatort2.jpg"
-      ]
+      "images": ["tatort1.jpg", "tatort2.jpg"]
     },
     {
       "title": "Deutsche Wahlkampfspenden in den USA",
@@ -839,9 +821,7 @@
           "url": "http://www.br.de/nachrichten/usa-wahlkampf-pac-100.html"
         }
       ],
-      "images": [
-        "wahlkampfspenden.jpg"
-      ]
+      "images": ["wahlkampfspenden.jpg"]
     },
     {
       "title": "Sie haben gewonnen: Gewinnspielbetrug",
@@ -857,10 +837,7 @@
           "url": "http://www.klartext-magazin.de/53B/sie-haben-gewonnen"
         }
       ],
-      "images": [
-        "gewinnspiele1.jpg",
-        "gewinnspiele2.jpg"
-      ]
+      "images": ["gewinnspiele1.jpg", "gewinnspiele2.jpg"]
     },
     {
       "title": "Klimawandel in den bayerischen Alpen",
@@ -876,9 +853,7 @@
           "url": "http://schnee-von-morgen.br.de"
         }
       ],
-      "images": [
-        "schneevonmorgen.jpg"
-      ]
+      "images": ["schneevonmorgen.jpg"]
     },
     {
       "title": "Asylgroßaufträge: Wer von den Flüchtlingen profitiert",
@@ -894,9 +869,7 @@
           "url": "http://www.br.de/extra/br-data/asyl-grossauftraege-karte-100.html"
         }
       ],
-      "images": [
-        "asylauftraege.jpg"
-      ]
+      "images": ["asylauftraege.jpg"]
     },
     {
       "title": "Asylgroßaufträge: Twitter-Bot",
@@ -916,9 +889,7 @@
           "url": "http://www.br.de/extra/br-data/twitter-bot-asylauftraege-100.html"
         }
       ],
-      "images": [
-        "asylauftraege-twitter.jpg"
-      ]
+      "images": ["asylauftraege-twitter.jpg"]
     },
     {
       "title": "Heimvorteil: Woher stammt die Liga?",
@@ -934,10 +905,7 @@
           "url": "http://web.br.de/woher-stammt-die-liga"
         }
       ],
-      "images": [
-        "liga1.jpg",
-        "liga2.jpg"
-      ]
+      "images": ["liga1.jpg", "liga2.jpg"]
     },
     {
       "title": "Heimvorteil: Bayerische Nationalmannschaft",
@@ -953,9 +921,7 @@
           "url": "http://web.br.de/woher-stammt-die-liga/mannschaft/"
         }
       ],
-      "images": [
-        "mannschaft.jpg"
-      ]
+      "images": ["mannschaft.jpg"]
     },
     {
       "title": "Game of Thrones: Netzwerk",
@@ -979,9 +945,7 @@
           "url": "https://github.com/stekhn/got-relationships"
         }
       ],
-      "images": [
-        "got.jpg"
-      ]
+      "images": ["got.jpg"]
     },
     {
       "title": "Karte: Gleichgeschlechtliche Ehe",
@@ -997,9 +961,7 @@
           "url": "http://www.sueddeutsche.de/1.2497466"
         }
       ],
-      "images": [
-        "homoehe.jpg"
-      ]
+      "images": ["homoehe.jpg"]
     },
     {
       "title": "Bosnien: Kinder des Krieges",
@@ -1015,10 +977,7 @@
           "url": "http://www.klartext-magazin.de/53K/bosnien/#!/"
         }
       ],
-      "images": [
-        "bosnien1.jpg",
-        "bosnien2.jpg"
-      ]
+      "images": ["bosnien1.jpg", "bosnien2.jpg"]
     },
     {
       "title": "Automatisierung: Wann werde ich ersetzt?",
@@ -1034,9 +993,7 @@
           "url": "http://www.sueddeutsche.de/automatisierung"
         }
       ],
-      "images": [
-        "automatisierung.jpg"
-      ]
+      "images": ["automatisierung.jpg"]
     },
     {
       "title": "Wählerwanderung Hamburg",
@@ -1052,9 +1009,7 @@
           "url": "http://www.sueddeutsche.de/1.2353382"
         }
       ],
-      "images": [
-        "waehlerwanderung.jpg"
-      ]
+      "images": ["waehlerwanderung.jpg"]
     },
     {
       "title": "Chronik Boko Haram",
@@ -1070,10 +1025,7 @@
           "url": "http://www.sueddeutsche.de/1.2339963"
         }
       ],
-      "images": [
-        "bokoharam1.jpg",
-        "bokoharam2.jpg"
-      ]
+      "images": ["bokoharam1.jpg", "bokoharam2.jpg"]
     },
     {
       "title": "WM 2014: Der Weg zum Titel",
@@ -1089,10 +1041,7 @@
           "url": "http://gfx.sueddeutsche.de/sport/wm2014/"
         }
       ],
-      "images": [
-        "wm1.jpg",
-        "wm2.jpg"
-      ]
+      "images": ["wm1.jpg", "wm2.jpg"]
     },
     {
       "title": "Serious Game: Organspenden",
@@ -1112,10 +1061,7 @@
           "url": "http://stekhn.github.io/organspenden-game/"
         }
       ],
-      "images": [
-        "waitinglist1.jpg",
-        "waitinglist2.jpg"
-      ]
+      "images": ["waitinglist1.jpg", "waitinglist2.jpg"]
     },
     {
       "title": "Google Standortverlauf visualisieren",
@@ -1135,10 +1081,7 @@
           "url": "http://stekhn.de/locationhistory"
         }
       ],
-      "images": [
-        "locationhistory1.jpg",
-        "locationhistory2.jpg"
-      ]
+      "images": ["locationhistory1.jpg", "locationhistory2.jpg"]
     },
     {
       "title": "EU-Kommission",
@@ -1154,9 +1097,7 @@
           "url": "http://www.sueddeutsche.de/1.2147883"
         }
       ],
-      "images": [
-        "eukommission.jpg"
-      ]
+      "images": ["eukommission.jpg"]
     },
     {
       "title": "Rausch: Hoch fliegen, tief fallen",
@@ -1176,10 +1117,7 @@
           "url": "http://www.sueddeutsche.de/thema/360%C2%B0_Rausch"
         }
       ],
-      "images": [
-        "rausch1.jpg",
-        "rausch2.jpg"
-      ]
+      "images": ["rausch1.jpg", "rausch2.jpg"]
     },
     {
       "title": "Das Verschwinden der FDP",
@@ -1195,9 +1133,7 @@
           "url": "http://www.sueddeutsche.de/1.2102368"
         }
       ],
-      "images": [
-        "fdp.jpg"
-      ]
+      "images": ["fdp.jpg"]
     },
     {
       "title": "Brazillion: World Cup Billions",
@@ -1217,9 +1153,7 @@
           "url": "https://github.com/stekhn/brazillion/"
         }
       ],
-      "images": [
-        "brazillion.jpg"
-      ]
+      "images": ["brazillion.jpg"]
     },
     {
       "title": "25 Jahre Tiananmen-Massaker",
@@ -1234,9 +1168,7 @@
           "url": "http://gfx.sueddeutsche.de/pages/tiananmen/"
         }
       ],
-      "images": [
-        "tiananmen.jpg"
-      ]
+      "images": ["tiananmen.jpg"]
     },
     {
       "title": "Europawahl",
@@ -1252,10 +1184,7 @@
           "url": "http://www.sueddeutsche.de/1.1973782"
         }
       ],
-      "images": [
-        "europawahl1.jpg",
-        "europawahl2.jpg"
-      ]
+      "images": ["europawahl1.jpg", "europawahl2.jpg"]
     },
     {
       "title": "Newsgame World Cup Simulation",
@@ -1275,10 +1204,7 @@
           "url": "http://newsgames-hackathon.tumblr.com/games"
         }
       ],
-      "images": [
-        "newsgame1.jpg",
-        "newsgame2.jpg"
-      ]
+      "images": ["newsgame1.jpg", "newsgame2.jpg"]
     },
     {
       "title": "Prototyp Süddeutsche Zeitung",
@@ -1294,10 +1220,7 @@
           "url": "http://sueddeutsche.de"
         }
       ],
-      "images": [
-        "szprototyp1.jpg",
-        "szprototyp2.jpg"
-      ]
+      "images": ["szprototyp1.jpg", "szprototyp2.jpg"]
     },
     {
       "title": "Nebeneinkünfte Bundestag",
@@ -1321,10 +1244,7 @@
           "url": "http://stekhn.de/nebeneinkuenfte"
         }
       ],
-      "images": [
-        "nebeneinkuenfte1.jpg",
-        "nebeneinkuenfte2.jpg"
-      ]
+      "images": ["nebeneinkuenfte1.jpg", "nebeneinkuenfte2.jpg"]
     },
     {
       "title": "Kartendesign Blossom",
@@ -1340,10 +1260,7 @@
           "url": "https://github.com/stekhn/blossom"
         }
       ],
-      "images": [
-        "blossom1.jpg",
-        "blossom2.jpg"
-      ]
+      "images": ["blossom1.jpg", "blossom2.jpg"]
     },
     {
       "title": "Süddeutsche Zeitung App",
@@ -1359,9 +1276,7 @@
           "url": "https://itunes.apple.com/de/app/suddeutsche.de-nachrichten/id338711072?mt=8"
         }
       ],
-      "images": [
-        "szdeapp.jpg"
-      ]
+      "images": ["szdeapp.jpg"]
     },
     {
       "title": "Geheimer Krieg",
@@ -1381,9 +1296,7 @@
           "url": "http://www.sueddeutsche.de/1.1818850"
         }
       ],
-      "images": [
-        "geheimerkrieg.jpg"
-      ]
+      "images": ["geheimerkrieg.jpg"]
     },
     {
       "title": "Rechte Gewalt in Bayern",
@@ -1399,9 +1312,7 @@
           "url": "http://www.sueddeutsche.de/1.1800885"
         }
       ],
-      "images": [
-        "rechtegewalt.jpg"
-      ]
+      "images": ["rechtegewalt.jpg"]
     },
     {
       "title": "Bundestagswahl",
@@ -1417,10 +1328,7 @@
           "url": "http://www.sueddeutsche.de/1.1776703"
         }
       ],
-      "images": [
-        "bundestagswahl1.jpg",
-        "bundestagswahl2.jpg"
-      ]
+      "images": ["bundestagswahl1.jpg", "bundestagswahl2.jpg"]
     },
     {
       "title": "Zugmonitor Auswertung",
@@ -1436,9 +1344,7 @@
           "url": "http://www.sueddeutsche.de/1.1651455"
         }
       ],
-      "images": [
-        "zugmonitor.jpg"
-      ]
+      "images": ["zugmonitor.jpg"]
     },
     {
       "title": "Regionen in Bayern",
@@ -1454,9 +1360,7 @@
           "url": "http://www.sueddeutsche.de/1.1742708"
         }
       ],
-      "images": [
-        "bayern.jpg"
-      ]
+      "images": ["bayern.jpg"]
     },
     {
       "title": "Verschätzung der Welt",
@@ -1476,9 +1380,7 @@
           "url": "http://community.globaleditorsnetwork.org/content/die-versch%C3%A4tzung-der-welt-0"
         }
       ],
-      "images": [
-        "verschaetzung.jpg"
-      ]
+      "images": ["verschaetzung.jpg"]
     },
     {
       "title": "Begleiter",
@@ -1494,10 +1396,7 @@
           "url": "http://gfx.sueddeutsche.de/pages/begleiter/"
         }
       ],
-      "images": [
-        "begleiter1.jpg",
-        "begleiter2.jpg"
-      ]
+      "images": ["begleiter1.jpg", "begleiter2.jpg"]
     },
     {
       "title": "Zensus 2011",
@@ -1513,9 +1412,7 @@
           "url": "http://www.sueddeutsche.de/1.1685321"
         }
       ],
-      "images": [
-        "zensus1.jpg"
-      ]
+      "images": ["zensus1.jpg"]
     },
     {
       "title": "Interaktives Bahnhofsinformationssystem",
@@ -1526,9 +1423,7 @@
       "contributors": "",
       "client": "Filmakademie Baden-Württemberg",
       "links": [],
-      "images": [
-        "ibis.jpg"
-      ]
+      "images": ["ibis.jpg"]
     },
     {
       "title": "Vampyre unter uns",
@@ -1539,10 +1434,7 @@
       "contributors": "",
       "client": "Filmakademie Baden-Württemberg",
       "links": [],
-      "images": [
-        "vampyre1.jpg",
-        "vampyre2.jpg"
-      ]
+      "images": ["vampyre1.jpg", "vampyre2.jpg"]
     },
     {
       "title": "Nippon Nuklear",
@@ -1553,9 +1445,7 @@
       "contributors": "",
       "client": "",
       "links": [],
-      "images": [
-        "nipponnuklear.jpg"
-      ]
+      "images": ["nipponnuklear.jpg"]
     }
   ]
 }
